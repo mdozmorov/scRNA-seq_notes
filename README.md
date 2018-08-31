@@ -16,6 +16,7 @@ Issues with suggestions and pull requests are welcome!
   * [QC](#10x-qc)
 * [Data](#data)
   * [10X genomics brain data](#10x-data)
+* [Links and other resources](#links)
 
 ## Preprocessing pipelines
 
@@ -120,5 +121,13 @@ Issues with suggestions and pull requests are welcome!
 
 - Multiple datasets, https://support.10xgenomics.com/single-cell-gene-expression/datasets
 
+## Links
 
+- http://hemberg-lab.github.io/scRNA.seq.course/.
+- https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools#Single_cell_RNA-Seq
+- https://github.com/crazyhottommy/RNA-seq-analysis#single-cell-rna-seq
+- https://www.scrna-tools.org/
+- https://github.com/seandavi/awesome-single-cell
+- https://github.com/johandahlberg/awesome-10x-genomics
+- https://davetang.org/muse/category/single-cell-2/
 
