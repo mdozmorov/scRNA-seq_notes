@@ -50,8 +50,6 @@ Issues with suggestions and pull requests are welcome!
 
 - `scLVM` - a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources, thereby allowing for the correction of confounding sources of variation. Designed to correct for the cell cycle effect. Applied to naive T cells differentiating into TH2 cells. https://github.com/PMBio/scLVM
     - Buettner, Florian, Kedar N Natarajan, F Paolo Casale, Valentina Proserpio, Antonio Scialdone, Fabian J Theis, Sarah A Teichmann, John C Marioni, and Oliver Stegle. “Computational Analysis of Cell-to-Cell Heterogeneity in Single-Cell RNA-Sequencing Data Reveals Hidden Subpopulations of Cells.” Nature Biotechnology 33, no. 2 (March 2015): 155–60. https://doi.org/10.1038/nbt.3102.
-    - `data/scLVM/nbt.3102-S7.xlsx` - Uncorrected and cell-cycle corrected expression values (81 cells x 7073 genes) for T-cell data. Includes cluster assignment to naive T cells vs. TH2 cells (GATA3 high marker). [Source](https://media.nature.com/original/nature-assets/nbt/journal/v33/n2/extref/nbt.3102-S7.xlsx)
-    - `data/scLVM/nbt.3102-S8.xlsx` - Corrected and uncorrected expression values for the newly generated mouse ESC data. 182 samples x 9571 genes. [Source](https://media.nature.com/original/nature-assets/nbt/journal/v33/n2/extref/nbt.3102-S8.xlsx)
 
 
 ## Dimensionality reduction
@@ -130,6 +128,10 @@ Issues with suggestions and pull requests are welcome!
 - `bxcheck` - Toolset for QC and processing 10x genomics data. https://github.com/pd3/bxcheck
 
 ## Data
+
+- Buettner, Florian, Kedar N Natarajan, F Paolo Casale, Valentina Proserpio, Antonio Scialdone, Fabian J Theis, Sarah A Teichmann, John C Marioni, and Oliver Stegle. “Computational Analysis of Cell-to-Cell Heterogeneity in Single-Cell RNA-Sequencing Data Reveals Hidden Subpopulations of Cells.” Nature Biotechnology 33, no. 2 (March 2015): 155–60. https://doi.org/10.1038/nbt.3102.
+    - `data/scLVM/nbt.3102-S7.xlsx` - Uncorrected and cell-cycle corrected expression values (81 cells x 7073 genes) for T-cell data. Includes cluster assignment to naive T cells vs. TH2 cells (GATA3 high marker). [Source](https://media.nature.com/original/nature-assets/nbt/journal/v33/n2/extref/nbt.3102-S7.xlsx)
+    - `data/scLVM/nbt.3102-S8.xlsx` - Corrected and uncorrected expression values for the newly generated mouse ESC data. 182 samples x 9571 genes. [Source](https://media.nature.com/original/nature-assets/nbt/journal/v33/n2/extref/nbt.3102-S8.xlsx)
 
 ### 10X data
 
