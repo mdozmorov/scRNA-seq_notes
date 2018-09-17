@@ -105,6 +105,10 @@ Issues with suggestions and pull requests are welcome!
 
 ### Networks
 
+- `GraphDDP` - combines user-guided clustering and transition of differentiation processes between clusters. Shortcomings of PCA, MDS, t-SNE. Tested on several datasets to improve interpretability of clustering, compared with other methods (Monocle2, SPRING, TSCAN). Detailed methods. https://github.com/fabriziocosta/GraphEmbed
+    - Costa, Fabrizio, Dominic Grün, and Rolf Backofen. “GraphDDP: A Graph-Embedding Approach to Detect Differentiation Pathways in Single-Cell-Data Using Prior Class Knowledge.” Nature Communications 9, no. 1 (December 2018). https://doi.org/10.1038/s41467-018-05988-7. 
+
+
 - `SCENIC` - single-cell network reconstruction and cell-state identification. Three modules: 1) GENIE3 - connect co-expressed genes and TFs using random forest regression; 2) RcisTarget - Refine them using cis-motif enrichment; 3) AUCell - assign activity scores for each network in each cell type. The R implementation of GENIE3 does not scale well with larger datasets; use arboreto instead, which is a much faster Python implementation. https://gbiomed.kuleuven.be/english/research/50000622/lcb/tools/scenic, https://github.com/aertslab/SCENIC, https://github.com/aertslab/GENIE3, https://github.com/aertslab/AUCell, https://github.com/tmoerman/arboreto, https://github.com/aertslab/pySCENIC
     - Aibar, Sara, Carmen Bravo González-Blas, Thomas Moerman, Vân Anh Huynh-Thu, Hana Imrichova, Gert Hulselmans, Florian Rambow, et al. “SCENIC: Single-Cell Regulatory Network Inference and Clustering.” Nature Methods 14, no. 11 (November 2017): 1083–86. https://doi.org/10.1038/nmeth.4463.
     - Davie et al. "A Single-Cell Transcriptome Atlas of the Aging Drosophila Brain" Cell, 2018 https://doi.org/10.1016/j.cell.2018.05.057
