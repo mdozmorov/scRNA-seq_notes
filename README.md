@@ -153,6 +153,7 @@ Issues with suggestions and pull requests are welcome!
     - `Amit_2015` - Cell metadata for cross-species pancreatic islet analysis. [Source](https://media.nature.com/original/nature-assets/nbt/journal/v36/n5/extref/nbt.4096-S5.txt)
     - `Amit_2015/generate_clustering.tar.gz` - all the data and scripts required for reproducing the MARS-seq results. 913Gb. [Source](http://www.wisdom.weizmann.ac.il/~arkiny/Paul2015/generate_clustering.tar.gz)
 
+- Cusanovich, Darren A., Andrew J. Hill, Delasa Aghamirzaie, Riza M. Daza, Hannah A. Pliner, Joel B. Berletch, Galina N. Filippova, et al. “A Single-Cell Atlas of In Vivo Mammalian Chromatin Accessibility.” Cell 174, no. 5 (August 2018): 1309-1324.e18. https://doi.org/10.1016/j.cell.2018.06.052. - Single-cell ATAC-seq, approx. 100,000 single cells from 13 adult mouse tissues. Two sequence platforms, good concordance. Filtered data assigned into 85 clusters. Genes associated with the corresponding ATAC sites (Cicero for identification). Differential accessibility. Motif enrichment (Basset CNN). GWAS results enrichment. All data and metadata are available for download as text or rds format at http://atlas.gs.washington.edu/mouse-atac/
 
 
 ### 10X data
