@@ -93,6 +93,9 @@ Issues with suggestions and pull requests are welcome!
 - SIMLR - scRNA-seq dimensionality reduction, clustering, and visualization based on multiple kernel-learned distance metric. Comparison with PCA, t-SNE, ZIFA. Seven datasets. R and Matlab implementation. https://github.com/BatzoglouLabSU/SIMLR
     - Wang, Bo, Junjie Zhu, Emma Pierson, Daniele Ramazzotti, and Serafim Batzoglou. “Visualization and Analysis of Single-Cell RNA-Seq Data by Kernel-Based Similarity Learning.” Nature Methods 14, no. 4 (April 2017): 414–16. https://doi.org/10.1038/nmeth.4207.
 
+- `SPRING` - a pipeline for data filtering, normalization and visualization using force-directed layout of k-nearest-neighbor graph. Web-based (10,000 cells max) https://kleintools.hms.harvard.edu/tools/spring.html) and GitHub https://github.com/AllonKleinLab/SPRING_dev 
+    - Weinreb, Caleb, Samuel Wolock, and Allon M. Klein. “SPRING: A Kinetic Interface for Visualizing High Dimensional Single-Cell Expression Data.” Bioinformatics (Oxford, England) 34, no. 7 (April 1, 2018): 1246–48. https://doi.org/10.1093/bioinformatics/btx792.
+
 - `SNN-Cliq` - shared nearest neighbor clustering of scRNA-seq data, represented as a graph. Similarity between two data points based on the ranking of their shared neighborhood. Automatically determine the number of clusters, accomodates different densities and shapes. Compared with K-means and DBSCAN using Purity, Adjusted Rand Indes, F1-score. Matlab, Python, R implementation. http://bioinfo.uncc.edu/SNNCliq/
     - Xu, Chen, and Zhengchang Su. “Identification of Cell Types from Single-Cell Transcriptomes Using a Novel Clustering Method.” Bioinformatics (Oxford, England) 31, no. 12 (June 15, 2015): 1974–80. https://doi.org/10.1093/bioinformatics/btv088.
 
