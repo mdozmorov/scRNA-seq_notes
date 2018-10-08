@@ -13,6 +13,7 @@ Issues with suggestions and pull requests are welcome!
   * [Time inference](#time-inference)
   * [Networks](#networks)
 * [Differential expression](#differential-expression)
+* [Simulation](#simulation)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
 * [Data](#data)
