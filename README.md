@@ -11,7 +11,7 @@ Issues with suggestions and pull requests are welcome!
 * [Imputation](#imputation)
 * [Dimensionality reduction](#dimensionality-reduction)
 * [Clustering and visualization](#clustering-and-visualization)
-  * [Time, trajectory inference](#time--trajectory-inference)
+  * [Time, trajectory inference](#time-trajectory-inference)
   * [Networks](#networks)
 * [Differential expression](#differential-expression)
 * [Simulation](#simulation)
