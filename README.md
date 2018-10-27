@@ -11,7 +11,7 @@ Issues with suggestions and pull requests are welcome!
 * [Imputation](#imputation)
 * [Dimensionality reduction](#dimensionality-reduction)
 * [Clustering and visualization](#clustering-and-visualization)
-  * [Time inference](#time-inference)
+  * [Time, trajectory inference](#time--trajectory-inference)
   * [Networks](#networks)
 * [Differential expression](#differential-expression)
 * [Simulation](#simulation)
@@ -124,7 +124,7 @@ Issues with suggestions and pull requests are welcome!
 - `UCSC Single Cell Browser` - Python pipeline and Javascript scatter plot library for single-cell datasets. Pre-process an expression matrix by filtering, PCA, nearest-neighbors, clustering, t-SNE and UMAP and formats them for cbBuild. Stand-alone app on GitHub, https://github.com/maximilianh/cellBrowser, Demo that includes several landmark datasets, https://cells.ucsc.edu/
 
 
-### Time inference
+### Time, trajectory inference
 
 - A collection of 57 trajectory inference methods, https://github.com/dynverse/dynmethods#list-of-included-methods
     - Saelens, Wouter, Robrecht Cannoodt, Helena Todorov, and Yvan Saeys. “A Comparison of Single-Cell Trajectory Inference Methods: Towards More Accurate and Robust Tools,” March 5, 2018. https://doi.org/10.1101/276907. - Review of trajectory 29 inference methods for single-cell RNA-seq (out of 57 methods collected). Slingshot, TSCAN and Monocle DDRTree perform best overall. https://github.com/dynverse/dynverse
@@ -137,6 +137,10 @@ Issues with suggestions and pull requests are welcome!
 
 - `SCUBA` - single-cell clustering using bifurcation analysis. Cells may differentiate in a monolineage manner or may differentiate into multiple cell lineages, which is the bifurcation event - two new lineages. Methods. Matlab code https://github.com/gcyuan/SCUBA
     - Marco, Eugenio, Robert L. Karp, Guoji Guo, Paul Robson, Adam H. Hart, Lorenzo Trippa, and Guo-Cheng Yuan. “Bifurcation Analysis of Single-Cell Gene Expression Data Reveals Epigenetic Landscape.” Proceedings of the National Academy of Sciences of the United States of America 111, no. 52 (December 30, 2014): E5643-5650. https://doi.org/10.1073/pnas.1408993111.
+
+- `Wishbone` - ordering scRNA-seq along bifurcating developmental trajectories. nearest-heighbor graphs to capture developmental distances using shortest paths. Solves short-circuits by low-dimensional projection using diffusion maps. Waypoints as guides for building the trajectory. Detailed and comprehensive Methods description. Supersedes Wanderlust. Comparison with SCUBA, Monocle. https://github.com/ManuSetty/wishbone
+    - Setty, Manu, Michelle D. Tadmor, Shlomit Reich-Zeliger, Omer Angel, Tomer Meir Salame, Pooja Kathail, Kristy Choi, Sean Bendall, Nir Friedman, and Dana Pe’er. “Wishbone Identifies Bifurcating Developmental Trajectories from Single-Cell Data.” Nature Biotechnology 34, no. 6 (2016): 637–45. https://doi.org/10.1038/nbt.3569.
+
 
 
 ### Networks
