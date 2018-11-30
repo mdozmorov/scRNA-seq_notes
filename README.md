@@ -129,6 +129,8 @@ Issues with suggestions and pull requests are welcome!
 - A collection of 57 trajectory inference methods, https://github.com/dynverse/dynmethods#list-of-included-methods
     - Saelens, Wouter, Robrecht Cannoodt, Helena Todorov, and Yvan Saeys. “A Comparison of Single-Cell Trajectory Inference Methods: Towards More Accurate and Robust Tools,” March 5, 2018. https://doi.org/10.1101/276907. - Review of trajectory 29 inference methods for single-cell RNA-seq (out of 57 methods collected). Slingshot, TSCAN and Monocle DDRTree perform best overall. https://github.com/dynverse/dynverse
 
+- Single-cell RNA-seq pseudotime estimation algorithms, by Anthony Gitter. References and descriptions of many algorithms. https://github.com/agitter/single-cell-pseudotime
+
 - `cellTree` - hierarchical tree inference and visualization. Latent Dirichlet Allocation (LDA). Cells are analogous to text documents, discretized gene expression levels replace word frequencies. The LDA model represents topic distribution for each cell, analogous to low-dimensional embedding of the data where similarity is measured with chi-square distance. Fast and precise. http://bioconductor.org/packages/release/bioc/html/cellTree.html
     - duVerle, David A., Sohiya Yotsukura, Seitaro Nomura, Hiroyuki Aburatani, and Koji Tsuda. “CellTree: An R/Bioconductor Package to Infer the Hierarchical Structure of Cell Populations from Single-Cell RNA-Seq Data.” BMC Bioinformatics 17, no. 1 (December 2016). https://doi.org/10.1186/s12859-016-1175-6.
 
@@ -249,7 +251,7 @@ Issues with suggestions and pull requests are welcome!
 
 - Carter, Robert A., Laure Bihannic, Celeste Rosencrance, Jennifer L. Hadley, Yiai Tong, Timothy N. Phoenix, Sivaraman Natarajan, John Easton, Paul A. Northcott, and Charles Gawad. “A Single-Cell Transcriptional Atlas of the Developing Murine Cerebellum.” Current Biology, September 2018. https://doi.org/10.1016/j.cub.2018.07.062. - scRNA-seq (10X Genomics) of murine cerebellum. 39245 cells (after filtering) from 12 time points, 48 distinct clusters. Cell Seek for online exploration, https://cellseek.stjude.org/cerebellum/ and https://gawadlab.github.io/CellSeek/. Approx. 83,000 cells (BAM files per time point) are available at https://www.ebi.ac.uk/ena/data/view/PRJEB23051. No annotations.
 
-
+- Deng, Qiaolin, Daniel Ramsköld, Björn Reinius, and Rickard Sandberg. “Single-Cell RNA-Seq Reveals Dynamic, Random Monoallelic Gene Expression in Mammalian Cells.” Science (New York, N.Y.) 343, no. 6167 (January 10, 2014): 193–96. https://doi.org/10.1126/science.1245316. - Monoallelic expression scRNA-seq. Mouse embryonic cells. 269 cells, Smart-seq. http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE45719&format=file
 
 
 ## Links
