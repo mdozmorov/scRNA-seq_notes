@@ -130,9 +130,10 @@ Issues with suggestions and pull requests are welcome!
 
 ### Spatial inference
 
+- https://github.com/hms-dbmi/brainmapr - R package to infer spatial location of neuronal subpopulations within the developing mouse brain by integrating single-cell RNA-seq data with in situ RNA patterns from the Allen Developing Mouse Brain Atlas http://hms-dbmi.github.io/brainmapr/
+
 - `Seurat` - single-cell RNA-seq for spatial cellular localization, using in situ RNA patterns as a reference. Impute landmark genes, relate them to the reference map. http://satijalab.org/seurat/. Tutorial, https://satijalab.org/seurat/pbmc3k_tutorial.html, and Dave Tang notes https://davetang.org/muse/2017/08/01/getting-started-seurat/
     - Satija, Rahul, Jeffrey A. Farrell, David Gennert, Alexander F. Schier, and Aviv Regev. “Spatial Reconstruction of Single-Cell Gene Expression Data.” Nature Biotechnology 33, no. 5 (May 2015): 495–502. https://doi.org/10.1038/nbt.3192.
-
 
 
 ### Time, trajectory inference
