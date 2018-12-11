@@ -15,6 +15,7 @@ Issues with suggestions and pull requests are welcome!
   * [Time, trajectory inference](#time-trajectory-inference)
   * [Networks](#networks)
 * [Differential expression](#differential-expression)
+* [Interpretation](#interpretation)
 * [Simulation](#simulation)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
@@ -185,6 +186,11 @@ Issues with suggestions and pull requests are welcome!
 - `scDD` R package to identify differentially expressed genes in single cell RNA-seq data. Accounts for unobserved data. Four types of differential expression (DE, DP, DM, DB, see paper). https://github.com/kdkorthauer/scDD
     - Korthauer, Keegan D., Li-Fang Chu, Michael A. Newton, Yuan Li, James Thomson, Ron Stewart, and Christina Kendziorski. “A Statistical Approach for Identifying Differential Distributions in Single-Cell RNA-Seq Experiments.” Genome Biology 17, no. 1 (December 2016). https://doi.org/10.1186/s13059-016-1077-y.
 
+
+## Interpretation
+
+- `VISION` - functional annotation of scRNA-seq data using gene signatures (Geary's C statistics), unsupervised and supervised. Operates downstream of dimensionality reduction, clustering. A continuation of FastProject. https://github.com/YosefLab/VISION
+    - DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. “Functional Interpretation of Single-Cell Similarity Maps,” August 29, 2018. https://doi.org/10.1101/403055.
 
 ## Simulation
 
