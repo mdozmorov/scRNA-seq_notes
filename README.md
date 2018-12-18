@@ -219,6 +219,8 @@ Issues with suggestions and pull requests are welcome!
 
 - Multiple datasets, from the 10X Genomics website, https://support.10xgenomics.com/single-cell-gene-expression/datasets
 
+- CellBench: single cell RNA-seq benchmarking, R SingleCellExperiment object. https://github.com/LuyiTian/CellBench_data
+
 - `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
 
 - SingleCellExperiment data, human and mouse, brain, embryo development, embryo stem cells, hematopoietic stem cells, pancreas, retina, other tissues. https://hemberg-lab.github.io/scRNA.seq.datasets/, and GitHub https://github.com/hemberg-lab/scRNA.seq.datasets
