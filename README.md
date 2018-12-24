@@ -15,7 +15,7 @@ Issues with suggestions and pull requests are welcome!
   * [Time, trajectory inference](#time-trajectory-inference)
   * [Networks](#networks)
 * [Differential expression](#differential-expression)
-* [Interpretation](#interpretation)
+* [Annotation](#annotation)
 * [Simulation](#simulation)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
@@ -190,7 +190,10 @@ Issues with suggestions and pull requests are welcome!
     - Korthauer, Keegan D., Li-Fang Chu, Michael A. Newton, Yuan Li, James Thomson, Ron Stewart, and Christina Kendziorski. “A Statistical Approach for Identifying Differential Distributions in Single-Cell RNA-Seq Experiments.” Genome Biology 17, no. 1 (December 2016). https://doi.org/10.1186/s13059-016-1077-y.
 
 
-## Interpretation
+## Annotation
+
+- `SingleR` - single-cell recognition of cell types by correlating (Spearman) scRNA-seq expression against reference databases. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html
+    - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Valerie Fong, Austin Hsu, Paul J. Wolters, Adam Abate, Atul J. Butte, and Mallar Bhattacharya. “Reference-Based Annotation of Single-Cell Transcriptomes Identifies a Profibrotic Macrophage Niche after Tissue Injury.” BioRxiv, January 1, 2018, 284604. https://doi.org/10.1101/284604.
 
 - `VISION` - functional annotation of scRNA-seq data using gene signatures (Geary's C statistics), unsupervised and supervised. Operates downstream of dimensionality reduction, clustering. A continuation of FastProject. https://github.com/YosefLab/VISION
     - DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. “Functional Interpretation of Single-Cell Similarity Maps,” August 29, 2018. https://doi.org/10.1101/403055.
