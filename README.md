@@ -290,7 +290,7 @@ Issues with suggestions and pull requests are welcome!
 - http://hemberg-lab.github.io/scRNA.seq.course/.
 - https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools#Single_cell_RNA-Seq
 - https://github.com/crazyhottommy/RNA-seq-analysis#single-cell-rna-seq
-- https://www.scrna-tools.org/
+- https://www.scrna-tools.org/ - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Exploring the Single-Cell RNA-Seq Analysis Landscape with the ScRNA-Tools Database.” BioRxiv, January 1, 2018. https://doi.org/10.1101/206573.
 - https://github.com/seandavi/awesome-single-cell
 - https://github.com/johandahlberg/awesome-10x-genomics
 - https://davetang.org/muse/category/single-cell-2/
