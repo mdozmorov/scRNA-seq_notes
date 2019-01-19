@@ -41,6 +41,9 @@ Issues with suggestions and pull requests are welcome!
 
 ## Quality control
 
+- `celloline` - A pipeline to remove low quality single cell files. Figure 2 - 20 biological and technical features used for filtering. High mitochondrial genes = broken cells. https://github.com/Teichlab/celloline
+    - Ilicic, Tomislav, Jong Kyoung Kim, Aleksandra A. Kolodziejczyk, Frederik Otzen Bagger, Davis James McCarthy, John C. Marioni, and Sarah A. Teichmann. “Classification of Low Quality Cells from Single-Cell RNA-Seq Data.” Genome Biology 17 (February 17, 2016): 29. https://doi.org/10.1186/s13059-016-0888-1.
+
 - `scater` - A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control. https://bioconductor.org/packages/release/bioc/html/scater.html
     - McCarthy et al. "Scater: pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R." Bioinformatics, 2017. https://doi.org/10.1093/bioinformatics/btw777
 
