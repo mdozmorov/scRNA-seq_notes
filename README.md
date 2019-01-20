@@ -27,6 +27,9 @@ Issues with suggestions and pull requests are welcome!
 
 ## Preprocessing pipelines
 
+- `bigSCale` - scalable analytical framework to analyze large scRNA-seq datasets, UMIs or counts. Pre-clustering, convolution into iCells, final clustering, differential expression, biomarkers.Correlation metric for scRNA-seq data based on converting expression to Z-scores of differential expression. Robust to dropouts. Matlab implementation https://github.com/iaconogi/bigSCale, and data, 1847 human neuronal progenitor cells, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102934
+    - Iacono, Giovanni, Elisabetta Mereu, Amy Guillaumet-Adkins, Roser Corominas, Ivon Cuscó, Gustavo Rodríguez-Esteban, Marta Gut, Luis Alberto Pérez-Jurado, Ivo Gut, and Holger Heyn. “BigSCale: An Analytical Framework for Big-Scale Single-Cell Data.” Genome Research 28, no. 6 (June 2018): 878–90. https://doi.org/10.1101/gr.230771.117.
+
 - `Granatum` - web-based scRNA-seq analysis. list of modules, including plate merging and batch-effect removal, outlier-sample removal, gene-expression normalization, imputation, gene filtering, cell clustering, differential gene expression analysis, pathway/ontology enrichment analysis, protein network interaction visualization, and pseudo-time cell series reconstruction. http://garmiregroup.org/granatum/app, http://ilab.hawaii.edu:8111/
     - Zhu, Xun, Thomas K. Wolfgruber, Austin Tasato, Cédric Arisdakessian, David G. Garmire, and Lana X. Garmire. “Granatum: A Graphical Single-Cell RNA-Seq Analysis Pipeline for Genomics Scientists.” Genome Medicine 9, no. 1 (December 2017). https://doi.org/10.1186/s13073-017-0492-3.
 
