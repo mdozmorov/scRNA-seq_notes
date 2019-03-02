@@ -245,6 +245,8 @@ Issues with suggestions and pull requests are welcome!
 
 - Cell Ranger R kit, https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/rkit
 
+- An R script for importing the fragments file from the CellRanger output and making a SummarizedExperiment, by Caleb Lareau. https://github.com/caleblareau/scATAC_10X_raw_to_kmers/blob/master/example_kmers.R
+
 ### 10X QC
 
 - `bxcheck` - Toolset for QC and processing 10x genomics data. https://github.com/pd3/bxcheck
