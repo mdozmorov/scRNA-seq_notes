@@ -321,6 +321,7 @@ Issues with suggestions and pull requests are welcome!
 
 ## Links
 
+- Orchestrating Single-Cell Analysis with Bioconductor, online book by Robert Amezquita and Stephanie Hicks. https://bioconductor.github.io/OrchestratingSingleCellAnalysis/
 - Introduction to single-cell RNA-seq technologies, presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and notes, https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/
 - http://hemberg-lab.github.io/scRNA.seq.course/.
 - https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools#Single_cell_RNA-Seq
