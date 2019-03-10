@@ -309,6 +309,8 @@ Issues with suggestions and pull requests are welcome!
 
 - Deng, Qiaolin, Daniel Ramsköld, Björn Reinius, and Rickard Sandberg. “Single-Cell RNA-Seq Reveals Dynamic, Random Monoallelic Gene Expression in Mammalian Cells.” Science (New York, N.Y.) 343, no. 6167 (January 10, 2014): 193–96. https://doi.org/10.1126/science.1245316. - Monoallelic expression scRNA-seq. Mouse embryonic cells. 269 cells, Smart-seq. http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE45719&format=file
 
+- Delile, Julien, Teresa Rayon, Manuela Melchionda, Amelia Edwards, James Briscoe, and Andreas Sagner. “Single Cell Transcriptomics Reveals Spatial and Temporal Dynamics of Gene Expression in the Developing Mouse Spinal Cord.” Development, March 7, 2019, dev.173807. https://doi.org/10.1242/dev.173807. - Mouse spinal cord development scRNA-seq. Temporal (embryonic day 9.5-13.5) and spatial (cervical and thoracic regions of the neural tube) profiling. 10X genomics protocol, Cell Ranger processing, filtering, combinatorial testing for differential expression, pseudotime reconstruction using Monocle2. UMI matrix (21465 cells), https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7320/, code, https://github.com/juliendelile/MouseSpinalCordAtlas,  Table S1 - binarized matrix of gene markers for each neuronal subtype, http://www.biologists.com/DEV_Movies/DEV173807/TableS1.csv
+
 
 ### Brain single-cell data
 
