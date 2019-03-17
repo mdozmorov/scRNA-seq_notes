@@ -183,6 +183,9 @@ Issues with suggestions and pull requests are welcome!
 - `Monocle` - Temporal ordering of single cell gene expression profiles. Independent Component Analysis to reduce dimensionality, Minimum Spanning Tree on the reduced representation and the longest path through it. https://cole-trapnell-lab.github.io/monocle-release/
     - Trapnell, Cole, Davide Cacchiarelli, Jonna Grimsby, Prapti Pokharel, Shuqiang Li, Michael Morse, Niall J. Lennon, Kenneth J. Livak, Tarjei S. Mikkelsen, and John L. Rinn. “The Dynamics and Regulators of Cell Fate Decisions Are Revealed by Pseudotemporal Ordering of Single Cells.” Nature Biotechnology 32, no. 4 (April 2014): 381–86. https://doi.org/10.1038/nbt.2859.
 
+- `Monocle 2` - Reversed graph embedding (DDRTree), finding low-dimensional mapping of differential genes while learning the graph in this reduced space. Allows for the selection of root. Compared with Monocle 1, Wishbone, Diffusion Pseudotime, SLICER. Code, https://github.com/cole-trapnell-lab/monocle-release, analysis, https://github.com/cole-trapnell-lab/monocle2-rge-paper
+    - Qiu, Xiaojie, Qi Mao, Ying Tang, Li Wang, Raghav Chawla, Hannah A Pliner, and Cole Trapnell. “Reversed Graph Embedding Resolves Complex Single-Cell Trajectories.” Nature Methods 14, no. 10 (August 21, 2017): 979–82. https://doi.org/10.1038/nmeth.4402.
+
 - `SCUBA` - single-cell clustering using bifurcation analysis. Cells may differentiate in a monolineage manner or may differentiate into multiple cell lineages, which is the bifurcation event - two new lineages. Methods. Matlab code https://github.com/gcyuan/SCUBA
     - Marco, Eugenio, Robert L. Karp, Guoji Guo, Paul Robson, Adam H. Hart, Lorenzo Trippa, and Guo-Cheng Yuan. “Bifurcation Analysis of Single-Cell Gene Expression Data Reveals Epigenetic Landscape.” Proceedings of the National Academy of Sciences of the United States of America 111, no. 52 (December 30, 2014): E5643-5650. https://doi.org/10.1073/pnas.1408993111.
 
