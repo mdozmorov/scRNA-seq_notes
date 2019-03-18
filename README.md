@@ -132,6 +132,9 @@ Issues with suggestions and pull requests are welcome!
 - `destiny` - R package for diffusion maps-based visualization of single-cell data. https://bioconductor.org/packages/release/bioc/html/destiny.html
     - Haghverdi, Laleh, Florian Buettner, and Fabian J. Theis. “Diffusion Maps for High-Dimensional Single-Cell Analysis of Differentiation Data.” Bioinformatics 31, no. 18 (September 15, 2015): 2989–98. https://doi.org/10.1093/bioinformatics/btv325. - Introduction of other methods, Table 1 compares them. Methods details. Performance is similar to PCA and tSNE. 
 
+- `FIt-SNE` - accelerated version of t-SNE clustering for visualizing thousands/milions of cells. https://github.com/KlugerLab/FIt-SNE. `t-SNE-Heatmaps` - discretized t-SNE clustering representation as a heatmap. https://github.com/KlugerLab/t-SNE-Heatmaps. Detailed methods, and further stats at https://gauss.math.yale.edu/~gcl22/blog/numerics/low-rank/t-sne/2018/01/11/low-rank-kernels.html
+    - Linderman, George C., Manas Rachh, Jeremy G. Hoskins, Stefan Steinerberger, and Yuval Kluger. “Fast Interpolation-Based t-SNE for Improved Visualization of Single-Cell RNA-Seq Data.” Nature Methods, February 11, 2019. https://doi.org/10.1038/s41592-018-0308-4.
+
 - `MetaCell` - partitioning scRNA-seq data into metacells - disjoint and homogeneous/compact groups of cells exhibiting only sampling variance. Most variable genes to cell-to-cell similarity matrix (PCC on  to Knn similarity graph that is partitioned by bootstrapping to obtain subgraphs. Tested on several 10X datasets, https://support.10xgenomics.com/single-cell-gene-expression/datasets. https://bitbucket.org/tanaylab/metacell/src/default/
     - Baran, Yael, Arnau Sebe-Pedros, Yaniv Lubling, Amir Giladi, Elad Chomsky, Zohar Meir, Michael Hoichman, Aviezer Lifshitz, and Amos Tanay. “MetaCell: Analysis of Single Cell RNA-Seq Data Using k-NN Graph Partitions.” BioRxiv, January 1, 2018, 437665. https://doi.org/10.1101/437665.
 
