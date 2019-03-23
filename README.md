@@ -355,3 +355,4 @@ Issues with suggestions and pull requests are welcome!
 - https://github.com/johandahlberg/awesome-10x-genomics
 - https://davetang.org/muse/category/single-cell-2/
 - Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
+- How many cells do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
