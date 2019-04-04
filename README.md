@@ -349,6 +349,7 @@ Issues with suggestions and pull requests are welcome!
 
 - Introduction to single-cell RNA-seq technologies, presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and notes, https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/
 - http://hemberg-lab.github.io/scRNA.seq.course/.
+- A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al. https://bioconductor.org/packages/release/workflows/html/simpleSingleCell.html, 
 - https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools#Single_cell_RNA-Seq
 - https://github.com/crazyhottommy/RNA-seq-analysis#single-cell-rna-seq
 - https://www.scrna-tools.org/ - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Exploring the Single-Cell RNA-Seq Analysis Landscape with the ScRNA-Tools Database.” BioRxiv, January 1, 2018. https://doi.org/10.1101/206573.
