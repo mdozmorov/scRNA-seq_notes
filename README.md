@@ -2,7 +2,7 @@
 
 Issues with suggestions and pull requests are welcome!
 
-- `R_packages_for_scRNA-seq.pdf` - 􏰐􏰑􏰒􏰓􏰒􏰆􏰔􏰁􏰓􏰇􏰒􏰉Bioconductor software packages for single-cell analysis. From [Amezquita et al., “Orchestrating Single-Cell Analysis with Bioconductor.”](https://www.biorxiv.org/content/10.1101/590562v1), https://bioconductor.github.io/OrchestratingSingleCellAnalysis/
+- `[R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf)` - 􏰐􏰑􏰒􏰓􏰒􏰆􏰔􏰁􏰓􏰇􏰒􏰉Bioconductor software packages for single-cell analysis. From [Amezquita et al., “Orchestrating Single-Cell Analysis with Bioconductor.”](https://www.biorxiv.org/content/10.1101/590562v1)
 
 # Table of content
 
@@ -349,6 +349,7 @@ Issues with suggestions and pull requests are welcome!
 
 - Introduction to single-cell RNA-seq technologies, presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and notes, https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/
 - http://hemberg-lab.github.io/scRNA.seq.course/.
+- https://osca.bioconductor.org/ - Amezquita, Robert A., Vincent J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Aaron TL Lun, Federico Marini, Kevin Rue-Albrecht, et al. “Orchestrating Single-Cell Analysis with Bioconductor.” BioRxiv, March 27, 2019. https://doi.org/10.1101/590562. - scRNA-seq analysis overview within Bioconductor ecosystem. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. https://github.com/Bioconductor/OrchestratingSingleCellAnalysis
 - A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al. https://bioconductor.org/packages/release/workflows/html/simpleSingleCell.html
 - A Google Doc with a structured collection of methods, software, and many other scRNA-seq information, https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 
 - https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools#Single_cell_RNA-Seq
