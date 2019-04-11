@@ -56,7 +56,11 @@ Issues with suggestions and pull requests are welcome!
     - McCarthy et al. "Scater: pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R." Bioinformatics, 2017. https://doi.org/10.1093/bioinformatics/btw777
 
 - `DropletUtils` - Provides a number of utility functions for handling single-cell (RNA-seq) data from droplet technologies such as 10X Genomics. This includes data loading, identification of cells from empty droplets, removal of barcode-swapped pseudo-cells, and downsampling of the count matrix. https://bioconductor.org/packages/release/bioc/html/DropletUtils.html
- 
+
+- `scrublet` - Detect doublets in single-cell RNA-seq data, https://github.com/AllonKleinLab/scrublet
+    - Wolock, Samuel L, Romain Lopez, and Allon M Klein. “Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data.” Preprint. Bioinformatics, July 9, 2018. https://doi.org/10.1101/357368.
+
+
 ## Normalization
 
 - `SCnorm` - normalization for single-cell data. Quantile regression to estimate the dependence of transcript expression on sequencing depth for every gene. Genes with similar dependence are then grouped, and a second quantile regression is used to estimate scale factors within each group. Within-group adjustment for sequencing depth is then performed using the estimated scale factors to provide normalized estimates of expression. Good statistical methods description. https://www.biostat.wisc.edu/~kendzior/SCNORM/
