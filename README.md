@@ -85,6 +85,9 @@ Issues with suggestions and pull requests are welcome!
 - `DCA` - A deep count autoencoder network to denoise scRNA-seq data. Zero-inflated negative binomial model. Current approaches - scimpute, MAGIC, SAVER. Benchmarking by increased correlation between bulk and scRNA-seq data, between protein and RNA levels, between key regulatory genes, better DE concordance in bulk and scRNA-seq, improved clustering, https://github.com/theislab/dca
     - Eraslan, Gökcen, Lukas M. Simon, Maria Mircea, Nikola S. Mueller, and Fabian J. Theis. “Single Cell RNA-Seq Denoising Using a Deep Count Autoencoder,” April 13, 2018. https://doi.org/10.1101/300681. 
 
+- `kNN-smoothing` of scRNA-seq data, aggregates information from similar cells, improves signal-to-noise ratio. Based on observation that gene expression in technical replicates are Poisson distributed. Freeman-Tukey transform to minimize variability of low expressed genes. Tested using real and simulated data. Improves clustering, PCA, Selection of k is critical, discussed.https://github.com/yanailab/knn-smoothing
+    - Wagner, Florian, Yun Yan, and Itai Yanai. “K-Nearest Neighbor Smoothing for High-Throughput Single-Cell RNA-Seq Data.” BioRxiv, April 9, 2018. https://doi.org/10.1101/217737.
+
 - `LATE` (Learning with AuToEncoder) to imputescRNA-seq data. `TRANSLATE` (TRANSfer learning with LATE) uses reference (sc)RNA-seq dataset to learn initial parameter estimates. TensorFlow implementation for GPU and CPU. ReLu as an activation function. Various optimization techniques. Comparison with MAGIC, scVI, DCA, SAVER. Links to data. https://github.com/audreyqyfu/LATE 
     - Badsha, Md. Bahadur, Rui Li, Boxiang Liu, Yang I. Li, Min Xian, Nicholas E. Banovich, and Audrey Qiuyan Fu. “Imputation of Single-Cell Gene Expression with an Autoencoder Neural Network.” BioRxiv, January 1, 2018, 504977. https://doi.org/10.1101/504977.
 
