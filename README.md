@@ -7,6 +7,7 @@ Issues with suggestions and pull requests are welcome!
 # Table of content
 
 * [Preprocessing pipelines](#preprocessing-pipelines)
+  * [scATAC-seq](#scatac-seq)
 * [Quality control](#quality-control)
 * [Normalization](#normalization)
 * [Batch effect](#batch-effect)
@@ -46,6 +47,9 @@ Issues with suggestions and pull requests are welcome!
 
 - STAR alignment parameters: `–outFilterType BySJout, –outFilterMultimapNmax 100, –limitOutSJcollapsed 2000000 –alignSJDBoverhangMin 8, –outFilterMismatchNoverLmax 0.04, –alignIntronMin 20, –alignIntronMax 1000000, –readFilesIn fastqrecords, –outSAMprimaryFlag AllBestScore, –outSAMtype BAM Unsorted`. From Azizi et al., “Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.”
 
+### scATAC-seq
+
+- `SnapATAC` - Single Nucleus Analysis Package for ATAC-seq, Python and R. https://github.com/r3fang/SnapATAC
 
 ## Quality control
 
