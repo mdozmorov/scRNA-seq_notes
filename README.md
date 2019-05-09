@@ -20,6 +20,7 @@ Issues with suggestions and pull requests are welcome!
 * [Differential expression](#differential-expression)
 * [Annotation](#annotation)
 * [Simulation](#simulation)
+* [scHi-C](#schi-c)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
 * [Data](#data)
@@ -253,6 +254,10 @@ Issues with suggestions and pull requests are welcome!
 - `SingleR` - single-cell recognition of cell types by correlating (Spearman) scRNA-seq expression against reference databases. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html
     - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Valerie Fong, Austin Hsu, Paul J. Wolters, Adam Abate, Atul J. Butte, and Mallar Bhattacharya. “Reference-Based Annotation of Single-Cell Transcriptomes Identifies a Profibrotic Macrophage Niche after Tissue Injury.” BioRxiv, January 1, 2018, 284604. https://doi.org/10.1101/284604.
 
+- `Single-Cell Signature Explorer` - gene signature (~17,000 from MSigDb, KEGG, Reactome) scoring (sum of UMIs in in a gene signature over the total UMIs in a cell) for single cells, and visualization on top of a t-SNE plot. Optional Noise Reduction (Freeman-Tuckey transform to stabilize technical noise). Four consecutive tools (Go language, R/Shiny). Comparison with Seurat's Cell CycleScore module and AUCell from SCENIC. Very fast.https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer
+    - Pont, Frédéric, Marie Tosolini, and Jean Jacques Fournié. “Single-Cell Signature Explorer for Comprehensive Visualization of Single Cell Signatures across ScRNA-Seq Data Sets.” Preprint. Bioinformatics, April 29, 2019. https://doi.org/10.1101/621805.
+
+
 - `VISION` - functional annotation of scRNA-seq data using gene signatures (Geary's C statistics), unsupervised and supervised. Operates downstream of dimensionality reduction, clustering. A continuation of FastProject. https://github.com/YosefLab/VISION
     - DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. “Functional Interpretation of Single-Cell Similarity Maps,” August 29, 2018. https://doi.org/10.1101/403055.
 
@@ -261,6 +266,9 @@ Issues with suggestions and pull requests are welcome!
 - `Splatter` - scRNA-seq simulator and pre-defined differential expression. 6 methods, description of each. Issues with scRNA-seq data - dropouts, zero inflation, proportion of zeros, batch effect. Negative binomial for simulation. No simulation is perfect. https://github.com/Oshlack/splatter
     - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Splatter: Simulation Of Single-Cell RNA Sequencing Data,” July 24, 2017. https://doi.org/10.1186/s13059-017-1305-0.
 
+## scHi-C
+
+- Ulianov, Sergey V., Kikue Tachibana-Konwalski, and Sergey V. Razin. “Single-Cell Hi-C Bridges Microscopy and Genome-Wide Sequencing Approaches to Study 3D Chromatin Organization.” BioEssays: News and Reviews in Molecular, Cellular and Developmental Biology 39, no. 10 (2017). https://doi.org/10.1002/bies.201700104. - scRNA-seq, review of the technology and six papers that generated scHi-C data.
 
 ## 10X Genomics
 
