@@ -137,6 +137,9 @@ Issues with suggestions and pull requests are welcome!
 
 - `celda` - CEllular Latent Dirichlet Allocation. Simultaneous clustering of cells into subpopulations and genes into transcriptional states. https://github.com/compbiomed/celda. Tutorials will be at https://github.com/compbiomed/celda_tutorials. No preprint yet.
 
+- `Cerebro` - interactive scRNA-seq visualization from a Seurat object (v2 or 3), dimensionality reduction, clustering, identification and visualization of marker genes, enriched pathways (EnrichR), signatures (MSigDb),  expression of individual genes. cerebroPrepare R package saves the Seurat object (https://github.com/romanhaa/cerebroPrepare), to be visualized with cerebroApp Shiny app (https://github.com/romanhaa/cerebroApp). Standalone and Docker versions are available. Main repo:https://github.com/romanhaa/Cerebro
+    - Hillje, Roman, Pier Giuseppe Pelicci, and Lucilla Luzi. “Cerebro: Interactive Visualization of ScRNA-Seq Data.” Preprint. Bioinformatics, May 8, 2019. https://doi.org/10.1101/631705.
+
 - `CIDR` - Clustering through Imputation and Dimensionality Reduction. Impute dropouts. Explicitly deconvolve Euclidean distance into distance driven by complete, partially complete, and dropout pairs. Principal Coordinate Analysis. https://github.com/VCCRI/CIDR
     - Lin, Peijie, Michael Troup, and Joshua W. K. Ho. “CIDR: Ultrafast and Accurate Clustering through Imputation for Single-Cell RNA-Seq Data.” Genome Biology 18, no. 1 (December 2017). https://doi.org/10.1186/s13059-017-1188-0.
 
