@@ -10,7 +10,7 @@ Issues with suggestions and pull requests are welcome!
   * [scATAC-seq](#scatac-seq)
 * [Quality control](#quality-control)
 * [Normalization](#normalization)
-* [Batch effect](#batch-effect)
+* [Batch effect, merging](#batch-effect--merging)
 * [Imputation](#imputation)
 * [Dimensionality reduction](#dimensionality-reduction)
 * [Clustering and visualization](#clustering-and-visualization)
@@ -74,7 +74,10 @@ Issues with suggestions and pull requests are welcome!
     - Bacher, Rhonda, Li-Fang Chu, Ning Leng, Audrey P Gasch, James A Thomson, Ron M Stewart, Michael Newton, and Christina Kendziorski. “SCnorm: Robust Normalization of Single-Cell RNA-Seq Data.” Nature Methods 14, no. 6 (April 17, 2017): 584–86. https://doi.org/10.1038/nmeth.4263.
 
 
-## Batch effect
+## Batch effect, merging
+
+- `LIGER` - R package for integrating and analyzing multiple single-cell datasets, across conditions, technologies, or species. Nonnegative matrix factorization (W and H matrices), dataset-specific and shared patterns (metagenes, matrix H). Graphs of factor loadings onto these patterns (shared factor neighborhood graph), then comparing patterns. Alignment and agreement metrics to assess performance.https://github.com/MacoskoLab/liger
+    - Welch, Joshua, Velina Kozareva, Ashley Ferreira, Charles Vanderburg, Carly Martin, and Evan Macosko. “Integrative Inference of Brain Cell Similarities and Differences from Single-Cell Genomics.” Preprint. Neuroscience, November 2, 2018. https://doi.org/10.1101/459891.
 
 - `MNN` - mutual nearest neighbors method for single-cell batch correction. Assumptions: MNN exist between batches, batch is orthogonal to the biology. Cosine normalization, Euclidean distance, a pair-specific barch-correction vector as a vector difference between the expression profiles of the paired cells using selected genes of interest and hypervariable genes. Supplementary note 5 - algorithm. mnnCorrect function in the scran package https://bioconductor.org/packages/release/bioc/html/scran.html. Code for paper https://github.com/MarioniLab/MNN2017/
     - Haghverdi, Laleh, Aaron T L Lun, Michael D Morgan, and John C Marioni. “Batch Effects in Single-Cell RNA-Sequencing Data Are Corrected by Matching Mutual Nearest Neighbors.” Nature Biotechnology, April 2, 2018. https://doi.org/10.1038/nbt.4091.
