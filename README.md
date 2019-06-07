@@ -316,6 +316,8 @@ Issues with suggestions and pull requests are welcome!
 
 ### Human
 
+- Single Cell Immune Profiling Datasets. ~150,000 CD8+ T cells from 4 human donors across a highly multiplexed panel of 44 distinct, specific peptide–MHC (pMHC) multimers. https://support.10xgenomics.com/single-cell-vdj/datasets
+
 - Paul, Franziska, Ya’ara Arkin, Amir Giladi, Diego Adhemar Jaitin, Ephraim Kenigsberg, Hadas Keren-Shaul, Deborah Winter, et al. “Transcriptional Heterogeneity and Lineage Commitment in Myeloid Progenitors.” Cell 163, no. 7 (December 17, 2015): 1663–77. https://doi.org/10.1016/j.cell.2015.11.013. - 3′ MARS (massively parallel RNA single-cell)-Seq protocol with shallow sequencing (1,453 genes/cell) to examine heterogeneity across bone marrow resident myeloid progenitors, 2,686 cells. Batch-corrected UMI count matrix: 19 clusters. http://compgenomics.weizmann.ac.il/tanay/?page_id=649. Seurat (PMID: 29608179) clusters (Supplementary Data 2,https://www.nature.com/articles/nbt.4096#supplementary-information). GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72857
     - `Amit_2015/Supplementary_dataset_1.txt` - Cell metadata for IFNB response analysis. [Source](https://media.nature.com/original/nature-assets/nbt/journal/v36/n5/extref/nbt.4096-S3.txt)
     - `Amit_2015/Supplementary_dataset_2.txt` - Cell metadata for murine hematopoiesis analysis. [Source](https://media.nature.com/original/nature-assets/nbt/journal/v36/n5/extref/nbt.4096-S4.txt)
