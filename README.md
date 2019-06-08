@@ -28,6 +28,7 @@ Issues with suggestions and pull requests are welcome!
   * [Mouse](#mouse)
   * [Brain single-cell data](#Brain-single-cell-data)
 * [Links and other resources](#links)
+  * [Papers](#papers)
 
 ## Preprocessing pipelines
 
@@ -395,3 +396,9 @@ Issues with suggestions and pull requests are welcome!
 - https://davetang.org/muse/category/single-cell-2/
 - Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
 - How many cells do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
+
+### Papers
+
+- Stuart, Tim, Andrew Butler, Paul Hoffman, Christoph Hafemeister, Efthymia Papalexi, William M Mauck, Marlon Stoeckius, Peter Smibert, and Rahul Satija. “Comprehensive Integration of Single Cell Data.” Preprint. Genomics, November 2, 2018. https://doi.org/10.1101/460147. https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8
+    - Seurat v.3 paper. Integration of multiple scRNA-seq and other single-cell omics (spatial transcriptomics, scATAC-seq, immunophenotyping), including batch correction. Anchors as reference to harmonize multiple datasets. Canonical Correlation Analysis (CCA) coupled with Munual Nearest Neighborhoors (MNN) to identify shared subpopulations across datasets. CCA to reduce dimensionality, search for MNN in the low-dimensional representation. Shared Nearest Neighbor (SNN) graphs to assess similarity between two cells. Outperforms scmap. Extensive validation on multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods). Data normalization, variable feature selection within- and between datasets, anchor identification using CCA (methods), their scoring, batch correction, label transfer, imputation. Methods correspond to details of each Seurat function. Preprocessing of real single-cell data.https://satijalab.org/seurat/
+
