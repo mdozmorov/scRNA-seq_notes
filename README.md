@@ -334,6 +334,8 @@ Issues with suggestions and pull requests are welcome!
 
 - `STARmap` - in situ gene expression datasets of the mouse visual cortex (890 cells, 1,020 genes). https://www.starmapresources.com/data/
 
+- `TabulaMuris` - https://figshare.com/articles/Single-cell_RNA-seq_data_from_Smart-seq2_sequencing_of_FACS_sorted_cells_v2_/5829687/1
+
 - Baron, Maayan, Adrian Veres, Samuel L. Wolock, Aubrey L. Faust, Renaud Gaujoux, Amedeo Vetere, Jennifer Hyoje Ryu, et al. “A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas Reveals Inter- and Intra-Cell Population Structure.” Cell Systems 3, no. 4 (26 2016): 346-360.e4. https://doi.org/10.1016/j.cels.2016.08.011.
     - Mouse pancreas scRNA-seq, \~12,000 cells. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84133. Deconvolution of bulk RNA-seq data using cell signatures derived from clusters of scRNA-seq cells, https://github.com/shenorrLab/bseqsc
 
