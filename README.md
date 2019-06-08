@@ -304,18 +304,15 @@ Issues with suggestions and pull requests are welcome!
 
 - Multiple datasets, from the 10X Genomics website, https://support.10xgenomics.com/single-cell-gene-expression/datasets
 
-- Human Cell Atlas Preview Datasets, https://preview.data.humancellatlas.org/. Massive amount of data. An R package to access this data is being developed, https://github.com/federicomarini/HCAData
+- SingleCellExperiment data, human and mouse, brain, embryo development, embryo stem cells, hematopoietic stem cells, pancreas, retina, other tissues. https://hemberg-lab.github.io/scRNA.seq.datasets/, and GitHub https://github.com/hemberg-lab/scRNA.seq.datasets
 
 - CellBench: single cell RNA-seq benchmarking, R SingleCellExperiment object. https://github.com/LuyiTian/CellBench_data
 
-- SingleCellExperiment data, human and mouse, brain, embryo development, embryo stem cells, hematopoietic stem cells, pancreas, retina, other tissues. https://hemberg-lab.github.io/scRNA.seq.datasets/, and GitHub https://github.com/hemberg-lab/scRNA.seq.datasets
-
-- Cao, Junyue, Jonathan S. Packer, Vijay Ramani, Darren A. Cusanovich, Chau Huynh, Riza Daza, Xiaojie Qiu, et al. “Comprehensive Single-Cell Transcriptional Profiling of a Multicellular Organism.” Science 357, no. 6352 (August 18, 2017): 661–67. https://doi.org/10.1126/science.aam8940. - sciRNA-seq - single-cell combinatorial indexing RNA-seq technology and sequencing of C. elegans, ~49,000 cells, 27 cell types. Data and R code to download it at http://atlas.gs.washington.edu/hub/
-
-- `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
 
 
 ### Human
+
+- Human Cell Atlas Preview Datasets, https://preview.data.humancellatlas.org/. Massive amount of data. An R package to access this data is being developed, https://github.com/federicomarini/HCAData
 
 - Single Cell Immune Profiling Datasets. ~150,000 CD8+ T cells from 4 human donors across a highly multiplexed panel of 44 distinct, specific peptide–MHC (pMHC) multimers. https://support.10xgenomics.com/single-cell-vdj/datasets
 
@@ -384,21 +381,37 @@ Issues with suggestions and pull requests are welcome!
 ## Links
 
 - Introduction to single-cell RNA-seq technologies, presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and notes, https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/
+
 - http://hemberg-lab.github.io/scRNA.seq.course/ - Analysis of single cell RNA-seq data, step-by-step R tutorial, description of packages, data. Analysis using read counts or UMIs. SingleCellExperiment, Seurat. Video lectures https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo
+
 - https://osca.bioconductor.org/ - Amezquita, Robert A., Vincent J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Aaron TL Lun, Federico Marini, Kevin Rue-Albrecht, et al. “Orchestrating Single-Cell Analysis with Bioconductor.” BioRxiv, March 27, 2019. https://doi.org/10.1101/590562. - scRNA-seq analysis overview within Bioconductor ecosystem. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. https://github.com/Bioconductor/OrchestratingSingleCellAnalysis
+
 - A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al. https://bioconductor.org/packages/release/workflows/html/simpleSingleCell.html
+
 - A Google Doc with a structured collection of methods, software, and many other scRNA-seq information, https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 
+
 - https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools#Single_cell_RNA-Seq
+
 - https://github.com/crazyhottommy/RNA-seq-analysis#single-cell-rna-seq
+
 - https://www.scrna-tools.org/ - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Exploring the Single-Cell RNA-Seq Analysis Landscape with the ScRNA-Tools Database.” BioRxiv, January 1, 2018. https://doi.org/10.1101/206573.
+
 - https://github.com/seandavi/awesome-single-cell
+
 - https://github.com/johandahlberg/awesome-10x-genomics
+
 - https://davetang.org/muse/category/single-cell-2/
+
 - Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
+
 - How many cells do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
+
+- `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
+
 
 ### Papers
 
 - Stuart, Tim, Andrew Butler, Paul Hoffman, Christoph Hafemeister, Efthymia Papalexi, William M Mauck, Marlon Stoeckius, Peter Smibert, and Rahul Satija. “Comprehensive Integration of Single Cell Data.” Preprint. Genomics, November 2, 2018. https://doi.org/10.1101/460147. https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8
     - Seurat v.3 paper. Integration of multiple scRNA-seq and other single-cell omics (spatial transcriptomics, scATAC-seq, immunophenotyping), including batch correction. Anchors as reference to harmonize multiple datasets. Canonical Correlation Analysis (CCA) coupled with Munual Nearest Neighborhoors (MNN) to identify shared subpopulations across datasets. CCA to reduce dimensionality, search for MNN in the low-dimensional representation. Shared Nearest Neighbor (SNN) graphs to assess similarity between two cells. Outperforms scmap. Extensive validation on multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods). Data normalization, variable feature selection within- and between datasets, anchor identification using CCA (methods), their scoring, batch correction, label transfer, imputation. Methods correspond to details of each Seurat function. Preprocessing of real single-cell data.https://satijalab.org/seurat/
 
+- Cao, Junyue, Jonathan S. Packer, Vijay Ramani, Darren A. Cusanovich, Chau Huynh, Riza Daza, Xiaojie Qiu, et al. “Comprehensive Single-Cell Transcriptional Profiling of a Multicellular Organism.” Science 357, no. 6352 (August 18, 2017): 661–67. https://doi.org/10.1126/science.aam8940. - sciRNA-seq - single-cell combinatorial indexing RNA-seq technology and sequencing of C. elegans, ~49,000 cells, 27 cell types. Data and R code to download it at http://atlas.gs.washington.edu/hub/
