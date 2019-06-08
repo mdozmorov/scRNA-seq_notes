@@ -308,7 +308,7 @@ Issues with suggestions and pull requests are welcome!
 
 - CellBench: single cell RNA-seq benchmarking, R SingleCellExperiment object. https://github.com/LuyiTian/CellBench_data
 
-
+- Multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods, analyzed in Seurat v3 paper. https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8
 
 ### Human
 
