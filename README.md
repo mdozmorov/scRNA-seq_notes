@@ -332,6 +332,8 @@ Issues with suggestions and pull requests are welcome!
 
 - `DropViz` - Exploring the Mouse Brain through Single Cell Expression Profiles. Drop-seq to analyze 690,000 individual cells from nine different regions of the adult mouse brain. http://dropviz.org/
 
+- `STARmap` - in situ gene expression datasets of the mouse visual cortex (890 cells, 1,020 genes). https://www.starmapresources.com/data/
+
 - Baron, Maayan, Adrian Veres, Samuel L. Wolock, Aubrey L. Faust, Renaud Gaujoux, Amedeo Vetere, Jennifer Hyoje Ryu, et al. “A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas Reveals Inter- and Intra-Cell Population Structure.” Cell Systems 3, no. 4 (26 2016): 346-360.e4. https://doi.org/10.1016/j.cels.2016.08.011.
     - Mouse pancreas scRNA-seq, \~12,000 cells. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84133. Deconvolution of bulk RNA-seq data using cell signatures derived from clusters of scRNA-seq cells, https://github.com/shenorrLab/bseqsc
 
