@@ -310,6 +310,8 @@ Issues with suggestions and pull requests are welcome!
 
 - Multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods, analyzed in Seurat v3 paper. https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8
 
+- `scRNAseq` - three small scRNA-seq datasets, to play with in R. http://bioconductor.org/packages/release/data/experiment/html/scRNAseq.html
+
 ### Human
 
 - Human Cell Atlas Preview Datasets, https://preview.data.humancellatlas.org/. Massive amount of data. An R package to access this data is being developed, https://github.com/federicomarini/HCAData
