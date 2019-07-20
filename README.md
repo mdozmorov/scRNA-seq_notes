@@ -80,6 +80,8 @@ Issues with suggestions and pull requests are welcome!
 
 ## Batch effect, merging
 
+- `conos` - Clustering on Network of Samples, merge scRNA-seq datasets. https://github.com/hms-dbmi/conos
+
 - `LIGER` - R package for integrating and analyzing multiple single-cell datasets, across conditions, technologies, or species. Nonnegative matrix factorization (W and H matrices), dataset-specific and shared patterns (metagenes, matrix H). Graphs of factor loadings onto these patterns (shared factor neighborhood graph), then comparing patterns. Alignment and agreement metrics to assess performance.https://github.com/MacoskoLab/liger
     - Welch, Joshua, Velina Kozareva, Ashley Ferreira, Charles Vanderburg, Carly Martin, and Evan Macosko. “Integrative Inference of Brain Cell Similarities and Differences from Single-Cell Genomics.” Preprint. Neuroscience, November 2, 2018. https://doi.org/10.1101/459891.
 
