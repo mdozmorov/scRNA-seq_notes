@@ -330,6 +330,8 @@ Issues with suggestions and pull requests are welcome!
 
 - `scRNAseq` - three small scRNA-seq datasets, to play with in R. http://bioconductor.org/packages/release/data/experiment/html/scRNAseq.html
 
+- UCSC cell browser. http://cells.ucsc.edu/
+
 ### Human
 
 - Human Cell Atlas Preview Datasets, https://preview.data.humancellatlas.org/. Massive amount of data. An R package to access this data is being developed, https://github.com/federicomarini/HCAData
