@@ -80,7 +80,8 @@ Issues with suggestions and pull requests are welcome!
 
 ## Batch effect, merging
 
-- `conos` - Clustering on Network of Samples, merge scRNA-seq datasets. https://github.com/hms-dbmi/conos
+- `conos` - joint analysis of scRNA-seq datasets through inter-sample mapping (mutual nearest-neighbor mapping) and constructing a joint graph. Analysis scripts: http://pklab.med.harvard.edu/peterk/conos/, R package:  https://github.com/hms-dbmi/conos
+    - Barkas, Nikolas, Viktor Petukhov, Daria Nikolaeva, Yaroslav Lozinsky, Samuel Demharter, Konstantin Khodosevich, and Peter V. Kharchenko. “Joint Analysis of Heterogeneous Single-Cell RNA-Seq Dataset Collections.” Nature Methods, July 15, 2019. https://doi.org/10.1038/s41592-019-0466-z.
 
 - `LIGER` - R package for integrating and analyzing multiple single-cell datasets, across conditions, technologies, or species. Nonnegative matrix factorization (W and H matrices), dataset-specific and shared patterns (metagenes, matrix H). Graphs of factor loadings onto these patterns (shared factor neighborhood graph), then comparing patterns. Alignment and agreement metrics to assess performance.https://github.com/MacoskoLab/liger
     - Welch, Joshua, Velina Kozareva, Ashley Ferreira, Charles Vanderburg, Carly Martin, and Evan Macosko. “Integrative Inference of Brain Cell Similarities and Differences from Single-Cell Genomics.” Preprint. Neuroscience, November 2, 2018. https://doi.org/10.1101/459891.
