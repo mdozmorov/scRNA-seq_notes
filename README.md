@@ -298,6 +298,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ## Simulation
 
+- `scDesign` - scRNA-seq data simulator and statistical framework to access experimental design for differential gene expression analysis. Gamma-Normal mixture model better fits scRNA-seq data, accounts for dropout events (Methods describe step-wise statistical derivations). Single- or double-batch sequencing scenarios. Comparable or superior performance to simulation methods `splat`, `powsimR`, `scDD`, Lun et al. method. DE tested using t-test. Applications include DE methods evaluation, dimensionality reduction testing. https://github.com/Vivianstats/scDesign
+    - Li, Wei Vivian, and Jingyi Jessica Li. “A Statistical Simulator ScDesign for Rational ScRNA-Seq Experimental Design.” Bioinformatics 35, no. 14 (July 15, 2019): i41–50. https://doi.org/10.1093/bioinformatics/btz321.
+
 - `Splatter` - scRNA-seq simulator and pre-defined differential expression. 6 methods, description of each. Issues with scRNA-seq data - dropouts, zero inflation, proportion of zeros, batch effect. Negative binomial for simulation. No simulation is perfect. https://github.com/Oshlack/splatter
     - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Splatter: Simulation Of Single-Cell RNA Sequencing Data,” July 24, 2017. https://doi.org/10.1186/s13059-017-1305-0.
 
