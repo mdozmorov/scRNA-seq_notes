@@ -2,7 +2,7 @@
 
 These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
 
-- `[R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf)` - 􏰐􏰑􏰒􏰓􏰒􏰆􏰔􏰁􏰓􏰇􏰒􏰉Bioconductor software packages for single-cell analysis. From [Amezquita et al., “Orchestrating Single-Cell Analysis with Bioconductor.”](https://www.biorxiv.org/content/10.1101/590562v1)
+- `[R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf)` - Bioconductor software packages for single-cell analysis. From [Amezquita et al., “Orchestrating Single-Cell Analysis with Bioconductor.”](https://www.biorxiv.org/content/10.1101/590562v1)
 
 # Table of content
 
@@ -315,6 +315,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 - Cell Ranger, Loupe Cell Browser software download, https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest
 
 - Cell Ranger R kit, https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/rkit
+
+- Cellranger AWS Pipeline. https://github.com/ismms-himc/cellranger-aws-pipeline
 
 - An R script for importing the fragments file from the CellRanger output and making a SummarizedExperiment, by Caleb Lareau. https://github.com/caleblareau/scATAC_10X_raw_to_kmers/blob/master/example_kmers.R
 
