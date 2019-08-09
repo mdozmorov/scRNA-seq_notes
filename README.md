@@ -41,6 +41,8 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Granatum` - web-based scRNA-seq analysis. list of modules, including plate merging and batch-effect removal, outlier-sample removal, gene-expression normalization, imputation, gene filtering, cell clustering, differential gene expression analysis, pathway/ontology enrichment analysis, protein network interaction visualization, and pseudo-time cell series reconstruction. http://garmiregroup.org/granatum/app, http://ilab.hawaii.edu:8111/
     - Zhu, Xun, Thomas K. Wolfgruber, Austin Tasato, Cédric Arisdakessian, David G. Garmire, and Lana X. Garmire. “Granatum: A Graphical Single-Cell RNA-Seq Analysis Pipeline for Genomics Scientists.” Genome Medicine 9, no. 1 (December 2017). https://doi.org/10.1186/s13073-017-0492-3.
 
+- `MAESTRO` - Model-based AnalysEs of Single-cell Transcriptome and RegulOme - a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO
+
 - `Scanpy` - Python-based pipeline for preprocessing, visualization, clustering, pseudotime and trajectory inference, differential expression and network simulation. https://github.com/theislab/scanpy
     - Wolf, F. Alexander, Philipp Angerer, and Fabian J. Theis. “SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis.” Genome Biology 19, no. 1 (06 2018): 15. https://doi.org/10.1186/s13059-017-1382-0.
 
