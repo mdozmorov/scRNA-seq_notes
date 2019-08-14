@@ -20,6 +20,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Differential expression](#differential-expression)
 * [Annotation](#annotation)
 * [Simulation](#simulation)
+  * [Power](#power)
 * [scHi-C](#schi-c)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
@@ -307,6 +308,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `Splatter` - scRNA-seq simulator and pre-defined differential expression. 6 methods, description of each. Issues with scRNA-seq data - dropouts, zero inflation, proportion of zeros, batch effect. Negative binomial for simulation. No simulation is perfect. https://github.com/Oshlack/splatter
     - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Splatter: Simulation Of Single-Cell RNA Sequencing Data,” July 24, 2017. https://doi.org/10.1186/s13059-017-1305-0.
+    
+### Power
+
+- `powsimR` - an R package for simulating scRNA-seq datasets and assess performance of differential analysis methods. Supports Poisson, Negative Binomial, and zero inflated NB, or estimates parameters from user-provided data. Simulates differential expression with pre-defined fold changes, estimates power, TPR, FDR, sample size, and for the user-provided dataset. https://github.com/bvieth/powsimR
+    - Vieth, Beate, Christoph Ziegenhain, Swati Parekh, Wolfgang Enard, and Ines Hellmann. “PowsimR: Power Analysis for Bulk and Single Cell RNA-Seq Experiments.” Edited by Ivo Hofacker. Bioinformatics 33, no. 21 (November 1, 2017): 3486–88. https://doi.org/10.1093/bioinformatics/btx435.
 
 ## scHi-C
 
@@ -465,7 +471,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 ### Papers
 
-- Vieth, Beate, Swati Parekh, Christoph Ziegenhain, Wolfgang Enard, and Ines Hellmann. “A Systematic Evaluation of Single Cell RNA-Seq Analysis Pipelines.” BioRxiv, March 19, 2019. https://doi.org/10.1101/583013. scRNA-seq pipeline benchmarking, beta regression to explain the variance in pipeline performance. Best settings: Genome mapping using STAR + GENCODE annotation, imputation using scone or SAVER is optional, scran or SCnorm for normalization, any differential expression method, e.g., edgeR and limma-trend, works OK. Filtering has no effect on performance. The most significant effect on performance is from normalization and library preparation choices. Pipelines tested with `powsimR` package https://github.com/bvieth/powsimR
+- Vieth, Beate, Swati Parekh, Christoph Ziegenhain, Wolfgang Enard, and Ines Hellmann. “A Systematic Evaluation of Single Cell RNA-Seq Analysis Pipelines.” BioRxiv, March 19, 2019. https://doi.org/10.1101/583013. scRNA-seq pipeline benchmarking, beta regression to explain the variance in pipeline performance. Best settings: Genome mapping using STAR + GENCODE annotation, imputation using scone or SAVER is optional, scran or SCnorm for normalization, any differential expression method, e.g., edgeR and limma-trend, works OK. Filtering has no effect on performance. The most significant effect on performance is from normalization and library preparation choices. Pipelines tested with `powsimR` package https://github.com/bvieth/powsimR, data at https://github.com/bvieth/scRNA-seq-pipelines
 
 - Luecken, Malte D., and Fabian J. Theis. “Current Best Practices in Single-Cell RNA-Seq Analysis: A Tutorial.” Molecular Systems Biology 15, no. 6 (June 19, 2019): e8746. https://doi.org/10.15252/msb.20188746. - All steps in scRNA-seq analysis, QC (count depth, number of genes, % mitochondrial), normalization (global, downsampling, nonlinear), data correction (batch, denoising, imputation), feature selection, dimensionality reduction (PCA, diffusion maps, tSNE, UMAP), visualization, clustering (k-means, graph/community detection), annotation, trajectory inference (PAGA, Monocle), differential analysis (DESeq2, EdgeR, MAST), gene regulatory networks. Description of the bigger picture at each step, latest tools, their brief description, references. R-based Scater as the full pipeline for QC and preprocessing, Seurat for downstream analysis, scanpy Python pipeline. Links and refs for tutorials. https://github.com/theislab/single-cell-tutorial
 
