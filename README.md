@@ -20,7 +20,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [Differential expression](#differential-expression)
 * [Annotation](#annotation)
 * [Simulation](#simulation)
-* [scHi-C](#schi-c)
+* [scATAC-seq](#scatac-seq)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
 * [Data](#data)
@@ -116,6 +116,9 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 - `scimpute` - imputation of scRNA-seq data. Methodology: 1) Determine K subpopulations using PCA, remove outliers; 2) Mixture model of gene i in subpopulation k as gamma and normal distributions, estimate dropout probability d; 3) Impute dropout values by splitting the subpopulation into A (dropout larger than threshold t) and B (smaller). Information from B is used to impute A. Better than MAGIC, SAVER. https://github.com/Vivianstats/scImpute
     - Li, Wei Vivian, and Jingyi Jessica Li. “An Accurate and Robust Imputation Method ScImpute for Single-Cell RNA-Seq Data.” Nature Communications 9, no. 1 (08 2018): 997. https://doi.org/10.1038/s41467-018-03405-7.
+
+- `scHinter` - imputation for small-size scRNA-seq datasets. Three modules: voting-based ensemble distance for learning cell-cell similarity, a SMOTE-based random interpolation module for imputing dropout events, and a hierarchical model for multi-layer random interpolation.  https://github.com/BMILAB/scHinter, [RNA-seq blog](https://www.rna-seqblog.com/schinter-imputing-dropout-events-for-single-cell-rna-seq-data-with-limited-sample-size/)
+    - Ye, Pengchao, Wenbin Ye, Congting Ye, Shuchao Li, Lishan Ye, Guoli Ji, and Xiaohui Wu. “ScHinter: Imputing Dropout Events for Single-Cell RNA-Seq Data with Limited Sample Size.” Edited by Inanc Birol. Bioinformatics, August 8, 2019. https://doi.org/10.1093/bioinformatics/btz627.
 
 - `scRMD` - dropout imputation in scRNA-seq via robust matrix decomposition into true expression matrix (further decomposed into a matrix of means and gene's random deviation from its mean) minus dropout matrix plus error matrix. A function to estimate the matrix of means and dropouts. Comparison with MAGIC, scImpute. https://github.com/ChongC1990/scRMD
     - Chen, Chong, Changjing Wu, Linjie Wu, Yishu Wang, Minghua Deng, and Ruibin Xi. “ScRMD: Imputation for Single Cell RNA-Seq Data via Robust Matrix Decomposition,” November 4, 2018. https://doi.org/10.1101/459404.
@@ -304,9 +307,11 @@ These notes are not intended to be comprehensive. They include notes about metho
 - `Splatter` - scRNA-seq simulator and pre-defined differential expression. 6 methods, description of each. Issues with scRNA-seq data - dropouts, zero inflation, proportion of zeros, batch effect. Negative binomial for simulation. No simulation is perfect. https://github.com/Oshlack/splatter
     - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “Splatter: Simulation Of Single-Cell RNA Sequencing Data,” July 24, 2017. https://doi.org/10.1186/s13059-017-1305-0.
 
-## scHi-C
+## scATAC-seq
 
-- Ulianov, Sergey V., Kikue Tachibana-Konwalski, and Sergey V. Razin. “Single-Cell Hi-C Bridges Microscopy and Genome-Wide Sequencing Approaches to Study 3D Chromatin Organization.” BioEssays: News and Reviews in Molecular, Cellular and Developmental Biology 39, no. 10 (2017). https://doi.org/10.1002/bies.201700104. - scRNA-seq, review of the technology and six papers that generated scHi-C data.
+- Signac is an extension of Seurat for the analysis, interpretation, and exploration of single-cell chromatin datasets. https://satijalab.org/signac/
+
+
 
 ## 10X Genomics
 
