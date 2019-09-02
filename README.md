@@ -80,6 +80,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Batch effect, merging
 
+- `BERMUDA` - Batch Effect ReMoval Using Deep Autoencoders, for scRNA-seq data. Requires batches to share at least one common cell type. Five step framework: 1) preprocessing, 2) clustering of cells in each batch individually, 3) identifying similar cell clusters across different batches, 4) removing batch effect by training an autoencoder, 5) further analysis of batch-corrected data. Tested on simulated (splatter) and experimental (10X genomics) data.https://github.com/txWang/BERMUDA
+    - Wang, Tongxin, Travis S. Johnson, Wei Shao, Zixiao Lu, Bryan R. Helm, Jie Zhang, and Kun Huang. “BERMUDA: A Novel Deep Transfer Learning Method for Single-Cell RNA Sequencing Batch Correction Reveals Hidden High-Resolution Cellular Subtypes.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-019-1764-6.
+
 - `conos` - joint analysis of scRNA-seq datasets through inter-sample mapping (mutual nearest-neighbor mapping) and constructing a joint graph. Analysis scripts: http://pklab.med.harvard.edu/peterk/conos/, R package:  https://github.com/hms-dbmi/conos
     - Barkas, Nikolas, Viktor Petukhov, Daria Nikolaeva, Yaroslav Lozinsky, Samuel Demharter, Konstantin Khodosevich, and Peter V. Kharchenko. “Joint Analysis of Heterogeneous Single-Cell RNA-Seq Dataset Collections.” Nature Methods, July 15, 2019. https://doi.org/10.1038/s41592-019-0466-z.
 
