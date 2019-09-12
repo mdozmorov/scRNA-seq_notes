@@ -294,15 +294,15 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `matchSCore2` - classifying cell types based on reference data. https://github.com/elimereu/matchSCore2
     - Mereu, Elisabetta, Atefeh Lafzi, Catia Moutinho, Christoph Ziegenhain, Davis J. MacCarthy, Adrian Alvarez, Eduard Batlle, et al. “Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects.” Preprint. Genomics, May 13, 2019. https://doi.org/10.1101/630087.
 
-- `SingleR` - single-cell recognition of cell types by correlating (Spearman) scRNA-seq expression against reference databases. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html
-    - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Valerie Fong, Austin Hsu, Paul J. Wolters, Adam Abate, Atul J. Butte, and Mallar Bhattacharya. “Reference-Based Annotation of Single-Cell Transcriptomes Identifies a Profibrotic Macrophage Niche after Tissue Injury.” BioRxiv, January 1, 2018, 284604. https://doi.org/10.1101/284604.
-
-- `Single-Cell Signature Explorer` - gene signature (~17,000 from MSigDb, KEGG, Reactome) scoring (sum of UMIs in in a gene signature over the total UMIs in a cell) for single cells, and visualization on top of a t-SNE plot. Optional Noise Reduction (Freeman-Tuckey transform to stabilize technical noise). Four consecutive tools (Go language, R/Shiny). Comparison with Seurat's Cell CycleScore module and AUCell from SCENIC. Very fast.https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer
+- `Single-Cell Signature Explorer` - gene signature (\~17,000 from MSigDb, KEGG, Reactome) scoring (sum of UMIs in in a gene signature over the total UMIs in a cell) for single cells, and visualization on top of a t-SNE plot. Optional Noise Reduction (Freeman-Tuckey transform to stabilize technical noise). Four consecutive tools (Go language, R/Shiny). Comparison with Seurat's Cell CycleScore module and AUCell from SCENIC. Very fast.https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer
     - Pont, Frédéric, Marie Tosolini, and Jean Jacques Fournié. “Single-Cell Signature Explorer for Comprehensive Visualization of Single Cell Signatures across ScRNA-Seq Data Sets.” Preprint. Bioinformatics, April 29, 2019. https://doi.org/10.1101/621805.
-
 
 - `VISION` - functional annotation of scRNA-seq data using gene signatures (Geary's C statistics), unsupervised and supervised. Operates downstream of dimensionality reduction, clustering. A continuation of FastProject. https://github.com/YosefLab/VISION
     - DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. “Functional Interpretation of Single-Cell Similarity Maps,” August 29, 2018. https://doi.org/10.1101/403055.
+
+- `SingleR` - single-cell recognition of cell types by correlating (Spearman) scRNA-seq expression against reference databases. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html
+    - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Valerie Fong, Austin Hsu, Paul J. Wolters, Adam Abate, Atul J. Butte, and Mallar Bhattacharya. “Reference-Based Annotation of Single-Cell Transcriptomes Identifies a Profibrotic Macrophage Niche after Tissue Injury.” BioRxiv, January 1, 2018, 284604. https://doi.org/10.1101/284604.
+
 
 ## Simulation
 
