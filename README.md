@@ -291,6 +291,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Annotation
 
+- `CellAssign` - R package for scRNA-seq cell type inference. Probabilistic graphical model to assign cell type probabilities to single cells using known marker genes (binarized matrix), including "unassigned" categorization. Insensitive to batch- or sample-specific effects. Outperforms Seurat, SC3, PhenoGraph, densityCut, dynamicTreeCut, scmap-cluster, correlation-based methods, SCINA. Applied to delineate the composition of the tumor microenvironment. Built using TensorFlow. https://github.com/irrationone/cellassign
+    - Zhang, Allen W., Ciara O’Flanagan, Elizabeth A. Chavez, Jamie L. P. Lim, Nicholas Ceglia, Andrew McPherson, Matt Wiens, et al. “Probabilistic Cell-Type Assignment of Single-Cell RNA-Seq for Tumor Microenvironment Profiling.” Nature Methods, September 9, 2019. https://doi.org/10.1038/s41592-019-0529-1.
+
 - `matchSCore2` - classifying cell types based on reference data. https://github.com/elimereu/matchSCore2
     - Mereu, Elisabetta, Atefeh Lafzi, Catia Moutinho, Christoph Ziegenhain, Davis J. MacCarthy, Adrian Alvarez, Eduard Batlle, et al. “Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects.” Preprint. Genomics, May 13, 2019. https://doi.org/10.1101/630087.
 
