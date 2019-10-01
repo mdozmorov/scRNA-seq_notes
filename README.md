@@ -10,7 +10,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [scATAC-seq](#scatac-seq)
 * [Quality control](#quality-control)
 * [Normalization](#normalization)
-* [Batch effect, merging](#batch-effect--merging)
+* [Batch effect, merging](#batch-effect-merging)
 * [Imputation](#imputation)
 * [Dimensionality reduction](#dimensionality-reduction)
 * [Clustering and visualization](#clustering-and-visualization)
