@@ -36,6 +36,10 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `PyMINEr` - Python-based scRNA-seq processing pipeline. Cell type identification, detection of cell type-enriched genes, pathway analysis, co-expression networks and graph theory approaches to interpreting gene expression. Notes on methods: modified K++ clustering, automatic detection of the number of cell types, co-expression and PPI networks. Input: .txt or .hdf5 files. Detailed analysis of several pancreatic datasets. https://www.sciencescott.com/pyminer
     - Tyler, Scott R., Pavana G. Rotti, Xingshen Sun, Yaling Yi, Weiliang Xie, Michael C. Winter, Miles J. Flamme-Wiese, et al. “PyMINEr Finds Gene and Autocrine-Paracrine Networks from Human Islet ScRNA-Seq.” Cell Reports 26, no. 7 (February 2019): 1951-1964.e8. https://doi.org/10.1016/j.celrep.2019.01.063.
 
+- `dropEst` - pipeline for pre-processing, mapping, QCing, filtering, and quantifying droplet-based scRNA-seq datasets. Input - FASTQ or BAM, output - an R-readable molecular count matrix. Written in C++. https://github.com/hms-dbmi/dropEst
+    - Petukhov, Viktor, Jimin Guo, Ninib Baryawno, Nicolas Severe, David T. Scadden, Maria G. Samsonova, and Peter V. Kharchenko. “DropEst: Pipeline for Accurate Estimation of Molecular Counts in Droplet-Based Single-Cell RNA-Seq Experiments.” Genome Biology 19, no. 1 (December 2018): 78. https://doi.org/10.1186/s13059-018-1449-6.
+ 
+
 - `zUMIs` - scRNA-seq processing pipeline that handles barcodes and summarizes  UMIs using exonic or exonic + intronic mapped reads (improves clustering, DE detection). Adaptive downsampling of oversequenced libraries. STAR aligner, Rsubread::featureCounts counting UMIs in exons and introns. https://github.com/sdparekh/zUMIs
     - Parekh, Swati, Christoph Ziegenhain, Beate Vieth, Wolfgang Enard, and Ines Hellmann. “ZUMIs - A Fast and Flexible Pipeline to Process RNA Sequencing Data with UMIs.” GigaScience 7, no. 6 (01 2018). https://doi.org/10.1093/gigascience/giy059.
 
