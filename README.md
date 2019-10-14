@@ -33,6 +33,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Preprocessing pipelines
 
+- `kallistobus` - fast pipeline for scRNA-seq processing. New BUS (Barcode, UMI, Set) format for storing and manipulating pseudoalignment results. Includes RNA velocity analysis. Python-based. https://www.kallistobus.tools/
+    - Melsted, Páll, A. Sina Booeshaghi, Fan Gao, Eduardo da Veiga Beltrame, Lambda Lu, Kristján Eldjárn Hjorleifsson, Jase Gehring, and Lior Pachter. “Modular and Efficient Pre-Processing of Single-Cell RNA-Seq.” Preprint. Bioinformatics, June 17, 2019. https://doi.org/10.1101/673285.
+
 - `PyMINEr` - Python-based scRNA-seq processing pipeline. Cell type identification, detection of cell type-enriched genes, pathway analysis, co-expression networks and graph theory approaches to interpreting gene expression. Notes on methods: modified K++ clustering, automatic detection of the number of cell types, co-expression and PPI networks. Input: .txt or .hdf5 files. Detailed analysis of several pancreatic datasets. https://www.sciencescott.com/pyminer
     - Tyler, Scott R., Pavana G. Rotti, Xingshen Sun, Yaling Yi, Weiliang Xie, Michael C. Winter, Miles J. Flamme-Wiese, et al. “PyMINEr Finds Gene and Autocrine-Paracrine Networks from Human Islet ScRNA-Seq.” Cell Reports 26, no. 7 (February 2019): 1951-1964.e8. https://doi.org/10.1016/j.celrep.2019.01.063.
 
