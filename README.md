@@ -467,6 +467,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Links
 
+- https://broadinstitute.github.io/2019_scWorkshop/index.html - ANALYSIS OF SINGLE CELL RNA-SEQ DATA course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
+
 - Introduction to single-cell RNA-seq technologies, presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and notes, https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/
 
 - http://hemberg-lab.github.io/scRNA.seq.course/ - Analysis of single cell RNA-seq data, step-by-step R tutorial, description of packages, data. Analysis using read counts or UMIs. SingleCellExperiment, Seurat. Video lectures https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo
