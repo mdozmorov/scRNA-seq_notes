@@ -170,6 +170,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Clustering and visualization
 
+- `Spectrum` - a spectral clustering method for single- or multi-omics datasets. Self-tuning kernel that adapts to local density of the graph. Tensor product graph data integration method. Implementation of fast spectral clustering method (single dataset only). Finds optimal number of clusters using eigenvector distribution analysis. References to previous methods. Excellent methods description. Compared with M3C, CLEST, PINSplus, SNF, iClusterPlus, CIMLR, MUDAN.  https://github.com/crj32/spectrum_manuscript, https://cran.r-project.org/web/packages/Spectrum/index.html
+    - John, Christopher R., David Watson, Michael R. Barnes, Costantino Pitzalis, and Myles J. Lewis. “Spectrum: Fast Density-Aware Spectral Clustering for Single and Multi-Omic Data.” Bioinformatics (Oxford, England), September 10, 2019. https://doi.org/10.1093/bioinformatics/btz704.
+
 - `BAMM-SC` - scRNA-seq clustering. A Bayesian hierarchical Dirichlet multinomial mixture model, accounts for batch effect, operates on raw counts. Outperforms K-means, TSCAN, Seurat corrected for batch using MNN or CCA in simulated and experimental settings. https://github.com/CHPGenetics/BAMMSC
     - Sun, Zhe, Li Chen, Hongyi Xin, Yale Jiang, Qianhui Huang, Anthony R. Cillo, Tracy Tabib, et al. “A Bayesian Mixture Model for Clustering Droplet-Based Single-Cell Transcriptomic Data from Population Studies.” Nature Communications 10, no. 1 (December 2019): 1649. https://doi.org/10.1038/s41467-019-09639-3.
 
