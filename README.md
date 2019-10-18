@@ -470,6 +470,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Links
 
+- Machine learning for single cell analysis workshop. Presentations (Google Slides) and Jupyter notebooks run on Google Colab, https://www.krishnaswamylab.org/workshop
+
 - https://broadinstitute.github.io/2019_scWorkshop/index.html - ANALYSIS OF SINGLE CELL RNA-SEQ DATA course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
 
 - Introduction to single-cell RNA-seq technologies, presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and notes, https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/
