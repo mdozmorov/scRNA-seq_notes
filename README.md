@@ -18,6 +18,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [Time, trajectory inference](#time-trajectory-inference)
   * [Networks](#networks)
 * [Differential expression](#differential-expression)
+  * [Cell markers](#cell-markers)
 * [Annotation](#annotation)
 * [Simulation](#simulation)
   * [Power](#power)
@@ -307,6 +308,11 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `scDD` R package to identify differentially expressed genes in single cell RNA-seq data. Accounts for unobserved data. Four types of differential expression (DE, DP, DM, DB, see paper). https://github.com/kdkorthauer/scDD
     - Korthauer, Keegan D., Li-Fang Chu, Michael A. Newton, Yuan Li, James Thomson, Ron Stewart, and Christina Kendziorski. “A Statistical Approach for Identifying Differential Distributions in Single-Cell RNA-Seq Experiments.” Genome Biology 17, no. 1 (December 2016). https://doi.org/10.1186/s13059-016-1077-y.
+
+### Cell markers
+
+- `scGeneFit` - selection of hierarchical gene markers, contrasted with one-vs-all gene selection. MATLAB implementation. https://github.com/solevillar/scGeneFit
+    - Dumitrascu, Bianca, Soledad Villar, Dustin G. Mixon, and Barbara E. Engelhardt. “Optimal Gene Selection for Cell Type Discrimination in Single Cell Analyses.” BioRxiv, April 4, 2019. https://doi.org/10.1101/599654.
 
 
 ## Annotation
