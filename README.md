@@ -120,6 +120,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Imputation
 
+- `Deepimpute` - scRNA-seq imputation using deep neural networks. Sub-networks, each processes up to 512 genes needed to be imputed. Four layers: Input - dense (ReLU activation) - 20% dropout - output. MSE as loss function. Outperforms MAGIC, DrImpute, ScImpute, SAVER, VIPER, and DCA on multiple metrics (PCC, several clustering metrics). Using 9 datasets. https://github.com/lanagarmire/DeepImpute
+    - Arisdakessian, Cédric, Olivier Poirion, Breck Yunits, Xun Zhu, and Lana X. Garmire. “DeepImpute: An Accurate, Fast, and Scalable Deep Neural Network Method to Impute Single-Cell RNA-Seq Data.” Genome Biology 20, no. 1 (December 2019): 211. https://doi.org/10.1186/s13059-019-1837-6.
+
 - `scHinter` - imputation for small-size scRNA-seq datasets. Three modules: voting-based ensemble distance for learning cell-cell similarity, a SMOTE-based random interpolation module for imputing dropout events, and a hierarchical model for multi-layer random interpolation.  https://github.com/BMILAB/scHinter, [RNA-seq blog](https://www.rna-seqblog.com/schinter-imputing-dropout-events-for-single-cell-rna-seq-data-with-limited-sample-size/)
     - Ye, Pengchao, Wenbin Ye, Congting Ye, Shuchao Li, Lishan Ye, Guoli Ji, and Xiaohui Wu. “ScHinter: Imputing Dropout Events for Single-Cell RNA-Seq Data with Limited Sample Size.” Edited by Inanc Birol. Bioinformatics, August 8, 2019. https://doi.org/10.1093/bioinformatics/btz627.
 
