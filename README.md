@@ -73,6 +73,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### scATAC-seq
 
+- `scATAC-pro` - pipeline for scATAC-seq mapping, QC, peak detection, clustering, TF and GO enrichment analysis, visualization (via VisCello). Compared with Scasat, Cellranger-atac. https://github.com/tanlabcode/scATAC-pro
+    - “ScATAC-pro: A Comprehensive Workbench for Single-Cell Chromatin Accessibility Sequencing Data,” n.d., 24.
+
 - `SnapATAC` - Single Nucleus Analysis Package for ATAC-seq, Python and R. https://github.com/r3fang/SnapATAC
 
 ## Quality control
