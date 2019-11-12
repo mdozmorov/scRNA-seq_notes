@@ -88,6 +88,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `cellxgene` - An interactive explorer for single-cell transcriptomics data. https://chanzuckerberg.github.io/cellxgene/, https://github.com/chanzuckerberg/cellxgene
 
+- `UCSC Single Cell Browser` - Python pipeline and Javascript scatter plot library for single-cell datasets. Pre-process an expression matrix by filtering, PCA, nearest-neighbors, clustering, t-SNE and UMAP and formats them for cbBuild. Stand-alone app on GitHub, https://github.com/maximilianh/cellBrowser, Demo that includes several landmark datasets, https://cells.ucsc.edu/
 
 ### scATAC-seq
 
