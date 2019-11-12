@@ -69,7 +69,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### Visualization pipelines
 
-- `cellxgene` - An interactive explorer for single-cell transcriptomics data. https://chanzuckerberg.github.io/cellxgene/, https://github.com/chanzuckerberg/cellxgene
+- `iS-CellR` - a Shiny app for scRNA-seq analysis. Can be insalled locally, run from GitHub, Docker. Input - count matrix. Filtering, normalization, dimensionality reduction, clustering, differential expression, co-expression, reports. https://github.com/immcore/iS-CellR
+    - Patel, Mitulkumar V. “IS-CellR: A User-Friendly Tool for Analyzing and Visualizing Single-Cell RNA Sequencing Data.” Edited by John Hancock. Bioinformatics 34, no. 24 (December 15, 2018): 4305–6. https://doi.org/10.1093/bioinformatics/bty517.
 
 - `Cerebro` - interactive scRNA-seq visualization from a Seurat object (v2 or 3), dimensionality reduction, clustering, identification and visualization of marker genes, enriched pathways (EnrichR), signatures (MSigDb),  expression of individual genes. cerebroPrepare R package saves the Seurat object (https://github.com/romanhaa/cerebroPrepare), to be visualized with cerebroApp Shiny app (https://github.com/romanhaa/cerebroApp). Standalone and Docker versions are available. Main repo:https://github.com/romanhaa/Cerebro
     - Hillje, Roman, Pier Giuseppe Pelicci, and Lucilla Luzi. “Cerebro: Interactive Visualization of ScRNA-Seq Data.” Preprint. Bioinformatics, May 8, 2019. https://doi.org/10.1101/631705.
@@ -84,6 +85,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
     - Zhu, Xun, Thomas K. Wolfgruber, Austin Tasato, Cédric Arisdakessian, David G. Garmire, and Lana X. Garmire. “Granatum: A Graphical Single-Cell RNA-Seq Analysis Pipeline for Genomics Scientists.” Genome Medicine 9, no. 1 (December 2017). https://doi.org/10.1186/s13073-017-0492-3.
 
 - `singleCellTK` - R/Shiny package for an interactive scRNA-Seq analysis. Input, raw counts in SingleCellExperiment. Analysis: filtering raw results, clustering, batch correction, differential expression, pathway enrichment, and scRNA-Seq study design. https://compbiomed.github.io/sctk_docs/articles/v01-Introduction_to_singleCellTK.html
+
+- `cellxgene` - An interactive explorer for single-cell transcriptomics data. https://chanzuckerberg.github.io/cellxgene/, https://github.com/chanzuckerberg/cellxgene
 
 
 ### scATAC-seq
