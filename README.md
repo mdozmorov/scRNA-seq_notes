@@ -361,6 +361,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
     
 ### Power
 
+- How many cells do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
+
 - `powsimR` - an R package for simulating scRNA-seq datasets and assess performance of differential analysis methods. Supports Poisson, Negative Binomial, and zero inflated NB, or estimates parameters from user-provided data. Simulates differential expression with pre-defined fold changes, estimates power, TPR, FDR, sample size, and for the user-provided dataset. https://github.com/bvieth/powsimR
     - Vieth, Beate, Christoph Ziegenhain, Swati Parekh, Wolfgang Enard, and Ines Hellmann. “PowsimR: Power Analysis for Bulk and Single Cell RNA-Seq Experiments.” Edited by Ivo Hofacker. Bioinformatics 33, no. 21 (November 1, 2017): 3486–88. https://doi.org/10.1093/bioinformatics/btx435.
 
@@ -532,8 +534,6 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - https://davetang.org/muse/category/single-cell-2/
 
 - Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
-
-- How many cells do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
 
 - `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
 
