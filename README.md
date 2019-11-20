@@ -370,6 +370,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “Single-Cell Ssequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools.” Genomics & Informatics 16, no. 4 (December 2018): e17. https://doi.org/10.5808/GI.2018.16.4.e17.
 
+- `MAESTRO` - integrative analysis of scRNA-seq and scATAC-seq. https://github.com/liulab-dfci/MAESTRO/, [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
+
 
 ### scATAC-seq
 
