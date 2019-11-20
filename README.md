@@ -537,6 +537,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
 
+- `EDS` - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. https://github.com/COMBINE-lab/EDS
 
 ### Papers
 
