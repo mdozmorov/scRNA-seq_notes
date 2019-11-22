@@ -271,6 +271,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - Single-cell RNA-seq pseudotime estimation algorithms, by Anthony Gitter. References and descriptions of many algorithms. https://github.com/agitter/single-cell-pseudotime
 
+- Table of comparison of 11 trajectory inference methods, [Supplementary Table 1](Pseudotime_tools.png) from Huidong Chen et al., “Single-Cell Trajectories Reconstruction, Exploration and Mapping of Omics Data with STREAM,” Nature Communications 10, no. 1 (April 23, 2019): 1903, https://doi.org/10.1038/s41467-019-09670-4.
+
 - `cellTree` - hierarchical tree inference and visualization. Latent Dirichlet Allocation (LDA). Cells are analogous to text documents, discretized gene expression levels replace word frequencies. The LDA model represents topic distribution for each cell, analogous to low-dimensional embedding of the data where similarity is measured with chi-square distance. Fast and precise. http://bioconductor.org/packages/release/bioc/html/cellTree.html
     - duVerle, David A., Sohiya Yotsukura, Seitaro Nomura, Hiroyuki Aburatani, and Koji Tsuda. “CellTree: An R/Bioconductor Package to Infer the Hierarchical Structure of Cell Populations from Single-Cell RNA-Seq Data.” BMC Bioinformatics 17, no. 1 (December 2016). https://doi.org/10.1186/s12859-016-1175-6.
 
