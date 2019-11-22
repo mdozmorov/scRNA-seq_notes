@@ -273,6 +273,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - Table of comparison of 11 trajectory inference methods, [Supplementary Table 1](Pseudotime_tools.png) from Huidong Chen et al., “Single-Cell Trajectories Reconstruction, Exploration and Mapping of Omics Data with STREAM,” Nature Communications 10, no. 1 (April 23, 2019): 1903, https://doi.org/10.1038/s41467-019-09670-4.
 
+- `STREAM` (Single-cell Trajetrories Reconstruction, Exploration And Mapping) - reconstruction of pseudotime trajectory with branching from scRNA-seq or scATAC-seq data. Principal graph, modified locally linear embedding, Elastic Principal Graph (previously published). Illustrated on several datasets. Compared with ten methods (Monocle2, scTDA, Wishbone, TSCAN, SLICER, DPT, GPFates, Mpath, SCUBA, PHATE). Web-version, visualization of published datasets: http://stream.pinellolab.org/, Jupyter notebooks, Docker container: https://github.com/pinellolab/STREAM
+    - Chen, Huidong, Luca Albergante, Jonathan Y. Hsu, Caleb A. Lareau, Giosuè Lo Bosco, Jihong Guan, Shuigeng Zhou, et al. “Single-Cell Trajectories Reconstruction, Exploration and Mapping of Omics Data with STREAM.” Nature Communications 10, no. 1 (April 23, 2019): 1903. https://doi.org/10.1038/s41467-019-09670-4.
+
 - `Monocle 2` - Reversed graph embedding (DDRTree), finding low-dimensional mapping of differential genes while learning the graph in this reduced space. Allows for the selection of root. Compared with Monocle 1, Wishbone, Diffusion Pseudotime, SLICER. Code, https://github.com/cole-trapnell-lab/monocle-release, analysis, https://github.com/cole-trapnell-lab/monocle2-rge-paper
     - Qiu, Xiaojie, Qi Mao, Ying Tang, Li Wang, Raghav Chawla, Hannah A Pliner, and Cole Trapnell. “Reversed Graph Embedding Resolves Complex Single-Cell Trajectories.” Nature Methods 14, no. 10 (August 21, 2017): 979–82. https://doi.org/10.1038/nmeth.4402.
 
