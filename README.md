@@ -146,6 +146,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Imputation
 
+- `SCRABBLE` - scRNA-seq imputation constraining on bulk RNA-seq data. Matrix regularzation optimizing a three-term objective function. Compared with DrImpute, scImpute, MAGIC, VIPER on simulated and real data. Datasets: https://github.com/tanlabcode/SCRABBLE_PAPER. R and Matlab implementation. https://github.com/tanlabcode/SCRABBLE
+    - Peng, Tao, Qin Zhu, Penghang Yin, and Kai Tan. “SCRABBLE: Single-Cell RNA-Seq Imputation Constrained by Bulk RNA-Seq Data.” Genome Biology 20, no. 1 (December 2019): 88. https://doi.org/10.1186/s13059-019-1681-8.
+
 - `Deepimpute` - scRNA-seq imputation using deep neural networks. Sub-networks, each processes up to 512 genes needed to be imputed. Four layers: Input - dense (ReLU activation) - 20% dropout - output. MSE as loss function. Outperforms MAGIC, DrImpute, ScImpute, SAVER, VIPER, and DCA on multiple metrics (PCC, several clustering metrics). Using 9 datasets. https://github.com/lanagarmire/DeepImpute
     - Arisdakessian, Cédric, Olivier Poirion, Breck Yunits, Xun Zhu, and Lana X. Garmire. “DeepImpute: An Accurate, Fast, and Scalable Deep Neural Network Method to Impute Single-Cell RNA-Seq Data.” Genome Biology 20, no. 1 (December 2019): 211. https://doi.org/10.1186/s13059-019-1837-6.
 
