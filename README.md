@@ -323,6 +323,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Differential expression
 
+- Comparison of 11 differential gene expression detection methods for scRNA-seq data. Variable performance, poor overlap. Brief description of the statistics of each method. Bulk RNA-sec methods perform well, edgeR is good and fast. [Table 1. Software tools for identifying DE genes using scRNA-seq data](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2599-6/tables/1)
+    - Wang, Tianyu, Boyang Li, Craig E. Nelson, and Sheida Nabavi. “Comparative Analysis of Differential Gene Expression Analysis Tools for Single-Cell RNA Sequencing Data.” BMC Bioinformatics 20, no. 1 (December 2019): 40. https://doi.org/10.1186/s12859-019-2599-6.
+
 - Soneson, Charlotte, and Mark D Robinson. “Bias, Robustness and Scalability in Single-Cell Differential Expression Analysis.” Nature Methods, February 26, 2018. https://doi.org/10.1038/nmeth.4612. - Differential analysis of scRNA-seq data, 36 methods. Prefiltering of low expressed genes is important. edgeRQLFDetRate performs best. The conquer database, scRNA-seq datasets as RDS objects - http://imlspenticton.uzh.ch:3838/conquer/
 
 - `scDD` R package to identify differentially expressed genes in single cell RNA-seq data. Accounts for unobserved data. Four types of differential expression (DE, DP, DM, DB, see paper). https://github.com/kdkorthauer/scDD
