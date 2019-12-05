@@ -23,6 +23,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 * [Annotation](#annotation)
 * [Simulation](#simulation)
   * [Power](#power)
+* [Spatial transcriptomics](#spatial-transcriptomics)
 * [Multi-omics methods](#multi-omics-methods)  
   * [scATAC-seq](#scatac-seq)
 * [10X Genomics](#10x-genomics)
@@ -375,6 +376,10 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `powsimR` - an R package for simulating scRNA-seq datasets and assess performance of differential analysis methods. Supports Poisson, Negative Binomial, and zero inflated NB, or estimates parameters from user-provided data. Simulates differential expression with pre-defined fold changes, estimates power, TPR, FDR, sample size, and for the user-provided dataset. https://github.com/bvieth/powsimR
     - Vieth, Beate, Christoph Ziegenhain, Swati Parekh, Wolfgang Enard, and Ines Hellmann. “PowsimR: Power Analysis for Bulk and Single Cell RNA-Seq Experiments.” Edited by Ivo Hofacker. Bioinformatics 33, no. 21 (November 1, 2017): 3486–88. https://doi.org/10.1093/bioinformatics/btx435.
+
+## Spatial transcriptomics
+
+- Spatial Gene Expression, Space Ranger by 10X Genomics https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome
 
 ## Multi-omics methods
 
