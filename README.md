@@ -441,6 +441,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - UCSC cell browser. http://cells.ucsc.edu/
 
+- 12 scRNA-seq datasets (Tabula Muris, Microwell-Seq, Baron pancreas, Xin pancreas, Segerstolpe pancreas, Murano pancreas, Zheng PBMC, Darminis brain, Zeisel brain, Tasic cortex) processed in the SingleCellNet study, http://github.com/pcahan1/singleCellNet/
+
+
 ### Human
 
 - Human Cell Atlas Preview Datasets, https://preview.data.humancellatlas.org/. Massive amount of data. An R package to access this data is being developed, https://github.com/federicomarini/HCAData
