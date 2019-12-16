@@ -464,6 +464,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### Mouse
 
+- scRNA-seq of mouse gastrulation and early embryogenesis.  116,312 cells, nine time points from 6.5 to 8.5 days post-fertilization. Methods, scran-based analysis Online version with tutorial https://marionilab.cruk.cam.ac.uk/MouseGastrulation2018/, download script at https://github.com/MarioniLab/EmbryoTimecourse2018, Bioconductor data package https://github.com/MarioniLab/MouseGastrulationData
+    - Pijuan-Sala, Blanca, Jonathan A. Griffiths, Carolina Guibentif, Tom W. Hiscock, Wajid Jawaid, Fernando J. Calero-Nieto, Carla Mulas, et al. “A Single-Cell Molecular Map of Mouse Gastrulation and Early Organogenesis.” Nature, February 20, 2019. https://doi.org/10.1038/s41586-019-0933-9.
+
 - `DropViz` - Exploring the Mouse Brain through Single Cell Expression Profiles. Drop-seq to analyze 690,000 individual cells from nine different regions of the adult mouse brain. http://dropviz.org/
 
 - `STARmap` - in situ gene expression datasets of the mouse visual cortex (890 cells, 1,020 genes). https://www.starmapresources.com/data/
