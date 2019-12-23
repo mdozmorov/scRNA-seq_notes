@@ -429,6 +429,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - A list of scRNA-seq studies, updated. List of scRNA-seq databases (The Human Cell Atlas, JingleBells, conquer, PangaloDB, the EMBL-EBI Single Cell Expression Atlas, Single Cell Portal, scRNASeqDB). Number of cell types is directly proportional to the number of cells analyzed. http://www.nxn.se/single-cell-studies/
     - Svensson, Valentine, and Eduardo da Veiga Beltrame. “A Curated Database Reveals Trends in Single Cell Transcriptomics.” Preprint. Genomics, August 21, 2019. https://doi.org/10.1101/742304.
 
+- `SCPortalen` - database of scRNA-seq datasets from the International Nucleotide Sequence Database Collaboration (INSDC). Manually curated datasets with metadata,QC's, processed, PCA and tSNE coordinates, FPKM gene expression. http://single-cell.clst.riken.jp/
+    - Abugessaisa, Imad, Shuhei Noguchi, Michael Böttcher, Akira Hasegawa, Tsukasa Kouno, Sachi Kato, Yuhki Tada, et al. “SCPortalen: Human and Mouse Single-Cell Centric Database.” Nucleic Acids Research 46, no. D1 (04 2018): D781–87. https://doi.org/10.1093/nar/gkx949.
+
 - `scRNASeqDB` - a human-oriented scRNA-seq database. 38 studies, 200 cell types. https://bioinfo.uth.edu/scrnaseqdb/
     - Cao, Yuan, Junjie Zhu, Peilin Jia, and Zhongming Zhao. “ScRNASeqDB: A Database for RNA-Seq Based Gene Expression Profiles in Human Single Cells.” Genes 8, no. 12 (December 5, 2017). https://doi.org/10.3390/genes8120368.
 
