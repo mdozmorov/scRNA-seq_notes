@@ -523,6 +523,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### Brain single-cell data
 
+- scRNA-seq of the middle temporal gyrus of human cerebral cortex. Similarity with mouse cortex scRNA-seq, and differences (proportions, laminar distribution, gene expression, morphology). NeuN-labeled sorting to select for neuronal nuclei. SMART-Seq v4 library preparation. Downstream analysis includes PCA, clustering using Jaccard, Louvain community detection. 75 cell types. Gene expression matrix, clusters, more at http://celltypes.brain-map.org/rnaseq, interactive exploration (download) at https://viewer.cytosplore.org/
+    - Hodge, Rebecca D, Trygve E Bakken, Jeremy A Miller, Kimberly A Smith, Eliza R Barkan, Lucas T Graybuck, Jennie L Close, et al. “Conserved Cell Types with Divergent Features between Human and Mouse Cortex.” Preprint. Neuroscience, August 5, 2018. https://doi.org/10.1101/384826.
+
 - Brain immune atlas scRNA-seq resource. Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. http://www.brainimmuneatlas.org/index.php, https://github.com/saeyslab/brainimmuneatlas/
     - Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
 
