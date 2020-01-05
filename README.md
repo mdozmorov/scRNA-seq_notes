@@ -18,6 +18,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [Spatial inference](#spatial-inference)
   * [Time, trajectory inference](#time-trajectory-inference)
   * [Networks](#networks)
+  * [RNA velocity](#rna-velocity)
 * [Differential expression](#differential-expression)
   * [Cell markers](#cell-markers)
 * [Annotation](#annotation)
@@ -324,6 +325,14 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `SINCERA` - identification of major cell types, the corresponding gene signatures and transcription factor networks. Pre-filtering (expression filter, cell specificity filter) improves inter-sample correlation and decrease inter-sample distance. Normalization: per-sample z-score, then trimmed mean across cells. Clustering (centered Pearson for distance, average linkage), and other metrics, permutation to assess clustering significance. Functional enrichment, cell type enrichment analysis, identification of cell signatures. TF networks and their parameters (disruptive fragmentation centrality, disruptive connection centrality, disruptive distance centrality). Example analysis of mouse lung cells at E16.5, Fluidigm, 9 clusters, comparison with SNN-Cliq, scLVM, SINGuLAR Analysis Toolset. Web-site: https://research.cchmc.org/pbge/sincera.html; GitHub: https://github.com/xu-lab/SINCERA; [Data](https://lungmap.net/breath-entity-page/?entityType=none&entityId=&entityLabel=&experimentTypes[]=LMXT0000000016) 
     - Guo, Minzhe, Hui Wang, S. Steven Potter, Jeffrey A. Whitsett, and Yan Xu. “SINCERA: A Pipeline for Single-Cell RNA-Seq Profiling Analysis.” PLoS Computational Biology 11, no. 11 (November 2015): e1004575. https://doi.org/10.1371/journal.pcbi.1004575.
+
+### RNA velocity
+
+- `velocyto` - RNA velocity, the time derivative of the gene expression state, estimated by the balance of spliced and unspliced mRNAs, and the mRNA degradation, in scRNA-seq (10X, inDrop, SMART-seq2, STRT/C1 protocols). Demonstrated on several datasets. Brief overview https://youtu.be/EPTgF4EA2zY. Python and R implementation http://velocyto.org/
+    - La Manno, Gioele, Ruslan Soldatov, Amit Zeisel, Emelie Braun, Hannah Hochgerner, Viktor Petukhov, Katja Lidschreiber, et al. “RNA Velocity of Single Cells.” Nature 560, no. 7719 (August 2018): 494–98. https://doi.org/10.1038/s41586-018-0414-6.
+
+- RNA velocity in bulk RNA-seq data, https://github.com/praneet1988/Inferring-and-Visualizing-RNA-Velocity-in-Bulk-RNA-SEQ
+
 
 
 ## Differential expression
