@@ -206,6 +206,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Clustering
 
+- Recommendations to properly use t-SNE on large omics datasets (scRNA-seq in particular) to preserve global geometry. Overview of t-SNE, PCA, MDS, UMAP, their similarities, differences, strengths and weaknesses. PCA initialization (first two components are OK), a high learning rate of n/12, and multi-scale similarity kernels. For very large data, increase exagerration. Strategies to align new points on an existing t-SNE plot, aligning two t-SNE visualizations. Extremely fast implementation is FIt-SNE, https://github.com/KlugerLab/FIt-SNE. Code to illustrate the use of t-SNE: https://github.com/berenslab/rna-seq-tsne
+    - Kobak, Dmitry, and Philipp Berens. “The Art of Using T-SNE for Single-Cell Transcriptomics.” Nature Communications 10, no. 1 (December 2019): 5416. https://doi.org/10.1038/s41467-019-13056-x.
+
 - `BAMM-SC` - scRNA-seq clustering. A Bayesian hierarchical Dirichlet multinomial mixture model, accounts for batch effect, operates on raw counts. Outperforms K-means, TSCAN, Seurat corrected for batch using MNN or CCA in simulated and experimental settings. https://github.com/CHPGenetics/BAMMSC
     - Sun, Zhe, Li Chen, Hongyi Xin, Yale Jiang, Qianhui Huang, Anthony R. Cillo, Tracy Tabib, et al. “A Bayesian Mixture Model for Clustering Droplet-Based Single-Cell Transcriptomic Data from Population Studies.” Nature Communications 10, no. 1 (December 2019): 1649. https://doi.org/10.1038/s41467-019-09639-3.
 
