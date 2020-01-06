@@ -24,6 +24,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 * [Annotation](#annotation)
 * [Simulation](#simulation)
   * [Power](#power)
+  * [Benchmarking](#benchmarking)
 * [Deep learning](#deep-learning)
 * [Spatial transcriptomics](#spatial-transcriptomics)
 * [Multi-omics methods](#multi-omics-methods)  
@@ -395,6 +396,12 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `powsimR` - an R package for simulating scRNA-seq datasets and assess performance of differential analysis methods. Supports Poisson, Negative Binomial, and zero inflated NB, or estimates parameters from user-provided data. Simulates differential expression with pre-defined fold changes, estimates power, TPR, FDR, sample size, and for the user-provided dataset. https://github.com/bvieth/powsimR
     - Vieth, Beate, Christoph Ziegenhain, Swati Parekh, Wolfgang Enard, and Ines Hellmann. “PowsimR: Power Analysis for Bulk and Single Cell RNA-Seq Experiments.” Edited by Ivo Hofacker. Bioinformatics 33, no. 21 (November 1, 2017): 3486–88. https://doi.org/10.1093/bioinformatics/btx435.
+
+### Benchmarking
+
+- `CellBench` - an R package for benchmarking of scRNA-seq analysis pipelines. Simulated datasets using mixtures of either cells of RNA from five cancer cell lines, dilution series, ERCC spike-in controls. Four technologies. Methods: normalization, imputation, clustering, trajectory analysis, data integration. Evaluation metrics: silhouette width, correlations, others. Best performers: Normalization - Linnorm, scran, scone; Imputation - kNN, DrImpute; Clustering - all methods are OK, Seurat performs well; Trajectory - Slingshot and Monocle2. Processed datasets used for the analysis, https://github.com/LuyiTian/sc_mixology, R package, https://github.com/Shians/CellBench, https://bioconductor.org/packages/release/bioc/html/CellBench.html
+    - Tian, Luyi, Xueyi Dong, Saskia Freytag, Kim-Anh Lê Cao, Shian Su, Abolfazl JalalAbadi, Daniela Amann-Zalcenstein, et al. “Benchmarking Single Cell RNA-Sequencing Analysis Pipelines Using Mixture Control Experiments.” Nature Methods, May 27, 2019. https://doi.org/10.1038/s41592-019-0425-8.
+
 
 ## Deep learning
 
