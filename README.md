@@ -328,6 +328,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### RNA velocity
 
+- `scVelo` - more precise estimation of RNA velocity by solving the full transcriptional dynamics of splicing kinetics using a likelihood-based dynamical model. Description of steady-state (original), dynamical, and stochastic models. Ten-fold faster. https://scvelo.readthedocs.io/
+    - Bergen, Volker, Marius Lange, Stefan Peidli, F. Alexander Wolf, and Fabian J. Theis. “Generalizing RNA Velocity to Transient Cell States through Dynamical Modeling.” Preprint. Bioinformatics, October 29, 2019. https://doi.org/10.1101/820936.
+
 - `velocyto` - RNA velocity, the time derivative of the gene expression state, estimated by the balance of spliced and unspliced mRNAs, and the mRNA degradation, in scRNA-seq (10X, inDrop, SMART-seq2, STRT/C1 protocols). Demonstrated on several datasets. Brief overview https://youtu.be/EPTgF4EA2zY. Python and R implementation http://velocyto.org/
     - La Manno, Gioele, Ruslan Soldatov, Amit Zeisel, Emelie Braun, Hannah Hochgerner, Viktor Petukhov, Katja Lidschreiber, et al. “RNA Velocity of Single Cells.” Nature 560, no. 7719 (August 2018): 494–98. https://doi.org/10.1038/s41586-018-0414-6.
 
