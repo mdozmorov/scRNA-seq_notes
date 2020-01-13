@@ -405,7 +405,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Deep learning
 
-- `scVI` - low-dimensional representation of scRNA-seq data used for batch correction, imputation, clustering, differential expression. Deep neural networks to approximate the distribution that underlie observed expression values. Zero-inflated negative binomial distribution conditioned on the batch annotation and unobserved random variables. Compared with DCA, ZINB-WAVE on simulated and real large and small datasets. https://github.com/YosefLab/scVI
+- `scVI` - low-dimensional representation of scRNA-seq data used for batch correction, imputation, clustering, differential expression. Deep neural networks to approximate the distribution that underlie observed expression values. Zero-inflated negative binomial distribution conditioned on the batch annotation and unobserved random variables. Compared with DCA, ZINB-WAVE on simulated and real large and small datasets. [Perspective by Way & Greene](https://www.nature.com/articles/s41592-018-0230-9) https://github.com/YosefLab/scVI
     - Lopez, Romain, Jeffrey Regier, Michael B Cole, Michael Jordan, and Nir Yosef. “Bayesian Inference for a Generative Model of Transcriptome Profiles from Single-Cell RNA Sequencing,” September 23, 2018. https://doi.org/10.1101/292037.
 
 
