@@ -475,6 +475,10 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - 12 scRNA-seq datasets (Tabula Muris, Microwell-Seq, Baron pancreas, Xin pancreas, Segerstolpe pancreas, Murano pancreas, Zheng PBMC, Darminis brain, Zeisel brain, Tasic cortex) processed in the SingleCellNet study, http://github.com/pcahan1/singleCellNet/
 
+- `FUMA` - Functional Mapping and Annotation of GWAS using 43 scRNA-seq datasets (human and mouse). MAGMA Cell type-specific enrichment. Applied to 26 GWAS disorders,  https://fuma.ctglab.nl/. Processed data and instructions for self-download: https://github.com/Kyoko-wtnb/FUMA_scRNA_data
+    - Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
+
+
 
 ### Human
 
