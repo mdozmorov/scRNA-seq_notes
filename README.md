@@ -405,6 +405,10 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Deep learning
 
+- `SAVER-X` - denoising scRNA-seq data using deep autoencoder with a Bayesian model. Decomposes the variation into three components: 1) predictable, 2) unpredictable, 3) technical noise. Pretrained on the Human Cell Atlas project, 10X Genomics immune cells, allows for human-mouse cross-species learning. Improves clustering and the detection of differential genes. Outperforms downsampling, MAGIC, DCA, scImpute. https://github.com/jingshuw/SAVERX
+    - Littmann, Maria, Katharina Selig, Liel Cohen-Lavi, Yotam Frank, Peter Hönigschmid, Evans Kataka, Anja Mösch, et al. “Validity of Machine Learning in Biology and Medicine Increased through Collaborations across Fields of Expertise.” Nature Machine Intelligence, January 13, 2020. https://doi.org/10.1038/s42256-019-0139-8.
+
+
 - `scVI` - low-dimensional representation of scRNA-seq data used for batch correction, imputation, clustering, differential expression. Deep neural networks to approximate the distribution that underlie observed expression values. Zero-inflated negative binomial distribution conditioned on the batch annotation and unobserved random variables. Compared with DCA, ZINB-WAVE on simulated and real large and small datasets. [Perspective by Way & Greene](https://www.nature.com/articles/s41592-018-0230-9) https://github.com/YosefLab/scVI
     - Lopez, Romain, Jeffrey Regier, Michael B Cole, Michael Jordan, and Nir Yosef. “Bayesian Inference for a Generative Model of Transcriptome Profiles from Single-Cell RNA Sequencing,” September 23, 2018. https://doi.org/10.1101/292037.
 
