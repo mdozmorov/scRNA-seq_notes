@@ -298,6 +298,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `SCITE` - a stochastic search algorithm to identify the evolutionary history of a tumor from mutation patterns in scRNA-seq data. MCMC to compute the maximum-likelihood mutation history. Accounts for noise and dropouts. Input - Boolean mutation matrix, output - maximum-likelihood-inferred mutation tree. Compared with Kim & Simon approach, BitPhylogeny. https://github.com/cbg-ethz/SCITE
     - Jahn, Katharina, Jack Kuipers, and Niko Beerenwinkel. “Tree Inference for Single-Cell Data.” Genome Biology 17, no. 1 (December 2016): 86. https://doi.org/10.1186/s13059-016-0936-x.
 
+- `DPT` - diffusion pseudotime, arrange cells in the pseudotemporal order. Random-walk-based distance that is computed based on Euclidean distance in the diffusion map space. Weighted nearest neighborhood of the data, probabilities of transitioning to each other cell using random walk, DTP is the euclidean distance between the two vectors, stored in a transition matrix. Robust to noise and sparsity. Method compared with Monocle, Wishbone, Wanderlust. https://theislab.github.io/destiny/index.html
+    - Haghverdi, Laleh, Maren Büttner, F. Alexander Wolf, Florian Buettner, and Fabian J. Theis. “Diffusion Pseudotime Robustly Reconstructs Lineage Branching.” Nature Methods 13, no. 10 (2016): 845–48. https://doi.org/10.1038/nmeth.3971.
+
 - `TSCAN` - pseudo-time reconstruction for scRNA-seq. Clustering first, then minimum spanning tree over cluster centers. Cells are projected to the tree (PCA) to determine their pseudo-time and order. Code https://github.com/zji90/tscan and R package that includes GUI http://www.bioconductor.org/packages/release/bioc/html/TSCAN.html
     - Ji, Zhicheng, and Hongkai Ji. “TSCAN: Pseudo-Time Reconstruction and Evaluation in Single-Cell RNA-Seq Analysis.” Nucleic Acids Research 44, no. 13 (27 2016): e117. https://doi.org/10.1093/nar/gkw430.
 
