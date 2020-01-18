@@ -295,6 +295,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 -`Slingshot` - Inferring multiple developmental lineages from single-cell gene expression. Clustering by gene expression, then inferring cell lineage as an ordered set of clusters -minimum spanning tree through the clusters using Mahalanobis distance. Initial state and terminal state specification. Principal curves to draw a path through the gene expression space of each lineage. https://github.com/kstreet13/slingshot
     - Street, Kelly, Davide Risso, Russell B Fletcher, Diya Das, John Ngai, Nir Yosef, Elizabeth Purdom, and Sandrine Dudoit. “Slingshot: Cell Lineage and Pseudotime Inference for Single-Cell Transcriptomics.” BioRxiv, January 1, 2017. https://doi.org/10.1186/s12864-018-4772-0.
 
+- `SCITE` - a stochastic search algorithm to identify the evolutionary history of a tumor from mutation patterns in scRNA-seq data. MCMC to compute the maximum-likelihood mutation history. Accounts for noise and dropouts. Input - Boolean mutation matrix, output - maximum-likelihood-inferred mutation tree. Compared with Kim & Simon approach, BitPhylogeny. https://github.com/cbg-ethz/SCITE
+    - Jahn, Katharina, Jack Kuipers, and Niko Beerenwinkel. “Tree Inference for Single-Cell Data.” Genome Biology 17, no. 1 (December 2016): 86. https://doi.org/10.1186/s13059-016-0936-x.
+
 - `TSCAN` - pseudo-time reconstruction for scRNA-seq. Clustering first, then minimum spanning tree over cluster centers. Cells are projected to the tree (PCA) to determine their pseudo-time and order. Code https://github.com/zji90/tscan and R package that includes GUI http://www.bioconductor.org/packages/release/bioc/html/TSCAN.html
     - Ji, Zhicheng, and Hongkai Ji. “TSCAN: Pseudo-Time Reconstruction and Evaluation in Single-Cell RNA-Seq Analysis.” Nucleic Acids Research 44, no. 13 (27 2016): e117. https://doi.org/10.1093/nar/gkw430.
 
