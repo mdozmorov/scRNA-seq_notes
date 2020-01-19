@@ -20,8 +20,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [Networks](#networks)
   * [RNA velocity](#rna-velocity)
 * [Differential expression](#differential-expression)
-  * [Cell markers](#cell-markers)
 * [Annotation](#annotation)
+  * [Cell markers](#cell-markers)
 * [Simulation](#simulation)
   * [Power](#power)
   * [Benchmarking](#benchmarking)
@@ -364,12 +364,6 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 -  `SCDE`. Stochasticity of gene expression, high drop-out rate. A mixture model of two processes - detected expression and drop-out failure modeled as low-magnitude Poisson. Drop-out rate depends on the expected expression and can be approximated by logistic regression. https://hms-dbmi.github.io/scde/index.html
     - Kharchenko, Peter V., Lev Silberstein, and David T. Scadden. “Bayesian Approach to Single-Cell Differential Expression Analysis.” Nature Methods 11, no. 7 (July 2014): 740–42. https://doi.org/10.1038/nmeth.2967.
 
-### Cell markers
-
-- `scGeneFit` - selection of hierarchical gene markers, contrasted with one-vs-all gene selection. MATLAB implementation. https://github.com/solevillar/scGeneFit
-    - Dumitrascu, Bianca, Soledad Villar, Dustin G. Mixon, and Barbara E. Engelhardt. “Optimal Gene Selection for Cell Type Discrimination in Single Cell Analyses.” BioRxiv, April 4, 2019. https://doi.org/10.1101/599654.
-
-
 ## Annotation
 
 - `SingleCellNet` - quantitative cell type annotation. Top-scoring pair transformation to match query and reference datasets. Compared with SCMAP, binary cell type classifier based on correlation. Benchmarked on 12 scRNA-seq datasets, provided in the GitHub repo, http://github.com/pcahan1/singleCellNet/. [Blog post](https://www.rna-seqblog.com/singlecellnet-a-computational-tool-to-classify-single-cell-rna-seq-data-across-platforms-and-across-species/)
@@ -390,6 +384,13 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `SingleR` - single-cell recognition of cell types by correlating (Spearman) scRNA-seq expression against reference databases. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html
     - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Valerie Fong, Austin Hsu, Paul J. Wolters, Adam Abate, Atul J. Butte, and Mallar Bhattacharya. “Reference-Based Annotation of Single-Cell Transcriptomes Identifies a Profibrotic Macrophage Niche after Tissue Injury.” BioRxiv, January 1, 2018, 284604. https://doi.org/10.1101/284604.
 
+### Cell markers
+
+- `scMatch` - Python tool for annotating scRNA-seq cells by their closest match (Spearman, Pearson correlation) in large reference datasets (FANTOM5, SingleR, Xena Cancer browser). https://github.com/asrhou/scMatch
+    - Hou, Rui, Elena Denisenko, and Alistair R. R. Forrest. “ScMatch: A Single-Cell Gene Expression Profile Annotation Tool Using Reference Datasets.” Bioinformatics (Oxford, England), April 26, 2019. https://doi.org/10.1093/bioinformatics/btz292.
+
+- `scGeneFit` - selection of hierarchical gene markers, contrasted with one-vs-all gene selection. MATLAB implementation. https://github.com/solevillar/scGeneFit
+    - Dumitrascu, Bianca, Soledad Villar, Dustin G. Mixon, and Barbara E. Engelhardt. “Optimal Gene Selection for Cell Type Discrimination in Single Cell Analyses.” BioRxiv, April 4, 2019. https://doi.org/10.1101/599654.
 
 ## Simulation
 
