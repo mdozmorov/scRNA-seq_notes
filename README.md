@@ -401,6 +401,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### Cell markers
 
+- clustermole: blindly digging for cell types in scRNA-seq clusters. Cell type prediction based on marker genes, cell type prediction based on a full expression matrix, a database of cell type markers. https://github.com/igordot/clustermole, https://cran.r-project.org/web/packages/clustermole/index.html
+
 - `scMatch` - Python tool for annotating scRNA-seq cells by their closest match (Spearman, Pearson correlation) in large reference datasets (FANTOM5, SingleR, Xena Cancer browser). https://github.com/asrhou/scMatch
     - Hou, Rui, Elena Denisenko, and Alistair R. R. Forrest. “ScMatch: A Single-Cell Gene Expression Profile Annotation Tool Using Reference Datasets.” Bioinformatics (Oxford, England), April 26, 2019. https://doi.org/10.1093/bioinformatics/btz292.
 
