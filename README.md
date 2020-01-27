@@ -581,6 +581,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### Brain single-cell data
 
+- scRNA-seq and scATAC-seq integration, human forebrain development timecourse. Analysis, reporting, data https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132403
+    - Trevino, Alexandro E., Nasa Sinnott-Armstrong, Jimena Andersen, Se-Jin Yoon, Nina Huber, Jonathan K. Pritchard, Howard Y. Chang, William J. Greenleaf, and Sergiu P. Pașca. “Chromatin Accessibility Dynamics in a Model of Human Forebrain Development.” Science 367, no. 6476 (January 24, 2020): eaay1645. https://doi.org/10.1126/science.aay1645.
+
 - scRNA-seq of the middle temporal gyrus of human cerebral cortex. Similarity with mouse cortex scRNA-seq, and differences (proportions, laminar distribution, gene expression, morphology). NeuN-labeled sorting to select for neuronal nuclei. SMART-Seq v4 library preparation. Downstream analysis includes PCA, clustering using Jaccard, Louvain community detection. 75 cell types. Gene expression matrix, clusters, more at http://celltypes.brain-map.org/rnaseq, interactive exploration (download) at https://viewer.cytosplore.org/
     - Hodge, Rebecca D, Trygve E Bakken, Jeremy A Miller, Kimberly A Smith, Eliza R Barkan, Lucas T Graybuck, Jennie L Close, et al. “Conserved Cell Types with Divergent Features between Human and Mouse Cortex.” Preprint. Neuroscience, August 5, 2018. https://doi.org/10.1101/384826.
 
