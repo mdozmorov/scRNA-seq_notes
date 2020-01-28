@@ -20,6 +20,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [Networks](#networks)
   * [RNA velocity](#rna-velocity)
 * [Differential expression](#differential-expression)
+* [CNV](#cnv)
 * [Annotation](#annotation)
   * [Cell markers](#cell-markers)
 * [Simulation](#simulation)
@@ -380,6 +381,12 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 -  `SCDE`. Stochasticity of gene expression, high drop-out rate. A mixture model of two processes - detected expression and drop-out failure modeled as low-magnitude Poisson. Drop-out rate depends on the expected expression and can be approximated by logistic regression. https://hms-dbmi.github.io/scde/index.html
     - Kharchenko, Peter V., Lev Silberstein, and David T. Scadden. “Bayesian Approach to Single-Cell Differential Expression Analysis.” Nature Methods 11, no. 7 (July 2014): 740–42. https://doi.org/10.1038/nmeth.2967.
+
+## CNV
+
+- `CaSpER` - identification of CNVs from  RNA-seq data, bulk and single-cell (full-transcript only, like SMART-seq). Utilized multi-scale smoothed global gene expression profile and B-allele frequency (BAF) signal profile, detects concordant shifts in signal using a 5-state HMM (homozygous deletion, heterozygous deletion, neutral, one-copy-amplification, high-copy-amplification). Reconstructs subclonal CNV architecture for scRNA-seq data. Tested on GBM scRNA-seq, TCGA, other. Compared with HoneyBADGER. R code and tutorials https://github.com/akdess/CaSpER
+    - Serin Harmanci, Akdes, Arif O. Harmanci, and Xiaobo Zhou. “CaSpER Identifies and Visualizes CNV Events by Integrative Analysis of Single-Cell or Bulk RNA-Sequencing Data.” Nature Communications 11, no. 1 (December 2020): 89. https://doi.org/10.1038/s41467-019-13779-x.
+
 
 ## Annotation
 
