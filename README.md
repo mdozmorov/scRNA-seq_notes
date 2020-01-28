@@ -40,6 +40,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Preprocessing pipelines
 
+- `sceasy` - An R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom. https://github.com/cellgeni/sceasy
+
 - `kallistobus` - fast pipeline for scRNA-seq processing. New BUS (Barcode, UMI, Set) format for storing and manipulating pseudoalignment results. Includes RNA velocity analysis. Python-based. https://www.kallistobus.tools/
     - Melsted, Páll, A. Sina Booeshaghi, Fan Gao, Eduardo da Veiga Beltrame, Lambda Lu, Kristján Eldjárn Hjorleifsson, Jase Gehring, and Lior Pachter. “Modular and Efficient Pre-Processing of Single-Cell RNA-Seq.” Preprint. Bioinformatics, June 17, 2019. https://doi.org/10.1101/673285.
 
