@@ -158,6 +158,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Imputation
 
+- Assessment of 18 scRNA-seq imputation methods on similarity with the original data and downstream analyses - differential expression, unsupervised clustering, pseudotime trajectory inference. The majority of methods do not improve clustering, trajectory inference. Overall performance highly variable, depends on many factors, data type. MAGIC, kNN-smoothing, SAVER performed on average better. Code to get the data and perform all analyses https://github.com/Winnie09/imputationBenchmark
+    - Hou, Wenpin, Zhicheng Ji, Hongkai Ji, and Stephanie C. Hicks. “A Systematic Evaluation of Single-Cell RNA-Sequencing Imputation Methods.” Preprint. Genomics, January 30, 2020. https://doi.org/10.1101/2020.01.29.925974.
+
 - `SCRABBLE` - scRNA-seq imputation constraining on bulk RNA-seq data. Matrix regularzation optimizing a three-term objective function. Compared with DrImpute, scImpute, MAGIC, VIPER on simulated and real data. Datasets: https://github.com/tanlabcode/SCRABBLE_PAPER. R and Matlab implementation. https://github.com/tanlabcode/SCRABBLE
     - Peng, Tao, Qin Zhu, Penghang Yin, and Kai Tan. “SCRABBLE: Single-Cell RNA-Seq Imputation Constrained by Bulk RNA-Seq Data.” Genome Biology 20, no. 1 (December 2019): 88. https://doi.org/10.1186/s13059-019-1681-8.
 
