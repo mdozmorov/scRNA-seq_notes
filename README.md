@@ -623,6 +623,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Links
 
+- Seurat object presentation by Ming Tang, https://osf.io/49q2u/, [Tweet](https://twitter.com/tangming2005/status/1224726014170787842?s=20)
+
 - Machine learning for single cell analysis workshop. Presentations (Google Slides) and Jupyter notebooks run on Google Colab, https://www.krishnaswamylab.org/workshop
 
 - https://broadinstitute.github.io/2019_scWorkshop/index.html - ANALYSIS OF SINGLE CELL RNA-SEQ DATA course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
