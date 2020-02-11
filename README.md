@@ -80,6 +80,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### Visualization pipelines
 
+- `scDataviz` - single cell data vizualization and downstream analyses, by Kevin Blighe, https://github.com/kevinblighe/scDataviz
+
 - `iS-CellR` - a Shiny app for scRNA-seq analysis. Can be insalled locally, run from GitHub, Docker. Input - count matrix. Filtering, normalization, dimensionality reduction, clustering, differential expression, co-expression, reports. https://github.com/immcore/iS-CellR
     - Patel, Mitulkumar V. “IS-CellR: A User-Friendly Tool for Analyzing and Visualizing Single-Cell RNA Sequencing Data.” Edited by John Hancock. Bioinformatics 34, no. 24 (December 15, 2018): 4305–6. https://doi.org/10.1093/bioinformatics/bty517.
 
