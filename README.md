@@ -105,6 +105,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### scATAC-seq
 
+- Notes by Ming Tang on scATAC-seq analysis, https://github.com/crazyhottommy/scATACseq-analysis-notes
+
 - `MAESTRO` - MAESTRO (Model-based AnalysEs of Single-cell Transcriptome and RegulOme) is a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO
 
 - `scATAC-pro` - pipeline for scATAC-seq mapping, QC, peak detection, clustering, TF and GO enrichment analysis, visualization (via VisCello). Compared with Scasat, Cellranger-atac. https://github.com/tanlabcode/scATAC-pro
