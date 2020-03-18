@@ -397,6 +397,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Annotation
 
+- `SingleR` - scRNA-seq cell type assignment by (Spearman) correlating to reference bulk RNA-seq data of pure cell types. Validated on ImmGen data. The package provides Human Primary Cell Atlas data, Blueprint and ENCODE consortium data, ImmGen, three others as a reference. https://bioconductor.org/packages/devel/bioc/html/SingleR.html, [Twitter](https://twitter.com/dvir_a/status/1170117086711930880?s=03)
+    - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Esther Wu, Valerie Fong, Austin Hsu, Suzanna Chak, et al. “Reference-Based Analysis of Lung Single-Cell Sequencing Reveals a Transitional Profibrotic Macrophage.” Nature Immunology 20, no. 2 (February 2019): 163–72. https://doi.org/10.1038/s41590-018-0276-y.
+
 - `SingleCellNet` - quantitative cell type annotation. Top-scoring pair transformation to match query and reference datasets. Compared with SCMAP, binary cell type classifier based on correlation. Benchmarked on 12 scRNA-seq datasets, provided in the GitHub repo, http://github.com/pcahan1/singleCellNet/. [Blog post](https://www.rna-seqblog.com/singlecellnet-a-computational-tool-to-classify-single-cell-rna-seq-data-across-platforms-and-across-species/)
     - Tan, Yuqi, and Patrick Cahan. “SingleCellNet: A Computational Tool to Classify Single Cell RNA-Seq Data Across Platforms and Across Species.” Cell Systems, July 2019. https://doi.org/10.1016/j.cels.2019.06.004.
 
