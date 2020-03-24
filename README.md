@@ -636,6 +636,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Links
 
+- Clustered Dot Plots in the ggverse, by David McGaughey, https://davemcg.github.io/post/lets-plot-scrna-dotplots/, [Tweet](https://twitter.com/David_McGaughey/status/1242088829655400448?s=20)
+
 - Seurat object presentation by Ming Tang, https://osf.io/49q2u/, [Tweet](https://twitter.com/tangming2005/status/1224726014170787842?s=20)
 
 - Machine learning for single cell analysis workshop. Presentations (Google Slides) and Jupyter notebooks run on Google Colab, https://www.krishnaswamylab.org/workshop
