@@ -403,6 +403,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Annotation
 
+- `Garnett` - annotating cells in scRNA-seq data. Hierarchy of cell types and their markers should be pre-defined using a markup language. A classifier is trained to classify additional datasets. Trained on cells from one organisms, can be applied to different organisms. Pre-trained classifiers available. R-based. https://cole-trapnell-lab.github.io/garnett/
+    - Pliner, Hannah A., Jay Shendure, and Cole Trapnell. “Supervised Classification Enables Rapid Annotation of Cell Atlases.” Nature Methods 16, no. 10 (October 2019): 983–86. https://doi.org/10.1038/s41592-019-0535-3
+
 - `SingleR` - scRNA-seq cell type assignment by (Spearman) correlating to reference bulk RNA-seq data of pure cell types. Validated on ImmGen data. The package provides Human Primary Cell Atlas data, Blueprint and ENCODE consortium data, ImmGen, three others as a reference. https://bioconductor.org/packages/devel/bioc/html/SingleR.html, [Twitter](https://twitter.com/dvir_a/status/1170117086711930880?s=03)
     - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Esther Wu, Valerie Fong, Austin Hsu, Suzanna Chak, et al. “Reference-Based Analysis of Lung Single-Cell Sequencing Reveals a Transitional Profibrotic Macrophage.” Nature Immunology 20, no. 2 (February 2019): 163–72. https://doi.org/10.1038/s41590-018-0276-y.
 
