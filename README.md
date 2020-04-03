@@ -489,6 +489,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ### scATAC-seq
 
+- Benchmarking of 10 scATAC-seq analysis methods (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. R code, Jupyter notebooks https://github.com/pinellolab/scATAC-benchmarking/
+    - Chen, Huidong, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro, and Luca Pinello. “Assessment of Computational Methods for the Analysis of Single-Cell ATAC-Seq Data.” Genome Biology 20, no. 1 (December 2019): 241. https://doi.org/10.1186/s13059-019-1854-5.
+
 - Signac is an extension of Seurat for the analysis, interpretation, and exploration of single-cell chromatin datasets. https://satijalab.org/signac/
 
 
