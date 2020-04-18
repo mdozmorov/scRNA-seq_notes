@@ -400,6 +400,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `CaSpER` - identification of CNVs from  RNA-seq data, bulk and single-cell (full-transcript only, like SMART-seq). Utilized multi-scale smoothed global gene expression profile and B-allele frequency (BAF) signal profile, detects concordant shifts in signal using a 5-state HMM (homozygous deletion, heterozygous deletion, neutral, one-copy-amplification, high-copy-amplification). Reconstructs subclonal CNV architecture for scRNA-seq data. Tested on GBM scRNA-seq, TCGA, other. Compared with HoneyBADGER. R code and tutorials https://github.com/akdess/CaSpER
     - Serin Harmanci, Akdes, Arif O. Harmanci, and Xiaobo Zhou. “CaSpER Identifies and Visualizes CNV Events by Integrative Analysis of Single-Cell or Bulk RNA-Sequencing Data.” Nature Communications 11, no. 1 (December 2020): 89. https://doi.org/10.1038/s41467-019-13779-x.
 
+- CNV estimation algorithm in scRNA-seq data - moving 100-gene window, deviation of expression from the chromosome average. Details in Methods.
+    - Tirosh, Itay, Andrew S. Venteicher, Christine Hebert, Leah E. Escalante, Anoop P. Patel, Keren Yizhak, Jonathan M. Fisher, et al. “Single-Cell RNA-Seq Supports a Developmental Hierarchy in Human Oligodendroglioma.” Nature 539, no. 7628 (November 2016): 309–13. https://doi.org/10.1038/nature20123.
+
 
 ## Annotation
 
