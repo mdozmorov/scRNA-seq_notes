@@ -109,10 +109,14 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `MAESTRO` - MAESTRO (Model-based AnalysEs of Single-cell Transcriptome and RegulOme) is a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO
 
+- `ChromVAR` - scATAC-seq analysis. Identifying peaks, get a matrix of counts across aggregated peaks, tSNE for clustering, identifying motifs. Integrated with Seurat. https://github.com/GreenleafLab/chromVAR, https://greenleaflab.github.io/motifmatchr/index.html
+    - Schep, Alicia N, Beijing Wu, Jason D Buenrostro, and William J Greenleaf. “ChromVAR: Inferring Transcription-Factor-Associated Accessibility from Single-Cell Epigenomic Data.” Nature Methods 14, no. 10 (August 21, 2017): 975–78. https://doi.org/10.1038/nmeth.4401.
+
 - `scATAC-pro` - pipeline for scATAC-seq mapping, QC, peak detection, clustering, TF and GO enrichment analysis, visualization (via VisCello). Compared with Scasat, Cellranger-atac. https://github.com/tanlabcode/scATAC-pro
     - “ScATAC-pro: A Comprehensive Workbench for Single-Cell Chromatin Accessibility Sequencing Data,” n.d., 24.
 
 - `SnapATAC` - Single Nucleus Analysis Package for ATAC-seq, Python and R. https://github.com/r3fang/SnapATAC
+
 
 ## Quality control
 
