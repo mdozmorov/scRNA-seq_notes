@@ -29,7 +29,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 * [Deep learning](#deep-learning)
 * [Spatial transcriptomics](#spatial-transcriptomics)
 * [Multi-omics methods](#multi-omics-methods)  
-  * [scATAC-seq](#scatac-seq)
+  * [scATAC-seq integration](#scatac-seq-integration)
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
 * [Data](#data)
@@ -492,7 +492,7 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 - `MAESTRO` - integrative analysis of scRNA-seq and scATAC-seq. https://github.com/liulab-dfci/MAESTRO/, [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
 
 
-### scATAC-seq
+### scATAC-seq integration
 
 - Benchmarking of 10 scATAC-seq analysis methods (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. R code, Jupyter notebooks https://github.com/pinellolab/scATAC-benchmarking/
     - Chen, Huidong, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro, and Luca Pinello. “Assessment of Computational Methods for the Analysis of Single-Cell ATAC-Seq Data.” Genome Biology 20, no. 1 (December 2019): 241. https://doi.org/10.1186/s13059-019-1854-5.
