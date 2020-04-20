@@ -109,6 +109,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `MAESTRO` - MAESTRO (Model-based AnalysEs of Single-cell Transcriptome and RegulOme) is a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO
 
+- `SnapATAC` - scATAC-seq pipeline for processing, clustering, and motif identification. Genome is binned into equal-size (5kb) windows, binarized with 1/0 for ATAC reads present/absent, Jaccard similarity between cells, normalized to account for sequencing depth (observed over expected method, two others), PCA on the matrix KNN graph and Louvain clustering to detect communities, tSNE or UMAP for visualization. Motif analysis and GREAT functional enrichment for each cluster. Outperforms ChromVAR, LSA, Cicero, Cis-Topic. Very fast, can be applied to ChIP-seq, scHi-C. https://github.com/r3fang/SnapATAC
+    - Fang, Rongxin, Sebastian Preissl, Xiaomeng Hou, Jacinta Lucero, Xinxin Wang, Amir Motamedi, Andrew K. Shiau, et al. “Fast and Accurate Clustering of Single Cell Epigenomes Reveals Cis -Regulatory Elements in Rare Cell Types.” Preprint. Bioinformatics, April 22, 2019. https://doi.org/10.1101/615179.
+
 - `ChromVAR` - scATAC-seq analysis. Identifying peaks, get a matrix of counts across aggregated peaks, tSNE for clustering, identifying motifs. Integrated with Seurat. https://github.com/GreenleafLab/chromVAR, https://greenleaflab.github.io/motifmatchr/index.html
     - Schep, Alicia N, Beijing Wu, Jason D Buenrostro, and William J Greenleaf. “ChromVAR: Inferring Transcription-Factor-Associated Accessibility from Single-Cell Epigenomic Data.” Nature Methods 14, no. 10 (August 21, 2017): 975–78. https://doi.org/10.1038/nmeth.4401.
 
