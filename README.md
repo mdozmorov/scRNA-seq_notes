@@ -28,8 +28,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [Benchmarking](#benchmarking)
 * [Deep learning](#deep-learning)
 * [Spatial transcriptomics](#spatial-transcriptomics)
-* [Multi-omics methods](#multi-omics-methods)  
-  * [scATAC-seq integration](#scatac-seq-integration)
+* [scATAC-seq integration, Multi-omics methods](#scatac-seq-integration-multi-omics-methods)  
 * [10X Genomics](#10x-genomics)
   * [QC](#10x-qc)
 * [Data](#data)
@@ -107,7 +106,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - Notes by Ming Tang on scATAC-seq analysis, https://github.com/crazyhottommy/scATACseq-analysis-notes
 
-- `MAESTRO` - MAESTRO (Model-based AnalysEs of Single-cell Transcriptome and RegulOme) is a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO
+- Benchmarking of 10 scATAC-seq analysis methods (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. R code, Jupyter notebooks https://github.com/pinellolab/scATAC-benchmarking/
+    - Chen, Huidong, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro, and Luca Pinello. “Assessment of Computational Methods for the Analysis of Single-Cell ATAC-Seq Data.” Genome Biology 20, no. 1 (December 2019): 241. https://doi.org/10.1186/s13059-019-1854-5.
 
 - `SnapATAC` - scATAC-seq pipeline for processing, clustering, and motif identification. Genome is binned into equal-size (5kb) windows, binarized with 1/0 for ATAC reads present/absent, Jaccard similarity between cells, normalized to account for sequencing depth (observed over expected method, two others), PCA on the matrix KNN graph and Louvain clustering to detect communities, tSNE or UMAP for visualization. Motif analysis and GREAT functional enrichment for each cluster. Outperforms ChromVAR, LSA, Cicero, Cis-Topic. Very fast, can be applied to ChIP-seq, scHi-C. https://github.com/r3fang/SnapATAC
     - Fang, Rongxin, Sebastian Preissl, Xiaomeng Hou, Jacinta Lucero, Xinxin Wang, Amir Motamedi, Andrew K. Shiau, et al. “Fast and Accurate Clustering of Single Cell Epigenomes Reveals Cis -Regulatory Elements in Rare Cell Types.” Preprint. Bioinformatics, April 22, 2019. https://doi.org/10.1101/615179.
@@ -118,7 +118,6 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `scATAC-pro` - pipeline for scATAC-seq mapping, QC, peak detection, clustering, TF and GO enrichment analysis, visualization (via VisCello). Compared with Scasat, Cellranger-atac. https://github.com/tanlabcode/scATAC-pro
     - “ScATAC-pro: A Comprehensive Workbench for Single-Cell Chromatin Accessibility Sequencing Data,” n.d., 24.
 
-- `SnapATAC` - Single Nucleus Analysis Package for ATAC-seq, Python and R. https://github.com/r3fang/SnapATAC
 
 
 ## Quality control
@@ -480,7 +479,9 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 
 - Spatial Gene Expression, Space Ranger by 10X Genomics https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome
 
-## Multi-omics methods
+## scATAC-seq integration, Multi-omics methods
+
+- [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools.” Genomics & Informatics 16, no. 4 (December 2018): e17. https://doi.org/10.5808/GI.2018.16.4.e17.
 
 - `scAI` - integrative analysis of scRNA-seq and scATAC-seq or scMethylation data measured from the same cells (in contrast to different measures sampled from the same cell population). Overview of multi-omics single-cell technologies, methods for data integration in bulk samples and single-cell samples (MATCHER, Seural, LIGER), sparsity (scATAC-seq is \~99% sparse and nearly binary). Deconvolution of both single-cell matrices into gene loading and locus loading matrices, a cell loading matrix, in which factors K correspond to loadings of gene, locus, and cell in the K-dimensional space. A strategy to reduce over-aggregation. Cell subpopulations identified by Leiden clustering of the cell loading matrix. Visualization of the low-rank matrices with the Sammon mapping. Multi-omics simulation using MOSim, eight scenarios of simulated data, AUROC and Normalized Mutual Information (NMI) assessment of matrix reconstruction quality. Compared with MOFA, Seurat, LIGER. Tested on 8837 mammalian kidney cells scRNA-seq and scATAC-seq data, 77 mouse ESCs scRNA-seq and scMethylation, interpretation. https://github.com/sqjin/scAI
     - Jin, Suoqin, Lihua Zhang, and Qing Nie. “ScAI: An Unsupervised Approach for the Integrative Analysis of Parallel Single-Cell Transcriptomic and Epigenomic Profiles.” Genome Biology 21, no. 1 (December 2020): 25. https://doi.org/10.1186/s13059-020-1932-8.
@@ -489,22 +490,10 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
     - Korsunsky, Ilya, Nghia Millard, Jean Fan, Kamil Slowikowski, Fan Zhang, Kevin Wei, Yuriy Baglaenko, Michael Brenner, Po-ru Loh, and Soumya Raychaudhuri. “Fast, Sensitive and Accurate Integration of Single-Cell Data with Harmony.” Nature Methods 16, no. 12 (December 2019): 1289–96. https://doi.org/10.1038/s41592-019-0619-0.
 
 - Seurat v.3 paper. Integration of multiple scRNA-seq and other single-cell omics (spatial transcriptomics, scATAC-seq, immunophenotyping), including batch correction. Anchors as reference to harmonize multiple datasets. Canonical Correlation Analysis (CCA) coupled with Munual Nearest Neighborhoors (MNN) to identify shared subpopulations across datasets. CCA to reduce dimensionality, search for MNN in the low-dimensional representation. Shared Nearest Neighbor (SNN) graphs to assess similarity between two cells. Outperforms scmap. Extensive validation on multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods). Data normalization, variable feature selection within- and between datasets, anchor identification using CCA (methods), their scoring, batch correction, label transfer, imputation. Methods correspond to details of each Seurat function. Preprocessing of real single-cell data.https://satijalab.org/seurat/, https://github.com/satijalab/Integration2019
+- Signac is an extension of Seurat for the analysis, interpretation, and exploration of single-cell chromatin datasets. https://satijalab.org/signac/
     - Stuart, Tim, Andrew Butler, Paul Hoffman, Christoph Hafemeister, Efthymia Papalexi, William M Mauck, Marlon Stoeckius, Peter Smibert, and Rahul Satija. “Comprehensive Integration of Single Cell Data.” Preprint. Genomics, November 2, 2018. https://doi.org/10.1101/460147.
 
-- Review of single-cell sequencing technologies, individual and combined, technical details of each. Combinatorial indexing. Genomic DNA, methylomes, histone modifications, open chromatin, 3D genomics, proteomics, spatial transcriptomics. Table 1 - multiomics technologies, summary. Areas of application, in cancer and cell atlases. Future development, e.g., single-cell metabolomics.
-    - Chappell, Lia, Andrew J. C. Russell, and Thierry Voet. “Single-Cell (Multi)Omics Technologies.” Annual Review of Genomics and Human Genetics 19 (31 2018): 15–41. https://doi.org/10.1146/annurev-genom-091416-035324.
-
-- [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “Single-Cell Ssequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools.” Genomics & Informatics 16, no. 4 (December 2018): e17. https://doi.org/10.5808/GI.2018.16.4.e17.
-
-- `MAESTRO` - integrative analysis of scRNA-seq and scATAC-seq. https://github.com/liulab-dfci/MAESTRO/, [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
-
-
-### scATAC-seq integration
-
-- Benchmarking of 10 scATAC-seq analysis methods (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. R code, Jupyter notebooks https://github.com/pinellolab/scATAC-benchmarking/
-    - Chen, Huidong, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro, and Luca Pinello. “Assessment of Computational Methods for the Analysis of Single-Cell ATAC-Seq Data.” Genome Biology 20, no. 1 (December 2019): 241. https://doi.org/10.1186/s13059-019-1854-5.
-
-- Signac is an extension of Seurat for the analysis, interpretation, and exploration of single-cell chromatin datasets. https://satijalab.org/signac/
+- `MAESTRO` - MAESTRO (Model-based AnalysEs of Single-cell Transcriptome and RegulOme) is a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO, [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
 
 
 
@@ -698,8 +687,14 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 
 ### Papers
 
-- Vieth, Beate, Swati Parekh, Christoph Ziegenhain, Wolfgang Enard, and Ines Hellmann. “A Systematic Evaluation of Single Cell RNA-Seq Analysis Pipelines.” BioRxiv, March 19, 2019. https://doi.org/10.1101/583013. scRNA-seq pipeline benchmarking, beta regression to explain the variance in pipeline performance. Best settings: Genome mapping using STAR + GENCODE annotation, imputation using scone or SAVER is optional, scran or SCnorm for normalization, any differential expression method, e.g., edgeR and limma-trend, works OK. Filtering has no effect on performance. The most significant effect on performance is from normalization and library preparation choices. Pipelines tested with `powsimR` package https://github.com/bvieth/powsimR, data at https://github.com/bvieth/scRNA-seq-pipelines
+- scRNA-seq pipeline benchmarking, beta regression to explain the variance in pipeline performance. Best settings: Genome mapping using STAR + GENCODE annotation, imputation using scone or SAVER is optional, scran or SCnorm for normalization, any differential expression method, e.g., edgeR and limma-trend, works OK. Filtering has no effect on performance. The most significant effect on performance is from normalization and library preparation choices. Pipelines tested with `powsimR` package https://github.com/bvieth/powsimR, data at https://github.com/bvieth/scRNA-seq-pipelines
+    - Vieth, Beate, Swati Parekh, Christoph Ziegenhain, Wolfgang Enard, and Ines Hellmann. “A Systematic Evaluation of Single Cell RNA-Seq Analysis Pipelines.” BioRxiv, March 19, 2019. https://doi.org/10.1101/583013. 
 
-- Luecken, Malte D., and Fabian J. Theis. “Current Best Practices in Single-Cell RNA-Seq Analysis: A Tutorial.” Molecular Systems Biology 15, no. 6 (June 19, 2019): e8746. https://doi.org/10.15252/msb.20188746. - All steps in scRNA-seq analysis, QC (count depth, number of genes, % mitochondrial), normalization (global, downsampling, nonlinear), data correction (batch, denoising, imputation), feature selection, dimensionality reduction (PCA, diffusion maps, tSNE, UMAP), visualization, clustering (k-means, graph/community detection), annotation, trajectory inference (PAGA, Monocle), differential analysis (DESeq2, EdgeR, MAST), gene regulatory networks. Description of the bigger picture at each step, latest tools, their brief description, references. R-based Scater as the full pipeline for QC and preprocessing, Seurat for downstream analysis, scanpy Python pipeline. Links and refs for tutorials. https://github.com/theislab/single-cell-tutorial
+- All steps in scRNA-seq analysis, QC (count depth, number of genes, % mitochondrial), normalization (global, downsampling, nonlinear), data correction (batch, denoising, imputation), feature selection, dimensionality reduction (PCA, diffusion maps, tSNE, UMAP), visualization, clustering (k-means, graph/community detection), annotation, trajectory inference (PAGA, Monocle), differential analysis (DESeq2, EdgeR, MAST), gene regulatory networks. Description of the bigger picture at each step, latest tools, their brief description, references. R-based Scater as the full pipeline for QC and preprocessing, Seurat for downstream analysis, scanpy Python pipeline. Links and refs for tutorials. https://github.com/theislab/single-cell-tutorial
+    - Luecken, Malte D., and Fabian J. Theis. “Current Best Practices in Single-Cell RNA-Seq Analysis: A Tutorial.” Molecular Systems Biology 15, no. 6 (June 19, 2019): e8746. https://doi.org/10.15252/msb.20188746. 
 
-- Cao, Junyue, Jonathan S. Packer, Vijay Ramani, Darren A. Cusanovich, Chau Huynh, Riza Daza, Xiaojie Qiu, et al. “Comprehensive Single-Cell Transcriptional Profiling of a Multicellular Organism.” Science 357, no. 6352 (August 18, 2017): 661–67. https://doi.org/10.1126/science.aam8940. - sciRNA-seq - single-cell combinatorial indexing RNA-seq technology and sequencing of C. elegans, ~49,000 cells, 27 cell types. Data and R code to download it at http://atlas.gs.washington.edu/hub/
+- Review of single-cell sequencing technologies, individual and combined, technical details of each. Combinatorial indexing. Genomic DNA, methylomes, histone modifications, open chromatin, 3D genomics, proteomics, spatial transcriptomics. Table 1 - multiomics technologies, summary. Areas of application, in cancer and cell atlases. Future development, e.g., single-cell metabolomics.
+    - Chappell, Lia, Andrew J. C. Russell, and Thierry Voet. “Single-Cell (Multi)Omics Technologies.” Annual Review of Genomics and Human Genetics 19 (31 2018): 15–41. https://doi.org/10.1146/annurev-genom-091416-035324.
+
+- sciRNA-seq - single-cell combinatorial indexing RNA-seq technology and sequencing of C. elegans, ~49,000 cells, 27 cell types. Data and R code to download it at http://atlas.gs.washington.edu/hub/
+    - Cao, Junyue, Jonathan S. Packer, Vijay Ramani, Darren A. Cusanovich, Chau Huynh, Riza Daza, Xiaojie Qiu, et al. “Comprehensive Single-Cell Transcriptional Profiling of a Multicellular Organism.” Science 357, no. 6352 (August 18, 2017): 661–67. https://doi.org/10.1126/science.aam8940. 
