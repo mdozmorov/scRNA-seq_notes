@@ -692,6 +692,8 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 
 ### Papers
 
+- [Journal club on single-cell multimodal data technology and analysis](https://github.com/waldronlab/data-science-seminar/wiki/Single-cell-multimodal-data) - Data science seminar led by Levi Waldron
+
 - scRNA-seq pipeline benchmarking, beta regression to explain the variance in pipeline performance. Best settings: Genome mapping using STAR + GENCODE annotation, imputation using scone or SAVER is optional, scran or SCnorm for normalization, any differential expression method, e.g., edgeR and limma-trend, works OK. Filtering has no effect on performance. The most significant effect on performance is from normalization and library preparation choices. Pipelines tested with `powsimR` package https://github.com/bvieth/powsimR, data at https://github.com/bvieth/scRNA-seq-pipelines
     - Vieth, Beate, Swati Parekh, Christoph Ziegenhain, Wolfgang Enard, and Ines Hellmann. “A Systematic Evaluation of Single Cell RNA-Seq Analysis Pipelines.” BioRxiv, March 19, 2019. https://doi.org/10.1101/583013. 
 
