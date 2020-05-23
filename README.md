@@ -658,6 +658,10 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 
 ## Links
 
+- [Single Cell Genomics Day 2020 - Overview](https://youtu.be/b9bqKulMLp8) - latest scRNA-seq developments by Rahul Satija. Resources:
+    - SNARE-seq - droplet-based snRNA-seq and chromatin accessibility [Paper](https://www.nature.com/articles/s41587-019-0290-0)
+    - 
+
 - Clustered Dot Plots in the ggverse, by David McGaughey, https://davemcg.github.io/post/lets-plot-scrna-dotplots/, [Tweet](https://twitter.com/David_McGaughey/status/1242088829655400448?s=20)
 
 - Seurat object presentation by Ming Tang, https://osf.io/49q2u/, [Tweet](https://twitter.com/tangming2005/status/1224726014170787842?s=20)
@@ -695,6 +699,8 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 - `EDS` - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. https://github.com/COMBINE-lab/EDS
 
 ### Papers
+
+- [The single cell studies database](https://docs.google.com/spreadsheets/d/1En7-UV0k0laDiIfjFkdn7dggyR7jIk3WH8QgXaMOZF0/edit#gid=935747368), over 1000 studies. [Main database](https://www.nxn.se/single-cell-studies), [Tweet by Valentine Svensson](https://twitter.com/vallens/status/1263477436513206273?s=20)
 
 - [Journal club on single-cell multimodal data technology and analysis](https://github.com/waldronlab/data-science-seminar/wiki/Single-cell-multimodal-data) - Data science seminar led by Levi Waldron
 
