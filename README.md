@@ -701,6 +701,7 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 ### Papers
 
 - [The single cell studies database](https://docs.google.com/spreadsheets/d/1En7-UV0k0laDiIfjFkdn7dggyR7jIk3WH8QgXaMOZF0/edit#gid=935747368), over 1000 studies. [Main database](https://www.nxn.se/single-cell-studies), [Tweet by Valentine Svensson](https://twitter.com/vallens/status/1263477436513206273?s=20)
+- [scATACdb](https://docs.google.com/spreadsheets/d/1IJhYMysjt-gyFeG1P7BL0NbKkOl1QPKqljz7s6SLZ6U/edit#gid=1161067356) - list of scATAC-seq studies
 
 - [Journal club on single-cell multimodal data technology and analysis](https://github.com/waldronlab/data-science-seminar/wiki/Single-cell-multimodal-data) - Data science seminar led by Levi Waldron
 
