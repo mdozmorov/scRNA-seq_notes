@@ -40,6 +40,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Preprocessing pipelines
 
+- [RAPIDS & Scanpy Single-Cell RNA-seq Workflow](https://github.com/clara-parabricks/rapids-single-cell-examples/blob/master/notebooks/hlca_lung_gpu_analysis.ipynb) - real-time analysis of scRNA-seq data on GPU. [Tweet](https://twitter.com/johnny_israeli/status/1265762506993135618?s=20)
+
 - [sceasy](https://github.com/cellgeni/sceasy) - An R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom
 
 - [kallistobus](https://www.kallistobus.tools/) - fast pipeline for scRNA-seq processing. New BUS (Barcode, UMI, Set) format for storing and manipulating pseudoalignment results. Includes RNA velocity analysis. Python-based
