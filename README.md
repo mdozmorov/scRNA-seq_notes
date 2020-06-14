@@ -157,6 +157,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 ## Batch effect, merging
 
+- Evaluation of 10 single-cell data integration methods and 4 preprocessing combinations on 77 batches of gene expression, chromatin accessibility, and simulated data (Table 1) in 9 integration tasks using 14 evaluation metrics. BBKNN, Scanorama, scVI perform well on complex tasks, Seurat performs well on simpler tasks but may eliminate biological signal. the use of Seurat v3 and Harmony is appropriate for simple integration tasks with distinct batch and biological structure. Batch in ATAC-seq is the most difficult to remove. Jupyter notebooks for full reproducibility https://github.com/theislab/scib
+    - Luecken, Md, M Büttner, K Chaichoompu, A Danese, M Interlandi, Mf Mueller, Dc Strobl, et al. “[Benchmarking Atlas-Level Data Integration in Single-Cell Genomics](https://doi.org/10.1101/2020.05.22.111161).” Preprint. Bioinformatics, May 23, 2020. 
+
 - `batchelor` - Single-Cell Batch Correction Methods, by Aaron Lun. https://bioconductor.org/packages/devel/bioc/html/batchelor.html
 
 - `BERMUDA` - Batch Effect ReMoval Using Deep Autoencoders, for scRNA-seq data. Requires batches to share at least one common cell type. Five step framework: 1) preprocessing, 2) clustering of cells in each batch individually, 3) identifying similar cell clusters across different batches, 4) removing batch effect by training an autoencoder, 5) further analysis of batch-corrected data. Tested on simulated (splatter) and experimental (10X genomics) data.https://github.com/txWang/BERMUDA
