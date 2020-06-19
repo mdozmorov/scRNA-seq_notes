@@ -21,7 +21,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
   * [RNA velocity](#rna-velocity)
 * [Differential expression](#differential-expression)
 * [CNV](#cnv)
-* [Annotation](#annotation)
+* [Annotation, subpopulation identification](#annotation-subpopulation-identification)
   * [Cell markers](#cell-markers)
 * [Simulation](#simulation)
   * [Power](#power)
@@ -425,14 +425,15 @@ Tools in each section are being resorted newest on top (previously, alphabetical
     - Tirosh, Itay, Andrew S. Venteicher, Christine Hebert, Leah E. Escalante, Anoop P. Patel, Keren Yizhak, Jonathan M. Fisher, et al. “Single-Cell RNA-Seq Supports a Developmental Hierarchy in Human Oligodendroglioma.” Nature 539, no. 7628 (November 2016): 309–13. https://doi.org/10.1038/nature20123.
 
 
-## Annotation
+## Annotation, subpopulation identification
 
 - `Garnett` - annotating cells in scRNA-seq data. Hierarchy of cell types and their markers should be pre-defined using a markup language. A classifier is trained to classify additional datasets. Trained on cells from one organisms, can be applied to different organisms. Pre-trained classifiers available. R-based. https://cole-trapnell-lab.github.io/garnett/
     - Pliner, Hannah A., Jay Shendure, and Cole Trapnell. “Supervised Classification Enables Rapid Annotation of Cell Atlases.” Nature Methods 16, no. 10 (October 2019): 983–86. https://doi.org/10.1038/s41592-019-0535-3
 
-single-cell recognition of cell types by correlating (Spearman) scRNA-seq expression against reference databases. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html
+- [scPopCorn](https://github.com/ncbi/scPopCorn/) - subpopulation identification across scRNA-seq experiments. Identifies shared and unique subpopulations. Joint network of two graphs. First, graphs are built for each experiment using co-expression to identify subpopulations. Second, the corresponsence of the identified subpopulations is refined using Google's PageRank algorithm to identify subpopulations. Compared with Seurat alignment + Louvain, mutual nearest neighbor (MNN) method, and MNN + Louvain. Several assessment metrics. Tested on pancreatic, kidney cells, healthy brain and glioblastoma scRNA-seq data. Sankey diagrams showing how subpopulation assignment change. https://github.com/ncbi/scPopCorn/
+    - Wang, Yijie, Jan Hoinka, and Teresa M. Przytycka. “Subpopulation Detection and Their Comparative Analysis across Single-Cell Experiments with ScPopCorn.” Cell Systems 8, no. 6 (June 2019): 506-513.e5. https://doi.org/10.1016/j.cels.2019.05.007.
 
-- `SingleR` - scRNA-seq cell type assignment by (Spearman) correlating to reference bulk RNA-seq data of pure cell types. Validated on ImmGen data. The package provides Human Primary Cell Atlas data, Blueprint and ENCODE consortium data, ImmGen, three others as a reference. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html, Bioconductor package https://bioconductor.org/packages/devel/bioc/html/SingleR.html, [Twitter](https://twitter.com/dvir_a/status/1170117086711930880?s=03)
+- [SingleR](https://github.com/dviraran/SingleR/) - scRNA-seq cell type assignment by (Spearman) correlating to reference bulk RNA-seq data of pure cell types. Validated on ImmGen data. The package provides Human Primary Cell Atlas data, Blueprint and ENCODE consortium data, ImmGen, three others as a reference. Post-Seurat analysis. Web tool, http://comphealth.ucsf.edu/SingleR/, that takes SingleR objects, instructions are on GitHub, https://github.com/dviraran/SingleR/. Example analysis: http://comphealth.ucsf.edu/sample-apps/SingleR/SingleR.MCA.html, Bioconductor package https://bioconductor.org/packages/devel/bioc/html/SingleR.html, [Twitter](https://twitter.com/dvir_a/status/1170117086711930880?s=03)
     - Aran, Dvir, Agnieszka P. Looney, Leqian Liu, Esther Wu, Valerie Fong, Austin Hsu, Suzanna Chak, et al. “Reference-Based Analysis of Lung Single-Cell Sequencing Reveals a Transitional Profibrotic Macrophage.” Nature Immunology 20, no. 2 (February 2019): 163–72. https://doi.org/10.1038/s41590-018-0276-y.
 
 - [TooManyCells](https://github.com/GregorySchwartz/tooManyCellsR) - divisive hierarchical spectral clustering of scRNA-seq data. Uses truncated singular vector decomposition to bipartition the cells. Newman-Girvain modularity Q to assess whether bipartition is significant or should be stopped. BirchBeer visualization. Outperforms Phenograph, Seurat, Cellranger, Monocle, the latter is second in performance. Excels for rare populations. Normalization marginally affects performance. https://github.com/GregorySchwartz/tooManyCellsR and  https://github.com/faryabiLab/birch-beer
