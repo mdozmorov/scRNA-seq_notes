@@ -108,6 +108,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - `UCSC Single Cell Browser` - Python pipeline and Javascript scatter plot library for single-cell datasets. Pre-process an expression matrix by filtering, PCA, nearest-neighbors, clustering, t-SNE and UMAP and formats them for cbBuild. Stand-alone app on GitHub, https://github.com/maximilianh/cellBrowser, Demo that includes several landmark datasets, https://cells.ucsc.edu/
 
+- [SCope](https://github.com/aertslab/SCope) - Fast visualization tool for large-scale and high dimensional single-cell data in `.loom` format. R and Python scripts for converting scRNA-seq data to `.loom` format. https://github.com/aertslab/SCope
+
 ### scATAC-seq
 
 - Notes by Ming Tang on scATAC-seq analysis, https://github.com/crazyhottommy/scATACseq-analysis-notes
@@ -722,8 +724,6 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
 
 - `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
-
-- 
 
 - `EDS` - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. https://github.com/COMBINE-lab/EDS
 
