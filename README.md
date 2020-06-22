@@ -579,7 +579,7 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `FUMA` - Functional Mapping and Annotation of GWAS using 43 scRNA-seq datasets (human and mouse). MAGMA Cell type-specific enrichment. Applied to 26 GWAS disorders,  https://fuma.ctglab.nl/. Processed data and instructions for self-download: https://github.com/Kyoko-wtnb/FUMA_scRNA_data
     - Watanabe, Kyoko, Maša Umićević Mirkov, Christiaan A. de Leeuw, Martijn P. van den Heuvel, and Danielle Posthuma. “Genetic Mapping of Cell Type Specificity for Complex Traits.” Nature Communications 10, no. 1 (December 2019): 3222. https://doi.org/10.1038/s41467-019-11181-1.
 
-- [Pan-cancer portal](http://blueprint.lambrechtslab.org/) of genomic blueprint of stromal cell heterogeneity using scRNA-seq ( from lung, colorectal, ovary, and breast cancer and normal tissues.68 stromal cell populations, 46 are shared and 22 are unique. Clustering and characterization of each cluster - marker genes, functional enrichment, transcription factors (SCENIC), trajectory reconstruction (Monocle). A web portal for exploring gene expression in each cell subtype, comparison of conditions, raw data is not available. Visualization using SCope. http://blueprint.lambrechtslab.org/
+- [Pan-cancer portal](http://blueprint.lambrechtslab.org/) of genomic blueprint of stromal cell heterogeneity using scRNA-seq ( from lung, colorectal, ovary, and breast cancer and normal tissues.68 stromal cell populations, 46 are shared and 22 are unique. Clustering and characterization of each cluster - marker genes, functional enrichment, transcription factors (SCENIC), trajectory reconstruction (Monocle). [Table S5](https://www.nature.com/articles/s41422-020-0355-0#Sec26) -  markers of cells present in stroma. A web portal for exploring gene expression in each cell subtype, comparison of conditions, raw data is not available. Visualization using SCope. http://blueprint.lambrechtslab.org/
     - Qian, Junbin, Siel Olbrecht, Bram Boeckx, Hanne Vos, Damya Laoui, Emre Etlioglu, Els Wauters, et al. “[A Pan-Cancer Blueprint of the Heterogeneous Tumor Microenvironment Revealed by Single-Cell Profiling](https://doi.org/10.1038/s41422-020-0355-0).” Cell Research, June 19, 2020. 
 
 
@@ -722,6 +722,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
 
 - `Loompy` - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
+
+- 
 
 - `EDS` - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. https://github.com/COMBINE-lab/EDS
 
