@@ -481,6 +481,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 
 - How many cells do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
 
+- [scPower](https://github.com/heiniglab/scPower) - an R package for power calculation for single-cell RNA-seq studies. Estimates power of differential expression and eQTLs using zero-inflated negative binomial distribution. Also, power to detect rare cell types. Figure 1 shows the dependence among experimental design parameters. Tested on several datasets, generalizes well across technologies. GitHub https://github.com/heiniglab/scPower and Shiny app http://scpower.helmholtz-muenchen.de/
+    - Schmid, Katharina T., Cristiana Cruceanu, Anika Böttcher, Heiko Lickert, Elisabeth B. Binder, Fabian J. Theis, and Matthias Heinig. “[Design and Power Analysis for Multi-Sample Single Cell Genomics Experiments](https://doi.org/10.1101/2020.04.01.019851).” Preprint. Bioinformatics, April 2, 2020. 
+
 - `powsimR` - an R package for simulating scRNA-seq datasets and assess performance of differential analysis methods. Supports Poisson, Negative Binomial, and zero inflated NB, or estimates parameters from user-provided data. Simulates differential expression with pre-defined fold changes, estimates power, TPR, FDR, sample size, and for the user-provided dataset. https://github.com/bvieth/powsimR
     - Vieth, Beate, Christoph Ziegenhain, Swati Parekh, Wolfgang Enard, and Ines Hellmann. “PowsimR: Power Analysis for Bulk and Single Cell RNA-Seq Experiments.” Edited by Ivo Hofacker. Bioinformatics 33, no. 21 (November 1, 2017): 3486–88. https://doi.org/10.1093/bioinformatics/btx435.
 
