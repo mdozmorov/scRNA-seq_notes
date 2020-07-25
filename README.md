@@ -209,6 +209,9 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 - `scRMD` - dropout imputation in scRNA-seq via robust matrix decomposition into true expression matrix (further decomposed into a matrix of means and gene's random deviation from its mean) minus dropout matrix plus error matrix. A function to estimate the matrix of means and dropouts. Comparison with MAGIC, scImpute. https://github.com/ChongC1990/scRMD
     - Chen, Chong, Changjing Wu, Linjie Wu, Yishu Wang, Minghua Deng, and Ruibin Xi. “ScRMD: Imputation for Single Cell RNA-Seq Data via Robust Matrix Decomposition,” November 4, 2018. https://doi.org/10.1101/459404.
 
+- [netSmooth](https://github.com/BIMSBbioinfo/netSmooth) - network diffusion-based method that uses priors for the covariance structure of gene expression profiles to smooth scRNA-seq experiments. Incorporates prior knowledge (i.e. protein-protein interaction networks) for imputation. Note that dropout applies to whole transcriptome. Compared with MAGIC, scImpute. Improves clustering, biological interpretation. https://github.com/BIMSBbioinfo/netSmooth
+    - Ronen, Jonathan, and Altuna Akalin. “NetSmooth: Network-Smoothing Based Imputation for Single Cell RNA-Seq.” F1000Research 7 (July 10, 2018): 8. https://doi.org/10.12688/f1000research.13511.3.
+
 - `DCA` - A deep count autoencoder network to denoise scRNA-seq data. Zero-inflated negative binomial model. Current approaches - scimpute, MAGIC, SAVER. Benchmarking by increased correlation between bulk and scRNA-seq data, between protein and RNA levels, between key regulatory genes, better DE concordance in bulk and scRNA-seq, improved clustering, https://github.com/theislab/dca
     - Eraslan, Gökcen, Lukas M. Simon, Maria Mircea, Nikola S. Mueller, and Fabian J. Theis. “Single Cell RNA-Seq Denoising Using a Deep Count Autoencoder,” April 13, 2018. https://doi.org/10.1101/300681. 
 
@@ -730,7 +733,8 @@ Tools in each section are being resorted newest on top (previously, alphabetical
 ### Papers
 
 - [The single cell studies database](https://docs.google.com/spreadsheets/d/1En7-UV0k0laDiIfjFkdn7dggyR7jIk3WH8QgXaMOZF0/edit#gid=935747368), over 1000 studies. [Main database](https://www.nxn.se/single-cell-studies), [Tweet by Valentine Svensson](https://twitter.com/vallens/status/1263477436513206273?s=20)
-- [scATACdb](https://docs.google.com/spreadsheets/d/1IJhYMysjt-gyFeG1P7BL0NbKkOl1QPKqljz7s6SLZ6U/edit#gid=1161067356) - list of scATAC-seq studies
+
+- [scATACdb](https://docs.google.com/spreadsheets/d/1IJhYMysjt-gyFeG1P7BL0NbKkOl1QPKqljz7s6SLZ6U/edit#gid=1161067356) - list of scATAC-seq studies, Google Sheet by Caleb Lareau
 
 - [Journal club on single-cell multimodal data technology and analysis](https://github.com/waldronlab/data-science-seminar/wiki/Single-cell-multimodal-data) - Data science seminar led by Levi Waldron
 
