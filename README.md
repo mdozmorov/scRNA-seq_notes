@@ -186,9 +186,13 @@ Tools are sorted by publication date, newest on top. Unpublished tools are liste
 - [batchelor](https://bioconductor.org/packages/batchelor/) - Single-Cell Batch Correction Methods, by Aaron Lun. https://bioconductor.org/packages/batchelor/
     - Haghverdi L, Lun ATL, Morgan MD, Marioni JC (2018). “[Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors](https://doi.org10.1038/nbt.4091).” Nat. Biotechnol.
 
+- [MANCIE](https://cran.r-project.org/web/packages/MANCIE/) - matrix analysis and normalization by concordant information enhancement. Bias correction and data integration of distinct genomic profiles on the same samples. Match matrices by rows, run correlation for each row, replace the associated row with modified values using a PCA procedure, Methods. Tested on integration of DHS and gene expression data, TCGA and METABRIC data. R package, https://cran.r-project.org/web/packages/MANCIE/
+    - Zang, Chongzhi, Tao Wang, Ke Deng, Bo Li, Sheng’en Hu, Qian Qin, Tengfei Xiao, et al. “[High-Dimensional Genomic Data Bias Correction and Data Integration Using MANCIE](https://doi.org/10.1038/ncomms11305).” Nature Communications 7, no. 1 (December 2016). 
+
 - [scLVM](https://github.com/PMBio/scLVM) - a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources and remove the variation explained by latent variables. Can correct for the cell cycle effect. Applied to naive T cells differentiating into TH2 cells. https://github.com/PMBio/scLVM
     - Buettner, Florian, Kedar N Natarajan, F Paolo Casale, Valentina Proserpio, Antonio Scialdone, Fabian J Theis, Sarah A Teichmann, John C Marioni, and Oliver Stegle. “[Computational Analysis of Cell-to-Cell Heterogeneity in Single-Cell RNA-Sequencing Data Reveals Hidden Subpopulations of Cells](https://doi.org/10.1038/nbt.3102).” Nature Biotechnology 33, no. 2 (March 2015)
     - Buettner, Florian, Naruemon Pratanwanich, Davis J. McCarthy, John C. Marioni, and Oliver Stegle. “[F-ScLVM: Scalable and Versatile Factor Analysis for Single-Cell RNA-Seq](https://doi.org/10.1186/s13059-017-1334-8).” Genome Biology 18, no. 1 (December 2017) - f-scLVM - factorial single-cell latent variable model guided by pathway annotations to infer interpretable factors behind heterogeneity. PCA components are annotated by correlated genes and their enrichment in pathways. Docomposition of the original gene expression matrix to a sum of annotated, unannotated, and confounding components. Applied to their own naive T to TH2 cells, mESCs, reanalyzed 3005 neuronal cells. Simulated data. https://github.com/bioFAM/slalom
+
 
 ## Imputation
 
