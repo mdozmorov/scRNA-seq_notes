@@ -513,6 +513,8 @@ Tools are sorted by publication date, newest on top. Unpublished tools are liste
 
 ## Spatial transcriptomics
 
+- [spatialomics.net](http://spatialomics.net/) - Zoom/recorded seminar series on spatial transcriptomics
+
 - Analysis and visualization of spatial transcriptomics data using scanpy, 10X Genomics Visium and MERFISH data, [Jupyter notebook](https://nbviewer.jupyter.org/github/theislab/scanpy-tutorials/blob/master/analysis-visualization-spatial.ipynb), [Tweet by Fabian Theis](https://twitter.com/fabian_theis/status/1224741146242572289?s=20)
 
 - [Spatial Gene Expression, Space Ranger by 10X Genomics](https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome)
