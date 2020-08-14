@@ -438,6 +438,7 @@ Tools are sorted by publication date, newest on top. Unpublished tools are liste
 - CNV estimation algorithm in scRNA-seq data - moving 100-gene window, deviation of expression from the chromosome average. Details in Methods.
     - Tirosh, Itay, Andrew S. Venteicher, Christine Hebert, Leah E. Escalante, Anoop P. Patel, Keren Yizhak, Jonathan M. Fisher, et al. “[Single-Cell RNA-Seq Supports a Developmental Hierarchy in Human Oligodendroglioma](https://doi.org/10.1038/nature20123).” Nature 539, no. 7628 (November 2016)
 
+- [infercnv](https://github.com/broadinstitute/infercnv) - Inferring copy number alterations from tumor single cell RNA-Seq data, as compared with a set of reference normal cells. Positional expression intensity comparison. [Documentation](https://github.com/broadinstitute/inferCNV/wiki). https://github.com/broadinstitute/infercnv
 
 ## Annotation, subpopulation identification
 
