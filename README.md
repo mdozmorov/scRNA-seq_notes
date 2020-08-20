@@ -1,43 +1,50 @@
 # scRNA-seq data analysis tools and papers
 
-Tools are sorted by publication date, newest on top. Unpublished tools are listed at the end of each section. Please, open an [issue](https://github.com/mdozmorov/scRNA-seq_notes/issues) or a [pull request](https://github.com/mdozmorov/scRNA-seq_notes/pulls) to add other information, tools, or user experience.
-
-- [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. From Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
-
+Single-cell RNA-seq related tools and genomics data analysis resources. Tools are sorted by publication date, newest on top. Unpublished tools are listed at the end of each section. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
 
-* [Preprocessing pipelines](#preprocessing-pipelines)
-  * [Visualization pipelines](#visualization-pipelines)
-  * [scATAC-seq](#scatac-seq)
-* [Quality control](#quality-control)
-* [Normalization](#normalization)
-* [Batch effect, merging](#batch-effect-merging)
-* [Imputation](#imputation)
-* [Dimensionality reduction](#dimensionality-reduction)
-* [Clustering](#clustering)
-  * [Spatial inference](#spatial-inference)
-  * [Time, trajectory inference](#time-trajectory-inference)
-  * [Networks](#networks)
-  * [RNA velocity](#rna-velocity)
-* [Differential expression](#differential-expression)
-* [CNV](#cnv)
-* [Annotation, subpopulation identification](#annotation-subpopulation-identification)
-  * [Cell markers](#cell-markers)
-* [Simulation](#simulation)
-  * [Power](#power)
-  * [Benchmarking](#benchmarking)
-* [Deep learning](#deep-learning)
-* [Spatial transcriptomics](#spatial-transcriptomics)
-* [scATAC-seq integration, Multi-omics methods](#scatac-seq-integration-multi-omics-methods)  
-* [10X Genomics](#10x-genomics)
-  * [QC](#10x-qc)
-* [Data](#data)
-  * [Human](#human)
-  * [Mouse](#mouse)
-  * [Brain](#Brain)
-* [Links and other resources](#links)
-  * [Papers](#papers)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Preprocessing pipelines](#preprocessing-pipelines)
+  - [Visualization pipelines](#visualization-pipelines)
+  - [scATAC-seq](#scatac-seq)
+- [Quality control](#quality-control)
+- [Normalization](#normalization)
+- [Batch effect, merging](#batch-effect-merging)
+- [Imputation](#imputation)
+- [Dimensionality reduction](#dimensionality-reduction)
+- [Clustering](#clustering)
+  - [Spatial inference](#spatial-inference)
+  - [Time, trajectory inference](#time-trajectory-inference)
+  - [Networks](#networks)
+  - [RNA velocity](#rna-velocity)
+- [Differential expression](#differential-expression)
+- [CNV](#cnv)
+- [Annotation, subpopulation identification](#annotation-subpopulation-identification)
+  - [Cell markers](#cell-markers)
+- [Simulation](#simulation)
+  - [Power](#power)
+  - [Benchmarking](#benchmarking)
+- [Deep learning](#deep-learning)
+- [Spatial transcriptomics](#spatial-transcriptomics)
+- [scATAC-seq integration, Multi-omics methods](#scatac-seq-integration-multi-omics-methods)
+- [10X Genomics](#10x-genomics)
+  - [10X QC](#10x-qc)
+- [Data](#data)
+  - [Human](#human)
+    - [Cancer](#cancer)
+  - [Mouse](#mouse)
+  - [Brain](#brain)
+- [Links](#links)
+  - [Papers](#papers)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+- [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. From Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
 
 ## Preprocessing pipelines
 
@@ -721,6 +728,8 @@ Tools are sorted by publication date, newest on top. Unpublished tools are liste
 - [avesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system, https://github.com/johandahlberg/awesome-10x-genomics
 
 - [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/), https://davetang.org/muse/category/single-cell-2/
+
+- [single-cell-pseudotime](https://github.com/agitter/single-cell-pseudotime) - an overview of single-cell RNA-seq pseudotime estimation algorithms, comprehensive collection of links to software and accompanying papers, by Anthony Gitter
 
 - [Loompy](http://loompy.org/) - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
 
