@@ -245,6 +245,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Dimensionality reduction
 
+- [Poincare maps](https://github.com/facebookresearch/PoincareMaps) for two-dimensional scRNA-seq data representation. Preserves local and global distances, hierarchy, the center of the Poincare disk can be considered as a root node. Three-step procedure: 1) k-nearest-neighbor graph, 2) global geodesic distances from the kNN graph, 3) two-dimensional embeddings in the Poincare disk with hyperbolic distances preserve the inferred geodesic distances. Compared with t-SNE, UMAP, PCA, Monocle 2, SAUCIE and several other visualization and lineage detection methods. Two metrics to compare embeddings, Qlocal and Qglobal. References to several public datasets used for reanalysis. https://github.com/facebookresearch/PoincareMaps
+    - Klimovskaia, Anna, David Lopez-Paz, Léon Bottou, and Maximilian Nickel. “[Poincaré Maps for Analyzing Complex Hierarchies in Single-Cell Data](https://doi.org/10.1038/s41467-020-16822-4).” Nature Communications 11, no. 1 (December 2020)
+
 - [SAUCIE](https://github.com/KrishnaswamyLab/SAUCIE) - deep neural network with regularization on layers to improve interpretability. Denoising, batch removal, imputation, visualization of low-dimensional representation. Extensive comparison on simulated and real data. https://github.com/KrishnaswamyLab/SAUCIE
     - Amodio, Matthew, David van Dijk, Krishnan Srinivasan, William S Chen, Hussein Mohsen, Kevin R Moon, Allison Campbell, et al. “[Exploring Single-Cell Data with Deep Multitasking Neural Networks](https://doi.org/10.1101/237065),” August 27, 2018. 
 
