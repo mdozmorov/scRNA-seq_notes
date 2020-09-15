@@ -575,7 +575,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [bxcheck](https://github.com/pd3/bxcheck) - Toolset for QC and processing 10x genomics data. https://github.com/pd3/bxcheck
 
-- What is sequencing saturation?. https://kb.10xgenomics.com/hc/en-us/articles/115005062366-What-is-sequencing-saturation-
+- [What is sequencing saturation?](https://kb.10xgenomics.com/hc/en-us/articles/115005062366-What-is-sequencing-saturation-) by 10X Genomics
 
 ## Data
 
@@ -671,7 +671,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [Mouse pancreas scRNA-seq, 12,000 cells](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84133). Deconvolution of bulk RNA-seq data using cell signatures derived from clusters of scRNA-seq cells, https://github.com/shenorrLab/bseqsc
     - Baron, Maayan, Adrian Veres, Samuel L. Wolock, Aubrey L. Faust, Renaud Gaujoux, Amedeo Vetere, Jennifer Hyoje Ryu, et al. “[A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas Reveals Inter- and Intra-Cell Population Structure](https://doi.org/10.1016/j.cels.2016.08.011).” Cell Systems 3, no. 4 (26 2016)
 
-- The full-length SMART-Seq2 protocol with deep sequencing (6,558 genes/cell) to profile 765 multipotent mouse hematopoietic progenitors. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81682
+- [The full-length SMART-Seq2 protocol with deep sequencing (6,558 genes/cell) to profile 765 multipotent mouse hematopoietic progenitors](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81682)
     - Nestorowa, S., F. K. Hamey, B. Pijuan Sala, E. Diamanti, M. Shepherd, E. Laurenti, N. K. Wilson, D. G. Kent, and B. Gottgens. “[A Single-Cell Resolution Map of Mouse Hematopoietic Stem and Progenitor Cell Differentiation](https://doi.org/10.1182/blood-2016-05-716480).” Blood 128, no. 8 (August 25, 2016)
 
 - Buettner, Florian, Kedar N Natarajan, F Paolo Casale, Valentina Proserpio, Antonio Scialdone, Fabian J Theis, Sarah A Teichmann, John C Marioni, and Oliver Stegle. “[Computational Analysis of Cell-to-Cell Heterogeneity in Single-Cell RNA-Sequencing Data Reveals Hidden Subpopulations of Cells](https://doi.org/10.1038/nbt.3102).” Nature Biotechnology 33, no. 2 (March 2015)
