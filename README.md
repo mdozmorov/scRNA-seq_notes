@@ -588,6 +588,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Data
 
+- [10X Genomics Visium spatial transcriptomics data](https://support.10xgenomics.com/spatial-gene-expression/datasets) - adult human/mouse brain, human breast cancer
+
+
 - [Single-cell portal, Broad Institute](https://portals.broadinstitute.org/single_cell). https://portals.broadinstitute.org/single_cell
 
 - [Conquer DB of scRNA-seq datasets as R MultiAssayExperiment objects](http://imlspenticton.uzh.ch:3838/conquer/). http://imlspenticton.uzh.ch:3838/conquer/
