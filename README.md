@@ -657,6 +657,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 #### Cancer
 
+- [CancerSEA](http://biocc.hrbmu.edu.cn/CancerSEA/home.jsp) - cancer scRNA-seq studies. Download individual studies, as well as gene signatures (from Angiogenesis, DNA damage to EMT, metastasis, etc.)
+
 - Azizi, Elham, Ambrose J. Carr, George Plitas, Andrew E. Cornish, Catherine Konopacki, Sandhya Prabhakaran, Juozas Nainys, et al. “[Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment](https://doi.org/10.1016/j.cell.2018.05.060).” Cell, June 2018. - scRNA-seq of immune cells in BRCA - continuous activation of T cells, no macrophage polarization. inDrop and 10X platforms. 47,016 CD45+ cells from 8 primary breast carcinomas. 83 clusters, tested by cross-validation. [Data 1](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114727), [Data 2](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114725), [Data 3](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114724)
 
 ### Mouse
