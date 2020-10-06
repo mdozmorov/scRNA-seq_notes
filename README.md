@@ -597,6 +597,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Data
 
+- [Broad Single Cell Portal](https://singlecell.broadinstitute.org/single_cell) - scRNA-seq data from human, mouse, and more. Description, download
+
 - [10X Genomics Visium spatial transcriptomics data](https://support.10xgenomics.com/spatial-gene-expression/datasets) - adult human/mouse brain, human breast cancer
 
 - [Detailed description of 9 datasets and download links](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking), from Tran et al. “[A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data](https://doi.org/10.1186/s13059-019-1850-9)” study. Dataset 1: human dendritic cells, Dataset 2: mouse cell atlas, Dataset 3: simulation, Dataset 4: human pancreas, Dataset 5: human peripheral blood mononuclear cell (PBMC), Dataset 6: cell line, Dataset 7: mouse retina, Dataset 8: mouse brain, Dataset 9: human cell atlas
