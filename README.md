@@ -558,6 +558,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## scATAC-seq integration, Multi-omics methods
 
+- [Single-cell ATAC + RNA co-assay methods](https://timoast.github.io/blog/single-cell-atac-rna/) - overview of technologies and protocols, references to the original papers
+
 - [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
 
 - [UnionCom](https://github.com/caokai1073/UnionCom) - integration of multi-omics single-cell data using unsupervised topological alignment. Based on GUMA (generalized unsupervised manifold alignment) algorithm. Three steps: 1) embedding each single-cell dataset into the geometric distance matrix; 2) Align distance matrices; 3) Project unmatched features onto common embedding space. Tested on simulated and experimental data (sc-GEM, scNMT). Neighborhood overlap metric for testing, outperforms Seurat, MMD-MA, scAlign. 
