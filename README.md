@@ -429,6 +429,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### RNA velocity
 
+- [RNA velocity estimation is affected by spliced/unspliced quantification approaches, exon/intron definitions](https://github.com/csoneson/rna_velocity_quant). Technical insights into RNA velosity calculations. Tested alevin, kallisto/bus, starsolo, cellranger for spliced/unspliced abundance estimation, on four public 10X genomics datasets. Large differences in inferred velocities, affecting biological interpretation. alevin_sep_gtr (index built on spliced transcripts and introns, introns extracted separately for each transcript isoform. Joint exonic/intronic quantification) yields results most aligned with expectations. [Code](https://github.com/csoneson/rna_velocity_quant)
+    - Soneson, Charlotte, Avi Srivastava, Rob Patro, and Michael B Stadler. “[Preprocessing Choices Affect RNA Velocity Results for Droplet ScRNA-Seq Data](https://doi.org/10.1101/2020.03.13.990069).” Preprint. Bioinformatics, March 13, 2020.
+
 - [RNA velocity in bulk RNA-seq data](https://github.com/praneet1988/Inferring-and-Visualizing-RNA-Velocity-in-Bulk-RNA-SEQ)
 
 - [scVelo](https://scvelo.readthedocs.io/) - more precise estimation of RNA velocity by solving the full transcriptional dynamics of splicing kinetics using a likelihood-based dynamical model. Description of steady-state (original), dynamical, and stochastic models. Ten-fold faster. https://scvelo.readthedocs.io/
