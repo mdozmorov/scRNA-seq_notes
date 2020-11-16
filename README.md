@@ -477,6 +477,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Annotation, subpopulation identification
 
+- [MARS](https://github.com/snap-stanford/mars) - a meta-learning approach for identifying known and new cell types in scRNA-seq data. Constructs a meta-dataset from experiments with annotated cell types (used to learn the cell type landmarks in the embedding space) and an unannotated experiment (mathed to the embedded landmarks). The embedding space and objective function are defined such that cells (annotated and unannotated) embed close to their cell-type landmarks, cell type landmarks are most distinct. Autoencoder with 1000 and 100 neurons, input - all 22.9K genes. Applied to the Tabula Muris Senis dataset, several others. Significantly outperform ScVi, SIMLR, Scanpy and Seurat on adjusted Rand index, adjusted MI and other metrics. 
+    - Brbić, Maria, Marinka Zitnik, Sheng Wang, Angela O. Pisco, Russ B. Altman, Spyros Darmanis, and Jure Leskovec. “[MARS: Discovering Novel Cell Types across Heterogeneous Single-Cell Experiments](https://doi.org/10.1038/s41592-020-00979-3).” Nature Methods, October 19, 2020.
+
 - [Garnett](https://cole-trapnell-lab.github.io/garnett/) - annotating cells in scRNA-seq data. Hierarchy of cell types and their markers should be pre-defined using a markup language. A classifier is trained to classify additional datasets. Trained on cells from one organisms, can be applied to different organisms. Pre-trained classifiers available. R-based. 
     - Pliner, Hannah A., Jay Shendure, and Cole Trapnell. “[Supervised Classification Enables Rapid Annotation of Cell Atlases](https://doi.org/10.1038/s41592-019-0535-3).” Nature Methods 16, no. 10 (October 2019)
 
