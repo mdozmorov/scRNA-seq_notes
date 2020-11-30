@@ -543,6 +543,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Deep learning
 
+- [scover](https://github.com/jacobhepkema/scover) - de novo identification of regulatory motifs and their cell type-specific importance from scRNA-seq or scATAC-seq data. Shallow convolutional neural network on one-hot encoded sequence data, k-fold training and selecting most optimal network, extracting motifs from convolutional filters, cluster them, matching with motifs, associating with peak strength/gene expression. application for human kidney scRNA-seq data, Tabula Muris, mouse cerebral cortex SNARE-seq data. [Docs](https://scover.readthedocs.io/en/latest/), [Tweet](https://twitter.com/jhepkema/status/1332444937493897216?s=20)
+    - Hepkema, Jacob, Nicholas Keone Lee, Benjamin J Stewart, Siwat Ruangroengkulrith, Varodom Charoensawan, Menna R Clatworthy, and Martin Hemberg. “[Predicting the Impact of Sequence Motifs on Gene Regulation Using Single-Cell Data](https://doi.org/10.1101/2020.11.26.400218)”
+
 - [SAVER-X](https://github.com/jingshuw/SAVERX) - denoising scRNA-seq data using deep autoencoder with a Bayesian model. Decomposes the variation into three components: 1) predictable, 2) unpredictable, 3) technical noise. Pretrained on the Human Cell Atlas project, 10X Genomics immune cells, allows for human-mouse cross-species learning. Improves clustering and the detection of differential genes. Outperforms downsampling, MAGIC, DCA, scImpute. 
     - Littmann, Maria, Katharina Selig, Liel Cohen-Lavi, Yotam Frank, Peter Hönigschmid, Evans Kataka, Anja Mösch, et al. “[Validity of Machine Learning in Biology and Medicine Increased through Collaborations across Fields of Expertise](https://doi.org/10.1038/s42256-019-0139-8).” Nature Machine Intelligence, January 13, 2020. 
 
