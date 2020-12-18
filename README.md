@@ -362,7 +362,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Time, trajectory inference
 
-- [A collection of 57 trajectory inference methods](https://github.com/dynverse/dynmethods#list-of-included-methods)
+- [DYNO: A collection of 57 trajectory inference methods](https://github.com/dynverse/dynmethods#list-of-included-methods)
     - Saelens, Wouter, Robrecht Cannoodt, Helena Todorov, and Yvan Saeys. “[A Comparison of Single-Cell Trajectory Inference Methods: Towards More Accurate and Robust Tools](https://doi.org/10.1101/276907),” March 5, 2018. - Review of trajectory 29 inference methods for single-cell RNA-seq (out of 57 methods collected). Slingshot, TSCAN and Monocle DDRTree perform best overall. https://github.com/dynverse/dynverse
 
 - [Single-cell RNA-seq pseudotime estimation algorithms](https://github.com/agitter/single-cell-pseudotime), by Anthony Gitter. References and descriptions of many algorithms.
@@ -557,6 +557,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - Review of spatial single-cell transcriptomics technologies. Categorized as 1)microdissection-based, 2) in situ hybridization, 3) in situ sequencing, 4) in situ capturing, 5) in silico reconstruction. Timeline (Figure 1), summary of technologies (Table 1), details of each technology, studies, illustrations.
     - Asp, Michaela, Joseph Bergenstråhle, and Joakim Lundeberg. “[Spatially Resolved Transcriptomes—Next Generation Tools for Tissue Exploration](https://doi.org/10.1002/bies.201900221).” BioEssays, May 4, 2020
+
+- [Spatial transcriptomics of the human dorsolateral prefrontal cortex](http://research.libd.org/spatialLIBD/) (12 samples from 3 DLPFC regions). 10X Genomics Visium platform. Layers with distinct expression signatures. Integrated with other scRNA-seq data, neuropsychiatric disorder gene sets. All data are public and accessible via a [Shiny app](http://research.libd.org/spatialLIBD/) and through an [spatialLIBD R package](https://github.com/LieberInstitute/spatialLIBD). [Other code](https://github.com/LieberInstitute/HumanPilot). [Tweet](https://twitter.com/fellgernon/status/1233661576433061888?s=20)
+    - Maynard, Kristen E, Leonardo Collado-Torres, Lukas M. Weber, Cedric Uytingco, Brianna K. Barry, Stephen R. Williams, Joseph L. Catallini, et al. “[Transcriptome-Scale Spatial Gene Expression in the Human Dorsolateral Prefrontal Cortex](https://doi.org/10.1101/2020.02.28.969931).” Preprint. Neuroscience, February 28, 2020. 
 
 - [spatialomics.net](http://spatialomics.net/) - Zoom/recorded seminar series on spatial transcriptomics
 
