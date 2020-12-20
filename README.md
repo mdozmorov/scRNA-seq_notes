@@ -744,7 +744,7 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ### Brain
 
-- [scRNA-seq and scATAC-seq integration, human forebrain development timecourse](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132403). Analysis, reporting, data https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132403
+- [scRNA-seq and scATAC-seq integration, human forebrain development timecourse](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132403). Analysis, reporting, data.
     - Trevino, Alexandro E., Nasa Sinnott-Armstrong, Jimena Andersen, Se-Jin Yoon, Nina Huber, Jonathan K. Pritchard, Howard Y. Chang, William J. Greenleaf, and Sergiu P. Pașca. “[Chromatin Accessibility Dynamics in a Model of Human Forebrain Development](https://doi.org/10.1126/science.aay1645).” Science 367, no. 6476 (January 24, 2020)
 
 - scRNA-seq of aging mouse brain (>50K single cells, 2-3 month and 21-23 month old mice). 37K cells after filtering, clustered into 25 cell types Age-related genes, (bidirectional) signatures, pathways and ligand-receptor interactions. [Supplementary material](https://www.nature.com/articles/s41593-019-0491-3#Sec32)
@@ -766,10 +766,10 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     - [Supplementary Table 6](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM8_ESM.xlsx) - Cell-type sub-population signature genes
     - Mathys, Hansruedi, Jose Davila-Velderrain, Zhuyu Peng, Fan Gao, Shahin Mohammadi, Jennie Z. Young, Madhvi Menon, et al. “[Single-Cell Transcriptomic Analysis of Alzheimer’s Disease](https://doi.org/10.1038/s41586-019-1195-2).” Nature, May 1, 2019
 
-- [scRNA-seq of the middle temporal gyrus of human cerebral cortex](http://celltypes.brain-map.org/rnaseq). Similarity with mouse cortex scRNA-seq, and differences (proportions, laminar distribution, gene expression, morphology). NeuN-labeled sorting to select for neuronal nuclei. SMART-Seq v4 library preparation. Downstream analysis includes PCA, clustering using Jaccard, Louvain community detection. 75 cell types. Gene expression matrix, clusters, more at http://celltypes.brain-map.org/rnaseq, interactive exploration (download) at https://viewer.cytosplore.org/
+- [scRNA-seq of the middle temporal gyrus of human cerebral cortex](http://celltypes.brain-map.org/rnaseq). Similarity with mouse cortex scRNA-seq, and differences (proportions, laminar distribution, gene expression, morphology). NeuN-labeled sorting to select for neuronal nuclei. SMART-Seq v4 library preparation. Downstream analysis includes PCA, clustering using Jaccard, Louvain community detection. 75 cell types. Gene expression matrix, clusters, more. [Interactive exploration (download)](https://viewer.cytosplore.org/)
     - Hodge, Rebecca D, Trygve E Bakken, Jeremy A Miller, Kimberly A Smith, Eliza R Barkan, Lucas T Graybuck, Jennie L Close, et al. “[Conserved Cell Types with Divergent Features between Human and Mouse Cortex](https://doi.org/10.1101/384826).” Preprint. Neuroscience, August 5, 2018. 
 
-- [Brain immune atlas scRNA-seq resource](http://www.brainimmuneatlas.org/). Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. http://www.brainimmuneatlas.org/, https://github.com/saeyslab/brainimmuneatlas/
+- [Brain immune atlas scRNA-seq resource](http://www.brainimmuneatlas.org/). Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. [GitHub](https://github.com/saeyslab/brainimmuneatlas/)
     - Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “[A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment](https://doi.org/10.1038/s41593-019-0393-4).” Nature Neuroscience, May 6, 2019. 
 
 - Cell-type specificity of schizophrenia SNPs judged by enrichment in expressed genes. scRNA-seq custom data collection. Difference between schizophrenia and neurological disorders.
