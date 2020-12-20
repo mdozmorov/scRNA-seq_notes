@@ -523,6 +523,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [TRUST4](https://github.com/liulab-dfci/TRUST4) - TCR and BCR assembly from RNA-seq data, C command line tool
 
+- [immunarch](https://immunarch.com) - Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires in R
 
 
 ## Simulation
