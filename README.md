@@ -28,6 +28,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [CNV](#cnv)
 - [Annotation, subpopulation identification](#annotation-subpopulation-identification)
   - [Cell markers](#cell-markers)
+- [Immuno-analysis](#immuno-analysis)
 - [Simulation](#simulation)
   - [Power](#power)
   - [Benchmarking](#benchmarking)
@@ -517,6 +518,12 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [scGeneFit](https://github.com/solevillar/scGeneFit) - selection of hierarchical gene markers, contrasted with one-vs-all gene selection. MATLAB implementation. https://github.com/solevillar/scGeneFit
     - Dumitrascu, Bianca, Soledad Villar, Dustin G. Mixon, and Barbara E. Engelhardt. “[Optimal Gene Selection for Cell Type Discrimination in Single Cell Analyses](https://doi.org/10.1101/599654).” BioRxiv, April 4, 2019. 
+
+## Immuno-analysis
+
+- [TRUST4](https://github.com/liulab-dfci/TRUST4) - TCR and BCR assembly from RNA-seq data, C command line tool
+
+
 
 ## Simulation
 
