@@ -521,6 +521,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Immuno-analysis
 
+- [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
+T/B cell receptor sequencing analysis notes by Ming Tang
+
 - [TRUST4](https://github.com/liulab-dfci/TRUST4) - TCR and BCR assembly from RNA-seq data, C command line tool
 
 - [immunarch](https://immunarch.com) - Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires in R
