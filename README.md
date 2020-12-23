@@ -88,8 +88,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [sceasy](https://github.com/cellgeni/sceasy) - An R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom
 
-- [MAESTRO](https://github.com/liulab-dfci/MAESTRO) - Model-based AnalysEs of Single-cell Transcriptome and RegulOme - a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake
-
 - STAR alignment parameters: `–outFilterType BySJout, –outFilterMultimapNmax 100, –limitOutSJcollapsed 2000000 –alignSJDBoverhangMin 8, –outFilterMismatchNoverLmax 0.04, –alignIntronMin 20, –alignIntronMax 1000000, –readFilesIn fastqrecords, –outSAMprimaryFlag AllBestScore, –outSAMtype BAM Unsorted`. From Azizi et al., “Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.”
 
 ### Visualization pipelines
@@ -584,6 +582,9 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Single-cell ATAC + RNA co-assay methods](https://timoast.github.io/blog/single-cell-atac-rna/) - overview of technologies and protocols, references to the original papers
 
+- [MAESTRO](https://github.com/liulab-dfci/MAESTRO) - Model-based AnalysEs of Single-cell Transcriptome and RegulOme. Full pipeline for the integrative analysis of scRNA-seq and scATAC-seq data, wraps external tools (STARsolo/minimap2, RseQC, MACS2, Seurat for normalization, LISA, GIGGLE). From preprocessing, alignment, QC (technology-specific), expression/accessibility quantification to clustering (graph-based and density-based), differential analysis, cell type annotation (CIBERSORT, brain cell signatures), transcription regulator inference (regulatory potential model, using CistromeDB data), integration/cell label transfer (Canonical Correlation Analysis). Handles data from various platforms (with/without barcodes). Outperforms SnapATAC, cicero, Seurat. Snakemake workflow, HDF5 data format, Conda installation. [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
+    - Wang, Chenfei, Dongqing Sun, Xin Huang, Changxin Wan, Ziyi Li, Ya Han, Qian Qin, et al. “[Integrative Analyses of Single-Cell Transcriptome and Regulome Using MAESTRO](https://doi.org/10.1186/s13059-020-02116-x).” Genome Biology 21, no. 1 (December 2020)
+
 - [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
 
 - [Signac](https://satijalab.org/signac/) is an extension of Seurat for the analysis, interpretation, and exploration of single-cell chromatin datasets, and integration with scRNA-seq. ChromatinAssay object class, Latent Semantic Indexing and the modified TF-IDF procedure for dimensionality reduction. Applied to the [PBMC 10X multiomics dataset](https://support.10xgenomics.com/single-cell-multiome-atac-gex/datasets/1.0.0/pbmc_granulocyte_sorted_10k) and the [Brain Initiative Cell Census Network data](https://nemoarchive.org/). Also, the [Sinto Python package](https://pypi.org/project/sinto/) for processing aligned single-cell data
@@ -600,9 +601,6 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - Seurat v.3 paper. [Integration of multiple scRNA-seq and other single-cell omics](https://github.com/satijalab/Integration2019) (spatial transcriptomics, scATAC-seq, immunophenotyping), including batch correction. Anchors as reference to harmonize multiple datasets. Canonical Correlation Analysis (CCA) coupled with Munual Nearest Neighborhoors (MNN) to identify shared subpopulations across datasets. CCA to reduce dimensionality, search for MNN in the low-dimensional representation. Shared Nearest Neighbor (SNN) graphs to assess similarity between two cells. Outperforms scmap. Extensive validation on multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods). Data normalization, variable feature selection within- and between datasets, anchor identification using CCA (methods), their scoring, batch correction, label transfer, imputation. Methods correspond to details of each Seurat function. Preprocessing of real single-cell data. https://satijalab.org/seurat/, https://github.com/satijalab/Integration2019
     - Stuart, Tim, Andrew Butler, Paul Hoffman, Christoph Hafemeister, Efthymia Papalexi, William M Mauck, Marlon Stoeckius, Peter Smibert, and Rahul Satija. “[Comprehensive Integration of Single Cell Data](https://doi.org/10.1101/460147).” Preprint. Genomics, November 2, 2018. 
-
-- [MAESTRO](https://github.com/liulab-dfci/MAESTRO) - MAESTRO (Model-based AnalysEs of Single-cell Transcriptome and RegulOme) is a comprehensive single-cell RNA-seq and ATAC-seq analysis suit built using snakemake. https://github.com/liulab-dfci/MAESTRO, [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
-
 
 
 ## 10X Genomics
