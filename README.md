@@ -797,6 +797,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Links
 
+- [Single Cell Genomics Day](https://satijalab.org/scgd21/) - virtual practical workshops by Satija lab, 2021 edition, links to videos and material from previous years
+
 - [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - Amezquita, Robert A., Vincent J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Aaron TL Lun, Federico Marini, Kevin Rue-Albrecht, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1101/590562).” BioRxiv, March 27, 2019. - scRNA-seq analysis overview within Bioconductor ecosystem. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. https://github.com/Bioconductor/OrchestratingSingleCellAnalysis, https://github.com/Bioconductor/OSCABase, https://github.com/seandavi/OrchestratingSingleCellAnalysis
 
 - [Community-curated list of software packages and data resources for single-cell, including RNA-seq, ATAC-seq, etc.](https://github.com/seandavi/awesome-single-cell) by Sean Davis, https://github.com/seandavi/awesome-single-cell
