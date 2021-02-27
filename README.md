@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-Single-cell RNA-seq related tools and genomics data analysis resources. Tools are sorted by publication date, newest on top. Unpublished tools are listed at the end of each section. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
+Single-cell RNA-seq related tools and genomics data analysis resources. Tools are sorted by publication date, reviews and most recent publications on top. Unpublished tools are listed at the end of each section. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes. See [scATAC-seq_notes](https://github.com/mdozmorov/scATAC-seq_notes) for scATAC-seq related resources.
 
 # Table of content
 
@@ -13,7 +13,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Preprocessing pipelines](#preprocessing-pipelines)
   - [Visualization pipelines](#visualization-pipelines)
-  - [scATAC-seq](#scatac-seq)
 - [Quality control](#quality-control)
 - [Normalization](#normalization)
 - [Batch effect, merging](#batch-effect-merging)
@@ -34,7 +33,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Benchmarking](#benchmarking)
 - [Deep learning](#deep-learning)
 - [Spatial transcriptomics](#spatial-transcriptomics)
-- [scATAC-seq integration, Multi-omics methods](#scatac-seq-integration-multi-omics-methods)
 - [10X Genomics](#10x-genomics)
   - [10X QC](#10x-qc)
 - [Data](#data)
@@ -119,35 +117,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [SCope](https://github.com/aertslab/SCope) - Fast visualization tool for large-scale and high dimensional single-cell data in `.loom` format. R and Python scripts for converting scRNA-seq data to `.loom` format. https://github.com/aertslab/SCope
 
 - [scDataviz](https://github.com/kevinblighe/scDataviz) - single cell data vizualization and downstream analyses, by Kevin Blighe
-
-
-
-### scATAC-seq
-
-- [Benchmarking of 10 scATAC-seq analysis methods](https://github.com/pinellolab/scATAC-benchmarking/) (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. R code, Jupyter notebooks https://github.com/pinellolab/scATAC-benchmarking/
-    - Chen, Huidong, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro, and Luca Pinello. “[Assessment of Computational Methods for the Analysis of Single-Cell ATAC-Seq Data](https://doi.org/10.1186/s13059-019-1854-5).” Genome Biology 20, no. 1 (December 2019)
-
-- [scATAC-pro](https://github.com/tanlabcode/scATAC-pro) - pipeline for scATAC-seq mapping, QC, peak detection, clustering, TF and GO enrichment analysis, visualization (via VisCello). Compared with Scasat, Cellranger-atac. 
-    - Yu, Wenbao, Yasin Uzun, Qin Zhu, Changya Chen, and Kai Tan. “[ScATAC-pro: A Comprehensive Workbench for Single-Cell Chromatin Accessibility Sequencing Data](https://doi.org/10.1186/s13059-020-02008-0).” Genome Biology 21, no. 1 (December 2020)
-
-- [ArchR](https://github.com/GreenleafLab/ArchR) - R package for processing and analyzing single-cell ATAC-seq data. Compared to Signac and SnapATAC, has more functionality, faster. Input - BAM files. Efficient h5-based storage allows for large dataset processing. Doublet detection, genome-wide 500bp binning and peak identification, assignment to genes using best performing model, dimensionality reduction, clustering. [Code to reproduce the paper](https://github.com/GreenleafLab/ArchR_2020), https://github.com/GreenleafLab/ArchR
-    - Granja, Jeffrey M., M. Ryan Corces, Sarah E. Pierce, S. Tansu Bagdatli, Hani Choudhry, Howard Y. Chang, and William J. Greenleaf. “[ArchR: An Integrative and Scalable Software Package for Single-Cell Chromatin Accessibility Analysis](https://doi.org/10.1101/2020.04.28.066498).” Preprint. Genomics, April 29, 2020. 
-
-- [scOpen](https://github.com/CostaLab/scopen) - estimating open chromatin status in scATAC-seq experiments, aka imputation/smoothing of extreme sparse matrices. Uses positive-unlabelled learning of matrices to estimate the probability that a region is open in a given cell. The probability matrix can be used as input for downstream analyses (clustering, visualization). Integrated with the footprint transcription factor activity score (scHINT). scOpen estimated matrices tested as input for scABC, chromVAR, cisTopic, Cicero, improve performance
-    - Li, Zhijian, Christoph Kuppe, Mingbo Cheng, Sylvia Menzel, Martin Zenke, Rafael Kramann, and Ivan G Costa. “[ScOpen: Chromatin-Accessibility Estimation of Single-Cell ATAC Data](https://doi.org/10.1101/865931).” Preprint. Bioinformatics, December 5, 2019
-
-- [SnapATAC](https://github.com/r3fang/SnapATAC) - scATAC-seq pipeline for processing, clustering, and motif identification. Genome is binned into equal-size (5kb) windows, binarized with 1/0 for ATAC reads present/absent, Jaccard similarity between cells, normalized to account for sequencing depth (observed over expected method, two others), PCA on the matrix KNN graph and Louvain clustering to detect communities, tSNE or UMAP for visualization. Motif analysis and GREAT functional enrichment for each cluster. Outperforms ChromVAR, LSA, Cicero, Cis-Topic. Very fast, can be applied to ChIP-seq, scHi-C. https://github.com/r3fang/SnapATAC
-    - Fang, Rongxin, Sebastian Preissl, Xiaomeng Hou, Jacinta Lucero, Xinxin Wang, Amir Motamedi, Andrew K. Shiau, et al. “[Fast and Accurate Clustering of Single Cell Epigenomes Reveals Cis -Regulatory Elements in Rare Cell Types](https://doi.org/10.1101/615179).” Preprint. Bioinformatics, April 22, 2019. 
-
-- [scABC](https://github.com/SUwonglab/scABC), single-cell Accessibility Based Clustering - scATAC-seq clustering. Weights cells by a nonlinear transformation of library sizes, then, weighted K-medoids clustering. Input - single-cell mapped reads, and the full set of called peaks. Applied to experimental and synthetic scATAC-seq data, outperforms simple K-means-based clustering, SC3
-    - Zamanighomi, Mahdi, Zhixiang Lin, Timothy Daley, Xi Chen, Zhana Duren, Alicia Schep, William J. Greenleaf, and Wing Hung Wong. “[Unsupervised Clustering and Epigenetic Classification of Single Cells](https://doi.org/10.1038/s41467-018-04629-3).” Nature Communications 9, no. 1 (December 2018)
-
-- [Cicero](https://cole-trapnell-lab.github.io/cicero-release/) - connect distal regulatory elements with target genes (covariance-based, graphical Lasso to compute a regularized covariance matrix) along pseudotime-ordered (Monocle2 or 3) scATAC-seq data. Optionally, adjusts for batch covariates. Applied to the analysis of skeletal myoblast differentiation, sciATAC-seq. R package, https://cole-trapnell-lab.github.io/cicero-release/
-    - Pliner, Hannah A., Jonathan S. Packer, José L. McFaline-Figueroa, Darren A. Cusanovich, Riza M. Daza, Delasa Aghamirzaie, Sanjay Srivatsan, et al. “[Cicero Predicts Cis-Regulatory DNA Interactions from Single-Cell Chromatin Accessibility Data](https://doi.org/10.1016/j.molcel.2018.06.044).” Molecular Cell 71, no. 5 (September 2018)
-
-- [ChromVAR](https://github.com/GreenleafLab/chromVAR) - scATAC-seq analysis. Identifying peaks, get a matrix of counts across aggregated peaks, tSNE for clustering, identifying motifs. Integrated with Seurat. https://github.com/GreenleafLab/chromVAR
-    - Schep, Alicia N, Beijing Wu, Jason D Buenrostro, and William J Greenleaf. “[ChromVAR: Inferring Transcription-Factor-Associated Accessibility from Single-Cell Epigenomic Data](https://doi.org/10.1038/nmeth.4401).” Nature Methods 14, no. 10 (August 21, 2017)
-
 
 
 ## Quality control
@@ -576,31 +545,6 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 - Analysis and visualization of spatial transcriptomics data using scanpy, 10X Genomics Visium and MERFISH data, [Jupyter notebook](https://nbviewer.jupyter.org/github/theislab/scanpy-tutorials/blob/master/analysis-visualization-spatial.ipynb), [Tweet by Fabian Theis](https://twitter.com/fabian_theis/status/1224741146242572289?s=20)
 
 - [Spatial Gene Expression, Space Ranger by 10X Genomics](https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome)
-
-
-## scATAC-seq integration, Multi-omics methods
-
-- [Single-cell ATAC + RNA co-assay methods](https://timoast.github.io/blog/single-cell-atac-rna/) - overview of technologies and protocols, references to the original papers
-
-- [MAESTRO](https://github.com/liulab-dfci/MAESTRO) - Model-based AnalysEs of Single-cell Transcriptome and RegulOme. Full pipeline for the integrative analysis of scRNA-seq and scATAC-seq data, wraps external tools (STARsolo/minimap2, RseQC, MACS2, Seurat for normalization, LISA, GIGGLE). From preprocessing, alignment, QC (technology-specific), expression/accessibility quantification to clustering (graph-based and density-based), differential analysis, cell type annotation (CIBERSORT, brain cell signatures), transcription regulator inference (regulatory potential model, using CistromeDB data), integration/cell label transfer (Canonical Correlation Analysis). Handles data from various platforms (with/without barcodes). Outperforms SnapATAC, cicero, Seurat. Snakemake workflow, HDF5 data format, Conda installation. [Tweet](https://twitter.com/XShirleyLiu/status/1196683187478573056?s=20)
-    - Wang, Chenfei, Dongqing Sun, Xin Huang, Changxin Wan, Ziyi Li, Ya Han, Qian Qin, et al. “[Integrative Analyses of Single-Cell Transcriptome and Regulome Using MAESTRO](https://doi.org/10.1186/s13059-020-02116-x).” Genome Biology 21, no. 1 (December 2020)
-
-- [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
-
-- [Signac](https://satijalab.org/signac/) is an extension of Seurat for the analysis, interpretation, and exploration of single-cell chromatin datasets, and integration with scRNA-seq. ChromatinAssay object class, Latent Semantic Indexing and the modified TF-IDF procedure for dimensionality reduction. Applied to the [PBMC 10X multiomics dataset](https://support.10xgenomics.com/single-cell-multiome-atac-gex/datasets/1.0.0/pbmc_granulocyte_sorted_10k) and the [Brain Initiative Cell Census Network data](https://nemoarchive.org/). Also, the [Sinto Python package](https://pypi.org/project/sinto/) for processing aligned single-cell data
-    - Stuart, Tim, Avi Srivastava, Caleb Lareau, and Rahul Satija. “[Multimodal Single-Cell Chromatin Analysis with Signac](https://doi.org/10.1101/2020.11.09.373613),” bioRxiv, November 10, 2020
-
-- [UnionCom](https://github.com/caokai1073/UnionCom) - integration of multi-omics single-cell data using unsupervised topological alignment. Based on GUMA (generalized unsupervised manifold alignment) algorithm. Three steps: 1) embedding each single-cell dataset into the geometric distance matrix; 2) Align distance matrices; 3) Project unmatched features onto common embedding space. Tested on simulated and experimental data (sc-GEM, scNMT). Neighborhood overlap metric for testing, outperforms Seurat, MMD-MA, scAlign. 
-    - Cao, Kai, Xiangqi Bai, Yiguang Hong, and Lin Wan. “[Unsupervised Topological Alignment for Single-Cell Multi-Omics Integration](https://doi.org/10.1101/2020.02.02.931394).” Preprint. Bioinformatics, February 3, 2020. 
-
-- [scAI](https://github.com/sqjin/scAI) - integrative analysis of scRNA-seq and scATAC-seq or scMethylation data measured from the same cells (in contrast to different measures sampled from the same cell population). Overview of multi-omics single-cell technologies, methods for data integration in bulk samples and single-cell samples (MATCHER, Seural, LIGER), sparsity (scATAC-seq is \~99% sparse and nearly binary). Deconvolution of both single-cell matrices into gene loading and locus loading matrices, a cell loading matrix, in which factors K correspond to loadings of gene, locus, and cell in the K-dimensional space. A strategy to reduce over-aggregation. Cell subpopulations identified by Leiden clustering of the cell loading matrix. Visualization of the low-rank matrices with the Sammon mapping. Multi-omics simulation using MOSim, eight scenarios of simulated data, AUROC and Normalized Mutual Information (NMI) assessment of matrix reconstruction quality. Compared with MOFA, Seurat, LIGER. Tested on 8837 mammalian kidney cells scRNA-seq and scATAC-seq data, 77 mouse ESCs scRNA-seq and scMethylation, interpretation. https://github.com/sqjin/scAI
-    - Jin, Suoqin, Lihua Zhang, and Qing Nie. “[ScAI: An Unsupervised Approach for the Integrative Analysis of Parallel Single-Cell Transcriptomic and Epigenomic Profiles](https://doi.org/10.1186/s13059-020-1932-8).” Genome Biology 21, no. 1 (December 2020)
-
-- [Harmony](https://github.com/immunogenomics/harmony) - scRNA-seq integration by projecting datasets into a shared embedding where cells differences between cell clusters are maximized while differences between datasets of origin are minimized = focus on clusters driven by cell differences. Can account for technical and biological covariates. Can integrate scRNA-seq datasets obtained with different technologies, or scRNA- and scATAC-seq, scRNA-seq with spatially-resolved transcriptomics. Local inverse Simpson Index (LISI) to test for database- and cell-type-specifc clustering. Outperforms MNN, BBKNN, MultiCCA, Scanorama. Memory-efficient, fast, scales to large datasets, included in Seurat. https://github.com/immunogenomics/harmony, [Python version](https://github.com/slowkow/harmonypy)
-    - Korsunsky, Ilya, Nghia Millard, Jean Fan, Kamil Slowikowski, Fan Zhang, Kevin Wei, Yuriy Baglaenko, Michael Brenner, Po-ru Loh, and Soumya Raychaudhuri. “[Fast, Sensitive and Accurate Integration of Single-Cell Data with Harmony](https://doi.org/10.1038/s41592-019-0619-0).” Nature Methods 16, no. 12 (December 2019)
-
-- Seurat v.3 paper. [Integration of multiple scRNA-seq and other single-cell omics](https://github.com/satijalab/Integration2019) (spatial transcriptomics, scATAC-seq, immunophenotyping), including batch correction. Anchors as reference to harmonize multiple datasets. Canonical Correlation Analysis (CCA) coupled with Munual Nearest Neighborhoors (MNN) to identify shared subpopulations across datasets. CCA to reduce dimensionality, search for MNN in the low-dimensional representation. Shared Nearest Neighbor (SNN) graphs to assess similarity between two cells. Outperforms scmap. Extensive validation on multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods). Data normalization, variable feature selection within- and between datasets, anchor identification using CCA (methods), their scoring, batch correction, label transfer, imputation. Methods correspond to details of each Seurat function. Preprocessing of real single-cell data. https://satijalab.org/seurat/, https://github.com/satijalab/Integration2019
-    - Stuart, Tim, Andrew Butler, Paul Hoffman, Christoph Hafemeister, Efthymia Papalexi, William M Mauck, Marlon Stoeckius, Peter Smibert, and Rahul Satija. “[Comprehensive Integration of Single Cell Data](https://doi.org/10.1101/460147).” Preprint. Genomics, November 2, 2018. 
 
 
 ## 10X Genomics
