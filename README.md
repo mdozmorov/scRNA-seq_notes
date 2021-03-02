@@ -615,6 +615,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Single Cell Immune Profiling Datasets](https://support.10xgenomics.com/single-cell-vdj/datasets). \~150,000 CD8+ T cells from 4 human donors across a highly multiplexed panel of 44 distinct, specific peptide–MHC (pMHC) multimers. 
 
+- Normal lung scRNA-seq data, human and mouse. 58 cell populations, 41 known and 14 unknown. Unknown cell types are replicated in humans, absent in mice. 10X Genomics V2, CellRanger, Seurat. [Counts/UMI tables on Synapse](https://www.synapse.org/#!Synapse:syn21041850/wiki/600865), [online browser](https://hlca.ds.czbiohub.org/), [code and data GitHub repo](https://github.com/krasnowlab/HLCA). 
+    - Travaglini, Kyle J, Ahmad N Nabhan, Lolita Penland, Rahul Sinha, Astrid Gillich, Rene V Sit, Stephen Chang, et al. “[A Molecular Cell Atlas of the Human Lung from Single-Cell RNA Sequencing](https://doi.org/10.1038/s41586-020-2922-4).” Nature 587, no. 7835 (November 18, 2020): 619–25.
+    - [Supplementary Table 1](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM3_ESM.xlsx) - canonical gene markers of 45 lung cell types
+    - [Supplementary Table 4](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM6_ESM.xlsx) - Markers of all cell populations, for each cluster
+
 - [14,039 human PBMCs](https://www.nature.com/articles/nbt.4096#supplementary-information) from eight patients into two groups: one stimulated with interferon-beta (IFN-β) and a culture-matched control. Eight clusters. [Data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96583)
     - Kang, Hyun Min, Meena Subramaniam, Sasha Targ, Michelle Nguyen, Lenka Maliskova, Elizabeth McCarthy, Eunice Wan, et al. “[Multiplexed Droplet Single-Cell RNA-Sequencing Using Natural Genetic Variation](https://doi.org/10.1038/nbt.4042).” Nature Biotechnology 36, no. 1 (January 2018)
 
