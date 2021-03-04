@@ -610,6 +610,9 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 - [scRNASeqDB](https://bioinfo.uth.edu/scrnaseqdb/) - a human-oriented scRNA-seq database. 38 studies, 200 cell types. https://bioinfo.uth.edu/scrnaseqdb/
     - Cao, Yuan, Junjie Zhu, Peilin Jia, and Zhongming Zhao. “[ScRNASeqDB: A Database for RNA-Seq Based Gene Expression Profiles in Human Single Cells](https://doi.org/10.3390/genes8120368).” Genes 8, no. 12 (December 5, 2017). 
 
+- [scEiaD](https://plae.nei.nih.gov) - scRNA-seq data of the eye. 1.2 million single-cell back of the eye transcriptomes across 28 studies, 18 publications, and 3 species.
+
+
 
 ### Human
 
