@@ -33,8 +33,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Benchmarking](#benchmarking)
 - [Deep learning](#deep-learning)
 - [Spatial transcriptomics](#spatial-transcriptomics)
-- [10X Genomics](#10x-genomics)
-  - [10X QC](#10x-qc)
+- [Technology](#technology)
+  - [10X Genomics](#10x-genomics)
+    - [10X QC](#10x-qc)
 - [Data](#data)
   - [Human](#human)
     - [Cancer](#cancer)
@@ -546,8 +547,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Spatial Gene Expression, Space Ranger by 10X Genomics](https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome)
 
+## Technology
 
-## 10X Genomics
+- [Teichlab/scg_lib_structs](https://github.com/Teichlab/scg_lib_structs) - Collections of library structure and sequence of popular single cell genomic methods
+
+### 10X Genomics
 
 - [10X Genomics list of publications](https://www.10xgenomics.com/resources/publications/), categorized by species, tissue types, journals, technology
 
@@ -563,7 +567,7 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - An R script for importing the fragments file from the CellRanger output and making a SummarizedExperiment, by Caleb Lareau. https://github.com/caleblareau/scATAC_10X_raw_to_kmers/blob/master/example_kmers.R
 
-### 10X QC
+#### 10X QC
 
 - [bxcheck](https://github.com/pd3/bxcheck) - Toolset for QC and processing 10x genomics data. https://github.com/pd3/bxcheck
 
