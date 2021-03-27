@@ -10,7 +10,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
+- [Awesome](#awesome)
+- [Courses](#courses)
 - [Preprocessing pipelines](#preprocessing-pipelines)
   - [Visualization pipelines](#visualization-pipelines)
 - [Quality control](#quality-control)
@@ -46,7 +47,39 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Awesome
+
+- [Community-curated list of software packages and data resources for single-cell, including RNA-seq, ATAC-seq, etc.](https://github.com/seandavi/awesome-single-cell) by Sean Davis
+
+- [Notes on scATAC-seq analysis](https://github.com/crazyhottommy/scATACseq-analysis-notes) by Ming Tang
+
+- [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/), https://davetang.org/muse/category/single-cell-2/
+
+- [The scRNA-tools database](https://www.scrna-tools.org/) - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “[Exploring the Single-Cell RNA-Seq Analysis Landscape with the ScRNA-Tools Database](https://doi.org/10.1101/206573).” BioRxiv, January 1, 2018. https://www.scrna-tools.org/
+
+- [single-cell-pseudotime](https://github.com/agitter/single-cell-pseudotime) - an overview of single-cell RNA-seq pseudotime estimation algorithms, comprehensive collection of links to software and accompanying papers, by Anthony Gitter
+
+- [avesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system, https://github.com/johandahlberg/awesome-10x-genomics
+
+- [A Google Doc with a structured collection of scRNA-seq methods](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 ), software, and many other scRNA-seq information, https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 
+
 - [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. From Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
+
+## Courses
+
+- [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. GitHub repos:[Bioconductor/OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [https://github.com/Bioconductor/OSCABase](https://github.com/Bioconductor/OSCABase), [seandavi/OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis)
+    - Amezquita, Robert A., Vincent J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Aaron TL Lun, Federico Marini, Kevin Rue-Albrecht, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1101/590562).” BioRxiv, March 27, 2019. 
+
+- [A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor](https://bioconductor.org/packages/simpleSingleCell/), by Aaron Lun et al.
+
+- [Analysis of single cell RNA-seq data](http://hemberg-lab.github.io/scRNA.seq.course/ ), step-by-step R tutorial, description of packages, data. Analysis using read counts or UMIs. SingleCellExperiment, Seurat. [Video lectures](https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo)
+
+- [ANALYSIS OF SINGLE CELL RNA-SEQ DATA](https://broadinstitute.github.io/2019_scWorkshop/index.html) course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
+
+- [Introduction to single-cell RNA-seq technologies](https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1), presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and [notes](https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/)
+
+- [Machine learning for single cell analysis workshop](https://www.krishnaswamylab.org/workshop). Presentations (Google Slides) and Jupyter notebooks run on Google Colab
+
 
 ## Preprocessing pipelines
 
@@ -755,45 +788,17 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Links
 
-- [Single Cell Genomics Day](https://satijalab.org/scgd21/) - virtual practical workshops by Satija lab, 2021 edition, links to videos and material from previous years
-
-- [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - Amezquita, Robert A., Vincent J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Aaron TL Lun, Federico Marini, Kevin Rue-Albrecht, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1101/590562).” BioRxiv, March 27, 2019. - scRNA-seq analysis overview within Bioconductor ecosystem. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. https://github.com/Bioconductor/OrchestratingSingleCellAnalysis, https://github.com/Bioconductor/OSCABase, https://github.com/seandavi/OrchestratingSingleCellAnalysis
-
-- [Community-curated list of software packages and data resources for single-cell, including RNA-seq, ATAC-seq, etc.](https://github.com/seandavi/awesome-single-cell) by Sean Davis, https://github.com/seandavi/awesome-single-cell
-
-- [Notes by Ming Tang on scATAC-seq analysis](https://github.com/crazyhottommy/scATACseq-analysis-notes), https://github.com/crazyhottommy/scATACseq-analysis-notes
+- [Single Cell Genomics Day](https://satijalab.org/scgd21/) - virtual practical workshops by Satija lab, 2021 edition, links to videos and material from previous years. [Single Cell Genomics Day 2020 - Overview](https://youtu.be/b9bqKulMLp8) - video, 38 min 
 
 - [Seurat object presentation](https://osf.io/49q2u/) by Ming Tang, [Tweet](https://twitter.com/tangming2005/status/1224726014170787842?s=20)
 
-- [A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor](https://bioconductor.org/packages/simpleSingleCell/), by Aaron Lun et al.https://bioconductor.org/packages/simpleSingleCell/
-
-- [A Google Doc with a structured collection of scRNA-seq methods](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 ), software, and many other scRNA-seq information, https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 
-
-- [The scRNA-tools database](https://www.scrna-tools.org/) - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “[Exploring the Single-Cell RNA-Seq Analysis Landscape with the ScRNA-Tools Database](https://doi.org/10.1101/206573).” BioRxiv, January 1, 2018. https://www.scrna-tools.org/
-
-- [Single Cell Genomics Day 2020 - Overview](https://youtu.be/b9bqKulMLp8) - latest scRNA-seq developments by Rahul Satija, video, 38 min 
-
-- [Machine learning for single cell analysis workshop](https://www.krishnaswamylab.org/workshop). Presentations (Google Slides) and Jupyter notebooks run on Google Colab, https://www.krishnaswamylab.org/workshop
-
-- [ANALYSIS OF SINGLE CELL RNA-SEQ DATA](https://broadinstitute.github.io/2019_scWorkshop/index.html) course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
-
-- [Introduction to single-cell RNA-seq technologies](https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1), presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and [notes](https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/)
-
-- [Analysis of single cell RNA-seq data](http://hemberg-lab.github.io/scRNA.seq.course/ ), step-by-step R tutorial, description of packages, data. Analysis using read counts or UMIs. SingleCellExperiment, Seurat. http://hemberg-lab.github.io/scRNA.seq.course/. [Video lectures](https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo)
-
-- [avesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system, https://github.com/johandahlberg/awesome-10x-genomics
-
-- [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/), https://davetang.org/muse/category/single-cell-2/
-
-- [single-cell-pseudotime](https://github.com/agitter/single-cell-pseudotime) - an overview of single-cell RNA-seq pseudotime estimation algorithms, comprehensive collection of links to software and accompanying papers, by Anthony Gitter
-
 - [Loompy](http://loompy.org/) - file format for large omics datasets. http://loompy.org/. Includes scRNA-seq datasets in `.loom` format, http://loom.linnarssonlab.org/. Example R script to read the data in, [loom.R](tools/loom.R)
 
-- [EDS](https://github.com/COMBINE-lab/EDS) - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. https://github.com/COMBINE-lab/EDS
+- [EDS](https://github.com/COMBINE-lab/EDS) - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. 
 
-- Figure depicting the breadth of multimodal scRNA-seq technologies, https://github.com/arnavm/multimodal-scRNA-seq
+- [Figure depicting the breadth of multimodal scRNA-seq technologies](https://github.com/arnavm/multimodal-scRNA-seq)
 
-- [Clustered Dot Plots in the ggverse](https://davemcg.github.io/post/lets-plot-scrna-dotplots/), by David McGaughey, [Tweet](https://twitter.com/David_McGaughey/status/1242088829655400448?s=20)
+- [Clustered Dot Plots in the ggverse](https://davemcg.github.io/post/lets-plot-scrna-dotplots/), by David McGaughey, [Tweet](https://twitter.com/David_McGaughey/status/1242088829655400448?s=20). Similar plot by Ming Tang, [clustered dotplot for single-cell RNAseq](https://divingintogeneticsandgenomics.rbind.io/post/clustered-dotplot-for-single-cell-rnaseq/), [Tweet](https://twitter.com/tangming2005/status/1369778269835395077?s=20)
 
 ### Papers
 
