@@ -483,6 +483,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Annotation, subpopulation identification
 
+- [Azimuth](https://azimuth.hubmapconsortium.org/) - Mapping query scRNA-seq dataset to multimodal references and assigning cell types. Supervised principal component analysis to identify a projection of the query dataset that maximally captures the structure defined by the WNN graph. Combined with the anchor-based framework, allows projection on the previously defined reference UMAP visualization. Human PBMC, motor cortex, pancreas, mouse motor cortex references. [Online apps](https://azimuth.hubmapconsortium.org/)
+    - Hao, Yuhan, Stephanie Hao, Erica Andersen-Nissen, William M. Mauck, Shiwei Zheng, Andrew Butler, Maddie Jane Lee, et al. “[Integrated Analysis of Multimodal Single-Cell Data](https://doi.org/10.1101/2020.10.12.335331).” Preprint. Genomics, October 12, 2020. 
+
 - [MARS](https://github.com/snap-stanford/mars) - a meta-learning approach for identifying known and new cell types in scRNA-seq data. Constructs a meta-dataset from experiments with annotated cell types (used to learn the cell type landmarks in the embedding space) and an unannotated experiment (mathed to the embedded landmarks). The embedding space and objective function are defined such that cells (annotated and unannotated) embed close to their cell-type landmarks, cell type landmarks are most distinct. Autoencoder with 1000 and 100 neurons, input - all 22.9K genes. Applied to the Tabula Muris Senis dataset, several others. Significantly outperform ScVi, SIMLR, Scanpy and Seurat on adjusted Rand index, adjusted MI and other metrics. 
     - Brbić, Maria, Marinka Zitnik, Sheng Wang, Angela O. Pisco, Russ B. Altman, Spyros Darmanis, and Jure Leskovec. “[MARS: Discovering Novel Cell Types across Heterogeneous Single-Cell Experiments](https://doi.org/10.1038/s41592-020-00979-3).” Nature Methods, October 19, 2020.
 
