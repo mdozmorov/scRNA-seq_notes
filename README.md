@@ -65,6 +65,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. From Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
 
+
 ## Courses
 
 - [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. GitHub repos:[Bioconductor/OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [https://github.com/Bioconductor/OSCABase](https://github.com/Bioconductor/OSCABase), [seandavi/OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis)
@@ -82,6 +83,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 
 ## Preprocessing pipelines
+
+- Assessment of 9 preprocessing pipelines (Cell Ranger, Optimus, salmon alevin, kallisto bustools, dropSeqPipe, scPipe, zUMIs, celseq2 and scruff) on 10X and CEL-Seq2 datasets ([scmixology](https://github.com/LuyiTian/sc_mixology) and others, 9 datasets total). All pipelines coupled with performant post-processing (normalization, filtering, etc.) produce comparable data quality in terms of clustering/agreement with known cell types. Low-expressed genes are discordant. Details and specific results of each pipeline. [GitHub with pre-/postprocessing scripts](https://github.com/YOU-k/preprocess)
+    - You, Yue, Luyi Tian, Shian Su, Xueyi Dong, Jafar S Jabbari, Peter F Hickey, and Matthew E Ritchie. “[Benchmarking UMI-Based Single Cell RNA-Sequencing Preprocessing Workflows](https://doi.org/10.1101/2021.06.17.448895).” Preprint. Bioinformatics, June 17, 2021. 
 
 - [All steps in scRNA-seq analysis](https://github.com/theislab/single-cell-tutorial), QC (count depth, number of genes, % mitochondrial), normalization (global, downsampling, nonlinear), data correction (batch, denoising, imputation), feature selection, dimensionality reduction (PCA, diffusion maps, tSNE, UMAP), visualization, clustering (k-means, graph/community detection), annotation, trajectory inference (PAGA, Monocle), differential analysis (DESeq2, EdgeR, MAST), gene regulatory networks. Description of the bigger picture at each step, latest tools, their brief description, references. R-based Scater as the full pipeline for QC and preprocessing, Seurat for downstream analysis, scanpy Python pipeline. Links and refs for tutorials. https://github.com/theislab/single-cell-tutorial
     - Luecken, Malte D., and Fabian J. Theis. “[Current Best Practices in Single-Cell RNA-Seq Analysis: A Tutorial](https://doi.org/10.15252/msb.20188746).” Molecular Systems Biology 15, no. 6 (June 19, 2019)
