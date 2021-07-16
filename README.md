@@ -555,7 +555,9 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     
 ### Power
 
-- [How many cells](https://satijalab.org/howmanycells) do we need to sample so that we see at least n cells of each type? https://satijalab.org/howmanycells
+- [SCOPIT](https://alexdavisscs.shinyapps.io/scs_power_multinomial/) - Shiny app for estimating the number of cells that must be sequenced to observe cell types in a single-cell sequencing experiment. By Alexander Davis
+
+- [How many cells](https://satijalab.org/howmanycells) do we need to sample so that we see at least n cells of each type. By Satija's lab.
 
 - [scPower](https://github.com/heiniglab/scPower) - an R package for power calculation for single-cell RNA-seq studies. Estimates power of differential expression and eQTLs using zero-inflated negative binomial distribution. Also, power to detect rare cell types. Figure 1 shows the dependence among experimental design parameters. Tested on several datasets, generalizes well across technologies. GitHub https://github.com/heiniglab/scPower and Shiny app http://scpower.helmholtz-muenchen.de/
     - Schmid, Katharina T., Cristiana Cruceanu, Anika Böttcher, Heiko Lickert, Elisabeth B. Binder, Fabian J. Theis, and Matthias Heinig. “[Design and Power Analysis for Multi-Sample Single Cell Genomics Experiments](https://doi.org/10.1101/2020.04.01.019851).” Preprint. Bioinformatics, April 2, 2020. 
