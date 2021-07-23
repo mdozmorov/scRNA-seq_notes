@@ -651,7 +651,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [muscData](https://bioconductor.org/packages/muscData/) - Multi-sample multi-group scRNA-seq data R package
 
-- [UCSC cell browser](http://cells.ucsc.edu/). http://cells.ucsc.edu/
+- [UCSC cell browser](http://cells.ucsc.edu/) - web interface, Python pipeline and Javascript scatter plot library for single-cell datasets visualization. Static HTML/CSS files for visualizing via a local server. Scripts for data import (cbImportCellranger, scImportSeurat, cbImportScanpy, etc.), or for building from text files (expression matrix, cell metadata with cluster definition, cell coordinates). Many pre-build datasets are available. [Documentation](https://cellbrowser.readthedocs.io/en/master/), [GitHub](https://github.com/maximilianh/cellBrowser)
+    - Speir, Matthew L, Aparna Bhaduri, Nikolay S Markov, Pablo Moreno, Tomasz J Nowakowski, Irene Papatheodorou, Alex A Pollen, Lucas Seninge, W James Kent, and Maximilian Haeussler. “[UCSC Cell Browser: Visualize Your Single-Cell Data](https://doi.org/10.1101/2020.10.30.361162).” Preprint. Bioinformatics, October 31, 2020. 
 
 - [CellBench data](https://github.com/LuyiTian/CellBench_data), single cell RNA-seq benchmarking, R SingleCellExperiment object. https://github.com/LuyiTian/CellBench_data
 
