@@ -421,6 +421,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Networks
 
+- Benchmarking four single-cell network inference methods on experimental datasets for the same biological conditions. GENIE3, GRNBoost2, PIDC, PPCOR methods, overview of each. GENIE3 (tree-based network inference, for each gene find most predictive genes using regression) appears the most reproducible. [GitHub](https://github.com/ComputationalSystemsBiology/scNET). Other benchmarking studies: [Chen and Mar 2018](https://doi.org/10.1126/science.aam8999) and [Pratapa 2020](https://doi.org/10.1038/s41592-019-0690-6)
+    - Cantini, Laura, Pooya Zakeri, Celine Hernandez, Aurelien Naldi, Denis Thieffry, Elisabeth Remy, and Anaïs Baudot. “[Benchmarking Joint Multi-Omics Dimensionality Reduction Approaches for the Study of Cancer](https://doi.org/10.1038/s41467-020-20430-7).” Nature Communications, (December 2021)
+
 - [PAGA](https://github.com/theislab/paga) - graph-like representation of scRNA-seq data. The kNN graph is partitioned using Louvain community detection algorithm, discarding spurious edged (denoising). Much faster than UMAP. Part of Scanpy pipeline. https://github.com/theislab/paga
     - Wolf, F. Alexander, Fiona K. Hamey, Mireya Plass, Jordi Solana, Joakim S. Dahlin, Berthold Göttgens, Nikolaus Rajewsky, Lukas Simon, and Fabian J. Theis. “[PAGA: Graph Abstraction Reconciles Clustering with Trajectory Inference through a Topology Preserving Map of Single Cells](https://doi.org/10.1186/s13059-019-1663-x).” Genome Biology 20, no. 1 (March 19, 2019)
 
