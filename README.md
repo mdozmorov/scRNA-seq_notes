@@ -632,13 +632,13 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - Zheng, Grace X. Y., Jessica M. Terry, Phillip Belgrader, Paul Ryvkin, Zachary W. Bent, Ryan Wilson, Solongo B. Ziraldo, et al. “[Massively Parallel Digital Transcriptional Profiling of Single Cells](https://doi.org/10.1038/ncomms14049).” Nature Communications 8 (January 16, 2017) - 10X technology. Details of each wet-lab step, sequencing, and basic computational analysis. Calling SNPs from scRNA-seq data. Reduce dimensionality with PCA (50 PCs), K-means to assign cluster labels, visualizing with tSNE. [Code for the paper](https://github.com/10XGenomics/single-cell-3prime-paper). [scRNA-Seq dataset of 3000 peripheral blood mononuclear cells (PBMCs)](https://support.10xgenomics.com/single-cell-gene-expression/datasets)
 
-- Cell Ranger, Loupe Cell Browser software download, https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest
+- [Cell Ranger, Loupe Cell Browser software download](https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest), 10X Genomics
 
-- Cell Ranger R kit, https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/rkit
+- [Cell Ranger R kit](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/rkit) by 10X Genomics
 
-- Cellranger AWS Pipeline. https://github.com/ismms-himc/cellranger-aws-pipeline
+- [Getting started with Cell Ranger](https://davetang.org/muse/2018/08/09/getting-started-with-cell-ranger/) by Dave Tang
 
-- An R script for importing the fragments file from the CellRanger output and making a SummarizedExperiment, by Caleb Lareau. https://github.com/caleblareau/scATAC_10X_raw_to_kmers/blob/master/example_kmers.R
+- [An R script for importing the fragments file from the CellRanger output and making a SummarizedExperiment](https://github.com/caleblareau/scATAC_10X_raw_to_kmers/blob/master/example_kmers.R), by Caleb Lareau. 
 
 #### 10X QC
 
