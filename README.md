@@ -12,6 +12,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Awesome](#awesome)
 - [Courses](#courses)
+  - [Tutorials](#tutorials)
 - [Preprocessing pipelines](#preprocessing-pipelines)
   - [Visualization pipelines](#visualization-pipelines)
 - [Quality control](#quality-control)
@@ -68,7 +69,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Courses
 
-- [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. GitHub repos:[Bioconductor/OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [https://github.com/Bioconductor/OSCABase](https://github.com/Bioconductor/OSCABase), [seandavi/OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis), [simpleSingleCell](https://bioconductor.org/packages/simpleSingleCell/) R package, A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al.
+- [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. GitHub repos:[Bioconductor/OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [https://github.com/Bioconductor/OSCABase](https://github.com/Bioconductor/OSCABase), [seandavi/OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis), [simpleSingleCell](https://bioconductor.org/packages/simpleSingleCell/) R package, A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al., [rendered version](http://bioinformatics.age.mpg.de/presentations-tutorials/presentations/modules/single-cell//bioconductor_tutorial.html)
     - Amezquita, Robert A., Vincent J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Aaron TL Lun, Federico Marini, Kevin Rue-Albrecht, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1101/590562).” BioRxiv, March 27, 2019. 
 
 - [Analysis of single cell RNA-seq data, www.singlecellcourse.org](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) - step-by-step scRNA-seq analysis course. R-based, with code examples, explanations, exercises. From alignment (STAR) and QC (FASTQC) to introduction to R, SingleCellExperiment class, `scater` object, data exploration (reads, UMI), filtering, normalization (`scran`), batch effect removal (`RUV`, `ComBat`, `mnnCorrect`, GLM, `Harmony`), clustering and marker gene identification (`SINCERA`, `SC3`, tSNE, `Seurat`), feature selection (`M3Drop::M3DropConvertData`, `BrenneckeGetVariableGenes`), pseudotime analysis (`TSCAN`, `Monocle`, diffusion maps, `SLICER`, `Ouija`, `destiny`), imputation (`scImpute`, `DrImpute`, `MAGIC`), differential expression (Kolmogorov-Smirnov, Wilcoxon, `edgeR`, `Monocle`, `MAST`), data integration (`scmap`, cell-to-cell mapping, `Metaneighbour`, `mnnCorrect`, `Seurat`'s canonical correllation analysis). Search for scRNA-seq data ([scfind](https://github.com/hemberg-lab/scfind) R package), as well as [Hemberg group’s public datasets](https://hemberg-lab.github.io/scRNA.seq.datasets/). [Seurat chapter](https://scrnaseq-course.cog.sanger.ac.uk/website/seurat-chapter.html). ["Ideal" scRNA-seq pipeline](https://scrnaseq-course.cog.sanger.ac.uk/website/ideal-scrnaseq-pipeline-as-of-oct-2017.html). [Video lectures](https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo) 
@@ -76,9 +77,19 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [ANALYSIS OF SINGLE CELL RNA-SEQ DATA](https://broadinstitute.github.io/2019_scWorkshop/index.html) course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
 
+### Tutorials
+
+- [Rockfeller University scRNAseq tutorial](https://rockefelleruniversity.github.io/scRNA-seq/)
+
+[ ASAP: Full pipeline on a project imported from the Human Cell Atlas](https://asap.epfl.ch/home/tutorial?t=full_pipeline)
+
 - [Introduction to single-cell RNA-seq technologies](https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1), presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and [notes](https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/)
 
 - [Machine learning for single cell analysis workshop](https://www.krishnaswamylab.org/workshop). Presentations (Google Slides) and Jupyter notebooks run on Google Colab
+
+- [Pbmc dataset Roche analysis](https://almutlue.github.io/batch_dataset/pbmc_roche.html#)
+
+- [Preprocessing and normalization of single-cell RNA-seq droplet data](https://kkorthauer.org/fungeno2019/singlecell/vignettes/1.2-preprocess-droplet.html)
 
 
 ## Preprocessing pipelines
