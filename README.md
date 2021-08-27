@@ -727,6 +727,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [CancerSEA](http://biocc.hrbmu.edu.cn/CancerSEA/home.jsp) - cancer scRNA-seq studies. Download individual studies, as well as gene signatures (from Angiogenesis, DNA damage to EMT, metastasis, etc.)
 
+- [scTIME Portal](http://sctime.sklehabc.com/unicellular/home) - a database and an exploration/analysis portal for single cell transcriptomes of tumor immune microenvironment. Cell clusters, expression of selected genes, data/image download. Links to other portals/databases.
+
 - [scRNA-seq of healthy breast, GEO GSE164898](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164898). Five freshly collected samples, 18K cells, 20K genes. 13 epithelial cell clusters. Breast cancers may originate from 3 luminal mature and 1 progenitor subclusters. TBX3 and PDK4 subclassify ER+ breast cancers in at least four subtypes. [Table S2](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(21)00035-5#supplementaryMaterial) - cluster-specific gene expression. [Matrices in HDF5 format](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164898)
     - Bhat-Nakshatri, Poornima, Hongyu Gao, Liu Sheng, Patrick C. McGuire, Xiaoling Xuei, Jun Wan, Yunlong Liu et al. "[A single-cell atlas of the healthy breast tissues reveals clinically relevant clusters of breast epithelial cells](https://doi.org/10.1016/j.xcrm.2021.100219)." Cell Reports Medicine 2, no. 3 (2021): 100219.
 
