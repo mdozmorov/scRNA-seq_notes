@@ -598,6 +598,9 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Deep learning
 
+- [Solo](https://github.com/calico/Solo) - semi-supervised deep learning for doublet identification. Variational autoencoder (scVI) followed by a classifier to detect doublets. Compared with Scrubled and DoubletFinder, improves area under the precision-recall curve. 
+    - Bernstein, Nicholas J., Nicole L. Fong, Irene Lam, Margaret A. Roy, David G. Hendrickson, and David R. Kelley. “[Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning](https://doi.org/10.1016/j.cels.2020.05.010).” Cell Systems 11, no. 1 (July 2020)
+
 - [scover](https://github.com/jacobhepkema/scover) - de novo identification of regulatory motifs and their cell type-specific importance from scRNA-seq or scATAC-seq data. Shallow convolutional neural network on one-hot encoded sequence data, k-fold training and selecting most optimal network, extracting motifs from convolutional filters, cluster them, matching with motifs, associating with peak strength/gene expression. application for human kidney scRNA-seq data, Tabula Muris, mouse cerebral cortex SNARE-seq data. [Docs](https://scover.readthedocs.io/en/latest/), [Tweet](https://twitter.com/jhepkema/status/1332444937493897216?s=20)
     - Hepkema, Jacob, Nicholas Keone Lee, Benjamin J Stewart, Siwat Ruangroengkulrith, Varodom Charoensawan, Menna R Clatworthy, and Martin Hemberg. “[Predicting the Impact of Sequence Motifs on Gene Regulation Using Single-Cell Data](https://doi.org/10.1101/2020.11.26.400218)”
 
