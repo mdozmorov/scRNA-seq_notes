@@ -172,6 +172,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Quality control
 
+- [miQC](https://bioconductor.org/packages/miQC/) - data-driven identification of cells with high mitochondrial content (likely, dead cells) from scRNA-seq data. Joint statistical model the proportion of reads mapping to mtDNA genes and the number of detected genes, EM for parameter estimation (flexmix). Tested on various datasets processed with CellRanged and salon alevin - improves removal of compromised cells as compared with hard threshold. Bioconductor R package, integrates with scater.
+    - Hippen, Ariel A., Matias M. Falco, Lukas M. Weber, Erdogan Pekcan Erkan, Kaiyang Zhang, Jennifer Anne Doherty, Anna Vähärautio, Casey S. Greene, and Stephanie C. Hicks. “[MiQC: An Adaptive Probabilistic Framework for Quality Control of Single-Cell RNA-Sequencing Data](https://doi.org/10.1371/journal.pcbi.1009290).” PLOS Computational Biology, (August 24, 2021)
+
 - [DropletUtils](https://bioconductor.org/packages/DropletUtils/) - Provides a number of utility functions for handling single-cell (RNA-seq) data from droplet technologies such as 10X Genomics. This includes data loading, identification of cells from empty droplets, removal of barcode-swapped pseudo-cells, and downsampling of the count matrix. https://bioconductor.org/packages/DropletUtils/
     - Lun ATL, Riesenfeld S, Andrews T, Dao T, Gomes T, participants in the 1st Human Cell Atlas Jamboree, Marioni JC (2019). “[EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1662-y).” Genome Biol.
 
