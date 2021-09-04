@@ -709,7 +709,7 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ### Human
 
-- [Human Cell Atlas Preview Datasets](https://preview.data.humancellatlas.org/). Massive amount of data. An R package to access this data is being developed, https://github.com/federicomarini/HCAData
+- [Human Cell Atlas Preview Datasets](https://preview.data.humancellatlas.org/). Massive amount of data. [HCAData](https://github.com/federicomarini/HCAData) - an R package to access this data is being developed. [Galaxy interface to HCA data analysis](https://humancellatlas.usegalaxy.eu/)
 
 - [Single Cell Immune Profiling Datasets](https://support.10xgenomics.com/single-cell-vdj/datasets). \~150,000 CD8+ T cells from 4 human donors across a highly multiplexed panel of 44 distinct, specific peptide–MHC (pMHC) multimers. 
 
