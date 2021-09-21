@@ -619,6 +619,10 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 - Review of spatial single-cell transcriptomics technologies. Categorized as 1)microdissection-based, 2) in situ hybridization, 3) in situ sequencing, 4) in situ capturing, 5) in silico reconstruction. Timeline (Figure 1), summary of technologies (Table 1), details of each technology, studies, illustrations.
     - Asp, Michaela, Joseph Bergenstråhle, and Joakim Lundeberg. “[Spatially Resolved Transcriptomes—Next Generation Tools for Tissue Exploration](https://doi.org/10.1002/bies.201900221).” BioEssays, May 4, 2020
 
+- [PASTE](https://github.com/raphael-group/paste) - Probabilistic Alignment of Spatial Transcriptomics Experiments, to align and integrate ST data across adjacent tissue slices. Uses spatial coordinate and transcriptomic similarity. Fused Gromov-Wasserstein Optimal Transport, NMF, methodological.
+    - Zeira, Ron, Max Land, and Benjamin J Raphael. “[Alignment and Integration of Spatial Transcriptomics Data](https://doi.org/10.1101/2021.03.16.435604),” Preprint, March 16, 2021
+
+
 - [Giotto](http://spatial.rc.fas.harvard.edu/) - an R framework for spatial transcriptomics analysis pipeline. Two modules, analysis and visualization. Custom S4 data structure. QC, preprocessing, feature selection, dimensionality reduction, clustering, marker gene identification, spatial grid and neighborhood networks HMRF for spatial gene expression patterns detection. Visualization using tSNE, physical, physicalsimple panels (figures in the paper). Applied to the seqFISH+ dataset with 10K genes profiled in 913 cells. 
     - Dries, Ruben, Qian Zhu, Chee-Huat Linus Eng, Arpan Sarkar, Feng Bao, Rani E George, Nico Pierson, Long Cai, and Guo-Cheng Yuan. “[Giotto, a Pipeline for Integrative Analysis and Visualization of Single-Cell Spatial Transcriptomic Data](https://doi.org/10.1101/701680).” Preprint. Bioinformatics, July 13, 2019. 
 
