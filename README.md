@@ -565,6 +565,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Immuno-analysis
 
+- [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb).
+    - Efremova, Mirjana. “[CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes](https://doi.org/10.1038/s41596-020-0292-x).” NATURE PROTOCOLS, (2020)
+
 - [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
 T/B cell receptor sequencing analysis notes by Ming Tang
 
