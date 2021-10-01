@@ -625,6 +625,9 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 - Review of spatial single-cell transcriptomics technologies. Categorized as 1)microdissection-based, 2) in situ hybridization, 3) in situ sequencing, 4) in situ capturing, 5) in silico reconstruction. Timeline (Figure 1), summary of technologies (Table 1), details of each technology, studies, illustrations.
     - Asp, Michaela, Joseph Bergenstråhle, and Joakim Lundeberg. “[Spatially Resolved Transcriptomes—Next Generation Tools for Tissue Exploration](https://doi.org/10.1002/bies.201900221).” BioEssays, May 4, 2020
 
+- [spatialLIBD](https://bioconductor.org/packages/spatialLIBD/) - an R package for 10X Visium spatial transcriptomics data manipulation and visualization. Can handle multiple samples, in contrast to Loupe and Giotto pipelines. Includes demo data. Integrates with Bioconductor via SpatialExperiment class. [Shiny app](http://spatial.libd.org/spatialLIBD/)
+    - Pardo, Brenda, Abby Spangler, Lukas M Weber, Stephanie C Hicks, Andrew E Jaffe, Keri Martinowich, and Kristen R Maynard. “[SpatialLIBD: An R/Bioconductor Package to Visualize Spatially-Resolved Transcriptomics Data](https://doi.org/10.1101/2021.04.29.440149),” biorXiv, April 30, 2021
+
 - [PASTE](https://github.com/raphael-group/paste) - Probabilistic Alignment of Spatial Transcriptomics Experiments, to align and integrate ST data across adjacent tissue slices. Uses spatial coordinate and transcriptomic similarity. Fused Gromov-Wasserstein Optimal Transport, NMF, methodological.
     - Zeira, Ron, Max Land, and Benjamin J Raphael. “[Alignment and Integration of Spatial Transcriptomics Data](https://doi.org/10.1101/2021.03.16.435604),” Preprint, March 16, 2021
 
