@@ -517,6 +517,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Annotation, subpopulation identification
 
+- [tricycle](https://github.com/hansenlab/tricycle) - transfer learning approach to learn cell cycle PCA projections from a reference dataset and project new data on it. Combining the biology of the cell cycle, the mathematical properties of PCA of unimodal periodicity of genes associated with cell cycle. [Tweet](https://twitter.com/loyalgoff/status/1379806742167527427?s=20)
+    - Zheng, Shijie C., Genevieve Stein-O’Brien, Jonathan J. Augustin, Jared Slosberg, Giovanni A. Carosso, Briana Winer, Gloria Shin, Hans T. Bjornsson, Loyal A. Goff, and Kasper D. Hansen. "[Universal prediction of cell cycle position using transfer learning](https://doi.org/10.1101/2021.04.06.438463)." bioRxiv April 11, 2021
+
 - [igrabski/scRNAseq-cell-type](https://github.com/igrabski/scRNAseq-cell-type) - A statistical approach for cell type annotation from scRNA-seq data. Considers all genes, uses a latent variable model to define cell-type-specific barcodes and probabilistically annotates cell type identity, while accounting for batch effects. Methods, modeling gene-specific distribution using off-low, off-high, on states from scRNA expression bimodal distribution. Train the model using reference data from the PanglaoDB https://panglaodb.se/, tested the method on the PBMC, colon, and brain scRNA-seq datasets. Clustering methods tend to overcluster, marker genes are unreliable due to sparsity. Outperforms scmap, CaSTLe, SingleR, Garnett, CellAssign. [R code](https://github.com/igrabski/scRNAseq-cell-type), [Tweet](https://twitter.com/rafalab/status/1341771349254135808?s=20)
     - Isabella N. Grabski, Rafael A. Irizarry “[A Probabilistic Gene Expression Barcode for Annotation of Cell-Types from Single Cell RNA-Seq Data](https://doi.org/10.1101/2020.01.05.895441),” biorXiv, December 22, 2020
 
