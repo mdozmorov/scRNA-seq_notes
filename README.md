@@ -517,6 +517,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Annotation, subpopulation identification
 
+- [CellTypist](https://www.celltypist.org/) - machine learning tool for precise cell type annotation, immune cell types. Trained on 20 tissues with harmonized cell type labels, hierarchy of 45 cell types. L2-regularized logistic regression, machine learning framework, gradient descent, 30 epoch. Scanpy pipeline, batch correction using [bbknn](https://github.com/Teichlab/bbknn), markers detection using [rbcde](https://github.com/Teichlab/rbcde). [GitHub](https://github.com/Teichlab/celltypist)
+    - Domínguez Conde, C, C Xu, Lb Jarvis, T Gomes, Sk Howlett, Db Rainbow, O Suchanek, et al. “[Cross-Tissue Immune Cell Analysis Reveals Tissue-Specific Adaptations and Clonal Architecture in Humans](https://doi.org/10.1101/2021.04.28.441762).” Preprint. Immunology, April 28, 2021. 
+
 - [tricycle](https://github.com/hansenlab/tricycle) - transfer learning approach to learn cell cycle PCA projections from a reference dataset and project new data on it. Combining the biology of the cell cycle, the mathematical properties of PCA of unimodal periodicity of genes associated with cell cycle. [Tweet](https://twitter.com/loyalgoff/status/1379806742167527427?s=20)
     - Zheng, Shijie C., Genevieve Stein-O’Brien, Jonathan J. Augustin, Jared Slosberg, Giovanni A. Carosso, Briana Winer, Gloria Shin, Hans T. Bjornsson, Loyal A. Goff, and Kasper D. Hansen. "[Universal prediction of cell cycle position using transfer learning](https://doi.org/10.1101/2021.04.06.438463)." bioRxiv April 11, 2021
 
