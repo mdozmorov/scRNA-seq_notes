@@ -465,6 +465,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [RNA velocity software](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=586567397) - Google doc collecting references, by @AlbertVilella. [Tweet](https://twitter.com/AlbertVilella/status/1400396034505908226?s=20)
 
+- [VeloViz](https://github.com/JEFworks-Lab/veloviz) - scRNA-seq 2D embedding using RNA velocity. R package, several tutorials.
+    - Atta L, Sahoo A, Fan J. [VeloViz: RNA-velocity informed embeddings for visualizing cellular trajectories](https://doi.org/10.1093/bioinformatics/btab653), Bioinformatics, 10 September 2021
+
 - [RNA velocity estimation is affected by spliced/unspliced quantification approaches, exon/intron definitions](https://github.com/csoneson/rna_velocity_quant). Technical insights into RNA velosity calculations. Tested alevin, kallisto/bus, starsolo, cellranger for spliced/unspliced abundance estimation, on four public 10X genomics datasets. Large differences in inferred velocities, affecting biological interpretation. alevin_sep_gtr (index built on spliced transcripts and introns, introns extracted separately for each transcript isoform. Joint exonic/intronic quantification) yields results most aligned with expectations. [Code](https://github.com/csoneson/rna_velocity_quant)
     - Soneson, Charlotte, Avi Srivastava, Rob Patro, and Michael B Stadler. “[Preprocessing Choices Affect RNA Velocity Results for Droplet ScRNA-Seq Data](https://doi.org/10.1101/2020.03.13.990069).” Preprint. Bioinformatics, March 13, 2020.
 
