@@ -141,6 +141,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Visualization pipelines
 
+- [scOrange](https://singlecell.biolab.si/) - visual pipeline builder for an in-depth analysis and visualization of scRNA-seq data. Works with 10X data, tab-delimited. Filtering, preprocessiong, differential gene expression, marker analysis, enrichment analysis, batch removal, clustering, tSNE. [Screenshots](https://singlecell.biolab.si/screenshots/), [Short video tutorials](https://www.youtube.com/playlist?list=PLmNPvQr9Tf-a4MrEG5thq3qzlkrF5NFbC). Python-based, Conda-installable. [GitHub](https://github.com/biolab/orange3-single-cell)
+
 - [iCellR](https://github.com/rezakj/iCellR) - Single (i) Cell R package (iCellR) is an interactive R package to work with high-throughput single cell sequencing technologies (i.e scRNA-seq, scVDJ-seq and CITE-seq).
     - Khodadadi-Jamayran, Alireza, Joseph Pucella, Hua Zhou, Nicole Doudican, John Carucci, Adriana Heguy, Boris Reizis, and Aristotelis Tsirigos. “[ICellR: Combined Coverage Correction and Principal Component Alignment for Batch Alignment in Single-Cell Sequencing Analysis,](https://www.biorxiv.org/content/10.1101/2020.03.31.019109v1.full)” BioRxiv, April 1, 2020
 
