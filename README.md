@@ -635,6 +635,9 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Spatial transcriptomics
 
+- [Spatial transcriptomics analysis and tools](https://htmlpreview.github.io/?https://github.com/drieslab/awesome-spatial-data-analysis/blob/main/review_spat_trns_methods.html) review. Commercial technologies (10X Visium, NanoString GeoMx). Cell type annotation, deconvolution, mapping annotations to spatial coordinates, spatial segmentation of transcriptomic profiles. cell-cell communication, integrative approaches, spatial visualization. Software tools/packages for each analysis, brief description of each. [GitHub: Awesome Spatial transcriptomics methods](https://github.com/drieslab/awesome-spatial-data-analysis).
+    - Dries, Ruben, Jiaji Chen, Natalie del Rossi, Mohammed Muzamil Khan, Adriana Sistig, and Guo-Cheng Yuan. “[Advances in Spatial Transcriptomic Data Analysis](https://doi.org/10.1101/gr.275224.121).” Genome Research, (October 2021)
+
 - Review of spatial single-cell transcriptomics technologies. Categorized as 1)microdissection-based, 2) in situ hybridization, 3) in situ sequencing, 4) in situ capturing, 5) in silico reconstruction. Timeline (Figure 1), summary of technologies (Table 1), details of each technology, studies, illustrations.
     - Asp, Michaela, Joseph Bergenstråhle, and Joakim Lundeberg. “[Spatially Resolved Transcriptomes—Next Generation Tools for Tissue Exploration](https://doi.org/10.1002/bies.201900221).” BioEssays, May 4, 2020
 
