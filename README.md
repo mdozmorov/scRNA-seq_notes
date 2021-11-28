@@ -30,6 +30,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [Annotation, subpopulation identification](#annotation-subpopulation-identification)
   - [Cell markers](#cell-markers)
 - [Immuno-analysis](#immuno-analysis)
+- [Phylogenetic inference](#phylogenetic-inference)
 - [Simulation](#simulation)
   - [Power](#power)
   - [Benchmarking](#benchmarking)
@@ -578,6 +579,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [scGeneFit](https://github.com/solevillar/scGeneFit) - selection of hierarchical gene markers, contrasted with one-vs-all gene selection. MATLAB implementation. https://github.com/solevillar/scGeneFit
     - Dumitrascu, Bianca, Soledad Villar, Dustin G. Mixon, and Barbara E. Engelhardt. “[Optimal Gene Selection for Cell Type Discrimination in Single Cell Analyses](https://doi.org/10.1101/599654).” BioRxiv, April 4, 2019. 
+
+## Phylogenetic inference
 
 ## Immuno-analysis
 
