@@ -582,6 +582,10 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Phylogenetic inference
 
+- [OncoNEM](https://bitbucket.org/edith_ross/onconem/src/master/) (oncogenetic nested effects model) - tumor evolution inference from single cell data from somatic SNPs of single cells. Identifies homogeneous subpopulations and infers their genotypes and phylogenetic tree. Probabilistically accounts for noise in the observed genotypes, allele dropouts, unobserved subpopulations. Input - binary genotype matrix, false positive and negative rates. Output - inferred tumor subpopulations, evolutionary tree, posterior probabilities of mutations. Assessed in simulation studies, outperforms similar methods. Robust to the selection of parameters.
+    - Ross, Edith M., and Florian Markowetz. “[OncoNEM: Inferring Tumor Evolution from Single-Cell Sequencing Data](https://doi.org/10.1186/s13059-016-0929-9).” Genome Biology, (December 2016)
+
+
 ## Immuno-analysis
 
 - [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb).
