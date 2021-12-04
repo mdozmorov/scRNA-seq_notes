@@ -14,6 +14,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [Courses](#courses)
   - [Tutorials](#tutorials)
 - [Preprocessing pipelines](#preprocessing-pipelines)
+  - [Format conversion](#format-conversion)
   - [Visualization pipelines](#visualization-pipelines)
 - [Quality control](#quality-control)
 - [Normalization](#normalization)
@@ -84,8 +85,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Amezquita RA, Lun AT, Becht E, Carey VJ, Carpp LN, Geistlinger L, Marini F, Rue-Albrecht K, Risso D, Soneson C, Waldron L. [Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x). Nature methods. 2020 Feb;17(2):137-45.
 </details>
 
-- [Analysis of single cell RNA-seq data, www.singlecellcourse.org](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) - step-by-step scRNA-seq analysis course. R-based, with code examples, explanations, exercises. From alignment (STAR) and QC (FASTQC) to introduction to R, SingleCellExperiment class, `scater` object, data exploration (reads, UMI), filtering, normalization (`scran`), batch effect removal (`RUV`, `ComBat`, `mnnCorrect`, GLM, `Harmony`), clustering and marker gene identification (`SINCERA`, `SC3`, tSNE, `Seurat`), feature selection (`M3Drop::M3DropConvertData`, `BrenneckeGetVariableGenes`), pseudotime analysis (`TSCAN`, `Monocle`, diffusion maps, `SLICER`, `Ouija`, `destiny`), imputation (`scImpute`, `DrImpute`, `MAGIC`), differential expression (Kolmogorov-Smirnov, Wilcoxon, `edgeR`, `Monocle`, `MAST`), data integration (`scmap`, cell-to-cell mapping, `Metaneighbour`, `mnnCorrect`, `Seurat`'s canonical correllation analysis). Search for scRNA-seq data ([scfind](https://github.com/hemberg-lab/scfind) R package), as well as [Hemberg group’s public datasets](https://hemberg-lab.github.io/scRNA.seq.datasets/). [Seurat chapter](https://scrnaseq-course.cog.sanger.ac.uk/website/seurat-chapter.html). ["Ideal" scRNA-seq pipeline](https://scrnaseq-course.cog.sanger.ac.uk/website/ideal-scrnaseq-pipeline-as-of-oct-2017.html). [Video lectures](https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo) 
-    - Andrews, Tallulah S., Vladimir Yu Kiselev, Davis McCarthy, and Martin Hemberg. “[Tutorial: Guidelines for the Computational Analysis of Single-Cell RNA Sequencing Data.](https://doi.org/10.1038/s41596-020-00409-w)” Nature Protocols, December 7, 2020. 
+- [Analysis of single cell RNA-seq data, www.singlecellcourse.org](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) - step-by-step scRNA-seq analysis course. R-based, with code examples, explanations, exercises. From alignment (STAR) and QC (FASTQC) to introduction to R, SingleCellExperiment class, `scater` object, data exploration (reads, UMI), filtering, normalization (`scran`), batch effect removal (`RUV`, `ComBat`, `mnnCorrect`, GLM, `Harmony`), clustering and marker gene identification (`SINCERA`, `SC3`, tSNE, `Seurat`), feature selection (`M3Drop::M3DropConvertData`, `BrenneckeGetVariableGenes`), pseudotime analysis (`TSCAN`, `Monocle`, diffusion maps, `SLICER`, `Ouija`, `destiny`), imputation (`scImpute`, `DrImpute`, `MAGIC`), differential expression (Kolmogorov-Smirnov, Wilcoxon, `edgeR`, `Monocle`, `MAST`), data integration (`scmap`, cell-to-cell mapping, `Metaneighbour`, `mnnCorrect`, `Seurat`'s canonical correllation analysis). Search for scRNA-seq data ([scfind](https://github.com/hemberg-lab/scfind) R package), as well as [Hemberg group’s public datasets](https://hemberg-lab.github.io/scRNA.seq.datasets/). [Seurat chapter](https://scrnaseq-course.cog.sanger.ac.uk/website/seurat-chapter.html). ["Ideal" scRNA-seq pipeline](https://scrnaseq-course.cog.sanger.ac.uk/website/ideal-scrnaseq-pipeline-as-of-oct-2017.html). [Video lectures](https://www.youtube.com/watch?list=PLEyKDyF1qdOYAhwU71qlrOXYsYHtyIu8n&v=56n77bpjiKo) <details>
+    <summary>Paper</summary>
+
+    Andrews, Tallulah S., Vladimir Yu Kiselev, Davis McCarthy, and Martin Hemberg. “[Tutorial: Guidelines for the Computational Analysis of Single-Cell RNA Sequencing Data.](https://doi.org/10.1038/s41596-020-00409-w)” Nature Protocols, December 7, 2020. 
+</details>
 
 - [ANALYSIS OF SINGLE CELL RNA-SEQ DATA](https://broadinstitute.github.io/2019_scWorkshop/index.html) course by Orr Ashenberg, Dana Silverbush, Kirk Gosik
 
@@ -93,9 +97,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Rockfeller University scRNAseq tutorial](https://rockefelleruniversity.github.io/scRNA-seq/)
 
-[ ASAP: Full pipeline on a project imported from the Human Cell Atlas](https://asap.epfl.ch/home/tutorial?t=full_pipeline)
+- [ASAP: Full pipeline on a project imported from the Human Cell Atlas](https://asap.epfl.ch/home/tutorial?t=full_pipeline)
 
-- [Introduction to single-cell RNA-seq technologies](https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1), presentation by Lior Pachter. Key figures, references, statistics. Slides, https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1, and [notes](https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/)
+- [Introduction to single-cell RNA-seq technologies](https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1), presentation by Lior Pachter. Key figures, references, statistics. [Slides](https://figshare.com/articles/Introduction_to_single-cell_RNA-seq_technologies/7704659/1), and [notes](https://liorpachter.wordpress.com/2019/02/19/introduction-to-single-cell-rna-seq-technologies/)
 
 - [Machine learning for single cell analysis workshop](https://www.krishnaswamylab.org/workshop). Presentations (Google Slides) and Jupyter notebooks run on Google Colab
 
@@ -106,54 +110,95 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Preprocessing pipelines
 
-- Assessment of 9 preprocessing pipelines (Cell Ranger, Optimus, salmon alevin, kallisto bustools, dropSeqPipe, scPipe, zUMIs, celseq2 and scruff) on 10X and CEL-Seq2 datasets ([scmixology](https://github.com/LuyiTian/sc_mixology) and others, 9 datasets total). All pipelines coupled with performant post-processing (normalization, filtering, etc.) produce comparable data quality in terms of clustering/agreement with known cell types. Low-expressed genes are discordant. Details and specific results of each pipeline. [GitHub with pre-/postprocessing scripts](https://github.com/YOU-k/preprocess)
-    - You, Yue, Luyi Tian, Shian Su, Xueyi Dong, Jafar S Jabbari, Peter F Hickey, and Matthew E Ritchie. “[Benchmarking UMI-Based Single Cell RNA-Sequencing Preprocessing Workflows](https://doi.org/10.1101/2021.06.17.448895).” Preprint. Bioinformatics, June 17, 2021. 
+- Assessment of 9 preprocessing pipelines (Cell Ranger, Optimus, salmon alevin, kallisto bustools, dropSeqPipe, scPipe, zUMIs, celseq2 and scruff) on 10X and CEL-Seq2 datasets ([scmixology](https://github.com/LuyiTian/sc_mixology) and others, 9 datasets total). All pipelines coupled with performant post-processing (normalization, filtering, etc.) produce comparable data quality in terms of clustering/agreement with known cell types. Low-expressed genes are discordant. Details and specific results of each pipeline. [GitHub with pre-/postprocessing scripts](https://github.com/YOU-k/preprocess) <details>
+    <summary>Preprint</summary>
 
-- [All steps in scRNA-seq analysis](https://github.com/theislab/single-cell-tutorial), QC (count depth, number of genes, % mitochondrial), normalization (global, downsampling, nonlinear), data correction (batch, denoising, imputation), feature selection, dimensionality reduction (PCA, diffusion maps, tSNE, UMAP), visualization, clustering (k-means, graph/community detection), annotation, trajectory inference (PAGA, Monocle), differential analysis (DESeq2, EdgeR, MAST), gene regulatory networks. Description of the bigger picture at each step, latest tools, their brief description, references. R-based Scater as the full pipeline for QC and preprocessing, Seurat for downstream analysis, scanpy Python pipeline. Links and refs for tutorials. https://github.com/theislab/single-cell-tutorial
-    - Luecken, Malte D., and Fabian J. Theis. “[Current Best Practices in Single-Cell RNA-Seq Analysis: A Tutorial](https://doi.org/10.15252/msb.20188746).” Molecular Systems Biology 15, no. 6 (June 19, 2019)
+    You, Yue, Luyi Tian, Shian Su, Xueyi Dong, Jafar S Jabbari, Peter F Hickey, and Matthew E Ritchie. “[Benchmarking UMI-Based Single Cell RNA-Sequencing Preprocessing Workflows](https://doi.org/10.1101/2021.06.17.448895).” Preprint. Bioinformatics, June 17, 2021. 
+</details>
 
-- [Alevin](https://github.com/COMBINE-lab/salmon) - end-to-end droplet-based scRNA-seq (10X Genomics) processing pipeline performing cell barcode detection (two-step whitelisting procedure), read mapping, UMI deduplication (parsimonious UMI graphs, PUGs), resolving multimapped reads (EM method to resolve UMI collisions), gene count estimation. Intelligently handles UMI deduplication and multimapped reads, resulting in more accurate gene abundance estimation. Input - sample-demultiplexed FASTQ, output - gene-level UMI counts. Compared against the Cell Ranger, dropEst, STAR and featureCount-based pipelines, UMI-tools, alevin is more accurate and quantifies a greater proportion of sequenced data, especially on combined genomes. Approx. 21X faster than Cell Ranger, low memory requirements, 10-12 threads optimal. C++ implementation, part of [Salmon](https://github.com/COMBINE-lab/salmon). [Alevin documentation](https://salmon.readthedocs.io/en/latest/alevin.html), [Tutorials](https://combine-lab.github.io/alevin-tutorial/#blog) that include visualization options.
-    - Srivastava, Avi, Laraib Malik, Tom Smith, Ian Sudbery, and Rob Patro. “[Alevin Efficiently Estimates Accurate Gene Abundances from DscRNA-Seq Data](https://doi.org/10.1186/s13059-019-1670-y).” Genome Biology, (December 2019)
+- [Single cell current best practices tutorial, GitHub](https://github.com/theislab/single-cell-tutorial). QC (count depth, number of genes, % mitochondrial), normalization (global, downsampling, nonlinear), data correction (batch, denoising, imputation), feature selection, dimensionality reduction (PCA, diffusion maps, tSNE, UMAP), visualization, clustering (k-means, graph/community detection), annotation, trajectory inference (PAGA, Monocle), differential analysis (DESeq2, EdgeR, MAST), gene regulatory networks. Description of the bigger picture at each step, latest tools, their brief description, references. R-based Scater as the full pipeline for QC and preprocessing, Seurat for downstream analysis, scanpy Python pipeline. Links and refs to other tutorials. <details>
+    <summary>Paper</summary>
 
-- [kallistobus](https://www.kallistobus.tools/) - fast pipeline for scRNA-seq processing. New BUS (Barcode, UMI, Set) format for storing and manipulating pseudoalignment results. Includes RNA velocity analysis. Python-based
-    - Melsted, Páll, A. Sina Booeshaghi, Fan Gao, Eduardo da Veiga Beltrame, Lambda Lu, Kristján Eldjárn Hjorleifsson, Jase Gehring, and Lior Pachter. “[Modular and Efficient Pre-Processing of Single-Cell RNA-Seq.](https://doi.org/10.1101/673285)” Preprint. Bioinformatics, June 17, 2019. 
+    Luecken, Malte D., and Fabian J. Theis. “[Current Best Practices in Single-Cell RNA-Seq Analysis: A Tutorial](https://doi.org/10.15252/msb.20188746).” Molecular Systems Biology 15, no. 6 (June 19, 2019)
+</details>
 
-- [PyMINEr](https://www.sciencescott.com/pyminer) - Python-based scRNA-seq processing pipeline. Cell type identification, detection of cell type-enriched genes, pathway analysis, co-expression networks and graph theory approaches to interpreting gene expression. Notes on methods: modified K++ clustering, automatic detection of the number of cell types, co-expression and PPI networks. Input: .txt or .hdf5 files. Detailed analysis of several pancreatic datasets
-    - Tyler, Scott R., Pavana G. Rotti, Xingshen Sun, Yaling Yi, Weiliang Xie, Michael C. Winter, Miles J. Flamme-Wiese, et al. “[PyMINEr Finds Gene and Autocrine-Paracrine Networks from Human Islet ScRNA-Seq.](https://doi.org/10.1016/j.celrep.2019.01.063)” Cell Reports 26, no. 7 (February 2019): 1951-1964.e8. 
+- [Alevin](https://github.com/COMBINE-lab/salmon) - end-to-end droplet-based scRNA-seq (10X Genomics) processing pipeline performing cell barcode detection (two-step whitelisting procedure), read mapping, UMI deduplication (parsimonious UMI graphs, PUGs), resolving multimapped reads (EM method to resolve UMI collisions), gene count estimation. Intelligently handles UMI deduplication and multimapped reads, resulting in more accurate gene abundance estimation. Input - sample-demultiplexed FASTQ, output - gene-level UMI counts. Compared against the Cell Ranger, dropEst, STAR and featureCount-based pipelines, UMI-tools, alevin is more accurate and quantifies a greater proportion of sequenced data, especially on combined genomes. Approx. 21X faster than Cell Ranger, low memory requirements, 10-12 threads optimal. C++ implementation, part of [Salmon](https://github.com/COMBINE-lab/salmon). [Alevin documentation](https://salmon.readthedocs.io/en/latest/alevin.html), [Tutorials](https://combine-lab.github.io/alevin-tutorial/#blog) that include visualization options. <details>
+    <summary>Paper</summary>
 
-- [dropEst](https://github.com/hms-dbmi/dropEst) - pipeline for pre-processing, mapping, QCing, filtering, and quantifying droplet-based scRNA-seq datasets. Input - FASTQ or BAM, output - an R-readable molecular count matrix. Written in C++
-    - Petukhov, Viktor, Jimin Guo, Ninib Baryawno, Nicolas Severe, David T. Scadden, Maria G. Samsonova, and Peter V. Kharchenko. “[DropEst: Pipeline for Accurate Estimation of Molecular Counts in Droplet-Based Single-Cell RNA-Seq Experiments.](https://doi.org/10.1186/s13059-018-1449-6)” Genome Biology 19, no. 1 (December 2018): 78. 
+    Srivastava, Avi, Laraib Malik, Tom Smith, Ian Sudbery, and Rob Patro. “[Alevin Efficiently Estimates Accurate Gene Abundances from DscRNA-Seq Data](https://doi.org/10.1186/s13059-019-1670-y).” Genome Biology, (December 2019)
+</details>
+
+- [bigSCale](https://github.com/iaconogi/bigSCale) - scalable analytical framework to analyze large scRNA-seq datasets, UMIs or counts. Pre-clustering, convolution into iCells, final clustering, differential expression, biomarkers.Correlation metric for scRNA-seq data based on converting expression to Z-scores of differential expression. Robust to dropouts. Matlab implementation. [Data, 1847 human neuronal progenitor cells](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102934) <details>
+    <summary>Paper</summary>
+
+    Iacono, Giovanni, Elisabetta Mereu, Amy Guillaumet-Adkins, Roser Corominas, Ivon Cuscó, Gustavo Rodríguez-Esteban, Marta Gut, Luis Alberto Pérez-Jurado, Ivo Gut, and Holger Heyn. “[BigSCale: An Analytical Framework for Big-Scale Single-Cell Data.](https://doi.org/10.1101/gr.230771.117)” Genome Research 28, no. 6 (June 2018): 878–90. 
+</details>
+
+- [CALISTA](https://github.com/CABSEL/CALISTA) - clustering, lineage reconstruction, transition gene identification, and cell pseudotime single cell transcriptional analysis. Analyses can be all or separate. Uses a likelihood-based approach based on probabilistic models of stochastic gene transcriptional bursts and random technical dropout events, so all analyses are compatible with each other. Input - a matrix of normalized, batch-removed log(RPKM) or log(TPM) or scaled UMIs. Methods detail statistical methodology. Matlab and R version <details>
+    <summary>Paper</summary>
+
+    Papili Gao N, Hartmann T, Fang T, Gunawan R. [CALISTA: Clustering and LINEAGE Inference in Single-Cell Transcriptional Analysis](https://doi.org/10.3389/fbioe.2020.00018). Frontiers in bioengineering and biotechnology. 2020 Feb 4;8:18.
+</details>
+
+- [demuxlet](https://github.com/statgen/demuxlet) - Introduces the ‘demuxlet’ algorithm, which enables genetic demultiplexing, doublet detection, and super-loading for droplet-based scRNA-seq. Recommended approach when samples have distinct genotypes <details>
+    <summary>Paper</summary>
+
+    Kang, Hyun Min, Meena Subramaniam, Sasha Targ, Michelle Nguyen, Lenka Maliskova, Elizabeth McCarthy, Eunice Wan, et al. “[Multiplexed Droplet Single-Cell RNA-Sequencing Using Natural Genetic Variation.](https://doi.org/10.1038/nbt.4042)” Nature Biotechnology 36, no. 1 (January 2018): 89–94. 
+</details>
+
+- [dropEst](https://github.com/hms-dbmi/dropEst) - pipeline for pre-processing, mapping, QCing, filtering, and quantifying droplet-based scRNA-seq datasets. Input - FASTQ or BAM, output - an R-readable molecular count matrix. Written in C++ <details>
+    <summary>Paper</summary>
+
+    Petukhov, Viktor, Jimin Guo, Ninib Baryawno, Nicolas Severe, David T. Scadden, Maria G. Samsonova, and Peter V. Kharchenko. “[DropEst: Pipeline for Accurate Estimation of Molecular Counts in Droplet-Based Single-Cell RNA-Seq Experiments.](https://doi.org/10.1186/s13059-018-1449-6)” Genome Biology 19, no. 1 (December 2018): 78. 
+ </details>
  
-- [Scanpy](https://github.com/theislab/scanpy) - Python-based pipeline for preprocessing, visualization, clustering, pseudotime and trajectory inference, differential expression and network simulation
-    - Wolf, F. Alexander, Philipp Angerer, and Fabian J. Theis. “[SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis.](https://doi.org/10.1186/s13059-017-1382-0)” Genome Biology 19, no. 1 (06 2018): 15. 
+ - [kallistobus](https://www.kallistobus.tools/) - fast pipeline for scRNA-seq processing. New BUS (Barcode, UMI, Set) format for storing and manipulating pseudoalignment results. Includes RNA velocity analysis. Python-based <details>
+    <summary>Preprint</summary>
 
-- [SEQC](https://github.com/ambrosejcarr/seqc) - Single-Cell Sequencing Quality Control and Processing Software, a general purpose method to build a count matrix from single cell sequencing reads, able to process data from inDrop, drop-seq, 10X, and Mars-Seq2 technologies
-    - Azizi, Elham, Ambrose J. Carr, George Plitas, Andrew E. Cornish, Catherine Konopacki, Sandhya Prabhakaran, Juozas Nainys, et al. “[Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.](https://doi.org/10.1016/j.cell.2018.05.060)” Cell, June 2018. 
+    Melsted, Páll, A. Sina Booeshaghi, Fan Gao, Eduardo da Veiga Beltrame, Lambda Lu, Kristján Eldjárn Hjorleifsson, Jase Gehring, and Lior Pachter. “[Modular and Efficient Pre-Processing of Single-Cell RNA-Seq.](https://doi.org/10.1101/673285)” Preprint. Bioinformatics, June 17, 2019. 
+</details>
 
-- [bigSCale](https://github.com/iaconogi/bigSCale) - scalable analytical framework to analyze large scRNA-seq datasets, UMIs or counts. Pre-clustering, convolution into iCells, final clustering, differential expression, biomarkers.Correlation metric for scRNA-seq data based on converting expression to Z-scores of differential expression. Robust to dropouts. Matlab implementation. [Data, 1847 human neuronal progenitor cells](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102934)
-    - Iacono, Giovanni, Elisabetta Mereu, Amy Guillaumet-Adkins, Roser Corominas, Ivon Cuscó, Gustavo Rodríguez-Esteban, Marta Gut, Luis Alberto Pérez-Jurado, Ivo Gut, and Holger Heyn. “[BigSCale: An Analytical Framework for Big-Scale Single-Cell Data.](https://doi.org/10.1101/gr.230771.117)” Genome Research 28, no. 6 (June 2018): 878–90. 
+- [PyMINEr](https://www.sciencescott.com/pyminer) - Python-based scRNA-seq processing pipeline. Cell type identification, detection of cell type-enriched genes, pathway analysis, co-expression networks and graph theory approaches to interpreting gene expression. Notes on methods: modified K++ clustering, automatic detection of the number of cell types, co-expression and PPI networks. Input: .txt or .hdf5 files. Detailed analysis of several pancreatic datasets <details>
+    <summary>Paper</summary>
 
-- [zUMIs](https://github.com/sdparekh/zUMIs) - scRNA-seq processing pipeline that handles barcodes and summarizes  UMIs using exonic or exonic + intronic mapped reads (improves clustering, DE detection). Adaptive downsampling of oversequenced libraries. STAR aligner, Rsubread::featureCounts counting UMIs in exons and introns. 
-    - Parekh, Swati, Christoph Ziegenhain, Beate Vieth, Wolfgang Enard, and Ines Hellmann. “[ZUMIs - A Fast and Flexible Pipeline to Process RNA Sequencing Data with UMIs.](https://doi.org/10.1093/gigascience/giy059)” GigaScience 7, no. 6 (01 2018). 
+    Tyler, Scott R., Pavana G. Rotti, Xingshen Sun, Yaling Yi, Weiliang Xie, Michael C. Winter, Miles J. Flamme-Wiese, et al. “[PyMINEr Finds Gene and Autocrine-Paracrine Networks from Human Islet ScRNA-Seq.](https://doi.org/10.1016/j.celrep.2019.01.063)” Cell Reports 26, no. 7 (February 2019): 1951-1964.e8. 
+</details>
 
-- [demuxlet](https://github.com/statgen/demuxlet) - Introduces the ‘demuxlet’ algorithm, which enables genetic demultiplexing, doublet detection, and super-loading for droplet-based scRNA-seq. Recommended approach when samples have distinct genotypes
-    - Kang, Hyun Min, Meena Subramaniam, Sasha Targ, Michelle Nguyen, Lenka Maliskova, Elizabeth McCarthy, Eunice Wan, et al. “[Multiplexed Droplet Single-Cell RNA-Sequencing Using Natural Genetic Variation.](https://doi.org/10.1038/nbt.4042)” Nature Biotechnology 36, no. 1 (January 2018): 89–94. 
+- [Scanpy](https://github.com/theislab/scanpy) - Python-based pipeline for preprocessing, visualization, clustering, pseudotime and trajectory inference, differential expression and network simulation <details>
+    <summary>Paper</summary>
 
-- [CALISTA](https://github.com/CABSEL/CALISTA) - clustering, lineage reconstruction, transition gene identification, and cell pseudotime single cell transcriptional analysis. Analyses can be all or separate. Uses a likelihood-based approach based on probabilistic models of stochastic gene transcriptional bursts and random technical dropout events, so all analyses are compatible with each other. Input - a matrix of normalized, batch-removed log(RPKM) or log(TPM) or scaled UMIs. Methods detail statistical methodology. Matlab and R version
-    - Papili Gao, Nan, Thomas Hartmann, Tao Fang, and Rudiyanto Gunawan. “[CALISTA: Clustering And Lineage Inference in Single-Cell Transcriptional Analysis.](https://doi.org/10.1101/257550)” BioRxiv, January 1, 2018, 257550. 
-
-- [scPipe](https://bioconductor.org/packages/release/bioc/html/scPipe.html) - A preprocessing pipeline for single cell RNA-seq data that starts from the fastq files and produces a gene count matrix with associated quality control information. It can process fastq data generated by CEL-seq, MARS-seq, Drop-seq, Chromium 10x and SMART-seq protocols. Modular, can swap tools like use different aligners
-    - Tian et al. "[scPipe: A flexible R/Bioconductor preprocessing pipeline for single-cell RNA-sequencing data](https://doi.org/10.1371/journal.pcbi.1006361)" PLOS Computational Biology, 2018. 
+    Wolf, F. Alexander, Philipp Angerer, and Fabian J. Theis. “[SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis.](https://doi.org/10.1186/s13059-017-1382-0)” Genome Biology 19, no. 1 (06 2018): 15. 
+</details>
 
 - [RAPIDS & Scanpy Single-Cell RNA-seq Workflow](https://github.com/clara-parabricks/rapids-single-cell-examples/blob/master/notebooks/hlca_lung_gpu_analysis.ipynb) - real-time analysis of scRNA-seq data on GPU. [Tweet](https://twitter.com/johnny_israeli/status/1265762506993135618?s=20)
+
+- [scPipe](https://bioconductor.org/packages/release/bioc/html/scPipe.html) - A preprocessing pipeline for single cell RNA-seq data that starts from the fastq files and produces a gene count matrix with associated quality control information. It can process fastq data generated by CEL-seq, MARS-seq, Drop-seq, Chromium 10x and SMART-seq protocols. Modular, can swap tools like use different aligners <details>
+    <summary>Paper</summary>
+
+    Tian et al. "[scPipe: A flexible R/Bioconductor preprocessing pipeline for single-cell RNA-sequencing data](https://doi.org/10.1371/journal.pcbi.1006361)" PLOS Computational Biology, 2018. 
+</details>
+
+- [SEQC](https://github.com/ambrosejcarr/seqc) - Single-Cell Sequencing Quality Control and Processing Software, a general purpose method to build a count matrix from single cell sequencing reads, able to process data from inDrop, drop-seq, 10X, and Mars-Seq2 technologies <details>
+    <summary>Paper</summary>
+
+    Azizi, Elham, Ambrose J. Carr, George Plitas, Andrew E. Cornish, Catherine Konopacki, Sandhya Prabhakaran, Juozas Nainys, et al. “[Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.](https://doi.org/10.1016/j.cell.2018.05.060)” Cell, June 2018. 
+</details>
+
+- [zUMIs](https://github.com/sdparekh/zUMIs) - scRNA-seq processing pipeline that handles barcodes and summarizes  UMIs using exonic or exonic + intronic mapped reads (improves clustering, DE detection). Adaptive downsampling of oversequenced libraries. STAR aligner, Rsubread::featureCounts counting UMIs in exons and introns. <details>
+    <summary>Paper</summary>
+
+    Parekh, Swati, Christoph Ziegenhain, Beate Vieth, Wolfgang Enard, and Ines Hellmann. “[ZUMIs - A Fast and Flexible Pipeline to Process RNA Sequencing Data with UMIs.](https://doi.org/10.1093/gigascience/giy059)” GigaScience 7, no. 6 (01 2018). 
+</details>
+
+- STAR alignment parameters: `–outFilterType BySJout, –outFilterMultimapNmax 100, –limitOutSJcollapsed 2000000 –alignSJDBoverhangMin 8, –outFilterMismatchNoverLmax 0.04, –alignIntronMin 20, –alignIntronMax 1000000, –readFilesIn fastqrecords, –outSAMprimaryFlag AllBestScore, –outSAMtype BAM Unsorted`. From Azizi et al., “Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.”
+
+### Format conversion
 
 - [sceasy](https://github.com/cellgeni/sceasy) - R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom
 
 - [scKirby](https://github.com/neurogenomics/scKirby) - R package for automated ingestion and conversion of various single-cell data formats (SingleCellExperiment, SummarizedExperiment, HDF5SummarizedExperiment, Seurat, H5Seurat, anndata, loom, loomR, CellDataSet/monocle, ExpressionSet, and more). 
 
-- [zellkonverter](https://bioconductor.org/packages/zellkonverter/) - R package for conversion between scRNA-seq objects (the Bioconductor SingleCellExperiment data structure and the Python AnnData-based single-cell analysis environment)
-
-- STAR alignment parameters: `–outFilterType BySJout, –outFilterMultimapNmax 100, –limitOutSJcollapsed 2000000 –alignSJDBoverhangMin 8, –outFilterMismatchNoverLmax 0.04, –alignIntronMin 20, –alignIntronMax 1000000, –readFilesIn fastqrecords, –outSAMprimaryFlag AllBestScore, –outSAMtype BAM Unsorted`. From Azizi et al., “Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.”
+- [zellkonverter](https://bioconductor.org/packages/zellkonverter/) - R package for conversion between scRNA-seq objects (the Bioconductor SingleCellExperiment data structure and the Python AnnData-based single-cell analysis environment). [Tweet](https://twitter.com/tangming2005/status/1466865990667542536?s=20)
 
 ### Visualization pipelines
 
