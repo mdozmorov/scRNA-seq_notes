@@ -55,17 +55,25 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Notes on scATAC-seq analysis](https://github.com/crazyhottommy/scATACseq-analysis-notes) by Ming Tang
 
-- [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/), https://davetang.org/muse/category/single-cell-2/
+- [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/)
 
-- [The scRNA-tools database](https://www.scrna-tools.org/) - Zappia, Luke, Belinda Phipson, and Alicia Oshlack. “[Exploring the Single-Cell RNA-Seq Analysis Landscape with the ScRNA-Tools Database](https://doi.org/10.1101/206573).” BioRxiv, January 1, 2018. https://www.scrna-tools.org/
+- [www.scrna-tools.org](https://www.scrna-tools.org/) - The scRNA-tools database <details>
+    <summary>Paper</summary>
+
+    Zappia, Luke, Belinda Phipson, and Alicia Oshlack. "[Exploring the single-cell RNA-seq analysis landscape with the scRNA-tools database](https://doi.org/10.1371/journal.pcbi.1006245)." PLoS computational biology, June 25, 2018
+</details>
+
+- [avesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system
+
+- [SingleCell Omics](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010) - A Google Doc with a structured collection of scRNA-seq methods, software, and many other scRNA-seq information, by @albertvilella
+
+- [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. <details>
+    <summary>Paper</summary>
+
+    From Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
+</details>
 
 - [single-cell-pseudotime](https://github.com/agitter/single-cell-pseudotime) - an overview of single-cell RNA-seq pseudotime estimation algorithms, comprehensive collection of links to software and accompanying papers, by Anthony Gitter
-
-- [avesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system, https://github.com/johandahlberg/awesome-10x-genomics
-
-- [A Google Doc with a structured collection of scRNA-seq methods](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 ), software, and many other scRNA-seq information, https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010 
-
-- [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. From Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
 
 
 ## Courses
