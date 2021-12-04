@@ -136,7 +136,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [RAPIDS & Scanpy Single-Cell RNA-seq Workflow](https://github.com/clara-parabricks/rapids-single-cell-examples/blob/master/notebooks/hlca_lung_gpu_analysis.ipynb) - real-time analysis of scRNA-seq data on GPU. [Tweet](https://twitter.com/johnny_israeli/status/1265762506993135618?s=20)
 
-- [sceasy](https://github.com/cellgeni/sceasy) - An R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom
+- [sceasy](https://github.com/cellgeni/sceasy) - R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom
+
+- [scKirby](https://github.com/neurogenomics/scKirby) - R package for automated ingestion and conversion of various single-cell data formats (SingleCellExperiment, SummarizedExperiment, HDF5SummarizedExperiment, Seurat, H5Seurat, anndata, loom, loomR, CellDataSet/monocle, ExpressionSet, and more). 
 
 - [zellkonverter](https://bioconductor.org/packages/zellkonverter/) - R package for conversion between scRNA-seq objects (the Bioconductor SingleCellExperiment data structure and the Python AnnData-based single-cell analysis environment)
 
