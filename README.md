@@ -138,6 +138,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [sceasy](https://github.com/cellgeni/sceasy) - An R package to convert different single-cell data formats to each other, supports Seurat, SingleCellExperiment, AnnData, Loom
 
+- [zellkonverter](https://bioconductor.org/packages/zellkonverter/) - R package for conversion between scRNA-seq objects (the Bioconductor SingleCellExperiment data structure and the Python AnnData-based single-cell analysis environment)
+
 - STAR alignment parameters: `–outFilterType BySJout, –outFilterMultimapNmax 100, –limitOutSJcollapsed 2000000 –alignSJDBoverhangMin 8, –outFilterMismatchNoverLmax 0.04, –alignIntronMin 20, –alignIntronMax 1000000, –readFilesIn fastqrecords, –outSAMprimaryFlag AllBestScore, –outSAMtype BAM Unsorted`. From Azizi et al., “Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.”
 
 ### Visualization pipelines
