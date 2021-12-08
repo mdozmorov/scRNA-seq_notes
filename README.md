@@ -811,6 +811,12 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ### Human
 
+- [Tablua Sapiens](https://tabula-sapiens-portal.ds.czbiohub.org/) - human scRNA-seq reference database. 500,000 cells from 24 organs of 15 normal human subjects. Visualization and exploratory analysis of all and organ-specific datasets. scVI low-dimensional representation, UMAP visualization, cellxgene for cell annotation, SICILIAN to identify splice junctions. [GitHub](https://github.com/czbiohub/tabula-sapiens), Raw data on [Registry of Open Data on AWS](https://registry.opendata.aws/tabula-sapiens/). Processed data on [FigShare](https://figshare.com/articles/dataset/Tabula_Sapiens_release_1_0/14267219) and [GEO GSE149590](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149590) <details>
+    <summary>Preprint</summary>
+
+    Quake, Stephen R, Tabula Sapiens Consortium, and others. “[The Tabula Sapiens: A Single Cell Transcriptomic Atlas of Multiple Organs from Individual Human Donors](https://doi.org/10.1101/2021.07.19.452956).” Biorxiv, 2021.
+</details>
+
 - [Human Cell Atlas Preview Datasets](https://preview.data.humancellatlas.org/). Massive amount of data. [HCAData](https://github.com/federicomarini/HCAData) - an R package to access this data is being developed. [Galaxy interface to HCA data analysis](https://humancellatlas.usegalaxy.eu/)
 
 - [Single Cell Immune Profiling Datasets](https://support.10xgenomics.com/single-cell-vdj/datasets). \~150,000 CD8+ T cells from 4 human donors across a highly multiplexed panel of 44 distinct, specific peptide–MHC (pMHC) multimers. 
