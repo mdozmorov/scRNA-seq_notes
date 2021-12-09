@@ -226,7 +226,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [singleCellTK](https://compbiomed.github.io/sctk_docs/articles/v01-Introduction_to_singleCellTK.html) - R/Shiny package for an interactive scRNA-Seq analysis. Input, raw counts in SingleCellExperiment. Analysis: filtering raw results, clustering, batch correction, differential expression, pathway enrichment, and scRNA-Seq study design. https://compbiomed.github.io/sctk_docs/articles/v01-Introduction_to_singleCellTK.html
 
-- [cellxgene](https://github.com/chanzuckerberg/cellxgene) - An interactive explorer for single-cell transcriptomics data. https://chanzuckerberg.github.io/cellxgene/
+- [cellxgene](https://github.com/chanzuckerberg/cellxgene) - An interactive exploratory visualization tool for single-cell transcriptomics data, web and desktop versions. Input - matrix-form datasets, metadata, pre-computed embeddings/clustering. Compatible with Seurat, Scanpy, Bioconductor, scVI [GitHub](https://github.com/chanzuckerberg/cellxgene) <details>
+    <summary>Preprint</summary>
+
+    Megill, Colin, Bruce Martin, Charlotte Weaver, Sidney Bell, Lia Prins, Seve Badajoz, Brian McCandless, et al. “[Cellxgene: A Performant, Scalable Exploration Platform for High Dimensional Sparse Matrices](https://doi.org/10.1101/2021.04.05.438318).” Preprint. Systems Biology, April 6, 2021.
+</details>
 
 - [UCSC Single Cell Browser](https://github.com/maximilianh/cellBrowser) - Python pipeline and Javascript scatter plot library for single-cell datasets. Pre-process an expression matrix by filtering, PCA, nearest-neighbors, clustering, t-SNE and UMAP and formats them for cbBuild. Stand-alone app on GitHub, https://github.com/maximilianh/cellBrowser, [Demo that includes several landmark datasets](https://cells.ucsc.edu/)
 
