@@ -27,6 +27,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Networks](#networks)
   - [RNA velocity](#rna-velocity)
 - [Differential expression](#differential-expression)
+  - [Differential abundance](#differential-abundance)
 - [CNV](#cnv)
 - [Annotation, subpopulation identification](#annotation-subpopulation-identification)
   - [Cell markers](#cell-markers)
@@ -585,6 +586,12 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [SCDE](https://hms-dbmi.github.io/scde/index.html) - Stochasticity of gene expression, high drop-out rate. A mixture model of two processes - detected expression and drop-out failure modeled as low-magnitude Poisson. Drop-out rate depends on the expected expression and can be approximated by logistic regression. https://hms-dbmi.github.io/scde/index.html
     - Kharchenko, Peter V., Lev Silberstein, and David T. Scadden. “[Bayesian Approach to Single-Cell Differential Expression Analysis](https://doi.org/10.1038/nmeth.2967).” Nature Methods 11, no. 7 (July 2014)
+
+
+### Differential abundance
+
+- [Milo](https://github.com/MarioniLab/miloR) - an R package for differential abundance testing on scRNA-seq data between two groups or multiple conditions. Building a graph on the first 40 components of PCA, defining neighborhoods using a graph sampling algorithm. Each neighborhood (partially overlapping, in contrast to discrete clustering) contains cells from different conditions - differential abundance is tested using a negative binomial GLM. Tested on simulated datasets (dyntoy), a time course of mouse thymic epithelial cells development, liver cirrhosis analysis. Replicated datasets needed, batch corrected. Competitors: [DA-seq](https://github.com/KlugerLab/DAseq), [Cydar](https://bioconductor.org/packages/cydar/). [Code to reproduce results for the paper](https://github.com/MarioniLab/milo_analysis_2020)
+    - Dann, Emma, Neil C. Henderson, Sarah A. Teichmann, Michael D. Morgan, and John C. Marioni. “[Milo: Differential Abundance Testing on Single-Cell Data Using k-NN Graphs](https://doi.org/10.1101/2020.11.23.393769).” BioRxiv, January 1, 2020
 
 ## CNV
 
