@@ -96,6 +96,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Tutorials
 
+- [Single-cell RNA-seq data analysis workshop](https://github.com/hbctraining/scRNA-seq_online) by the Harvard Chan Bioinformatics Core. [Lessons](https://github.com/hbctraining/scRNA-seq_online/tree/master/lessons) - hands-on Introduction to single-cell RNA-seq analysis using Seurat/RStudio, starting from count matrices. 
+
 - [Rockfeller University scRNAseq tutorial](https://rockefelleruniversity.github.io/scRNA-seq/)
 
 - [ASAP: Full pipeline on a project imported from the Human Cell Atlas](https://asap.epfl.ch/home/tutorial?t=full_pipeline)
