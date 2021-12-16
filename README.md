@@ -391,6 +391,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Clustering
 
+- [Challenges in scRNA-seq clustering](https://www.rna-seqblog.com/challenges-in-unsupervised-clustering-of-single-cell-rna-seq-data/). Clustering strategies (dimensionality reduction, k-means, agglomerative/divisive hierarchical clustering, discrete vs. continuous clustering). Table 1 - summary of 15 clustering methods. <details>
+    <summary>Paper</summary>
+    Kiselev, Vladimir Yu, Tallulah S. Andrews, and Martin Hemberg. “[Challenges in Unsupervised Clustering of Single-Cell RNA-Seq Data](https://doi.org/10.1038/s41576-018-0088-9).” Nature Reviews Genetics, January 7, 2019. 
+</details>
+
 - [Recommendations to properly use t-SNE on large omics datasets](https://github.com/berenslab/rna-seq-tsne) (scRNA-seq in particular) to preserve global geometry. Overview of t-SNE, PCA, MDS, UMAP, their similarities, differences, strengths and weaknesses. PCA initialization (first two components are OK), a high learning rate of n/12, and multi-scale similarity kernels. For very large data, increase exagerration. Strategies to align new points on an existing t-SNE plot, aligning two t-SNE visualizations. Extremely fast implementation is FIt-SNE, https://github.com/KlugerLab/FIt-SNE. Code to illustrate the use of t-SNE: https://github.com/berenslab/rna-seq-tsne
     - Kobak, Dmitry, and Philipp Berens. “[The Art of Using T-SNE for Single-Cell Transcriptomics](https://doi.org/10.1038/s41467-019-13056-x).” Nature Communications 10, no. 1 (December 2019)
 
