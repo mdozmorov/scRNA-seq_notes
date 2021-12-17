@@ -755,6 +755,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Collections of library structure and sequence of popular single cell genomic methods](https://teichlab.github.io/scg_lib_structs/) from Sarah Teichmann's group. [GitHub](https://github.com/Teichlab/scg_lib_structs)
 
+- **SHARE-seq** - simultaneous profiling of scRNA-seq and sc-ATAC-seq from the same cells. Built upon SPLiT-seq, a combinatorial indexing method. Confirmed by separate scRNA-seq and scATAC-seq datasets. Chromatin opening precedes transcriptional activation. <details>
+    <summary>Paper</summary>
+    Ma, Sai, Bing Zhang, Lindsay M. LaFave, Andrew S. Earl, Zachary Chiang, Yan Hu, Jiarui Ding, et al. “[Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin](https://doi.org/10.1016/j.cell.2020.09.056).” Cell, (November 2020) 
+</details>
+
 - **Drop-seq technology** - single cells encapsulated in lipid droplets with nanoparticles with cell- and UMI barcodes. Barcoding strategy, "split-and-pool" synthesis cycles to synthesize 12bp cell barcodes, then 8bp UMI synthesis (Figure 1). Majority of droplets are empty, doublets depend on initial cell concentration. Example on a mixture of 589 human HEK and 412 mouse 3T3 cells. Expression profiles from 49,300 retinal cells profiled using Drop-seq. 13,155 largest libraries, reduce dimensionality by PCA to 32 components (decided by permutation), tSNE for visualization. 39 clusters matched to known cell types. [GEO GSE63473](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63473)
     - Macosko, Evan Z., Anindita Basu, Rahul Satija, James Nemesh, Karthik Shekhar, Melissa Goldman, Itay Tirosh, et al. “[Highly Parallel Genome-Wide Expression Profiling of Individual Cells Using Nanoliter Droplets](https://doi.org/10.1016/j.cell.2015.05.002).” Cell, (May 21, 2015)
 
