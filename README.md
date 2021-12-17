@@ -237,76 +237,116 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Quality control
 
-- [miQC](https://bioconductor.org/packages/miQC/) - data-driven identification of cells with high mitochondrial content (likely, dead cells) from scRNA-seq data. Joint statistical model the proportion of reads mapping to mtDNA genes and the number of detected genes, EM for parameter estimation (flexmix). Tested on various datasets processed with CellRanged and salon alevin - improves removal of compromised cells as compared with hard threshold. Bioconductor R package, integrates with scater.
-    - Hippen, Ariel A., Matias M. Falco, Lukas M. Weber, Erdogan Pekcan Erkan, Kaiyang Zhang, Jennifer Anne Doherty, Anna Vähärautio, Casey S. Greene, and Stephanie C. Hicks. “[MiQC: An Adaptive Probabilistic Framework for Quality Control of Single-Cell RNA-Sequencing Data](https://doi.org/10.1371/journal.pcbi.1009290).” PLOS Computational Biology, (August 24, 2021)
+- [miQC](https://bioconductor.org/packages/miQC/) - data-driven identification of cells with high mitochondrial content (likely, dead cells) from scRNA-seq data. Joint statistical model the proportion of reads mapping to mtDNA genes and the number of detected genes, EM for parameter estimation (flexmix). Tested on various datasets processed with CellRanged and salon alevin - improves removal of compromised cells as compared with hard threshold. Bioconductor R package, integrates with scater. <details>
+    <summary>Paper</summary>
+    Hippen, Ariel A., Matias M. Falco, Lukas M. Weber, Erdogan Pekcan Erkan, Kaiyang Zhang, Jennifer Anne Doherty, Anna Vähärautio, Casey S. Greene, and Stephanie C. Hicks. “[MiQC: An Adaptive Probabilistic Framework for Quality Control of Single-Cell RNA-Sequencing Data](https://doi.org/10.1371/journal.pcbi.1009290).” PLOS Computational Biology, (August 24, 2021)
+</details>
 
-- [doubletD](https://github.com/elkebir-group/doubletD) - doublet detection in single-cell DNA-seq data. doublets in scRNA-seq data have a characteristic variant allele frequency spectrum due to increased copy number and allelic dropout. A maximum likelihood approach with a closed-form solution - stats in Methods. Simulated and real data, outperforms SCG, Scrublet, robust to the presence of CNAs, mixture of two cell types. Python3 implementation.
-    - Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. “[DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data](https://doi.org/10.1093/bioinformatics/btab266).” Bioinformatics, (August 4, 2021)
+- [doubletD](https://github.com/elkebir-group/doubletD) - doublet detection in single-cell DNA-seq data. doublets in scRNA-seq data have a characteristic variant allele frequency spectrum due to increased copy number and allelic dropout. A maximum likelihood approach with a closed-form solution - stats in Methods. Simulated and real data, outperforms SCG, Scrublet, robust to the presence of CNAs, mixture of two cell types. Python3 implementation. <details>
+    <summary>Paper</summary>
+    Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. “[DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data](https://doi.org/10.1093/bioinformatics/btab266).” Bioinformatics, (August 4, 2021)
+</details>
 
-- [DropletUtils](https://bioconductor.org/packages/DropletUtils/) - Provides a number of utility functions for handling single-cell (RNA-seq) data from droplet technologies such as 10X Genomics. This includes data loading, identification of cells from empty droplets, removal of barcode-swapped pseudo-cells, and downsampling of the count matrix. https://bioconductor.org/packages/DropletUtils/
-    - Lun ATL, Riesenfeld S, Andrews T, Dao T, Gomes T, participants in the 1st Human Cell Atlas Jamboree, Marioni JC (2019). “[EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1662-y).” Genome Biol.
+- [DropletUtils](https://bioconductor.org/packages/DropletUtils/) - Provides a number of utility functions for handling single-cell (RNA-seq) data from droplet technologies such as 10X Genomics. This includes data loading, identification of cells from empty droplets, removal of barcode-swapped pseudo-cells, and downsampling of the count matrix. <details>
+    <summary>Paper</summary>
+    Lun ATL, Riesenfeld S, Andrews T, Dao T, Gomes T, participants in the 1st Human Cell Atlas Jamboree, Marioni JC (2019). “[EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data](https://doi.org/10.1186/s13059-019-1662-y).” Genome Biol.
+</details>
 
-- [DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder) - doublet detection using gene expression data. Simulates artificial doublets, incorporate them into existing scRNA-seq data. Integrates with Seurat (Figure 1). Three input parameters (the expected number of doublets, the number of artificial doublets pN, the neighborhood size pN), need to be tailored to data with different number of cell types and magnitudes of transcriptional heterogeneity. Bimodality Coefficient maximization to select pN. Benchmarked against ground-truth scRNA-seq datasets. Not optimal for homogeneous data. 
-    - McGinnis, Christopher S., Lyndsay M. Murrow, and Zev J. Gartner. “[DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors](https://doi.org/10.1016/j.cels.2019.03.003).” Cell Systems 8, no. 4 (April 2019)
+- [DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder) - doublet detection using gene expression data. Simulates artificial doublets, incorporate them into existing scRNA-seq data. Integrates with Seurat (Figure 1). Three input parameters (the expected number of doublets, the number of artificial doublets pN, the neighborhood size pN), need to be tailored to data with different number of cell types and magnitudes of transcriptional heterogeneity. Bimodality Coefficient maximization to select pN. Benchmarked against ground-truth scRNA-seq datasets. Not optimal for homogeneous data. <details>
+    <summary>Paper</summary>
+    -McGinnis, Christopher S., Lyndsay M. Murrow, and Zev J. Gartner. “[DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors](https://doi.org/10.1016/j.cels.2019.03.003).” Cell Systems 8, no. 4 (April 2019)
+</details>
 
-- [scrublet](https://github.com/AllonKleinLab/scrublet) - Detect doublets in single-cell RNA-seq data, https://github.com/AllonKleinLab/scrublet
-    - Wolock, Samuel L, Romain Lopez, and Allon M Klein. “[Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data](https://doi.org/10.1101/357368).” Preprint. Bioinformatics, July 9, 2018. 
+- [scrublet](https://github.com/AllonKleinLab/scrublet) - Detect doublets in single-cell RNA-seq data. <details>
+    <summary>Paper</summary>
+    Wolock, Samuel L, Romain Lopez, and Allon M Klein. “[Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data](https://doi.org/10.1101/357368).” Preprint. Bioinformatics, July 9, 2018. 
+</details>
 
-- [scater](https://bioconductor.org/packages/scater/) - A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control. https://bioconductor.org/packages/scater/
-    - McCarthy et al. "[Scater: pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R](https://doi.org/10.1093/bioinformatics/btw777)." Bioinformatics, 2017. 
+- [scater](https://bioconductor.org/packages/scater/) - A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control. <details>
+    <summary>Paper</summary>
+    McCarthy et al. "[Scater: pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R](https://doi.org/10.1093/bioinformatics/btw777)." Bioinformatics, 2017. 
+</details>
 
-- [celloline](https://github.com/Teichlab/celloline) - A pipeline to remove low quality single cell files. Figure 2 - 20 biological and technical features used for filtering. High mitochondrial genes = broken cells. https://github.com/Teichlab/celloline
-    - Ilicic, Tomislav, Jong Kyoung Kim, Aleksandra A. Kolodziejczyk, Frederik Otzen Bagger, Davis James McCarthy, John C. Marioni, and Sarah A. Teichmann. “[Classification of Low Quality Cells from Single-Cell RNA-Seq Data](https://doi.org/10.1186/s13059-016-0888-1).” Genome Biology 17 (February 17, 2016)
-
+- [celloline](https://github.com/Teichlab/celloline) - A pipeline to remove low quality single cell files. Figure 2 - 20 biological and technical features used for filtering. High mitochondrial genes = broken cells. <details>
+    <summary>Paper</summary>
+    Ilicic, Tomislav, Jong Kyoung Kim, Aleksandra A. Kolodziejczyk, Frederik Otzen Bagger, Davis James McCarthy, John C. Marioni, and Sarah A. Teichmann. “[Classification of Low Quality Cells from Single-Cell RNA-Seq Data](https://doi.org/10.1186/s13059-016-0888-1).” Genome Biology 17 (February 17, 2016)
+</details>
 
 ## Normalization
 
-- [sctransform](https://cran.r-project.org/web/packages/sctransform/) - using the Pearson residuals from regularized negative binomial regression where sequencing depth is utilized as a covariate to remove technical artifacts. Interfaces with Seurat. https://cran.r-project.org/web/packages/sctransform/
-    - Hafemeister, Christoph, and Rahul Satija. “[Normalization and Variance Stabilization of Single-Cell RNA-Seq Data Using Regularized Negative Binomial Regression](https://doi.org/10.1101/576827).” BioRxiv, March 14, 2019.
+- [sctransform](https://cran.r-project.org/web/packages/sctransform/) - using the Pearson residuals from regularized negative binomial regression where sequencing depth is utilized as a covariate to remove technical artifacts. Interfaces with Seurat. <details>
+    <summary>Paper</summary>
+    Hafemeister, Christoph, and Rahul Satija. “[Normalization and Variance Stabilization of Single-Cell RNA-Seq Data Using Regularized Negative Binomial Regression](https://doi.org/10.1101/576827).” BioRxiv, March 14, 2019.
+</details>
 
-- [SCnorm](https://www.biostat.wisc.edu/~kendzior/SCNORM/) - normalization for single-cell data. Quantile regression to estimate the dependence of transcript expression on sequencing depth for every gene. Genes with similar dependence are then grouped, and a second quantile regression is used to estimate scale factors within each group. Within-group adjustment for sequencing depth is then performed using the estimated scale factors to provide normalized estimates of expression. Good statistical methods description. https://www.biostat.wisc.edu/~kendzior/SCNORM/
+- [SCnorm](https://www.biostat.wisc.edu/~kendzior/SCNORM/) - normalization for single-cell data. Quantile regression to estimate the dependence of transcript expression on sequencing depth for every gene. Genes with similar dependence are then grouped, and a second quantile regression is used to estimate scale factors within each group. Within-group adjustment for sequencing depth is then performed using the estimated scale factors to provide normalized estimates of expression. Good statistical methods description. <details>
+    <summary>Paper</summary>
     - Bacher, Rhonda, Li-Fang Chu, Ning Leng, Audrey P Gasch, James A Thomson, Ron M Stewart, Michael Newton, and Christina Kendziorski. “[SCnorm: Robust Normalization of Single-Cell RNA-Seq Data](https://doi.org/10.1038/nmeth.4263).” Nature Methods 14, no. 6 (April 17, 2017)
-
+</details>
 
 ## Batch correction, merging
 
-- [Benchmark of 14 methods for scRNA-seq batch correction](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). Using five scenarios: different technologies and same cells, non-identical cell types, multiple batches, big data, simulated data. Four benchmarking metrics. Harmony (fast), LIGER, and Seurat 3 perform well overall. For differential expression, ComBat, limma, MNN Correct perform well. Detailed description of 9 datasets and download links. [Data and scripts](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking) 
-    - Tran, Hoa Thi Nhu, Kok Siong Ang, Marion Chevrier, Xiaomeng Zhang, Nicole Yee Shin Lee, Michelle Goh, and Jinmiao Chen. “[A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data](https://doi.org/10.1186/s13059-019-1850-9).” Genome Biology 21, no. 1 (December 2020)
+- [Benchmark of 14 methods for scRNA-seq batch correction](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). Using five scenarios: different technologies and same cells, non-identical cell types, multiple batches, big data, simulated data. Four benchmarking metrics. Harmony (fast), LIGER, and Seurat 3 perform well overall. For differential expression, ComBat, limma, MNN Correct perform well. Detailed description of 9 datasets and download links. [Data and scripts](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). <details>
+    <summary>Paper</summary>
+    Tran, Hoa Thi Nhu, Kok Siong Ang, Marion Chevrier, Xiaomeng Zhang, Nicole Yee Shin Lee, Michelle Goh, and Jinmiao Chen. “[A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data](https://doi.org/10.1186/s13059-019-1850-9).” Genome Biology 21, no. 1 (December 2020)
+</details>
 
-- [Evaluation of 10 single-cell data integration methods and 4 preprocessing combinations](https://github.com/theislab/scib) on 77 batches of gene expression, chromatin accessibility, and simulated data (Table 1) in 9 integration tasks using 14 evaluation metrics. BBKNN, Scanorama, scVI perform well on complex tasks, Seurat performs well on simpler tasks but may eliminate biological signal. the use of Seurat v3 and Harmony is appropriate for simple integration tasks with distinct batch and biological structure. Batch in ATAC-seq is the most difficult to remove. Jupyter notebooks for full reproducibility. https://github.com/theislab/scib
-    - Luecken, Md, M Büttner, K Chaichoompu, A Danese, M Interlandi, Mf Mueller, Dc Strobl, et al. “[Benchmarking Atlas-Level Data Integration in Single-Cell Genomics](https://doi.org/10.1101/2020.05.22.111161).” Preprint. Bioinformatics, May 23, 2020. 
+- [Evaluation of 10 single-cell data integration methods and 4 preprocessing combinations](https://github.com/theislab/scib) on 77 batches of gene expression, chromatin accessibility, and simulated data (Table 1) in 9 integration tasks using 14 evaluation metrics. BBKNN, Scanorama, scVI perform well on complex tasks, Seurat performs well on simpler tasks but may eliminate biological signal. the use of Seurat v3 and Harmony is appropriate for simple integration tasks with distinct batch and biological structure. Batch in ATAC-seq is the most difficult to remove. Jupyter notebooks for full reproducibility. <details>
+    <summary>Paper</summary>
+    Luecken, Md, M Büttner, K Chaichoompu, A Danese, M Interlandi, Mf Mueller, Dc Strobl, et al. “[Benchmarking Atlas-Level Data Integration in Single-Cell Genomics](https://doi.org/10.1101/2020.05.22.111161).” Preprint. Bioinformatics, May 23, 2020. 
+</details>
 
-- [CarDEC](https://github.com/jlakkis/CarDEC) - Count adapted regularized Deep Embedded Clustering, a joint deep learning model that simultaneously clusters, denoises, corrects for multiple batch effects in gene expression space (Figure 1). Outperforms scVI, DCA, MNN, scDeepCluster. Separately treats highly and lowly variable genes. Improves integration of omics generated by multiple technologies, pseudotime reconstruction.
-    - Hoencamp, Claire, Olga Dudchenko, Ahmed M. O. Elbatsh, Sumitabha Brahmachari, Jonne A. Raaijmakers, Tom van Schaik, Ángela Sedeño Cacciatore, et al. “[3D Genomics across the Tree of Life Reveals Condensin II as a Determinant of Architecture Type](https://doi.org/10.1126/science.abe2218).” Science, (May 28, 2021)
+- [CarDEC](https://github.com/jlakkis/CarDEC) - Count adapted regularized Deep Embedded Clustering, a joint deep learning model that simultaneously clusters, denoises, corrects for multiple batch effects in gene expression space (Figure 1). Outperforms scVI, DCA, MNN, scDeepCluster. Separately treats highly and lowly variable genes. Improves integration of omics generated by multiple technologies, pseudotime reconstruction. <details>
+    <summary>Paper</summary>
+    Hoencamp, Claire, Olga Dudchenko, Ahmed M. O. Elbatsh, Sumitabha Brahmachari, Jonne A. Raaijmakers, Tom van Schaik, Ángela Sedeño Cacciatore, et al. “[3D Genomics across the Tree of Life Reveals Condensin II as a Determinant of Architecture Type](https://doi.org/10.1126/science.abe2218).” Science, (May 28, 2021)
+</details>
 
-- [iCellR](https://cran.r-project.org/web/packages/iCellR/index.html) - batch correction in scRNA-seq data. Combined Coverage Correction Alignment (CCCA) and Combined Principal Component Alignment (CPCA). CCCA - PCA into 30 dimensions, for each cell, take k=10 nearest neighbors, average gene expression, thus imputing the adjusted matrix. CPCA skips imputation, instead PCs themselves get averaged. Similar performance. Tested on nine PBMC datasets provided by the Broad institute to test batch effect. Outperforms MAGIC. https://cran.r-project.org/web/packages/iCellR/index.html, data in text and .rda formats at https://genome.med.nyu.edu/results/external/iCellR/data/
-    - Khodadadi-Jamayran, Alireza, Joseph Pucella, Hua Zhou, Nicole Doudican, John Carucci, Adriana Heguy, Boris Reizis, and Aristotelis Tsirigos. “[ICellR: Combined Coverage Correction and Principal Component Alignment for Batch Alignment in Single-Cell Sequencing Analysis](https://doi.org/10.1101/2020.03.31.019109).” Preprint. Bioinformatics, April 1, 2020
+- [iCellR](https://cran.r-project.org/web/packages/iCellR/index.html) - batch correction in scRNA-seq data. Combined Coverage Correction Alignment (CCCA) and Combined Principal Component Alignment (CPCA). CCCA - PCA into 30 dimensions, for each cell, take k=10 nearest neighbors, average gene expression, thus imputing the adjusted matrix. CPCA skips imputation, instead PCs themselves get averaged. Similar performance. Tested on nine PBMC datasets provided by the Broad institute to test batch effect. Outperforms MAGIC. [Data in text and .rda formats](https://genome.med.nyu.edu/results/external/iCellR/data/). <details>
+    <summary>Paper</summary>
+    Khodadadi-Jamayran, Alireza, Joseph Pucella, Hua Zhou, Nicole Doudican, John Carucci, Adriana Heguy, Boris Reizis, and Aristotelis Tsirigos. “[ICellR: Combined Coverage Correction and Principal Component Alignment for Batch Alignment in Single-Cell Sequencing Analysis](https://doi.org/10.1101/2020.03.31.019109).” Preprint. Bioinformatics, April 1, 2020
+</details>
 
-- [BERMUDA](https://github.com/txWang/BERMUDA) - Batch Effect ReMoval Using Deep Autoencoders, for scRNA-seq data. Requires batches to share at least one common cell type. Five step framework: 1) preprocessing, 2) clustering of cells in each batch individually, 3) identifying similar cell clusters across different batches, 4) removing batch effect by training an autoencoder, 5) further analysis of batch-corrected data. Tested on simulated (splatter) and experimental (10X genomics) data. https://github.com/txWang/BERMUDA
-    - Wang, Tongxin, Travis S. Johnson, Wei Shao, Zixiao Lu, Bryan R. Helm, Jie Zhang, and Kun Huang. “[BERMUDA: A Novel Deep Transfer Learning Method for Single-Cell RNA Sequencing Batch Correction Reveals Hidden High-Resolution Cellular Subtypes](https://doi.org/10.1186/s13059-019-1764-6).” Genome Biology 20, no. 1 (December 2019). 
+- [BERMUDA](https://github.com/txWang/BERMUDA) - Batch Effect ReMoval Using Deep Autoencoders, for scRNA-seq data. Requires batches to share at least one common cell type. Five step framework: 1) preprocessing, 2) clustering of cells in each batch individually, 3) identifying similar cell clusters across different batches, 4) removing batch effect by training an autoencoder, 5) further analysis of batch-corrected data. Tested on simulated (splatter) and experimental (10X genomics) data. <details>
+    <summary>Paper</summary>
+    Wang, Tongxin, Travis S. Johnson, Wei Shao, Zixiao Lu, Bryan R. Helm, Jie Zhang, and Kun Huang. “[BERMUDA: A Novel Deep Transfer Learning Method for Single-Cell RNA Sequencing Batch Correction Reveals Hidden High-Resolution Cellular Subtypes](https://doi.org/10.1186/s13059-019-1764-6).” Genome Biology 20, no. 1 (December 2019). 
+</details>
 
-- [BBKNN](https://github.com/Teichlab/bbknn) (batch balanced k nearest neighbours) - batch correction for scRNA-seq data. Neighborhood graphs, balanced across all batches of the data, separately for each batch, that are merged. Main assumption (as in mnnCorrect) - at least some cells of the same type exist across batches. Preserves data structure allowing subsequent embedding, trajectory reconstruction. Python, compatible with SCANPY, very fast. 
-    - Polański, Krzysztof, Matthew D Young, Zhichao Miao, Kerstin B Meyer, Sarah A Teichmann, and Jong-Eun Park. “[BBKNN: Fast Batch Alignment of Single Cell Transcriptomes](https://doi.org/10.1093/bioinformatics/btz625).” Bioinformatics, August 10, 2019
+- [BBKNN](https://github.com/Teichlab/bbknn) (batch balanced k nearest neighbours) - batch correction for scRNA-seq data. Neighborhood graphs, balanced across all batches of the data, separately for each batch, that are merged. Main assumption (as in mnnCorrect) - at least some cells of the same type exist across batches. Preserves data structure allowing subsequent embedding, trajectory reconstruction. Python, compatible with SCANPY, very fast. <details>
+    <summary>Paper</summary>
+    Polański, Krzysztof, Matthew D Young, Zhichao Miao, Kerstin B Meyer, Sarah A Teichmann, and Jong-Eun Park. “[BBKNN: Fast Batch Alignment of Single Cell Transcriptomes](https://doi.org/10.1093/bioinformatics/btz625).” Bioinformatics, August 10, 2019
+</details>
 
-- [conos](https://github.com/hms-dbmi/conos) - joint analysis of scRNA-seq datasets through inter-sample mapping (mutual nearest-neighbor mapping) and constructing a joint graph. Analysis scripts: http://pklab.med.harvard.edu/peterk/conos/, R package:  https://github.com/hms-dbmi/conos
-    - Barkas, Nikolas, Viktor Petukhov, Daria Nikolaeva, Yaroslav Lozinsky, Samuel Demharter, Konstantin Khodosevich, and Peter V. Kharchenko. “[Joint Analysis of Heterogeneous Single-Cell RNA-Seq Dataset Collections](https://doi.org/10.1038/s41592-019-0466-z).” Nature Methods, July 15, 2019. 
+- [conos](https://github.com/hms-dbmi/conos) - joint analysis of scRNA-seq datasets through inter-sample mapping (mutual nearest-neighbor mapping) and constructing a joint graph. [Analysis scripts](http://pklab.med.harvard.edu/peterk/conos/). <details>
+    <summary>Paper</summary>
+    Barkas, Nikolas, Viktor Petukhov, Daria Nikolaeva, Yaroslav Lozinsky, Samuel Demharter, Konstantin Khodosevich, and Peter V. Kharchenko. “[Joint Analysis of Heterogeneous Single-Cell RNA-Seq Dataset Collections](https://doi.org/10.1038/s41592-019-0466-z).” Nature Methods, July 15, 2019. 
+</details>
 
-- [LIGER](https://github.com/MacoskoLab/liger) - R package for integrating and analyzing multiple single-cell datasets, across conditions, technologies (scRNA-seq and methylation), or species (human and mouse). Integrative nonnegative matrix factorization (W and H matrices), dataset-specific and shared patterns (metagenes, matrix H). Graphs of factor loadings onto these patterns (shared factor neighborhood graph), then comparing patterns. Alignment and agreement metrics to assess performance, LIGER outperforms Seurat on agreement. Analysis of published blood cells, brain. [Human/mouse brain data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126836). https://github.com/MacoskoLab/liger
-    - Welch, Joshua D., Velina Kozareva, Ashley Ferreira, Charles Vanderburg, Carly Martin, and Evan Z. Macosko. “[Single-Cell Multi-Omic Integration Compares and Contrasts Features of Brain Cell Identity](https://doi.org/10.1016/j.cell.2019.05.006).” Cell 177, no. 7 (June 13, 2019)
+- [LIGER](https://github.com/MacoskoLab/liger) - R package for integrating and analyzing multiple single-cell datasets, across conditions, technologies (scRNA-seq and methylation), or species (human and mouse). Integrative nonnegative matrix factorization (W and H matrices), dataset-specific and shared patterns (metagenes, matrix H). Graphs of factor loadings onto these patterns (shared factor neighborhood graph), then comparing patterns. Alignment and agreement metrics to assess performance, LIGER outperforms Seurat on agreement. Analysis of published blood cells, brain. [Human/mouse brain data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126836). <details>
+    <summary>Paper</summary>
+    Welch, Joshua D., Velina Kozareva, Ashley Ferreira, Charles Vanderburg, Carly Martin, and Evan Z. Macosko. “[Single-Cell Multi-Omic Integration Compares and Contrasts Features of Brain Cell Identity](https://doi.org/10.1016/j.cell.2019.05.006).” Cell 177, no. 7 (June 13, 2019)
+</details>
 
-- [scMerge](https://github.com/SydneyBioX/scMerge/) - R package for batch effect removal and normalizing of multipe scRNA-seq datasets. fastRUVIII batch removal method. Tested on 14 datasets, compared with scran, MNN, ComBat, Seurat, ZINB-WaVE using Silhouette, ARI - better separation of clusters, pseudotime reconstruction. https://github.com/SydneyBioX/scMerge/
-    - Lin, Yingxin, Shila Ghazanfar, Kevin Wang, Johann A. Gagnon-Bartsch, Kitty K. Lo, Xianbin Su, Ze-Guang Han, et al. “[ScMerge: Integration of Multiple Single-Cell Transcriptomics Datasets Leveraging Stable Expression and Pseudo-Replication](https://doi.org/10.1101/393280),” September 12, 2018. 
+- [scMerge](https://github.com/SydneyBioX/scMerge/) - R package for batch effect removal and normalizing of multipe scRNA-seq datasets. fastRUVIII batch removal method. Tested on 14 datasets, compared with scran, MNN, ComBat, Seurat, ZINB-WaVE using Silhouette, ARI - better separation of clusters, pseudotime reconstruction. <details>
+    <summary>Paper</summary>
+    Lin, Yingxin, Shila Ghazanfar, Kevin Wang, Johann A. Gagnon-Bartsch, Kitty K. Lo, Xianbin Su, Ze-Guang Han, et al. “[ScMerge: Integration of Multiple Single-Cell Transcriptomics Datasets Leveraging Stable Expression and Pseudo-Replication](https://doi.org/10.1101/393280),” September 12, 2018. 
+</details>
 
-- [MNN](https://bioconductor.org/packages/scran/) - mutual nearest neighbors method for single-cell batch correction. Assumptions: MNN exist between batches, batch is orthogonal to the biology. Cosine normalization, Euclidean distance, a pair-specific barch-correction vector as a vector difference between the expression profiles of the paired cells using selected genes of interest and hypervariable genes. Supplementary note 5 - algorithm. mnnCorrect function in the [scran](https://bioconductor.org/packages/scran/) package. [Code for paper](https://github.com/MarioniLab/MNN2017/)
-    - Haghverdi, Laleh, Aaron T L Lun, Michael D Morgan, and John C Marioni. “[Batch Effects in Single-Cell RNA-Sequencing Data Are Corrected by Matching Mutual Nearest Neighbors](https://doi.org/10.1038/nbt.4091).” Nature Biotechnology, April 2, 2018. 
+- [MNN](https://bioconductor.org/packages/scran/) - mutual nearest neighbors method for single-cell batch correction. Assumptions: MNN exist between batches, batch is orthogonal to the biology. Cosine normalization, Euclidean distance, a pair-specific barch-correction vector as a vector difference between the expression profiles of the paired cells using selected genes of interest and hypervariable genes. Supplementary note 5 - algorithm. mnnCorrect function in the [scran](https://bioconductor.org/packages/scran/) package. [Code for paper](https://github.com/MarioniLab/MNN2017/). <details>
+    <summary>Paper</summary>
+    Haghverdi, Laleh, Aaron T L Lun, Michael D Morgan, and John C Marioni. “[Batch Effects in Single-Cell RNA-Sequencing Data Are Corrected by Matching Mutual Nearest Neighbors](https://doi.org/10.1038/nbt.4091).” Nature Biotechnology, April 2, 2018. 
+</details>
 
-- [batchelor](https://bioconductor.org/packages/batchelor/) - Single-Cell Batch Correction Methods, by Aaron Lun. https://bioconductor.org/packages/batchelor/
-    - Haghverdi L, Lun ATL, Morgan MD, Marioni JC (2018). “[Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors](https://doi.org10.1038/nbt.4091).” Nat. Biotechnol.
+- [batchelor](https://bioconductor.org/packages/batchelor/) - Single-Cell Batch Correction Methods, by Aaron Lun. <details>
+    <summary>Paper</summary>   
+    Haghverdi L, Lun ATL, Morgan MD, Marioni JC (2018). “[Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors](https://doi.org10.1038/nbt.4091).” Nat. Biotechnol.
+</details>
 
-- [scLVM](https://github.com/PMBio/scLVM) - a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources and remove the variation explained by latent variables. Can correct for the cell cycle effect. Applied to naive T cells differentiating into TH2 cells. https://github.com/PMBio/scLVM
-    - Buettner, Florian, Kedar N Natarajan, F Paolo Casale, Valentina Proserpio, Antonio Scialdone, Fabian J Theis, Sarah A Teichmann, John C Marioni, and Oliver Stegle. “[Computational Analysis of Cell-to-Cell Heterogeneity in Single-Cell RNA-Sequencing Data Reveals Hidden Subpopulations of Cells](https://doi.org/10.1038/nbt.3102).” Nature Biotechnology 33, no. 2 (March 2015)
-    - Buettner, Florian, Naruemon Pratanwanich, Davis J. McCarthy, John C. Marioni, and Oliver Stegle. “[F-ScLVM: Scalable and Versatile Factor Analysis for Single-Cell RNA-Seq](https://doi.org/10.1186/s13059-017-1334-8).” Genome Biology 18, no. 1 (December 2017) - f-scLVM - factorial single-cell latent variable model guided by pathway annotations to infer interpretable factors behind heterogeneity. PCA components are annotated by correlated genes and their enrichment in pathways. Docomposition of the original gene expression matrix to a sum of annotated, unannotated, and confounding components. Applied to their own naive T to TH2 cells, mESCs, reanalyzed 3005 neuronal cells. Simulated data. https://github.com/bioFAM/slalom
-
+- [scLVM](https://github.com/PMBio/scLVM) - a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources and remove the variation explained by latent variables. Can correct for the cell cycle effect. Applied to naive T cells differentiating into TH2 cells. <details>
+    <summary>Paper</summary>
+    Buettner, Florian, Kedar N Natarajan, F Paolo Casale, Valentina Proserpio, Antonio Scialdone, Fabian J Theis, Sarah A Teichmann, John C Marioni, and Oliver Stegle. “[Computational Analysis of Cell-to-Cell Heterogeneity in Single-Cell RNA-Sequencing Data Reveals Hidden Subpopulations of Cells](https://doi.org/10.1038/nbt.3102).” Nature Biotechnology 33, no. 2 (March 2015)
+    
+    Buettner, Florian, Naruemon Pratanwanich, Davis J. McCarthy, John C. Marioni, and Oliver Stegle. “[F-ScLVM: Scalable and Versatile Factor Analysis for Single-Cell RNA-Seq](https://doi.org/10.1186/s13059-017-1334-8).” Genome Biology 18, no. 1 (December 2017) - f-scLVM - factorial single-cell latent variable model guided by pathway annotations to infer interpretable factors behind heterogeneity. PCA components are annotated by correlated genes and their enrichment in pathways. Docomposition of the original gene expression matrix to a sum of annotated, unannotated, and confounding components. Applied to their own naive T to TH2 cells, mESCs, reanalyzed 3005 neuronal cells. Simulated data. https://github.com/bioFAM/slalom
+</details>
 
 ## Imputation
 
