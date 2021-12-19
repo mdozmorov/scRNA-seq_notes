@@ -78,6 +78,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Courses
 
+- Review of single-cell transcriptomics technologies and analysis steps and software. Sample preparation, scRNA-seq preprocessing, QC, normalization, batch correction, dimensionaliry reduction. Downstream analysis on cell level (clustering, trajectory inference), gene level (differential expression, functional enrichment, network analysis). Table 1 - preprocessing pipelines and tools, brief description. Table 2 - clustering algorithms. <details>
+    <summary>Paper</summary>
+    Nayak, Richa, and Yasha Hasija. “A Hitchhiker’s Guide to Single-Cell Transcriptomics and Data Analysis Pipelines.” Genomics 113, no. 2 (March 2021): 606–19. https://doi.org/10.1016/j.ygeno.2021.01.007.
+</details>
+
 - [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. Associated GitHub repos: [Bioconductor/OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [https://github.com/Bioconductor/OSCABase](https://github.com/Bioconductor/OSCABase), [seandavi/OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis), [simpleSingleCell](https://bioconductor.org/packages/simpleSingleCell/) R package, A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al., [rendered version](http://bioinformatics.age.mpg.de/presentations-tutorials/presentations/modules/single-cell//bioconductor_tutorial.html) <details>
     <summary>Paper</summary>
     Amezquita RA, Lun AT, Becht E, Carey VJ, Carpp LN, Geistlinger L, Marini F, Rue-Albrecht K, Risso D, Soneson C, Waldron L. [Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x). Nature methods. 2020 Feb;17(2):137-45.
