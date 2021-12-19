@@ -59,19 +59,23 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/)
 
+
 - [www.scrna-tools.org](https://www.scrna-tools.org/) - The scRNA-tools database <details>
     <summary>Paper</summary>
     Zappia, Luke, Belinda Phipson, and Alicia Oshlack. "[Exploring the single-cell RNA-seq analysis landscape with the scRNA-tools database](https://doi.org/10.1371/journal.pcbi.1006245)." PLoS computational biology, June 25, 2018
 </details>
 
-- [avesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system
+
+- [awesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system
 
 - [SingleCell Omics](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010) - A Google Doc with a structured collection of scRNA-seq methods, software, and many other scRNA-seq information, by @albertvilella
+
 
 - [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. <details>
     <summary>Paper</summary>
     Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. “[Orchestrating Single-Cell Analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x).” Nature Methods, December 2, 2019.
 </details>
+
 
 - [single-cell-pseudotime](https://github.com/agitter/single-cell-pseudotime) - an overview of single-cell RNA-seq pseudotime estimation algorithms, comprehensive collection of links to software and accompanying papers, by Anthony Gitter
 
@@ -83,7 +87,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Nayak, Richa, and Yasha Hasija. “A Hitchhiker’s Guide to Single-Cell Transcriptomics and Data Analysis Pipelines.” Genomics 113, no. 2 (March 2021): 606–19. https://doi.org/10.1016/j.ygeno.2021.01.007.
 </details>
 
-- [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. Associated GitHub repos: [Bioconductor/OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [https://github.com/Bioconductor/OSCABase](https://github.com/Bioconductor/OSCABase), [seandavi/OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis), [simpleSingleCell](https://bioconductor.org/packages/simpleSingleCell/) R package, A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al., [rendered version](http://bioinformatics.age.mpg.de/presentations-tutorials/presentations/modules/single-cell//bioconductor_tutorial.html) <details>
+- [Orchestrating Single-Cell Analysis with Bioconductor](http://bioconductor.org/books/release/OSCA/) - scRNA-seq analysis overview within Bioconductor ecosystem, bookdown. SingleCellexperiment, scran and scater examples. Table S1 - summary of packages for data input, infrastructure, QC, integration, dimensionality reduction, clustering, pseudotime, differential expression, functional enrichment, simulation, benchmarking data, and data packages. Types of feature selection. Associated GitHub repos: [OrchestratingSingleCellAnalysis](https://github.com/Bioconductor/OrchestratingSingleCellAnalysis) [OSCABase](https://github.com/Bioconductor/OSCABase), [OrchestratingSingleCellAnalysis](https://github.com/seandavi/OrchestratingSingleCellAnalysis). [simpleSingleCell](https://bioconductor.org/packages/simpleSingleCell/) R package, a step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor, by Aaron Lun et al., [rendered version](http://bioinformatics.age.mpg.de/presentations-tutorials/presentations/modules/single-cell//bioconductor_tutorial.html). <details>
     <summary>Paper</summary>
     Amezquita RA, Lun AT, Becht E, Carey VJ, Carpp LN, Geistlinger L, Marini F, Rue-Albrecht K, Risso D, Soneson C, Waldron L. [Orchestrating single-cell analysis with Bioconductor](https://doi.org/10.1038/s41592-019-0654-x). Nature methods. 2020 Feb;17(2):137-45.
 </details>
@@ -166,12 +170,14 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [RAPIDS & Scanpy Single-Cell RNA-seq Workflow](https://github.com/clara-parabricks/rapids-single-cell-examples/blob/master/notebooks/hlca_lung_gpu_analysis.ipynb) - real-time analysis of scRNA-seq data on GPU. [Tweet](https://twitter.com/johnny_israeli/status/1265762506993135618?s=20)
 
-- [scPipe](https://bioconductor.org/packages/release/bioc/html/scPipe.html) - A preprocessing pipeline for single cell RNA-seq data that starts from the fastq files and produces a gene count matrix with associated quality control information. It can process fastq data generated by CEL-seq, MARS-seq, Drop-seq, Chromium 10x and SMART-seq protocols. Modular, can swap tools like use different aligners <details>
+
+- [scPipe](https://bioconductor.org/packages/release/bioc/html/scPipe.html) - A preprocessing pipeline for single cell RNA-seq data that starts from the fastq files and produces a gene count matrix with associated quality control information. It can process fastq data generated by CEL-seq, MARS-seq, Drop-seq, Chromium 10x and SMART-seq protocols. Modular, can swap tools like use different aligners. <details>
     <summary>Paper</summary>
     Tian et al. "[scPipe: A flexible R/Bioconductor preprocessing pipeline for single-cell RNA-sequencing data](https://doi.org/10.1371/journal.pcbi.1006361)" PLOS Computational Biology, 2018. 
 </details>
 
-- [SEQC](https://github.com/ambrosejcarr/seqc) - Single-Cell Sequencing Quality Control and Processing Software, a general purpose method to build a count matrix from single cell sequencing reads, able to process data from inDrop, drop-seq, 10X, and Mars-Seq2 technologies <details>
+
+- [SEQC](https://github.com/ambrosejcarr/seqc) - Single-Cell Sequencing Quality Control and Processing Software, a general purpose method to build a count matrix from single cell sequencing reads, able to process data from inDrop, drop-seq, 10X, and Mars-Seq2 technologies. <details>
     <summary>Paper</summary>
     Azizi, Elham, Ambrose J. Carr, George Plitas, Andrew E. Cornish, Catherine Konopacki, Sandhya Prabhakaran, Juozas Nainys, et al. “[Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.](https://doi.org/10.1016/j.cell.2018.05.060)” Cell, June 2018. 
 </details>
