@@ -1246,6 +1246,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ### Brain
 
+- [Spatially resolved brain scRNA-seq isoform atlas](https://isoformatlas.com/). ScISOrSeq (single-cell isoform sequencing), long-read sequencing (ONT, PacBio), Visium Hippocampus and prefrontal cortex. [GEO GSE158450](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158450) - scRNA-seq data. [GitHub](https://github.com/noush-joglekar/scisorseqr). <details>
+    <summary>Paper</summary>
+    Joglekar, Anoushka. “A Spatially Resolved Brain Region- and Cell Type-Specific Isoform Atlas of the Postnatal Mouse Brain,” Nature Communications, 19 January 2021, https://doi.org/10.1038/s41467-020-20343-5
+</details>
+
 - [scRNA-seq and scATAC-seq integration, human forebrain development timecourse](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132403). Analysis, reporting, data. <details>
     <summary>Paper</summary>
     Trevino, Alexandro E., Nasa Sinnott-Armstrong, Jimena Andersen, Se-Jin Yoon, Nina Huber, Jonathan K. Pritchard, Howard Y. Chang, William J. Greenleaf, and Sergiu P. Pașca. “[Chromatin Accessibility Dynamics in a Model of Human Forebrain Development](https://doi.org/10.1126/science.aay1645).” Science 367, no. 6476 (January 24, 2020)
