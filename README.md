@@ -953,6 +953,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Deep learning
 
+- [scScope](https://github.com/AltschulerWu-Lab/scScope) - for extracting informative representations, clustering and analysing cell type composition. Recurrent neural network architecture, variable number of recurrent steps (at step = 1, the architecture is standard autoencoder). Tested on simulated data (Splatter, SIMLR) and four experimental scRNA-seq dtasets, at different sparsity levels, rare subpopulation fractions. Compared with PCA, ZINB-WaVE, scVI, others. Multi-GPU Python, TensorFlow, numpy, scikit-learn implementation. <details>
+    <summary>Paper</summary>
+    Deng, Yue, Feng Bao, Qionghai Dai, Lani F. Wu, and Steven J. Altschuler. “Scalable Analysis of Cell-Type Composition from Single-Cell Transcriptomics Using Deep Recurrent Learning.” Nature Methods, March 18, 2019. https://doi.org/10.1038/s41592-019-0353-7.
+</details>
+
 - [Solo](https://github.com/calico/Solo) - semi-supervised deep learning for doublet identification. Variational autoencoder (scVI) followed by a classifier to detect doublets. Compared with Scrubled and DoubletFinder, improves area under the precision-recall curve. <details>
     <summary>Paper</summary>
     Bernstein, Nicholas J., Nicole L. Fong, Irene Lam, Margaret A. Roy, David G. Hendrickson, and David R. Kelley. “[Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning](https://doi.org/10.1016/j.cels.2020.05.010).” Cell Systems 11, no. 1 (July 2020)
