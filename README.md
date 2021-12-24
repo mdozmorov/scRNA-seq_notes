@@ -297,14 +297,14 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Integration, Batch correction
 
+- [Evaluation of 10 single-cell data integration methods and 4 preprocessing combinations](https://github.com/theislab/scib) on 77 batches of gene expression, chromatin accessibility, and simulated data (Table 1) in 9 integration tasks using 14 evaluation metrics. BBKNN, Scanorama, scVI perform well on complex tasks, Seurat performs well on simpler tasks but may eliminate biological signal. the use of Seurat v3 and Harmony is appropriate for simple integration tasks with distinct batch and biological structure. Batch in ATAC-seq is the most difficult to remove. Jupyter notebooks for full reproducibility. <details>
+    <summary>Paper</summary>
+    Luecken, Md, M Büttner, K Chaichoompu, A Danese, M Interlandi, Mf Mueller, Dc Strobl, et al. “Benchmarking Atlas-Level Data Integration in Single-Cell Genomics.” Nature Methods, 23 December 2021 https://doi.org/10.1038/s41592-021-01336-8
+</details>
+
 - [Benchmark of 14 methods for scRNA-seq batch correction](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). Using five scenarios: different technologies and same cells, non-identical cell types, multiple batches, big data, simulated data. Four benchmarking metrics. Harmony (fast), LIGER, and Seurat 3 perform well overall. For differential expression, ComBat, limma, MNN Correct perform well. Detailed description of 9 datasets and download links. [Data and scripts](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). <details>
     <summary>Paper</summary>
     Tran, Hoa Thi Nhu, Kok Siong Ang, Marion Chevrier, Xiaomeng Zhang, Nicole Yee Shin Lee, Michelle Goh, and Jinmiao Chen. “[A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data](https://doi.org/10.1186/s13059-019-1850-9).” Genome Biology 21, no. 1 (December 2020)
-</details>
-
-- [Evaluation of 10 single-cell data integration methods and 4 preprocessing combinations](https://github.com/theislab/scib) on 77 batches of gene expression, chromatin accessibility, and simulated data (Table 1) in 9 integration tasks using 14 evaluation metrics. BBKNN, Scanorama, scVI perform well on complex tasks, Seurat performs well on simpler tasks but may eliminate biological signal. the use of Seurat v3 and Harmony is appropriate for simple integration tasks with distinct batch and biological structure. Batch in ATAC-seq is the most difficult to remove. Jupyter notebooks for full reproducibility. <details>
-    <summary>Paper</summary>
-    Luecken, Md, M Büttner, K Chaichoompu, A Danese, M Interlandi, Mf Mueller, Dc Strobl, et al. “[Benchmarking Atlas-Level Data Integration in Single-Cell Genomics](https://doi.org/10.1101/2020.05.22.111161).” Preprint. Bioinformatics, May 23, 2020. 
 </details>
 
 - [scAlign](https://bioconductor.org/packages/scAlign/) - a deep learning method for alignment and integration of scRNA-seq datasets. Bidirectional mapping via a low-dimensional space. Can perform unsupervised, semi-supervised, and supervised (by cell type labels) integration. Outperforms scVI, MNN, scmap, MINT, scMERGE, Scanorama, Seurat (two latter perform well). [GitHub](https://github.com/quon-titative-biology/scAlign), [Bioconductor R package](https://bioconductor.org/packages/scAlign/). <details>
