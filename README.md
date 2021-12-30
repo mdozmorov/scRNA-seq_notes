@@ -1020,6 +1020,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Collections of library structure and sequence of popular single cell genomic methods](https://teichlab.github.io/scg_lib_structs/) from Sarah Teichmann's group. [GitHub](https://github.com/Teichlab/scg_lib_structs)
 
+- **SPARC** (Single-Cell Protein And RNA Co-profiling) - combines scRNA-seq (improved Smart-seq2 protocol) with proximity extension assays (PEA) to simultaneously measure global mRNA and 89 intracellular proteins in individual cells. Description of PEA - a proximity-based assay that require two binding events to generate a DNA reporter molecule (Figure 1). Applied to human embryonic stem cells following directed neural induction (from 0h to 48h). mRNA data highly correlate with regular Smart-seq2 data, not so with protein expression. Temporal reconstruction using mRNA and protein-based profiles produces similar results, suggesting that protein changes follow mRNA changes. [Raw](https://doi.org/10.17044/scilifelab.14207462) and [processed](https://doi.org/10.17044/scilifelab.14207909) data at SciLifeLab Data Repository. [GitHub](https://github.com/b97jre/SPARC). <details>
+    <summary>Paper</summary>
+    Reimegård, Johan, Marcel Tarbier, Marcus Danielsson, Jens Schuster, Sathishkumar Baskaran, Styliani Panagiotou, Niklas Dahl, Marc R. Friedländer, and Caroline J. Gallant. “A Combined Approach for Single-Cell MRNA and Intracellular Protein Expression Analysis.” Communications Biology 4, no. 1 (December 2021): 624. https://doi.org/10.1038/s42003-021-02142-w.
+</details>
+
 - **SHARE-seq** - simultaneous profiling of scRNA-seq and sc-ATAC-seq from the same cells. Built upon SPLiT-seq, a combinatorial indexing method. Confirmed by separate scRNA-seq and scATAC-seq datasets. Chromatin opening precedes transcriptional activation. <details>
     <summary>Paper</summary>
     Ma, Sai, Bing Zhang, Lindsay M. LaFave, Andrew S. Earl, Zachary Chiang, Yan Hu, Jiarui Ding, et al. “[Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin](https://doi.org/10.1016/j.cell.2020.09.056).” Cell, (November 2020) 
