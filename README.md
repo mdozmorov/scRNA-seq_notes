@@ -433,6 +433,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Dimensionality reduction
 
+- [MultiMAP](https://github.com/Teichlab/MultiMAP) dimensionality reduction algorithm. Works with dataset-specific features (does not require features to be shared across datasets, e.g., 20K-gene scRNA-seq and 100K-peak scATAC-seq datasets). Generalizes the UMAP algorithm to data with different dimensions, constructs a nonlinear manifold, constructs a joint graph on the manifold (MultiGraph), cross-entropy minimization to optimize the low-dimensional embedding of the manifold and data. Allows to specify the influence of each dataset on the embedding. Tested on synthetic and experimental data, including spatial transcriptomics datasets, outperforms Seurat, LIGER, iNMF, Conos, GLUER, significantly faster and scalable. <details>
+    <summary>Paper</summary>
+    Jain, M.S., Polanski, K., Conde, C.D. et al. MultiMAP: dimensionality reduction and integration of multimodal data. Genome Biol 22, 346 (2021). https://doi.org/10.1186/s13059-021-02565-y
+</details>
+
 - [Poincare maps](https://github.com/facebookresearch/PoincareMaps) for two-dimensional scRNA-seq data representation. Preserves local and global distances, hierarchy, the center of the Poincare disk can be considered as a root node. Three-step procedure: 1) k-nearest-neighbor graph, 2) global geodesic distances from the kNN graph, 3) two-dimensional embeddings in the Poincare disk with hyperbolic distances preserve the inferred geodesic distances. Compared with t-SNE, UMAP, PCA, Monocle 2, SAUCIE and several other visualization and lineage detection methods. Two metrics to compare embeddings, Qlocal and Qglobal. References to several public datasets used for reanalysis. <details>
     <summary>Paper</summary>
     Klimovskaia, Anna, David Lopez-Paz, Léon Bottou, and Maximilian Nickel. “[Poincaré Maps for Analyzing Complex Hierarchies in Single-Cell Data](https://doi.org/10.1038/s41467-020-16822-4).” Nature Communications 11, no. 1 (December 2020)
