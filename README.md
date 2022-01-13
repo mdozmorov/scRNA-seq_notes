@@ -889,6 +889,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Cell markers
 
+- [UCell](https://github.com/carmonalab/UCell) - an R package for gene signature enrichment in scRNA-seq data based on the Mann-Whitney U statistics. Integrates with the Seurat pipeline. Annotates each cell with signature enrichments. Requires gene lists as signature definitions. <details>
+    <summary>Paper</summary>
+    Andreatta, Massimo, and Santiago J. Carmona. “UCell: Robust and Scalable Single-Cell Gene Signature Scoring.” Computational and Structural Biotechnology Journal 19 (2021): 3796–98. https://doi.org/10.1016/j.csbj.2021.06.043.
+</details>
+
 - [clustermole](https://github.com/igordot/clustermole) - blindly digging for cell types in scRNA-seq clusters. Cell type prediction based on marker genes, cell type prediction based on a full expression matrix, a database of cell type markers. https://github.com/igordot/clustermole, [CRAN](https://cran.r-project.org/web/packages/clustermole/index.html)
 
 - [scMatch](https://github.com/asrhou/scMatch) - Python tool for annotating scRNA-seq cells by their closest match (Spearman, Pearson correlation) in large reference datasets (FANTOM5, SingleR, Xena Cancer browser). <details>
