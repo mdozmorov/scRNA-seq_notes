@@ -199,6 +199,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Visualization pipelines
 
+- [Kana](https://www.jkanche.com/kana/) - single-cell analysis in the browser, by Jayaram Kancherla ([@jkanche](https://github.com/jkanche)), Aaron Lun ([@LTLA](https://github.com/LTLA)). Input - 10X genomics CellRanger's output, matrix or .h5 files. Preprocessing (removal of low-quality cells, Normalization and log-transformation, Modelling of the mean-variance trend across genes), PCA, Clustering (t-SNE/UMAP), Marker detection, custom cluster definition and marker analysis. Works with scATAC-seq data. [GitHub](https://github.com/jkanche/kana), [Tweet](https://twitter.com/jayaram/status/1480599647039016962?s=20).
+
 - [cellxgene](https://github.com/chanzuckerberg/cellxgene) - An interactive exploratory visualization tool for single-cell transcriptomics data, web and desktop versions. Input - matrix-form datasets, metadata, pre-computed embeddings/clustering. Compatible with Seurat, Scanpy, Bioconductor, scVI [GitHub](https://github.com/chanzuckerberg/cellxgene) <details>
     <summary>Paper</summary>
     Megill, Colin, Bruce Martin, Charlotte Weaver, Sidney Bell, Lia Prins, Seve Badajoz, Brian McCandless, et al. “[Cellxgene: A Performant, Scalable Exploration Platform for High Dimensional Sparse Matrices](https://doi.org/10.1101/2021.04.05.438318).” Preprint. Systems Biology, April 6, 2021.
