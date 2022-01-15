@@ -612,6 +612,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Time, trajectory inference
 
+- [CellRank](https://cellrank.readthedocs.io/en/stable/) - single-cell fate mapping combining trajectory inference and RNA velocity directionality (scVelo), accounting for the stochastic nature of fate decisions and uncertainty in velocity vectors. Velocity alone is insufficient. Detects the initial, terminal and intermediate cell states and computes a global map of fate potentials. State transitions are modeled using a Markov chain. Stability index to automatically identify terminal states. Outperforms Palantir, STEMNET and FateID in diverse scenarious (development, regeneration, reprogramming, disease), fast, less memory, scalable. Input - (imputed) gene count matrix and velocity matrix (any vector field). Python, installable in Conda environment, Jupyter notebooks. [Tutorial](https://cellrank.readthedocs.io/en/stable/cellrank_basics.html), [Code to reproduce the results](https://github.com/theislab/cellrank_reproducibility). [Tweet](https://twitter.com/dana_peer/status/1481658478296907780?s=20) by Dana Pe'er. <details>
+    <summary>Paper</summary>
+    Lange, Marius, Volker Bergen, Michal Klein, Manu Setty, Bernhard Reuter, Mostafa Bakhti, Heiko Lickert, et al. “CellRank for Directed Single-Cell Fate Mapping.” Nature Methods, January 13, 2022. https://doi.org/10.1038/s41592-021-01346-6.
+</details>
+
 - [DYNO: A collection of 57 trajectory inference methods](https://github.com/dynverse/dynmethods#list-of-included-methods). <details>
     <summary>Paper</summary>
     Saelens, Wouter, Robrecht Cannoodt, Helena Todorov, and Yvan Saeys. “[A Comparison of Single-Cell Trajectory Inference Methods: Towards More Accurate and Robust Tools](https://doi.org/10.1101/276907),” March 5, 2018. - Review of trajectory 29 inference methods for single-cell RNA-seq (out of 57 methods collected). Slingshot, TSCAN and Monocle DDRTree perform best overall. https://github.com/dynverse/dynverse
