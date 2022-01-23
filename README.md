@@ -1000,6 +1000,13 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Spatial transcriptomics
 
+- [NovoSpaRc](https://pypi.org/project/novosparc/) Python package and protocol for reconstruction of spatial positioning of scRNA-seq data. Structural correspondence hypothesis (optimal transport), cells in physical proximity share similar expression profiles. Reference atlas is optional and improves the spatial reconstruction. Input: gene expression matrix and a target space (1D, 2D, or 3D coordinates of the physical space, defaults available). Reference atlas expression is optional. Calculates three cost matrices (cell-cell, location-location, reference atlas), outputs a transport matrix (probabilistic mapping of cells onto the target locations) and the inferred gene expression over the target space. Table 1 - comparison with Seurat, DistMap, Perler, Tangram, CSOmap. Application demo, Python code. [GitHub](https://github.com/rajewsky-lab/novosparc). <details>
+    <summary>Paper</summary>
+    Moriel, Noa, Enes Senel, Nir Friedman, Nikolaus Rajewsky, Nikos Karaiskos, and Mor Nitzan. “NovoSpaRc: Flexible Spatial Reconstruction of Single-Cell Gene Expression with Optimal Transport.” Nature Protocols 16, no. 9 (September 2021): 4177–4200. https://doi.org/10.1038/s41596-021-00573-7.
+
+    Nitzan, Mor, Nikos Karaiskos, Nir Friedman, and Nikolaus Rajewsky. “Gene Expression Cartography.” Nature 576, no. 7785 (December 5, 2019): 132–37. https://doi.org/10.1038/s41586-019-1773-3.
+</details>
+
 - [Spatial transcriptomics analysis and tools](https://htmlpreview.github.io/?https://github.com/drieslab/awesome-spatial-data-analysis/blob/main/review_spat_trns_methods.html) review. Commercial technologies (10X Visium, NanoString GeoMx). Cell type annotation, deconvolution, mapping annotations to spatial coordinates, spatial segmentation of transcriptomic profiles. cell-cell communication, integrative approaches, spatial visualization. Software tools/packages for each analysis, brief description of each. [GitHub: Awesome Spatial transcriptomics methods](https://github.com/drieslab/awesome-spatial-data-analysis). <details>
     <summary>Paper</summary>
     Dries, Ruben, Jiaji Chen, Natalie del Rossi, Mohammed Muzamil Khan, Adriana Sistig, and Guo-Cheng Yuan. "Advances in Spatial Transcriptomic Data Analysis" https://doi.org/10.1101/gr.275224.121  Genome Research, (October 2021)
