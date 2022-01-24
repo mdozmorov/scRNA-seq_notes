@@ -1007,6 +1007,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     Nitzan, Mor, Nikos Karaiskos, Nir Friedman, and Nikolaus Rajewsky. “Gene Expression Cartography.” Nature 576, no. 7785 (December 5, 2019): 132–37. https://doi.org/10.1038/s41586-019-1773-3.
 </details>
 
+- [SpatialExperiment](https://bioconductor.org/packages/SpatialExperiment) - R/Bioconductor package providing data infrastructure (S4 class) for spatial transcriptomics data. Intro into spot-based and molecule-based spatial transcriptomics technologies. `read10xVisium()` reads in SpaceRanger-processed data. Example datasets and visualization tools in the [STexampleData](https://github.com/lmweber/STexampleData), [TENxVisiumData](https://github.com/HelenaLC/TENxVisiumData), and [ggspavis](https://github.com/lmweber/ggspavis) packages. <details>
+    <summary>Paper</summary>
+    Righelli, Dario, Lukas M Weber, Helena L Crowell, Brenda Pardo, Leonardo Collado-Torres, Shila Ghazanfar, Aaron TL Lun, Stephanie C Hicks, and Davide Risso. “SpatialExperiment: Infrastructure for Spatially Resolved Transcriptomics Data in R Using Bioconductor.” Preprint. Bioinformatics, January 27, 2021. https://doi.org/10.1101/2021.01.27.428431.
+</details>
+
 - [Spatial transcriptomics analysis and tools](https://htmlpreview.github.io/?https://github.com/drieslab/awesome-spatial-data-analysis/blob/main/review_spat_trns_methods.html) review. Commercial technologies (10X Visium, NanoString GeoMx). Cell type annotation, deconvolution, mapping annotations to spatial coordinates, spatial segmentation of transcriptomic profiles. cell-cell communication, integrative approaches, spatial visualization. Software tools/packages for each analysis, brief description of each. [GitHub: Awesome Spatial transcriptomics methods](https://github.com/drieslab/awesome-spatial-data-analysis). <details>
     <summary>Paper</summary>
     Dries, Ruben, Jiaji Chen, Natalie del Rossi, Mohammed Muzamil Khan, Adriana Sistig, and Guo-Cheng Yuan. "Advances in Spatial Transcriptomic Data Analysis" https://doi.org/10.1101/gr.275224.121  Genome Research, (October 2021)
