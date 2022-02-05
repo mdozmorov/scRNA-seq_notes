@@ -1085,6 +1085,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 #### 10X QC
 
+- [10xqc.com](https://10xqc.com/) - Submit your 10X Cell Ranger® report and compare to data from 155 other reports, contributed by other users from across the globe. This tool was developed to allow users of 10X Genomics single-cell 3'mRNA-seq technology to share their experiences. Requires `web_summary.html` upload. [GitHub](https://github.com/s-andrews/10XQC).
+
 - [bxcheck](https://github.com/pd3/bxcheck) - Toolset for QC and processing 10x genomics data. https://github.com/pd3/bxcheck
 
 - [What is sequencing saturation?](https://kb.10xgenomics.com/hc/en-us/articles/115005062366-What-is-sequencing-saturation-) by 10X Genomics
