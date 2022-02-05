@@ -1396,6 +1396,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Journal club on single-cell multimodal data technology and analysis](https://github.com/waldronlab/data-science-seminar/wiki/Single-cell-multimodal-data) - Data science seminar led by Levi Waldron
 
+- Review of manifold learning-based methods for denoising scRNA-seq data, revealing gene interactions, extracting pseudotime progressions with model fitting, visualizing the cellular state space via dimensionality reduction, and clustering. Manifold = a mathematical construct that represents a locally-Euclidean smoothly varying space. Modeling single-cell data as a manifold: 1. a graph based on local affinities such as the minimal spanning tree or a k- nearest neighbors (nn); 2. data diffusion. Applications: 1. Denoising and gene interactions (Seurat, ZIFA, CIDR, PCoA, scIMPUTE, SAVER, MAGIC, DREMI); 2. Pseudotime (Monocle, Wishbone, Wanderlust, Diffusion Pseudotime); 3. Dimensionality reduction (t-SNE, diffusion map, PHATE); 4. Density estimation and clustering (k-nn graph, PhenoGraph). Future directions in manifold learning. <details>
+    <summary>Paper</summary>
+    Moon, Kevin R., Jay S. Stanley, Daniel Burkhardt, David van Dijk, Guy Wolf, and Smita Krishnaswamy. “Manifold Learning-Based Methods for Analyzing Single-Cell RNA-Sequencing Data.” Current Opinion in Systems Biology 7 (February 2018): 36–46. https://doi.org/10.1016/j.coisb.2017.12.008.
+</details>
+
 - Review of single-cell sequencing technologies, individual and combined, technical details of each. Combinatorial indexing. Genomic DNA, methylomes, histone modifications, open chromatin, 3D genomics, proteomics, spatial transcriptomics. Table 1 - multiomics technologies, summary. Areas of application, in cancer and cell atlases. Future development, e.g., single-cell metabolomics. <details>
     <summary>Paper</summary>
     Chappell, Lia, Andrew J. C. Russell, and Thierry Voet. "Single-Cell (Multi)Omics Technologies" https://doi.org/10.1146/annurev-genom-091416-035324  Annual Review of Genomics and Human Genetics 19 (31 2018)
