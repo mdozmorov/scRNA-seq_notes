@@ -928,6 +928,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
 </details>
 
+- [scRepertoire](https://github.com/ncborcherding/scRepertoire) - R package for 10x Genomics Chromium Immune Profiling for both T-cell receptor (TCR) and immunoglobulin (Ig) enrichment data. Clonotype analysis: cdr3 distribution, clonotype calling, proportion, repertoire overlap, diversity. Comparison between samples. Rich visualization capabilities. [Tweet](https://twitter.com/theHumanBorch/status/1218998979247120386?s=20). <details>
+    <summary>Paper</summary>
+    Borcherding, N, NL Bormann, and G Kraus. “ScRepertoire: An R-Based Toolkit for Single-Cell Immune Receptor Analysis [Version 2; Peer Review: 2 Approved].” F1000Research 9, no. 47 (2020). https://doi.org/10.12688/f1000research.22139.2.
+</details>
+
 - [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
 T/B cell receptor sequencing analysis notes by Ming Tang
 
