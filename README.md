@@ -923,6 +923,14 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Immuno-analysis
 
+- [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
+T/B cell receptor sequencing analysis notes by Ming Tang
+
+- [TRUST4](https://github.com/liulab-dfci/TRUST4) - reconstructing immune repertoires of T- and B cells from bulk and scRNA-seq (10X Genomics 5'). Input: FASTQ or BAM. Faster, more sensitive (MiXCR, CATT, TRUST3). Uses the international ImmunoGeneTics (IMGT) database. Methods describe all algorithms. [Scripts to reproduce paper](https://github.com/liulab-dfci/TRUST4_manuscript_evaluation). <details>
+    <summary>Paper</summary>
+    Song, Li, David Cohen, Zhangyi Ouyang, Yang Cao, Xihao Hu, and X. Shirley Liu. “TRUST4: Immune Repertoire Reconstruction from Bulk and Single-Cell RNA-Seq Data.” Nature Methods 18, no. 6 (June 2021): 627–30. https://doi.org/10.1038/s41592-021-01142-2.
+</details>
+
 - [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb). <details>
     <summary>Paper</summary>
     Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
@@ -932,11 +940,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     <summary>Paper</summary>
     Borcherding, N, NL Bormann, and G Kraus. “ScRepertoire: An R-Based Toolkit for Single-Cell Immune Receptor Analysis [Version 2; Peer Review: 2 Approved].” F1000Research 9, no. 47 (2020). https://doi.org/10.12688/f1000research.22139.2.
 </details>
-
-- [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
-T/B cell receptor sequencing analysis notes by Ming Tang
-
-- [TRUST4](https://github.com/liulab-dfci/TRUST4) - TCR and BCR assembly from RNA-seq data, C command line tool
 
 - [immunarch](https://immunarch.com) - Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires in R
 
