@@ -926,6 +926,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
 T/B cell receptor sequencing analysis notes by Ming Tang
 
+- Overview of B-cell receptor development/affinity maturation, sequencing B-cell repertoire, clonal lineage assignment and clustering, somatic hypermutation analysis, challenges. <details>
+    <summary>Paper</summary>
+    Hoehn, Kenneth B., Anna Fowler, Gerton Lunter, and Oliver G. Pybus. “The Diversity and Molecular Evolution of B-Cell Receptors during Infection.” Molecular Biology and Evolution 33, no. 5 (May 2016): 1147–57. https://doi.org/10.1093/molbev/msw015.
+</details>
+
 - [DALI](https://github.com/vibscc/DALI) - R-package for the analysis of single-cell TCR/BCR data and scRNA-seq (10X Genomics) in the Seurat ecosystem. Read10X_vdj reads Cellranger multi data, Interactive_VDJ launches Shiny app. Input - scRNA-seq Seurat object (.rds), and vdj data. [Demo data](https://cloud.irc.ugent.be/public/index.php/s/9ys5czsaNtNQtSd). <details>
     <summary>Paper</summary>
     Verstaen, Kevin, Inés Lammens, Jana Roels, Yvan Saeys, Bart N Lambrecht, Niels Vandamme, and Stijn Vanhee. “DALI (Diversity AnaLysis Interface): A Novel Tool for the Integrated Analysis of Multimodal Single Cell RNAseq Data and Immune Receptor Profiling.” Preprint. Bioinformatics, December 7, 2021. https://doi.org/10.1101/2021.12.07.471549.
