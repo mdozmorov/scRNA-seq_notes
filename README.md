@@ -926,6 +926,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
 T/B cell receptor sequencing analysis notes by Ming Tang
 
+- [DALI](https://github.com/vibscc/DALI) - R-package for the analysis of single-cell TCR/BCR data and scRNA-seq (10X Genomics) in the Seurat ecosystem. Read10X_vdj reads Cellranger multi data, Interactive_VDJ launches Shiny app. Input - scRNA-seq Seurat object (.rds), and vdj data. [Demo data](https://cloud.irc.ugent.be/public/index.php/s/9ys5czsaNtNQtSd). <details>
+    <summary>Paper</summary>
+    Verstaen, Kevin, Inés Lammens, Jana Roels, Yvan Saeys, Bart N Lambrecht, Niels Vandamme, and Stijn Vanhee. “DALI (Diversity AnaLysis Interface): A Novel Tool for the Integrated Analysis of Multimodal Single Cell RNAseq Data and Immune Receptor Profiling.” Preprint. Bioinformatics, December 7, 2021. https://doi.org/10.1101/2021.12.07.471549.
+</details>
+
 - [TRUST4](https://github.com/liulab-dfci/TRUST4) - reconstructing immune repertoires of T- and B cells from bulk and scRNA-seq (10X Genomics 5'). Input: FASTQ or BAM. Faster, more sensitive (MiXCR, CATT, TRUST3). Uses the international ImmunoGeneTics (IMGT) database. Methods describe all algorithms. [Scripts to reproduce paper](https://github.com/liulab-dfci/TRUST4_manuscript_evaluation). <details>
     <summary>Paper</summary>
     Song, Li, David Cohen, Zhangyi Ouyang, Yang Cao, Xihao Hu, and X. Shirley Liu. “TRUST4: Immune Repertoire Reconstruction from Bulk and Single-Cell RNA-Seq Data.” Nature Methods 18, no. 6 (June 2021): 627–30. https://doi.org/10.1038/s41592-021-01142-2.
