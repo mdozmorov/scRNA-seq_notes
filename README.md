@@ -951,6 +951,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     Borcherding, N, NL Bormann, and G Kraus. “ScRepertoire: An R-Based Toolkit for Single-Cell Immune Receptor Analysis [Version 2; Peer Review: 2 Approved].” F1000Research 9, no. 47 (2020). https://doi.org/10.12688/f1000research.22139.2.
 </details>
 
+- [enclone](https://10xgenomics.github.io/enclone/) - Accurate and user-friendly computational tool for clonal grouping to study the adaptive immune system. Analyzes 10x Genomics Chromium Single Cell V(D)J data containing B cell receptor (BCR) and T cell receptor (TCR) RNA sequences. [GitHub](https://github.com/10XGenomics/enclone)
+
 - [immunarch](https://immunarch.com) - Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires in R
 
 - [Immcantation](https://immcantation.readthedocs.io) - a start-to-finish analytical ecosystem for high-throughput AIRR-seq (adaptive immune receptor repertoire) datasets. Beginning from raw reads, Python and R packages are provided for pre-processing, population structure determination, and repertoire analysis (pRESTO, Change-O, Alakazam, SHazaM, TIgGER, SCOPer, dowser, RDI, RAbHIT, IgPhyML, sumrep). Pipelines for various technologies, inclusing 10X Genomics. [Tutorials](https://immcantation.readthedocs.io/en/stable/tutorials/tutorials.html). [Introduction to B cell repertoire analysis using the Immcantation framework](https://kleinstein.bitbucket.io/tutorials/intro-lab/index.html) and the [Jupyter notebook](https://bitbucket.org/kleinstein/immcantation/src/master/training/). [10x Genomics VDJ Sequence Analysis Tutorial](https://immcantation.readthedocs.io/en/stable/tutorials/10x_tutorial.html) with the Docker image
