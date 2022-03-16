@@ -1173,6 +1173,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ### Human
 
+- [HLCA](https://beta.fastgenomics.org/p/hlca) - Human Lunc Cell Atlas. 46 datasets, over 2.2 million cells from 44 individuals. integrated with best performing scANVI. [scRNAseq_pipelines](https://github.com/LungCellAtlas/scRNAseq_pipelines) - the HLCA pipeline for processing of sequencing data to count matrices. [HLCA_reproducibility](https://github.com/LungCellAtlas/HLCA_reproducibility) - code used for the HLCA project. [mapping_data_to_the_HLCA](https://github.com/LungCellAtlas/mapping_data_to_the_HLCA) - code for users to map new data to the HLCA core. [HLCA reference model, embedding and extended models](https://zenodo.org/record/6337966#.Yid5Vi9Q28U). [Data](https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293). <details>
+    <summary>Paper</summary>
+    Sikkema, L, D Strobl, L Zappia, E Madissoon, NS Markov, L Zaragosi, M Ansari, et al. “An Integrated Cell Atlas of the Human Lung in Health and Disease,” March 11, 2022. https://doi.org/10.1101/2022.03.10.483747
+</details>
+
 - [Tablua Sapiens](https://tabula-sapiens-portal.ds.czbiohub.org/) - human scRNA-seq reference database. 500,000 cells from 24 organs of 15 normal human subjects. Visualization and exploratory analysis of all and organ-specific datasets. scVI low-dimensional representation, UMAP visualization, cellxgene for cell annotation, SICILIAN to identify splice junctions. [GitHub](https://github.com/czbiohub/tabula-sapiens), Raw data on [Registry of Open Data on AWS](https://registry.opendata.aws/tabula-sapiens/). Processed data on [FigShare](https://figshare.com/articles/dataset/Tabula_Sapiens_release_1_0/14267219) and [GEO GSE149590](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149590). <details>
     <summary>Paper</summary>
     Quake, Stephen R, Tabula Sapiens Consortium, and others. "The Tabula Sapiens: A Single Cell Transcriptomic Atlas of Multiple Organs from Individual Human Donors" https://doi.org/10.1101/2021.07.19.452956  Biorxiv, 2021.
