@@ -309,6 +309,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Tran, Hoa Thi Nhu, Kok Siong Ang, Marion Chevrier, Xiaomeng Zhang, Nicole Yee Shin Lee, Michelle Goh, and Jinmiao Chen. "A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data" https://doi.org/10.1186/s13059-019-1850-9  Genome Biology 21, no. 1 (December 2020)
 </details>
 
+- [MOFA2](https://github.com/bioFAM/MOFA2) - Multi-Omics Factor Analysis v2 (MOFA+), a statistical framework for the integration of single-cell multi-modal data. Reconstructs a low-dimensional representation of the data using variational inference (a stochastic variant parallelizable on GPU, 20-fold speed increase). Supports sparsity constraints, allowing to jointly model variation across multiple sample groups and data modalities. Infers K latent factors with associated feature weight matrices (per data modality, Figure 1a) that can be used for clustering, trajectory inference, variance decomposition etc. Input - multiple datasets measuring non-overlapping modalities, cells grouped by experiments, batches, or conditions. Python and R implementation. <details>
+    <summary>Paper</summary>
+    Argelaguet, Ricard, Damien Arnol, Danila Bredikhin, Yonatan Deloro, Britta Velten, John C. Marioni, and Oliver Stegle. “MOFA+: A Statistical Framework for Comprehensive Integration of Multi-Modal Single-Cell Data.” Genome Biology 21, no. 1 (December 2020): 111. https://doi.org/10.1186/s13059-020-02015-1.
+</details>
+
 - [scAlign](https://bioconductor.org/packages/scAlign/) - a deep learning method for alignment and integration of scRNA-seq datasets. Bidirectional mapping via a low-dimensional space. Can perform unsupervised, semi-supervised, and supervised (by cell type labels) integration. Outperforms scVI, MNN, scmap, MINT, scMERGE, Scanorama, Seurat (two latter perform well). [GitHub](https://github.com/quon-titative-biology/scAlign), [Bioconductor R package](https://bioconductor.org/packages/scAlign/). <details>
     <summary>Paper</summary>
     Johansen, Nelson, and Gerald Quon. “ScAlign: A Tool for Alignment, Integration, and Rare Cell Identification from ScRNA-Seq Data.” Genome Biology 20, no. 1 (December 2019): 166. https://doi.org/10.1186/s13059-019-1766-4
