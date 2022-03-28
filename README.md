@@ -1134,6 +1134,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [10X Genomics datasets](https://support.10xgenomics.com/single-cell-gene-expression/datasets)
 
+- [Immunogenomics.io](https://immunogenomics.io/) - immunology and genomics data, visualization and download.
+
 - [scRNAseq](https://bioconductor.org/packages/scRNAseq/) - Collection of Public Single-Cell RNA-Seq Datasets, to play with in R
 
 - [muscData](https://bioconductor.org/packages/muscData/) - Multi-sample multi-group scRNA-seq data R package
