@@ -1285,6 +1285,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Mouse Cell Atlas](http://bis.zju.edu.cn/MCA/)
 
+- scRNA-seq and scATAC-seq of normal mammary epithelial cells (MECs, mouse). 4 main clusters, their characteristics. Trajectory analysis, regulatory modules and TFs. Seurat/Signac, Monocle, Cicero, cisTopic, ChromVar, Homer. Processed data: [GSE157890](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157890). <details>
+    <summary>Paper</summary>
+    Pervolarakis, Nicholas, Quy H. Nguyen, Justice Williams, Yanwen Gong, Guadalupe Gutierrez, Peng Sun, Darisha Jhutty, et al. “Integrated Single-Cell Transcriptomics and Chromatin Accessibility Analysis Reveals Regulators of Mammary Epithelial Cell Identity.” Cell Reports 33, no. 3 (October 2020): 108273. https://doi.org/10.1016/j.celrep.2020.108273.
+</details>
+
 - [scRNA-seq of mouse gastrulation and early embryogenesis](https://github.com/MarioniLab/MouseGastrulationData).  116,312 cells, nine time points from 6.5 to 8.5 days post-fertilization. Methods, scran-based analysis, [tutorial](https://marionilab.cruk.cam.ac.uk/MouseGastrulation2018/), [download script](https://github.com/MarioniLab/EmbryoTimecourse2018), [Bioconductor data package](https://github.com/MarioniLab/MouseGastrulationData). <details>
     <summary>Paper</summary>
     Pijuan-Sala, Blanca, Jonathan A. Griffiths, Carolina Guibentif, Tom W. Hiscock, Wajid Jawaid, Fernando J. Calero-Nieto, Carla Mulas, et al. "A Single-Cell Molecular Map of Mouse Gastrulation and Early Organogenesis" https://doi.org/10.1038/s41586-019-0933-9  Nature, February 20, 2019.
