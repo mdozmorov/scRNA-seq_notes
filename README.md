@@ -923,6 +923,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Phylogenetic inference
 
+- [TAR-scRNA-seq](https://github.com/fw262/TAR-scRNA-seq) - snakemake pipeline for transcript annotation/prediction from scRNA-seq data of poorly annotated genomes. Transcriptionally Active Regions (TARs) detected using groHMM, a hidden Markov model to divide the genome into two states (transcribed and untranscribed, 50bp window). Unannotated TADs (uTARs) preserve cell-type-dependent clusters. Annotated using homology (BLASTn). Spatial transcriptomics confirms coexpression. Analysis of human, mouse, chicken, mole rat, lemur and sea urchin genomes (10X Genomics data). [Summary of data availability](https://www.nature.com/articles/s41467-021-22496-3#data-availability). <details>
+    <summary>Paper</summary>
+    Wang, Michael F. Z., Madhav Mantri, Shao-Pei Chou, Gaetano J. Scuderi, David W. McKellar, Jonathan T. Butcher, Charles G. Danko, and Iwijn De Vlaminck. “Uncovering Transcriptional Dark Matter via Gene Annotation Independent Single-Cell RNA Sequencing Analysis.” Nature Communications 12, no. 1 (December 2021): 2158. https://doi.org/10.1038/s41467-021-22496-3.
+</details>
+
 - [OncoNEM](https://bitbucket.org/edith_ross/onconem/src/master/) (oncogenetic nested effects model) - tumor evolution inference from single cell data from somatic SNPs of single cells. Identifies homogeneous subpopulations and infers their genotypes and phylogenetic tree. Probabilistically accounts for noise in the observed genotypes, allele dropouts, unobserved subpopulations. Input - binary genotype matrix, false positive and negative rates. Output - inferred tumor subpopulations, evolutionary tree, posterior probabilities of mutations. Assessed in simulation studies, outperforms similar methods. Robust to the selection of parameters. <details>
     <summary>Paper</summary>
     Ross, Edith M., and Florian Markowetz. "OncoNEM: Inferring Tumor Evolution from Single-Cell Sequencing Data" https://doi.org/10.1186/s13059-016-0929-9  Genome Biology, (December 2016)
