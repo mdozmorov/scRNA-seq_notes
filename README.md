@@ -380,11 +380,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Hou, Wenpin, Zhicheng Ji, Hongkai Ji, and Stephanie C. Hicks. "A Systematic Evaluation of Single-Cell RNA-Sequencing Imputation Methods" https://doi.org/10.1186/s13059-020-02132-x  Genome Biology 21, no. 1 (December 2020)
 </details>
 
-- [SAVER](https://github.com/mohuangx/SAVER) (single-cell analysis via expression recovery) - scRNA-seq imputation (UMI matrix) utilizing gene-to-gene relationship. Recover missing gene expression, removes technical variation. Assumes gene counts follow a negative binomial distribution, estimates the prior parameters in an empirical Bayes-like approach with as Poisson LASSO regression, using the expression of other genes as predictors. Tested using RNA FISH data as a reference, better recover gene expression using Drop-seq data. Outperforms [MAGIC](#magic) and [scImpute](#scimpute). <details>
-    <summary>Paper</summary>
-    Huang, Mo, Jingshu Wang, Eduardo Torre, Hannah Dueck, Sydney Shaffer, Roberto Bonasio, John I. Murray, Arjun Raj, Mingyao Li, and Nancy R. Zhang. “SAVER: Gene Expression Recovery for Single-Cell RNA Sequencing.” Nature Methods 15, no. 7 (July 2018): 539–42. https://doi.org/10.1038/s41592-018-0033-z.
-</details>
-
 - [Deepimpute](https://github.com/lanagarmire/DeepImpute) - scRNA-seq imputation using deep neural networks. Sub-networks, each processes up to 512 genes needed to be imputed. Four layers: Input - dense (ReLU activation) - 20% dropout - output. MSE as loss function. Outperforms MAGIC, DrImpute, ScImpute, SAVER, VIPER, and DCA on multiple metrics (PCC, several clustering metrics). Using 9 datasets. <details>
     <summary>Paper</summary>
     Arisdakessian, Cédric, Olivier Poirion, Breck Yunits, Xun Zhu, and Lana X. Garmire. "DeepImpute: An Accurate, Fast, and Scalable Deep Neural Network Method to Impute Single-Cell RNA-Seq Data" https://doi.org/10.1186/s13059-019-1837-6  Genome Biology 20, no. 1 (December 2019)
@@ -413,6 +408,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [scRMD](https://github.com/ChongC1990/scRMD) - dropout imputation in scRNA-seq via robust matrix decomposition into true expression matrix (further decomposed into a matrix of means and gene's random deviation from its mean) minus dropout matrix plus error matrix. A function to estimate the matrix of means and dropouts. Comparison with MAGIC, scImpute. <details>
     <summary>Paper</summary>
     Chen, Chong, Changjing Wu, Linjie Wu, Yishu Wang, Minghua Deng, and Ruibin Xi. "ScRMD: Imputation for Single Cell RNA-Seq Data via Robust Matrix Decomposition" https://doi.org/10.1101/459404 November 4, 2018
+</details>
+
+- [SAVER](https://github.com/mohuangx/SAVER) (single-cell analysis via expression recovery) - scRNA-seq imputation (UMI matrix) utilizing gene-to-gene relationship. Recover missing gene expression, removes technical variation. Assumes gene counts follow a negative binomial distribution, estimates the prior parameters in an empirical Bayes-like approach with as Poisson LASSO regression, using the expression of other genes as predictors. Tested using RNA FISH data as a reference, better recover gene expression using Drop-seq data. Outperforms [MAGIC](#magic) and [scImpute](#scimpute). <details>
+    <summary>Paper</summary>
+    Huang, Mo, Jingshu Wang, Eduardo Torre, Hannah Dueck, Sydney Shaffer, Roberto Bonasio, John I. Murray, Arjun Raj, Mingyao Li, and Nancy R. Zhang. “SAVER: Gene Expression Recovery for Single-Cell RNA Sequencing.” Nature Methods 15, no. 7 (July 2018): 539–42. https://doi.org/10.1038/s41592-018-0033-z.
 </details>
 
 - [netSmooth](https://github.com/BIMSBbioinfo/netSmooth) - network diffusion-based method that uses priors for the covariance structure of gene expression profiles to smooth scRNA-seq experiments. Incorporates prior knowledge (i.e. protein-protein interaction networks) for imputation. Note that dropout applies to whole transcriptome. Compared with MAGIC, scImpute. Improves clustering, biological interpretation. <details>
