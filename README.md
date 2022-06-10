@@ -380,6 +380,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Hou, Wenpin, Zhicheng Ji, Hongkai Ji, and Stephanie C. Hicks. "A Systematic Evaluation of Single-Cell RNA-Sequencing Imputation Methods" https://doi.org/10.1186/s13059-020-02132-x  Genome Biology 21, no. 1 (December 2020)
 </details>
 
+- [SAVER](https://github.com/mohuangx/SAVER) (single-cell analysis via expression recovery) - scRNA-seq imputation (UMI matrix) utilizing gene-to-gene relationship. Recover missing gene expression, removes technical variation. Assumes gene counts follow a negative binomial distribution, estimates the prior parameters in an empirical Bayes-like approach with as Poisson LASSO regression, using the expression of other genes as predictors. Tested using RNA FISH data as a reference, better recover gene expression using Drop-seq data. Outperforms [MAGIC](#magic) and [scImpute](#scimpute). <details>
+    <summary>Paper</summary>
+    Huang, Mo, Jingshu Wang, Eduardo Torre, Hannah Dueck, Sydney Shaffer, Roberto Bonasio, John I. Murray, Arjun Raj, Mingyao Li, and Nancy R. Zhang. “SAVER: Gene Expression Recovery for Single-Cell RNA Sequencing.” Nature Methods 15, no. 7 (July 2018): 539–42. https://doi.org/10.1038/s41592-018-0033-z.
+</details>
+
 - [Deepimpute](https://github.com/lanagarmire/DeepImpute) - scRNA-seq imputation using deep neural networks. Sub-networks, each processes up to 512 genes needed to be imputed. Four layers: Input - dense (ReLU activation) - 20% dropout - output. MSE as loss function. Outperforms MAGIC, DrImpute, ScImpute, SAVER, VIPER, and DCA on multiple metrics (PCC, several clustering metrics). Using 9 datasets. <details>
     <summary>Paper</summary>
     Arisdakessian, Cédric, Olivier Poirion, Breck Yunits, Xun Zhu, and Lana X. Garmire. "DeepImpute: An Accurate, Fast, and Scalable Deep Neural Network Method to Impute Single-Cell RNA-Seq Data" https://doi.org/10.1186/s13059-019-1837-6  Genome Biology 20, no. 1 (December 2019)
@@ -425,7 +430,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Wagner, Florian, Yun Yan, and Itai Yanai. "K-Nearest Neighbor Smoothing for High-Throughput Single-Cell RNA-Seq Data" https://doi.org/10.1101/217737  BioRxiv, April 9, 2018. 
 </details>
 
-- [scimpute](https://github.com/Vivianstats/scImpute) - imputation of scRNA-seq data. Methodology: 1) Determine K subpopulations using PCA, remove outliers; 2) Mixture model of gene i in subpopulation k as gamma and normal distributions, estimate dropout probability d; 3) Impute dropout values by splitting the subpopulation into A (dropout larger than threshold t) and B (smaller). Information from B is used to impute A. Better than MAGIC, SAVER. <details>
+- <a name="scimpute">[scImpute](https://github.com/Vivianstats/scImpute)</a> - imputation of scRNA-seq data. Methodology: 1) Determine K subpopulations using PCA, remove outliers; 2) Mixture model of gene i in subpopulation k as gamma and normal distributions, estimate dropout probability d; 3) Impute dropout values by splitting the subpopulation into A (dropout larger than threshold t) and B (smaller). Information from B is used to impute A. Better than MAGIC, SAVER. <details>
     <summary>Paper</summary>
     Li, Wei Vivian, and Jingyi Jessica Li. "An Accurate and Robust Imputation Method ScImpute for Single-Cell RNA-Seq Data" https://doi.org/10.1038/s41467-018-03405-7  Nature Communications 9, no. 1 (08 2018)
 
@@ -434,7 +439,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Badsha, Md. Bahadur, Rui Li, Boxiang Liu, Yang I. Li, Min Xian, Nicholas E. Banovich, and Audrey Qiuyan Fu. "Imputation of Single-Cell Gene Expression with an Autoencoder Neural Network" https://doi.org/10.1101/504977  BioRxiv, January 1, 2018
 </details>
 
-- [MAGIC](https://github.com/KrishnaswamyLab/MAGIC) - Markov Affinity-based Graph Imputation of Cells. Only \~5-15% of scRNA-seq data is non-zero, the rest are drop-outs. Use the diffusion operator to discover the manifold structure and impute gene expression. Detailed methods description. In real (bone marrow and retinal bipolar cells) and synthetic datasets, Imputed scRNA-seq data clustered better, enhances gene interactions, restores expression of known surface markers, trajectories. scRNA-seq data is preprocessed by library size normalization and PCA (to retain 70% of variability). Comparison with SVD-based low-rank data approximation (LDA) and Nuclear-Norm-based Matrix Completion (NNMC). [GitHub](https://github.com/KrishnaswamyLab/MAGIC). <details>
+- <a name="magic">[MAGIC](https://github.com/KrishnaswamyLab/MAGIC)</a> - Markov Affinity-based Graph Imputation of Cells. Only \~5-15% of scRNA-seq data is non-zero, the rest are drop-outs. Use the diffusion operator to discover the manifold structure and impute gene expression. Detailed methods description. In real (bone marrow and retinal bipolar cells) and synthetic datasets, Imputed scRNA-seq data clustered better, enhances gene interactions, restores expression of known surface markers, trajectories. scRNA-seq data is preprocessed by library size normalization and PCA (to retain 70% of variability). Comparison with SVD-based low-rank data approximation (LDA) and Nuclear-Norm-based Matrix Completion (NNMC). [GitHub](https://github.com/KrishnaswamyLab/MAGIC). <details>
     <summary>Paper</summary>
     Van Dijk, David, Roshan Sharma, Juozas Nainys, Kristina Yim, Pooja Kathail, Ambrose J. Carr, Cassandra Burdziak et al. "Recovering gene interactions from single-cell data using data diffusion." Cell 174, no. 3 (2018): 716-729. https://doi.org/10.1016/j.cell.2018.05.061
 </details>
