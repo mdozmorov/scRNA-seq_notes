@@ -62,6 +62,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [www.scrna-tools.org](https://www.scrna-tools.org/) - The scRNA-tools database <details>
     <summary>Paper</summary>
+    Zappia, Luke, and Fabian J. Theis. “Over 1000 Tools Reveal Trends in the Single-Cell RNA-Seq Analysis Landscape.” Genome Biology 22, no. 1 (December 2021): 301. https://doi.org/10.1186/s13059-021-02519-4.
     Zappia, Luke, Belinda Phipson, and Alicia Oshlack. "[Exploring the single-cell RNA-seq analysis landscape with the scRNA-tools database" https://doi.org/10.1371/journal.pcbi.1006245   PLoS computational biology, June 25, 2018
 </details>
 
