@@ -703,8 +703,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Networks
 
-- Benchmarking four single-cell network inference methods on experimental datasets for the same biological conditions. GENIE3, GRNBoost2, PIDC, PPCOR methods, overview of each. GENIE3 (tree-based network inference, for each gene find most predictive genes using regression) appears the most reproducible. [GitHub](https://github.com/ComputationalSystemsBiology/scNET). Other benchmarking studies: [Chen and Mar 2018" https://doi.org/10.1126/science.aam8999) and [Pratapa 2020" https://doi.org/10.1038/s41592-019-0690-6). <details>
+- Benchmarking of six scRNA-seq network inference methods (GENIE3, GRNBoost2, PPCOR, PIDC, GeneNet, CLR) based on their reproducibility (percentage of intersection, weighted Jaccard similarity) when applied to two independent datasets for the same biilogical conditions (human retina, T-cells in colorectal cancer, human hematopoiesis, Table 1). Other benchmarking studies: [Chen and Mar 2018" https://doi.org/10.1126/science.aam8999) and [Pratapa 2020" https://doi.org/10.1038/s41592-019-0690-6). Brief description of each method. For large (up to 100,000 links) networks, GENIE2 and GRNBoost2 perform best. For smaller (100-1000 links), GRNBoost2 and CLR perform best. [scNET Jupyter notebook](https://github.com/ComputationalSystemsBiology/scNET) implementing all analyses. <details>
     <summary>Paper</summary>
+    Kang, Yoonjee, Denis Thieffry, and Laura Cantini. “Evaluating the Reproducibility of Single-Cell Gene Regulatory Network Inference Algorithms.” Frontiers in Genetics 12 (March 22, 2021): 617282. https://doi.org/10.3389/fgene.2021.617282. 
     Cantini, Laura, Pooya Zakeri, Celine Hernandez, Aurelien Naldi, Denis Thieffry, Elisabeth Remy, and Anaïs Baudot. "Benchmarking Joint Multi-Omics Dimensionality Reduction Approaches for the Study of Cancer" https://doi.org/10.1038/s41467-020-20430-7  Nature Communications, (December 2021)
 </details>
 
