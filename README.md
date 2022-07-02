@@ -59,13 +59,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Dave Tand's blog, single cell posts](https://davetang.org/muse/category/single-cell-2/)
 
-
 - [www.scrna-tools.org](https://www.scrna-tools.org/) - The scRNA-tools database <details>
     <summary>Paper</summary>
     Zappia, Luke, and Fabian J. Theis. “Over 1000 Tools Reveal Trends in the Single-Cell RNA-Seq Analysis Landscape.” Genome Biology 22, no. 1 (December 2021): 301. https://doi.org/10.1186/s13059-021-02519-4.
     Zappia, Luke, Belinda Phipson, and Alicia Oshlack. "[Exploring the single-cell RNA-seq analysis landscape with the scRNA-tools database" https://doi.org/10.1371/journal.pcbi.1006245   PLoS computational biology, June 25, 2018
 </details>
-
 
 - [awesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system
 
@@ -73,12 +71,10 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [SingleCell Omics](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010) - A Google Doc with a structured collection of scRNA-seq methods, software, and many other scRNA-seq information, by @albertvilella
 
-
 - [R_packages_for_scRNA-seq.pdf](R_packages_for_scRNA-seq.pdf) - Bioconductor software packages for single-cell analysis. <details>
     <summary>Paper</summary>
     Amezquita, Robert A., Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Martini, et al. "Orchestrating Single-Cell Analysis with Bioconductor" https://doi.org/10.1038/s41592-019-0654-x  Nature Methods, December 2, 2019.
 </details>
-
 
 - [single-cell-pseudotime](https://github.com/agitter/single-cell-pseudotime) - an overview of single-cell RNA-seq pseudotime estimation algorithms, comprehensive collection of links to software and accompanying papers, by Anthony Gitter
 
@@ -1040,6 +1036,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 </details>
 
 ## Spatial transcriptomics
+
+- [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
 - [NovoSpaRc](https://pypi.org/project/novosparc/) Python package and protocol for reconstruction of spatial positioning of scRNA-seq data. Structural correspondence hypothesis (optimal transport), cells in physical proximity share similar expression profiles. Reference atlas is optional and improves the spatial reconstruction. Input: gene expression matrix and a target space (1D, 2D, or 3D coordinates of the physical space, defaults available). Reference atlas expression is optional. Calculates three cost matrices (cell-cell, location-location, reference atlas), outputs a transport matrix (probabilistic mapping of cells onto the target locations) and the inferred gene expression over the target space. Table 1 - comparison with Seurat, DistMap, Perler, Tangram, CSOmap. Application demo, Python code. [GitHub](https://github.com/rajewsky-lab/novosparc). <details>
     <summary>Paper</summary>
