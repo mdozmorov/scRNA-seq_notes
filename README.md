@@ -1106,6 +1106,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     Ma, Sai, Bing Zhang, Lindsay M. LaFave, Andrew S. Earl, Zachary Chiang, Yan Hu, Jiarui Ding, et al. "Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin" https://doi.org/10.1016/j.cell.2020.09.056  Cell, (November 2020) 
 </details>
 
+- **snmC-seq2** - single-cell DNA methylation, improved read mapping, reduced artifacts, enhanced throughput, library complexity, coverage over previously developed snmC-seq. Uses random primers with A/T/C nucleotides. Protocol in the [supplementary methods](https://www.nature.com/articles/s41467-018-06355-2#Sec15). Raw data on [GSE112471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112471), [Data visualization](http://neomorph.salk.edu/snmC-eq2.php). Code on [GitHub](https://github.com/zhoujt1994/Luo2018_ncomm). <details>
+    <summary>Paper</summary>
+    Luo, Chongyuan, Angeline Rivkin, Jingtian Zhou, Justin P. Sandoval, Laurie Kurihara, Jacinta Lucero, Rosa Castanon, et al. “Robust Single-Cell DNA Methylome Profiling with SnmC-Seq2.” Nature Communications 9, no. 1 (December 2018): 3824. https://doi.org/10.1038/s41467-018-06355-2.
+</details>
+
 - **Drop-seq technology** - single cells encapsulated in lipid droplets with nanoparticles with cell- and UMI barcodes. Barcoding strategy, "split-and-pool" synthesis cycles to synthesize 12bp cell barcodes, then 8bp UMI synthesis (Figure 1). Majority of droplets are empty, doublets depend on initial cell concentration. Example on a mixture of 589 human HEK and 412 mouse 3T3 cells. Expression profiles from 49,300 retinal cells profiled using Drop-seq. 13,155 largest libraries, reduce dimensionality by PCA to 32 components (decided by permutation), tSNE for visualization. 39 clusters matched to known cell types. [GEO GSE63473](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63473). <details>
     <summary>Paper</summary>
     Macosko, Evan Z., Anindita Basu, Rahul Satija, James Nemesh, Karthik Shekhar, Melissa Goldman, Itay Tirosh, et al. "Highly Parallel Genome-Wide Expression Profiling of Individual Cells Using Nanoliter Droplets" https://doi.org/10.1016/j.cell.2015.05.002  Cell, (May 21, 2015)
