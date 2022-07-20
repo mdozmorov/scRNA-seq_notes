@@ -186,6 +186,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Parekh, Swati, Christoph Ziegenhain, Beate Vieth, Wolfgang Enard, and Ines Hellmann. "ZUMIs - A Fast and Flexible Pipeline to Process RNA Sequencing Data with UMIs." https://doi.org/10.1093/gigascience/giy059  GigaScience 7, no. 6 (01 2018). 
 </details>
 
+- [ramdaq](https://github.com/rikenbit/ramdaq) - pipeline to analyze data from full-length single-cell RNA sequencing (scRNA-seq) methods. [Documentation](https://github.com/rikenbit/ramdaq/tree/master/docs)
+
 - STAR alignment parameters: `–outFilterType BySJout, –outFilterMultimapNmax 100, –limitOutSJcollapsed 2000000 –alignSJDBoverhangMin 8, –outFilterMismatchNoverLmax 0.04, –alignIntronMin 20, –alignIntronMax 1000000, –readFilesIn fastqrecords, –outSAMprimaryFlag AllBestScore, –outSAMtype BAM Unsorted`. From Azizi et al., “Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment.”
 
 ### Format conversion
