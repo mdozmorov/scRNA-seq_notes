@@ -1046,6 +1046,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [Stereo-seq](https://db.cngb.org/stomics/mosta/stereo.seq.html) spatial transcriptomics technology. Combines DNA nanoball-patterned (DNB) arrays (random barcodes on a patterned attay so each DNB contains the coordinate identity) and tissue RNA capture, achieves cellular resolution. Generates the [mouse organogenesis spatiotemporal transcriptomic atlas (MOSTA)](https://db.cngb.org/stomics/mosta/) to map the spatiotemporal transcriptomic dynamics of the developing mouse embryo. [Raw data](https://db.cngb.org/search/project/CNP0001543/). [SAW](https://github.com/BGIResearch/SAW) - Workflow for analyzing Stereo-seq transcriptomic data. <details>
+    <summary>Paper</summary>
+    Chen, Ao, Sha Liao, Mengnan Cheng, Kailong Ma, Liang Wu, Yiwei Lai, Xiaojie Qiu, et al. “Spatiotemporal Transcriptomic Atlas of Mouse Organogenesis Using DNA Nanoball-Patterned Arrays.” Cell 185, no. 10 (May 2022): 1777-1792.e21. https://doi.org/10.1016/j.cell.2022.04.003.
+</details>
+
 - [NovoSpaRc](https://pypi.org/project/novosparc/) Python package and protocol for reconstruction of spatial positioning of scRNA-seq data. Structural correspondence hypothesis (optimal transport), cells in physical proximity share similar expression profiles. Reference atlas is optional and improves the spatial reconstruction. Input: gene expression matrix and a target space (1D, 2D, or 3D coordinates of the physical space, defaults available). Reference atlas expression is optional. Calculates three cost matrices (cell-cell, location-location, reference atlas), outputs a transport matrix (probabilistic mapping of cells onto the target locations) and the inferred gene expression over the target space. Table 1 - comparison with Seurat, DistMap, Perler, Tangram, CSOmap. Application demo, Python code. [GitHub](https://github.com/rajewsky-lab/novosparc). <details>
     <summary>Paper</summary>
     Moriel, Noa, Enes Senel, Nir Friedman, Nikolaus Rajewsky, Nikos Karaiskos, and Mor Nitzan. “NovoSpaRc: Flexible Spatial Reconstruction of Single-Cell Gene Expression with Optimal Transport.” Nature Protocols 16, no. 9 (September 2021): 4177–4200. https://doi.org/10.1038/s41596-021-00573-7.
