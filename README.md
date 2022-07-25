@@ -872,6 +872,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Pliner, Hannah A., Jay Shendure, and Cole Trapnell. "Supervised Classification Enables Rapid Annotation of Cell Atlases" https://doi.org/10.1038/s41592-019-0535-3  Nature Methods 16, no. 10 (October 2019)
 </details>
 
+- [Single-Cell Signature Explorer](https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer) - scoring (sum of UMIs in a signature over total UMIs in a cell) of gene-set signatures at the single cell level and their visualization using t-SNE or UMAP. Contains four successive tools: Scorer (computes signature scores for each cell), Merger (collates score table with t-SNE and UMAP coordinates), Viewer (visualizes signature scores, one at a time), Combiner (arithmetic combination of two signature scores, and visualization). Utilizes sctransform normalization. Implemented in Go, with viewers implemented in R/Shiny. Outperforms ssGSEA, GSVA, AutoCompare_SES. [Signature databases](https://sites.google.com/site/fredsoftwares/products/databases) for multiple databases. <details>
+    <summary>Paper</summary>
+    Pont, Frédéric, Marie Tosolini, and Jean J Fournié. “Single-Cell Signature Explorer for Comprehensive Visualization of Single Cell Signatures across ScRNA-Seq Datasets.” Nucleic Acids Research 47, no. 21 (December 2, 2019): e133–e133. https://doi.org/10.1093/nar/gkz601.
+</details>
+
 - [CellAssign](https://github.com/irrationone/cellassign) - R package for scRNA-seq cell type inference. Probabilistic graphical model to assign cell type probabilities to single cells using known marker genes (binarized matrix), including "unassigned" categorization. Insensitive to batch- or sample-specific effects. Outperforms Seurat, SC3, PhenoGraph, densityCut, dynamicTreeCut, scmap-cluster, correlation-based methods, SCINA. Applied to delineate the composition of the tumor microenvironment. Built using TensorFlow. <details>
     <summary>Paper</summary>
     Zhang, Allen W., Ciara O’Flanagan, Elizabeth A. Chavez, Jamie L. P. Lim, Nicholas Ceglia, Andrew McPherson, Matt Wiens, et al. "Probabilistic Cell-Type Assignment of Single-Cell RNA-Seq for Tumor Microenvironment Profiling" https://doi.org/10.1038/s41592-019-0529-1  Nature Methods, September 9, 2019. 
