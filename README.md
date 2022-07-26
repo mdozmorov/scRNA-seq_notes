@@ -634,6 +634,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Lange, Marius, Volker Bergen, Michal Klein, Manu Setty, Bernhard Reuter, Mostafa Bakhti, Heiko Lickert, et al. “CellRank for Directed Single-Cell Fate Mapping.” Nature Methods, January 13, 2022. https://doi.org/10.1038/s41592-021-01346-6
 </details>
 
+- [STREAM](https://stream.pinellolab.partners.org/) - trajectory analysis in both single-cell transcriptomic (scRNA-seq) and epigenomic (scATAC-seq) data. Ability to map new cells on reference trajectories. Exploration of cell type composition, relevant genes, TF binding dynamics. Modified Locally Linear Embedding (MLLE, on top PC components or variable genes) which preserves distances within local neighborhoods. Infers trajectories using Elastic Principal Graph implementation ([ElPiGraph](https://github.com/sysbio-curie/ElPiGraph.R)). Allows for setting root point. Compared (four metrics) with 10 trajectory inference methods out of over 50, supplementary tables have methods details. For scATAC-seq, filter the data and focus on variable chromatin regions. [Bioconda](https://bioconda.github.io/recipes/stream/README.html) recipe, [Github](https://github.com/pinellolab/STREAM) - command-line, Jupyter notebook. <details>
+    <summary>Paper</summary>
+    Chen, Huidong, Luca Albergante, Jonathan Y. Hsu, Caleb A. Lareau, Giosuè Lo Bosco, Jihong Guan, Shuigeng Zhou, et al. “Single-Cell Trajectories Reconstruction, Exploration and Mapping of Omics Data with STREAM.” Nature Communications 10, no. 1 (December 2019): 1903. https://doi.org/10.1038/s41467-019-09670-4.
+</details>
+
 - [DYNO: A collection of 57 trajectory inference methods](https://github.com/dynverse/dynmethods#list-of-included-methods). <details>
     <summary>Paper</summary>
     Saelens, Wouter, Robrecht Cannoodt, Helena Todorov, and Yvan Saeys. "A Comparison of Single-Cell Trajectory Inference Methods: Towards More Accurate and Robust Tools" https://doi.org/10.1101/276907  March 5, 2018. - Review of trajectory 29 inference methods for single-cell RNA-seq (out of 57 methods collected). Slingshot, TSCAN and Monocle DDRTree perform best overall. https://github.com/dynverse/dynverse
