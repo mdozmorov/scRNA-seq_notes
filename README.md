@@ -1356,6 +1356,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     Delile, Julien, Teresa Rayon, Manuela Melchionda, Amelia Edwards, James Briscoe, and Andreas Sagner. "Single Cell Transcriptomics Reveals Spatial and Temporal Dynamics of Gene Expression in the Developing Mouse Spinal Cord" https://doi.org/10.1242/dev.173807  Development, March 7, 2019
 </details>
 
+- scRNA-seq of mouse testes (2,500 cells from two 8-week-old C57Bl/6J mice, 10X, CellRanger 2.0). [GitHub](https://github.com/slukassen/SCS_testis/) with analysis scripts. Raw data at [GSE104556](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104556), processed data at [FigShare](http://dx.doi.org/10.6084/m9.figshare.c.4119713). <details>
+    <summary>Paper</summary>
+    Lukassen, Soeren, Elisabeth Bosch, Arif B. Ekici, and Andreas Winterpacht. “Single-Cell RNA Sequencing of Adult Mouse Testes.” Scientific Data 5 (September 11, 2018): 180192. https://doi.org/10.1038/sdata.2018.192.
+</details>
+
 - [Sci-CAR, single-cell RNA- and ATAC-seq](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117089). Two experiments: 1) Lung adenocarcinoma A549 cells, dexametasone treatment over 3 timepoints. 2) Mixture of HEK293T (human) and NIH3T3 (mouse) cells. Differential gene expression, accessibility analysis, clustering. Linking distal open chromatin to genes, 44% map to nearest, 21 to the second nearest. Gene expression counts and ATAC-seq peaks, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117089
     Cao, Junyue, Darren A. Cusanovich, Vijay Ramani, Delasa Aghamirzaie, Hannah A. Pliner, Andrew J. Hill, Riza M. Daza, et al. "Joint Profiling of Chromatin Accessibility and Gene Expression in Thousands of Single Cells" https://doi.org/10.1126/science.aau0730  Science 361, no. 6409 (September 28, 2018)
 
