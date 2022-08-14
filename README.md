@@ -891,6 +891,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Zhang, Allen W., Ciara O’Flanagan, Elizabeth A. Chavez, Jamie L. P. Lim, Nicholas Ceglia, Andrew McPherson, Matt Wiens, et al. "Probabilistic Cell-Type Assignment of Single-Cell RNA-Seq for Tumor Microenvironment Profiling" https://doi.org/10.1038/s41592-019-0529-1  Nature Methods, September 9, 2019. 
 </details>
 
+- [SCINA](https://lce.biohpc.swmed.edu/scina/) - semi-supervised cell annotation algorithm for scRNA-seq data. Uses previously established gene signatures (one or more genes) and an expectation-maximization (EM) algorithm. Assumes bimodal distribution for each signature gene, with higher mode corresponding to the cell type of interest. Cells with overall low signature expression (all signatures) are labeled unknown. Simulated and experimental signatures/data, outperforms K-means clustering, Seurat, SINCERA, PhenoGraph, robust to noise. [GitHub](https://github.com/jcao89757/SCINA), [R package](https://CRAN.R-project.org/package=SCINA) and a [web-server](https://lce.biohpc.swmed.edu/scina/analysis.php). <details>
+    <summary>Paper</summary>
+    Zhang, Luo, Zhong, Choi, Ma, Wang, Mahrt, et al. “SCINA: Semi-Supervised Analysis of Single Cells in Silico.” Genes 10, no. 7 (July 12, 2019): 531. https://doi.org/10.3390/genes10070531.
+</details>
+
 - [SingleCellNet](http://github.com/pcahan1/singleCellNet/) - quantitative cell type annotation. Top-scoring pair transformation to match query and reference datasets. Compared with SCMAP, binary cell type classifier based on correlation. Benchmarked on 12 scRNA-seq datasets, provided in the GitHub repo, http://github.com/pcahan1/singleCellNet/. [Blog post](https://www.rna-seqblog.com/singlecellnet-a-computational-tool-to-classify-single-cell-rna-seq-data-across-platforms-and-across-species/). <details>
     <summary>Paper</summary>
     Tan, Yuqi, and Patrick Cahan. "SingleCellNet: A Computational Tool to Classify Single Cell RNA-Seq Data Across Platforms and Across Species" https://doi.org/10.1016/j.cels.2019.06.004  Cell Systems, July 2019. 
