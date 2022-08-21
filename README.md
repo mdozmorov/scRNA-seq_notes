@@ -204,6 +204,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Visualization pipelines
 
+- [ShinyCell](https://github.com/SGDDNB/ShinyCell) - R package to convert single-cell RNA-seq data into Shiny-based apps to share and visually explore the data. Input - h5ad, loom, SCE, Seurat object. Output - processed files and Shiny scripts. [Example 1](http://shinycell1.ddnetbio.com/), [Example 2](http://shinycell2.ddnetbio.com/). <details>
+    <summary>Paper</summary>
+    Ouyang, John F., Uma S. Kamaraj, Elaine Y. Cao, and Owen JL Rackham. "ShinyCell: simple and sharable visualization of single-cell gene expression data." Bioinformatics 37, no. 19 (1 October 2021): https://doi.org/10.1093/bioinformatics/btab209
+</details>
+
 - [Kana](https://www.jkanche.com/kana/) - single-cell analysis in the browser, by Jayaram Kancherla ([@jkanche](https://github.com/jkanche)), Aaron Lun ([@LTLA](https://github.com/LTLA)). Input - 10X genomics CellRanger's output, matrix or .h5 files. Preprocessing (removal of low-quality cells, Normalization and log-transformation, Modelling of the mean-variance trend across genes), PCA, Clustering (t-SNE/UMAP), Marker detection, custom cluster definition and marker analysis. Works with scATAC-seq data. [GitHub](https://github.com/jkanche/kana), [Tweet](https://twitter.com/jayaram/status/1480599647039016962?s=20).
 
 - [cellxgene](https://github.com/chanzuckerberg/cellxgene) - An interactive exploratory visualization tool for single-cell transcriptomics data, web and desktop versions. Input - matrix-form datasets, metadata, pre-computed embeddings/clustering. Compatible with Seurat, Scanpy, Bioconductor, scVI [GitHub](https://github.com/chanzuckerberg/cellxgene) <details>
