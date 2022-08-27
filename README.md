@@ -955,6 +955,28 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Dumitrascu, Bianca, Soledad Villar, Dustin G. Mixon, and Barbara E. Engelhardt. "Optimal Gene Selection for Cell Type Discrimination in Single Cell Analyses" https://doi.org/10.1101/599654  BioRxiv, April 4, 2019. 
 </details>
 
+- [CancerSEA](http://biocc.hrbmu.edu.cn/CancerSEA/home.jsp) - cancer scRNA-seq studies. [Download](http://biocc.hrbmu.edu.cn/CancerSEA/goDownload) individual studies, as well as gene signatures of 14 states (fincluding stemness, invasion, metastasis, proliferation, EMT, angiogenesis, apoptosis, cell cycle, differentiation, DNA damage, DNA repair, hypoxia, inflammation and quiescence). ssGSEA on each cell. [Supplementary Table S3](https://academic.oup.com/nar/article/47/D1/D900/5133662#supplementary-data) - metastasis-associated genes across all cancers. <details>
+    <summary>Paper</summary>
+    Yuan, Huating, Min Yan, Guanxiong Zhang, Wei Liu, Chunyu Deng, Gaoming Liao, Liwen Xu et al. "CancerSEA: a cancer single-cell state atlas." Nucleic acids research 47, no. D1 (08 January 2019) https://doi.org/10.1093/nar/gky939
+</details>
+
+- [CellMarker](http://xteam.xbio.top/CellMarker/) - cell type-specific markers, human, mouse, single-cell data. 13,605 cell markers of 467 cell types in 158 human tissues/sub-tissues and 9,148 cell makers of 389 cell types in 81 mouse tissues/sub-tissues. [Browse](http://xteam.xbio.top/CellMarker/browse.jsp) signatures for various cell/tissue types. [Search](http://xteam.xbio.top/CellMarker/search.jsp) individual markers. Tab-separated [download](http://xteam.xbio.top/CellMarker/download.jsp) of human, mouse, and single-cell markers. [Ehrichment analysis using CellMarker's data](https://yulab-smu.top/biomedical-knowledge-mining-book/universal-api.html). <details>
+    <summary>Paper</summary>
+    Zhang, Xinxin, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, et al. “CellMarker: A Manually Curated Resource of Cell Markers in Human and Mouse.” Nucleic Acids Research 47, no. D1 (January 8, 2019): D721–28. https://doi.org/10.1093/nar/gky900.
+</details>
+
+#### Immune markers
+
+See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#immune-markers)
+
+#### Brain markers
+
+- [Brain immune atlas](http://www.brainimmuneatlas.org/index.php) scRNA-seq resource. Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. [GitHub](https://github.com/saeyslab/brainimmuneatlas/). <details>
+    <summary>Paper</summary>
+    Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
+</details>
+
+
 ## Phylogenetic inference
 
 - [TAR-scRNA-seq](https://github.com/fw262/TAR-scRNA-seq) - snakemake pipeline for transcript annotation/prediction from scRNA-seq data of poorly annotated genomes. Transcriptionally Active Regions (TARs) detected using groHMM, a hidden Markov model to divide the genome into two states (transcribed and untranscribed, 50bp window). Unannotated TADs (uTARs) preserve cell-type-dependent clusters. Annotated using homology (BLASTn). Spatial transcriptomics confirms coexpression. Analysis of human, mouse, chicken, mole rat, lemur and sea urchin genomes (10X Genomics data). [Summary of data availability](https://www.nature.com/articles/s41467-021-22496-3#data-availability). <details>
@@ -1199,6 +1221,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 - [UCSC cell browser](http://cells.ucsc.edu/) - web interface, Python pipeline and Javascript scatter plot library for single-cell datasets visualization. Static HTML/CSS files for visualizing via a local server. Scripts for data import (cbImportCellranger, scImportSeurat, cbImportScanpy, etc.), or for building from text files (expression matrix, cell metadata with cluster definition, cell coordinates). Many pre-build datasets are available. [Documentation](https://cellbrowser.readthedocs.io/en/master/), [GitHub](https://github.com/maximilianh/cellBrowser). <details>
     <summary>Paper</summary>
     Speir, Matthew L, Aparna Bhaduri, Nikolay S Markov, Pablo Moreno, Tomasz J Nowakowski, Irene Papatheodorou, Alex A Pollen, Lucas Seninge, W James Kent, and Maximilian Haeussler. "UCSC Cell Browser: Visualize Your Single-Cell Data" https://doi.org/10.1101/2020.10.30.361162  Preprint. Bioinformatics, October 31, 2020. 
+</details>
+
+- [PanglaoDB](https://panglaodb.se/) - a web server for exploration of mouse and human single-cell RNA sequencing data. 10X Genomics, Chromium, Smart-seq2 data processed using a unified computational pipeline. [Search](https://panglaodb.se/search.html) for gene, browse and visualize [studies](https://panglaodb.se/samples.html), explore cell type gene expression [markers](https://panglaodb.se/markers.html?cell_type=%27choose%27), raw and RData [data download](https://panglaodb.se/bulk.html). <details>
+    <summary>Paper</summary>
+    Franzén, Oscar, Li-Ming Gan, and Johan L M Björkegren. “PanglaoDB: A Web Server for Exploration of Mouse and Human Single-Cell RNA Sequencing Data” Database (Oxford), 2019 Jan 1,https://doi.org/10.1093/database/baz046
 </details>
 
 - [CellBench data](https://github.com/LuyiTian/CellBench_data), single cell RNA-seq benchmarking, R SingleCellExperiment object.
