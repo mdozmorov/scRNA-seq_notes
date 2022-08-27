@@ -940,53 +940,10 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Cell markers
 
-- Benchmarking study of 41 computational methods for marker gene selection in scRNA-seq data. 10 experimental and over 170 simulated datasets (splatter R package). CellMarker and PangaloDB marker gene set databases. Poor overlap among methods. Wilcoxon test performs best, Student t-test (not Welch) and logistic resression also OK. [Scripts](https://gitlab.svi.edu.au/biocellgen-public/mage_2020_marker-gene-benchmarking/) wrapped in a Snakemake pipeline. <details>
+- Benchmarking study of 41 computational methods for marker gene selection in scRNA-seq data. 10 experimental and over 170 simulated datasets (splatter R package). CellMarker and PangaloDB marker gene set databases, [Supplementary tables S1-S4](https://www.biorxiv.org/content/10.1101/2022.05.09.490241v1.supplementary-material) - expert-annotated marker gene sets pbmc3k immune cells, Lawlor pancreatic cells, Zeisel brain cells, Smart-seq3 immune cells, [CSV](data/Pullin_McCarthy_2022.csv). Poor overlap among methods. Wilcoxon test performs best, Student t-test (not Welch) and logistic resression also OK. [Scripts](https://gitlab.svi.edu.au/biocellgen-public/mage_2020_marker-gene-benchmarking/) wrapped in a Snakemake pipeline. <details>
     <summary>Paper</summary>
     Pullin, Jeffrey M., and Davis J. McCarthy. "A comparison of marker gene selection methods for single-cell RNA sequencing data." bioRxiv (May 10, 2022). https://doi.org/10.1101/2022.05.09.490241
 </details>
-- [Supplementary tables S1-S4](https://www.biorxiv.org/content/10.1101/2022.05.09.490241v1.supplementary-material) - expert-annotated marker gene sets pbmc3k immune cells, Lawlor pancreatic cells, Zeisel brain cells, Smart-seq3 immune cells. <details>
-    <summary>Tables</summary>
-    | Table S1: Expert marker genes: pbmc3k       |                        |
-    |---------------------------------------------|------------------------|
-    | Cell type                                   | Marker genes           |
-    | Naive CD4+ T                                | IL7R, CCR7             |
-    | CD14+ Mono                                  | CD14, LYZ              |
-    | Memory CD4+                                 | IL7R, S100A4           |
-    | B                                           | MS4A1                  |
-    | CD8+ T                                      | CD8A                   |
-    | FCGR3A+ Mono                                | FCGR3A, MS4A7          |
-    | NK                                          | GNLY, NKG7             |
-    | DC                                          | FCER1A, CST3           |
-    | Platelet                                    | PPBP                   |
-    | Table S2:   Expert marker genes: Lawlor     |                        |
-    | Cell type                                   | Marker gene            |
-    | Beta                                        | INS                    |
-    | Stellate                                    | COL1A1                 |
-    | Ductal                                      | KRT19                  |
-    | Alpha                                       | GCG                    |
-    | Acinar                                      | PRSS1                  |
-    | Gamma/PP                                    | PPY                    |
-    | Delta                                       | SST                    |
-    | Table S3:   Expert marker genes: Zeisel     |                        |
-    | Cell type                                   | Marker gene            |
-    | interneurons                                | PNOC                   |
-    | pyramidal SS                                | TBR1                   |
-    | pyramidal CA1                               | SPINK8                 |
-    | oligodendrocytes                            | HAPLN2                 |
-    | microglia                                   | AIF1                   |
-    | endothelial-mural                           | ACTA2                  |
-    | astrocytes-ependymal                        | ALDOC                  |
-    | Table S4:   Expert marker genes: Smart-seq3 |                        |
-    | Cell type                                   | Marker gene            |
-    | NK cells                                    | NCAM1, KLRB1           |
-    | Naive/Memory CD8 T                          | PECAM1                 |
-    | Cytotoxic T                                 | GZMB, GZMA             |
-    | Naive B                                     | CD27, IGHM, IGHD, IL4R |
-    | Dendritic cells                             | KLF4, CD1C             |
-    | CD14 monocytes                              | CD14                   |
-    | plasmacytoid DC                             | IL3RA, TLR7            |
-    | Plasma cells                                | PRDM1, IRF4            |
-<details>
 
 - [UCell](https://github.com/carmonalab/UCell) - an R package for gene signature enrichment in scRNA-seq data based on the Mann-Whitney U statistics. Integrates with the Seurat pipeline. Annotates each cell with signature enrichments. Requires gene lists as signature definitions. <details>
     <summary>Paper</summary>
