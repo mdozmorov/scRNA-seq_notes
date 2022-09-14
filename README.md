@@ -535,6 +535,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     John, Christopher R., David Watson, Michael R. Barnes, Costantino Pitzalis, and Myles J. Lewis. "Spectrum: Fast Density-Aware Spectral Clustering for Single and Multi-Omic Data" https://doi.org/10.1093/bioinformatics/btz704  Bioinformatics (Oxford, England), September 10, 2019
 </details>
 
+- [SAUCIE](#saucie) - a regularized autoencoder for scRNA-seq data denoising, batch correction, low-dimensional representation and clustering.
+
 - [PanoView](https://github.com/mhu10/scPanoView) - scRNA-seq iterative clustering in an evolving 3D PCA space, Ordering Local Maximum by Convex hull (OLMC) to identify clusters of varying density. PCA on most variable genes, finding most optimal largest cluster within first 3 PCs, repeat PCA for the remaining cells etc. Tested on multiple simulated and experimental scRNA-seq datasets, compared with 9 methods, the Adjusted Rand Index as performance metric. <details>
     <summary>Paper</summary>
     Hu, Ming-Wen, Dong Won Kim, Sheng Liu, Donald J. Zack, Seth Blackshaw, and Jiang Qian. "PanoView: An Iterative Clustering Method for Single-Cell RNA Sequencing Data" https://doi.org/10.1371/journal.pcbi.1007040  Edited by Qing Nie. PLOS Computational Biology 15, no. 8 (August 30, 2019)
@@ -1069,6 +1071,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 </details>
 
 ## Deep learning
+
+- <a name="saucie">[SAUCIE](https://github.com/KrishnaswamyLab/SAUCIE/)</a> - a regularized autoencoder for scRNA-seq data denoising, batch correction, low-dimensional representation and clustering. Three encoding layers (512, 256, 128 neurons), an embedding layer (two dimensional), three decoding layers. Information dimension (ID) regularization encourages binarizable activation of the neurons (helps clustering). A maximal mean discrepancy (MMD) to penalize differences between probability distributions of internal activations of samples (for batch correction across samples). Outperforms many clustering methods, scalable. <details>
+    <summary>Paper</summary>
+    Amodio, Matthew, David van Dijk, Krishnan Srinivasan, William S. Chen, Hussein Mohsen, Kevin R. Moon, Allison Campbell, et al. “Exploring Single-Cell Data with Deep Multitasking Neural Networks.” Nature Methods, October 7, 2019. https://doi.org/10.1038/s41592-019-0576-7.
+</details>
 
 - [scScope](https://github.com/AltschulerWu-Lab/scScope) - for extracting informative representations, clustering and analysing cell type composition. Recurrent neural network architecture, variable number of recurrent steps (at step = 1, the architecture is standard autoencoder). Tested on simulated data (Splatter, SIMLR) and four experimental scRNA-seq dtasets, at different sparsity levels, rare subpopulation fractions. Compared with PCA, ZINB-WaVE, scVI, others. Multi-GPU Python, TensorFlow, numpy, scikit-learn implementation. <details>
     <summary>Paper</summary>
