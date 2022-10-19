@@ -272,6 +272,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. "DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data" https://doi.org/10.1093/bioinformatics/btab266  Bioinformatics, (August 4, 2021)
 </details>
 
+- [DropletQC](https://github.com/powellgenomicslab/DropletQC) - empty droplet identification. A novel metric - nuclear fraction. Damaged cells due to the depletion of cytoplasmic RNA will have a higher nuclear fraction compared to intact cells. Compared with 10X Cell Ranger, CellBlender, EmptyNN, EmptyDrops. [Scripts](https://github.com/powellgenomicslab/dropletQC_paper). <details>
+    <summary>Paper</summary>
+    Muskovic, Walter. “DropletQC: Improved Identification of Empty Droplets and Damaged Cells in Single-Cell RNA-Seq Data,” 2021, 9.
+</details>
+
 - [DropletUtils](https://bioconductor.org/packages/DropletUtils/) - Provides a number of utility functions for handling single-cell (RNA-seq) data from droplet technologies such as 10X Genomics. This includes data loading, identification of cells from empty droplets, removal of barcode-swapped pseudo-cells, and downsampling of the count matrix. <details>
     <summary>Paper</summary>
     Lun ATL, Riesenfeld S, Andrews T, Dao T, Gomes T, participants in the 1st Human Cell Atlas Jamboree, Marioni JC (2019). "EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data" https://doi.org/10.1186/s13059-019-1662-y  Genome Biol.
