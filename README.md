@@ -729,6 +729,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Networks
 
+- [scHumanNet](https://github.com/netbiolab/scHumanNet) - scRNA-seq reference-guided (HumanNet-XC) network analysis (SCINET algorithm). Data preprocessing using the ACTIONet package (imputation, transformation, normalization). Compared with five reference-free methods (rawPCC, MetaCell, SAVER, GRNboost2, bigSCale2) and one reference-guided method (SCINET). Better defines cell type-specific genes, improves network properties. Differential network analysis. Visualization. Conda, R. <details>
+    <summary>Paper</summary>
+    Cha, Junha, Jiwon Yu, Jae-Won Cho, Martin Hemberg, and Insuk Lee. “ScHumanNet: A Single-Cell Network Analysis Platform for the Study of Cell-Type Speciﬁcity of Disease Genes,” n.d., 14.
+</details>
+
 - Benchmarking of six scRNA-seq network inference methods (GENIE3, GRNBoost2, PPCOR, PIDC, GeneNet, CLR) based on their reproducibility (percentage of intersection, weighted Jaccard similarity) when applied to two independent datasets for the same biilogical conditions (human retina, T-cells in colorectal cancer, human hematopoiesis, Table 1). Other benchmarking studies: [Chen and Mar 2018" https://doi.org/10.1126/science.aam8999) and [Pratapa 2020" https://doi.org/10.1038/s41592-019-0690-6). Brief description of each method. For large (up to 100,000 links) networks, GENIE2 and GRNBoost2 perform best. For smaller (100-1000 links), GRNBoost2 and CLR perform best. [scNET Jupyter notebook](https://github.com/ComputationalSystemsBiology/scNET) implementing all analyses. <details>
     <summary>Paper</summary>
     Kang, Yoonjee, Denis Thieffry, and Laura Cantini. “Evaluating the Reproducibility of Single-Cell Gene Regulatory Network Inference Algorithms.” Frontiers in Genetics 12 (March 22, 2021): 617282. https://doi.org/10.3389/fgene.2021.617282. 
