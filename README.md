@@ -520,6 +520,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Clustering
 
+- [scSSA](https://github.com/houtongshuai123/scSSA/) - scRNA-seq clustering based on autoencoder for dimensionality reduction/denoising (improves performance), FastICA to make the data 2D, Caussian mixture clustering. Outperforms Seurat, CIDR, and other methods on datasets from [Hemberg Lab](https://hemberg-lab.github.io/scRNA.seq.datasets/). <details>
+    <summary>Paper</summary>
+    Zhao, Jian-Ping, Tong-Shuai Hou, Yansen Su, and Chun-Hou Zheng. “ScSSA: A Clustering Method for Single Cell RNA-Seq Data Based on Semi-Supervised Autoencoder.” Methods 208 (December 2022): 66–74. https://doi.org/10.1016/j.ymeth.2022.10.006.
+</details>
+
 - [Challenges in scRNA-seq clustering](https://www.rna-seqblog.com/challenges-in-unsupervised-clustering-of-single-cell-rna-seq-data/). Clustering strategies (dimensionality reduction, k-means, agglomerative/divisive hierarchical clustering, discrete vs. continuous clustering). Table 1 - summary of 15 clustering methods. <details>
     <summary>Paper</summary>
     Kiselev, Vladimir Yu, Tallulah S. Andrews, and Martin Hemberg. "Challenges in Unsupervised Clustering of Single-Cell RNA-Seq Data" https://doi.org/10.1038/s41576-018-0088-9  Nature Reviews Genetics, January 7, 2019. 
