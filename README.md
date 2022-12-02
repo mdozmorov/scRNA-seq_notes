@@ -1121,6 +1121,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [SpatialPCA](https://github.com/shangll123/SpatialPCA) - spatially aware dimention reduction method, a low dimensional representation of the spatial transcriptomics data with biological signal and preserved spatial correlation structure. Used for spatial domain detection. Outperforms BayesSpace, SpaGCN, HMRF, PCA, NMF in simulation study, better spatial continuity and smoothness, ARI, CHAOS, LISI coefficients. [Code to reproduce the paper](https://github.com/shangll123/SpatialPCA_analysis_codes). [Tutorials](https://lulushang.org/SpatialPCA_Tutorial/index.html). <details>
+    <summary>Paper</summary>
+    Shang, Lulu, and Xiang Zhou. “Spatially Aware Dimension Reduction for Spatial Transcriptomics.” Nature Communications 13, no. 1 (November 23, 2022): 7203. https://doi.org/10.1038/s41467-022-34879-1.
+</details>
+
 - [Stereo-seq](https://db.cngb.org/stomics/mosta/stereo.seq.html) spatial transcriptomics technology. Combines DNA nanoball-patterned (DNB) arrays (random barcodes on a patterned attay so each DNB contains the coordinate identity) and tissue RNA capture, achieves cellular resolution. Generates the [mouse organogenesis spatiotemporal transcriptomic atlas (MOSTA)](https://db.cngb.org/stomics/mosta/) to map the spatiotemporal transcriptomic dynamics of the developing mouse embryo. [Raw data](https://db.cngb.org/search/project/CNP0001543/). [SAW](https://github.com/BGIResearch/SAW) - Workflow for analyzing Stereo-seq transcriptomic data. <details>
     <summary>Paper</summary>
     Chen, Ao, Sha Liao, Mengnan Cheng, Kailong Ma, Liang Wu, Yiwei Lai, Xiaojie Qiu, et al. “Spatiotemporal Transcriptomic Atlas of Mouse Organogenesis Using DNA Nanoball-Patterned Arrays.” Cell 185, no. 10 (May 2022): 1777-1792.e21. https://doi.org/10.1016/j.cell.2022.04.003.
