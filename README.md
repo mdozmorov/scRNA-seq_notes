@@ -34,6 +34,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     - [Immune markers](#immune-markers)
     - [Brain markers](#brain-markers)
 - [Immuno-analysis](#immuno-analysis)
+- [Cell-cell interactions](#cell-cell-interactions)
 - [Phylogenetic inference](#phylogenetic-inference)
 - [Simulation](#simulation)
   - [Power](#power)
@@ -1033,11 +1034,6 @@ T/B cell receptor sequencing analysis notes by Ming Tang
     Song, Li, David Cohen, Zhangyi Ouyang, Yang Cao, Xihao Hu, and X. Shirley Liu. “TRUST4: Immune Repertoire Reconstruction from Bulk and Single-Cell RNA-Seq Data.” Nature Methods 18, no. 6 (June 2021): 627–30. https://doi.org/10.1038/s41592-021-01142-2.
 </details>
 
-- [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb). <details>
-    <summary>Paper</summary>
-    Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
-</details>
-
 - [scRepertoire](https://github.com/ncborcherding/scRepertoire) - R package for 10x Genomics Chromium Immune Profiling for both T-cell receptor (TCR) and immunoglobulin (Ig) enrichment data. Clonotype analysis: cdr3 distribution, clonotype calling, proportion, repertoire overlap, diversity. Comparison between samples. Rich visualization capabilities. [Tweet](https://twitter.com/theHumanBorch/status/1218998979247120386?s=20). <details>
     <summary>Paper</summary>
     Borcherding, N, NL Bormann, and G Kraus. “ScRepertoire: An R-Based Toolkit for Single-Cell Immune Receptor Analysis [Version 2; Peer Review: 2 Approved].” F1000Research 9, no. 47 (2020). https://doi.org/10.12688/f1000research.22139.2.
@@ -1049,6 +1045,12 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Immcantation](https://immcantation.readthedocs.io) - a start-to-finish analytical ecosystem for high-throughput AIRR-seq (adaptive immune receptor repertoire) datasets. Beginning from raw reads, Python and R packages are provided for pre-processing, population structure determination, and repertoire analysis (pRESTO, Change-O, Alakazam, SHazaM, TIgGER, SCOPer, dowser, RDI, RAbHIT, IgPhyML, sumrep). Pipelines for various technologies, inclusing 10X Genomics. [Tutorials](https://immcantation.readthedocs.io/en/stable/tutorials/tutorials.html). [Introduction to B cell repertoire analysis using the Immcantation framework](https://kleinstein.bitbucket.io/tutorials/intro-lab/index.html) and the [Jupyter notebook](https://bitbucket.org/kleinstein/immcantation/src/master/training/). [10x Genomics VDJ Sequence Analysis Tutorial](https://immcantation.readthedocs.io/en/stable/tutorials/10x_tutorial.html) with the Docker image
 
+## Cell-cell interactions
+
+- [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb). <details>
+    <summary>Paper</summary>
+    Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
+</details>
 
 ## Simulation
 
