@@ -1047,6 +1047,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Cell-cell interactions
 
+- [OmniPath](https://omnipathdb.org/) - database of intra- and extracellular signaling, as well as transcriptional and post-transcriptional regulation. Combining [over 100 resources](https://omnipathdb.org/info). Human data, converted to mouse and rat via homology. [OmnipathR](https://github.com/saezlab/OmnipathR) [Bioconductor](https://bioconductor.org/packages/OmnipathR/) R package, [omnipath](https://github.com/saezlab/omnipath) Python client, [Cytoscape](https://apps.cytoscape.org/apps/omnipath) plugin. [Code used in paper](https://github.com/saezlab/omnipath_analysis). <details>
+    <summary>Paper</summary>
+    Türei, Dénes, Alberto Valdeolivas, Lejla Gul, Nicolàs Palacio‐Escat, Michal Klein, Olga Ivanova, Márton Ölbei, et al. “Integrated Intra‐ and Intercellular Signaling Knowledge for Multicellular Omics Analysis.” Molecular Systems Biology 17, no. 3 (March 2021). https://doi.org/10.15252/msb.20209923.
+</details>
+
 - [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb). <details>
     <summary>Paper</summary>
     Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
