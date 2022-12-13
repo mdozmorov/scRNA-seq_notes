@@ -1047,6 +1047,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 ## Cell-cell interactions
 
+- [LIANA](https://github.com/saezlab/liana) - LIgand-receptor ANalysis frAmework for cell-cell communication analysis of scRNA-seq clusters. Comparing 16 resources and 7 methods (Table 1: CellChat, CellPhoneDB, Connectome, Crosstalk scores, logFC meam, NATMI, SingleCellSignalR, Consensus). Decoupling methods and resources, allowing for combination of any of them. [Website](https://saezlab.github.io/liana/index.html) with several tutorials. R package. <details>
+    <summary>Paper</summary>
+    Dimitrov, Daniel, Dénes Türei, Martin Garrido-Rodriguez, Paul L. Burmedi, James S. Nagai, Charlotte Boys, Ricardo O. Ramirez Flores, et al. “Comparison of Methods and Resources for Cell-Cell Communication Inference from Single-Cell RNA-Seq Data.” Nature Communications 13, no. 1 (June 9, 2022): 3224. https://doi.org/10.1038/s41467-022-30755-0.
+</details>
+
 - [OmniPath](https://omnipathdb.org/) - database of intra- and extracellular signaling, as well as transcriptional and post-transcriptional regulation. Combining [over 100 resources](https://omnipathdb.org/info). Human data, converted to mouse and rat via homology. [OmnipathR](https://github.com/saezlab/OmnipathR) [Bioconductor](https://bioconductor.org/packages/OmnipathR/) R package, [omnipath](https://github.com/saezlab/omnipath) Python client, [Cytoscape](https://apps.cytoscape.org/apps/omnipath) plugin. [Code used in paper](https://github.com/saezlab/omnipath_analysis). <details>
     <summary>Paper</summary>
     Türei, Dénes, Alberto Valdeolivas, Lejla Gul, Nicolàs Palacio‐Escat, Michal Klein, Olga Ivanova, Márton Ölbei, et al. “Integrated Intra‐ and Intercellular Signaling Knowledge for Multicellular Omics Analysis.” Molecular Systems Biology 17, no. 3 (March 2021). https://doi.org/10.15252/msb.20209923.
