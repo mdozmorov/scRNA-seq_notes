@@ -891,6 +891,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Isabella N. Grabski, Rafael A. Irizarry "A Probabilistic Gene Expression Barcode for Annotation of Cell-Types from Single Cell RNA-Seq Data" https://doi.org/10.1101/2020.01.05.895441  biorXiv, December 22, 2020
 </details>
 
+- [scTyper](https://github.com/omicsCore/scTyper) - cell- or cluster typing analysis of scRNA-seq data. Includes scTyper.db and CellMarker databases with literature-curated 213 cell marker sets (malignant cells, cancer-associated fibroblasts, 149 immune cells). Three enrichment methods (Nearest template prediction NTP, gene set enrichment analysis GSEA, average expression values). DNA copy number inference (inferCNV, removing gene clusters) for malignant cell typing. Supports 10X Genomics CellRanges and the Seurat package using the corresponding modules: “QC”, “Cell Ranger”, “Seurat processing”, “cell typing”, and “malignant cell typing”. <details>
+    <summary>Paper</summary>
+    Choi, Ji-Hye, Hye In Kim, and Hyun Goo Woo. “ScTyper: A Comprehensive Pipeline for the Cell Typing Analysis of Single-Cell RNA-Seq Data.” BMC Bioinformatics 21, no. 1 (December 2020): 342. https://doi.org/10.1186/s12859-020-03700-5.
+</details>
+
 - [Azimuth](https://azimuth.hubmapconsortium.org/) - Mapping query scRNA-seq dataset to multimodal references and assigning cell types. Supervised principal component analysis to identify a projection of the query dataset that maximally captures the structure defined by the WNN graph. Combined with the anchor-based framework, allows projection on the previously defined reference UMAP visualization. Human PBMC, motor cortex, pancreas, mouse motor cortex references. [Online apps](https://azimuth.hubmapconsortium.org/). <details>
     <summary>Paper</summary>
     Hao, Yuhan, Stephanie Hao, Erica Andersen-Nissen, William M. Mauck, Shiwei Zheng, Andrew Butler, Maddie Jane Lee, et al. "Integrated Analysis of Multimodal Single-Cell Data" https://doi.org/10.1101/2020.10.12.335331  Preprint. Genomics, October 12, 2020. 
