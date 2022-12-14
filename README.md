@@ -1206,6 +1206,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang
 
 - [Spatial Gene Expression, Space Ranger by 10X Genomics](https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome)
 
+- [STUtility](https://github.com/jbergenstrahle/STUtility) - an R package for visualization and analysis of spatial transcriptomics data (10X Visium). Seurat-compatible. [Website](https://ludvigla.github.io/STUtility_web_site/index.html) with tutorials and walkthroughs.
+
 ## Technology
 
 - [Collections of library structure and sequence of popular single cell genomic methods](https://teichlab.github.io/scg_lib_structs/) from Sarah Teichmann's group. [GitHub](https://github.com/Teichlab/scg_lib_structs)
