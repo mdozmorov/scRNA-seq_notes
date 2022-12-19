@@ -1022,7 +1022,7 @@ See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#imm
 ## Immuno-analysis
 
 - [TCR-BCR-seq-analysis](https://github.com/crazyhottommy/TCR-BCR-seq-analysis) - 
-T/B cell receptor sequencing analysis notes by Ming Tang
+T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to work with (single-cell) TCR/BCR-seq immune repertoire data](https://crazyhottommy.blogspot.com/2022/12/23-tools-to-work-with-single-cell.html) by Ming, [Tweet](https://twitter.com/tangming2005/status/1600868620128718848?s=20&t=EzFDzKyBvH1mykAomlahGg).
 
 - Overview of B-cell receptor development/affinity maturation, sequencing B-cell repertoire, clonal lineage assignment and clustering, somatic hypermutation analysis, challenges. <details>
     <summary>Paper</summary>
