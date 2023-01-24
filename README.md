@@ -1143,6 +1143,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [STELLAR](http://snap.stanford.edu/stellar/) (SpaTial cElL LeARning) - a geometric deep learning method for cell-type discovery and identification in spatially resolved single-cell datasets. Input - annotated spatially-resolved single-cell dataset. Graph convolutional network learns latent low-dimensional cell representations spatially and molecularly close. Transfers learned representations on an unannotated dataset. Compared with baseline methods XGBoost, SVM, RF, AdaBoost, as well as single-cell annotation baselines Seurat, scNym, scANVI, outperforms all (Seurat and scNym perform poorly). Robust to normalization strategies, noise, missing values. PyTorch implementation, [GitHub](https://github.com/snap-stanford/stellar). <details>
+    <summary>Paper</summary>
+    Brbić, Maria, Kaidi Cao, John W. Hickey, Yuqi Tan, Michael P. Snyder, Garry P. Nolan, and Jure Leskovec. “Annotation of Spatially Resolved Single-Cell Data with STELLAR.” Nature Methods 19, no. 11 (November 2022): 1411–18. https://doi.org/10.1038/s41592-022-01651-8.
+</details>
+
 - [SpatialPCA](https://github.com/shangll123/SpatialPCA) - spatially aware dimention reduction method, a low dimensional representation of the spatial transcriptomics data with biological signal and preserved spatial correlation structure. Used for spatial domain detection. Outperforms BayesSpace, SpaGCN, HMRF, PCA, NMF in simulation study, better spatial continuity and smoothness, ARI, CHAOS, LISI coefficients. [Code to reproduce the paper](https://github.com/shangll123/SpatialPCA_analysis_codes). [Tutorials](https://lulushang.org/SpatialPCA_Tutorial/index.html). <details>
     <summary>Paper</summary>
     Shang, Lulu, and Xiang Zhou. “Spatially Aware Dimension Reduction for Spatial Transcriptomics.” Nature Communications 13, no. 1 (November 23, 2022): 7203. https://doi.org/10.1038/s41467-022-34879-1.
