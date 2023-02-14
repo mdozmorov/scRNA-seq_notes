@@ -84,6 +84,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Courses
 
+- [Single-cell best practices](https://www.sc-best-practices.org/) - scRNA-seq analysis with Python/scanpy in. From preprocessing to trajectory inference, network analysis, immune receptor profiling, and more. [GitHub](https://github.com/theislab/single-cell-best-practices) with Jupyter notebooks/code.
+
 - Review of single-cell transcriptomics technologies and analysis steps and software. Sample preparation, scRNA-seq preprocessing, QC, normalization, batch correction, dimensionaliry reduction. Downstream analysis on cell level (clustering, trajectory inference), gene level (differential expression, functional enrichment, network analysis). Table 1 - preprocessing pipelines and tools, brief description. Table 2 - clustering algorithms. <details>
     <summary>Paper</summary>
     Nayak, Richa, and Yasha Hasija. “A Hitchhiker’s Guide to Single-Cell Transcriptomics and Data Analysis Pipelines.” Genomics 113, no. 2 (March 2021): 606–19. https://doi.org/10.1016/j.ygeno.2021.01.007.
