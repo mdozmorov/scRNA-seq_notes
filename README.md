@@ -1267,6 +1267,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [Broad Single Cell Portal](https://singlecell.broadinstitute.org/single_cell) - scRNA-seq data from human, mouse, and more. Description, download
 
+- [CZ CELLxGENE Discover](https://cellxgene.cziscience.com/) - single cell data collections, datasets, gene expression. Downloadable. [CuratedAtlasQueryR](https://github.com/stemangiola/CuratedAtlasQueryR) - an R package for the programmatic exploration and retrieval of the harmonised, curated and reannotated CELLxGENE single-cell human cell atlas. Data can be retrieved at cell, sample, or dataset levels based on filtering criteria.
+
 - [10X Genomics Visium spatial transcriptomics data](https://support.10xgenomics.com/spatial-gene-expression/datasets) - adult human/mouse brain, human breast cancer
 
 - [Detailed description of 9 datasets and download links](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking), from Tran et al. "[A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data](https://doi.org/10.1186/s13059-019-1850-9)" study. Dataset 1: human dendritic cells, Dataset 2: mouse cell atlas, Dataset 3: simulation, Dataset 4: human pancreas, Dataset 5: human peripheral blood mononuclear cell (PBMC), Dataset 6: cell line, Dataset 7: mouse retina, Dataset 8: mouse brain, Dataset 9: human cell atlas
