@@ -329,14 +329,19 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Luecken, Md, M Büttner, K Chaichoompu, A Danese, M Interlandi, Mf Mueller, Dc Strobl, et al. “Benchmarking Atlas-Level Data Integration in Single-Cell Genomics.” Nature Methods, 23 December 2021 https://doi.org/10.1038/s41592-021-01336-8
 </details>
 
-- [RPCI](https://github.com/bioinfoDZ/RISC) (Reference Principal Component Integration) - R package RISC for integration of scRNA-seq data using the gene eigenvectors from a reference dataset as a single reference space. Compared with CCA, shared cell type-based strategies. Tested on simulated and experimental datasets against 11 other integration approaches (Scanorama, Harmony, fastMNN, Anchor, among others) using four metrics (kBET scores, LISI, ARI, SW). Robust when using two and more datasets (e.g., timecourse). Scanorama generally ranks second. [Code to reproduce the paper](https://codeocean.com/capsule/9098032/tree/v1). <details>
-    <summary>Paper</summary>
-    Liu, Yang, Tao Wang, Bin Zhou, and Deyou Zheng. “Robust Integration of Multiple Single-Cell RNA Sequencing Datasets Using a Single Reference Space.” Nature Biotechnology, March 25, 2021. https://doi.org/10.1038/s41587-021-00859-x.
-</details>
-
 - [Benchmark of 14 methods for scRNA-seq batch correction](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). Using five scenarios: different technologies and same cells, non-identical cell types, multiple batches, big data, simulated data. Four benchmarking metrics. Harmony (fast), LIGER, and Seurat 3 perform well overall. For differential expression, ComBat, limma, MNN Correct perform well. Detailed description of 9 datasets and download links. [Data and scripts](https://github.com/JinmiaoChenLab/Batch-effect-removal-benchmarking). <details>
     <summary>Paper</summary>
     Tran, Hoa Thi Nhu, Kok Siong Ang, Marion Chevrier, Xiaomeng Zhang, Nicole Yee Shin Lee, Michelle Goh, and Jinmiao Chen. "A Benchmark of Batch-Effect Correction Methods for Single-Cell RNA Sequencing Data" https://doi.org/10.1186/s13059-019-1850-9  Genome Biology 21, no. 1 (December 2020)
+</details>
+
+- [MOJITOO](https://github.com/CostaLab/MOJITOO) (Multi-mOdal Joint IntegraTion of cOmpOnents) - a single cell multi-modal integration method (does not require shared features, e.g., genes), uses canonical correlation analysis. Introduction of two main frameworks: metric learning (WNN, Schema) and latent variable learning (MOFA, scAI, totalVI, LIGER). Benchmarked against them on bi- and trimodal data (RNA, protein, ATAC). R implementation, compatible with Seurat, Signac. <details>
+    <summary>Paper</summary>
+    Cheng, Mingbo, Zhijian Li, and Ivan Gesteira Costa Filho. “MOJITOO: A Fast and Universal Method for Integration of Multimodal Single Cell Data.” Preprint. Bioinformatics, January 21, 2022. https://doi.org/10.1101/2022.01.19.476907.
+</details>
+
+- [RPCI](https://github.com/bioinfoDZ/RISC) (Reference Principal Component Integration) - R package RISC for integration of scRNA-seq data using the gene eigenvectors from a reference dataset as a single reference space. Compared with CCA, shared cell type-based strategies. Tested on simulated and experimental datasets against 11 other integration approaches (Scanorama, Harmony, fastMNN, Anchor, among others) using four metrics (kBET scores, LISI, ARI, SW). Robust when using two and more datasets (e.g., timecourse). Scanorama generally ranks second. [Code to reproduce the paper](https://codeocean.com/capsule/9098032/tree/v1). <details>
+    <summary>Paper</summary>
+    Liu, Yang, Tao Wang, Bin Zhou, and Deyou Zheng. “Robust Integration of Multiple Single-Cell RNA Sequencing Datasets Using a Single Reference Space.” Nature Biotechnology, March 25, 2021. https://doi.org/10.1038/s41587-021-00859-x.
 </details>
 
 - [MOFA2](https://github.com/bioFAM/MOFA2) - Multi-Omics Factor Analysis v2 (MOFA+), a statistical framework for the integration of single-cell multi-modal data. Reconstructs a low-dimensional representation of the data using variational inference (a stochastic variant parallelizable on GPU, 20-fold speed increase). Supports sparsity constraints, allowing to jointly model variation across multiple sample groups and data modalities. Infers K latent factors with associated feature weight matrices (per data modality, Figure 1a) that can be used for clustering, trajectory inference, variance decomposition etc. Input - multiple datasets measuring non-overlapping modalities, cells grouped by experiments, batches, or conditions. Python and R implementation. <details>
