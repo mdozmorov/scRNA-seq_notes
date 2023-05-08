@@ -29,6 +29,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [Differential expression](#differential-expression)
   - [Differential abundance](#differential-abundance)
 - [CNV](#cnv)
+- [Splicing](#splicing)
 - [Annotation, subpopulation identification](#annotation-subpopulation-identification)
   - [Cell markers](#cell-markers)
     - [Immune markers](#immune-markers)
@@ -890,6 +891,13 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 </details>
 
 - [infercnv](https://github.com/broadinstitute/infercnv) - Inferring copy number alterations from tumor single cell RNA-Seq data, as compared with a set of reference normal cells. Positional expression intensity comparison. [Documentation](https://github.com/broadinstitute/inferCNV/wiki).
+
+## Splicing
+
+- [SICILIAN](https://github.com/salzmanlab/SICILIAN) (SIngle Cell precIse spLice estImAtioN) - splice junction from bulk and scRNA-seq data. Deconvolves biochemical and computational noise, uses generalized linear modeling with various read mapping features as predictors. Input: a BAM file from a splice-aware aligner (e.g., STAR). Three steps: (1) assign a statistical score to each junctional read’s alignment to quantify the likelihood that the read alignment is truly from RNA expression; (2) aggregate read scores to summarize the likelihood that a given junction is a true positive; and (3) report single-cell resolved junction expression quantification, corrected for multiple hypotheses testingHigher accuracy on simulated data, improves concordance between matched scRNA-seq and bulk datasets, biological replicates. Python and R implementation. <details>
+    <summary>Paper</summary>
+    Dehghannasiri, Roozbeh, Julia Eve Olivieri, and Julia Salzman. “Specific Splice Junction Detection in Single Cells with SICILIAN.” Preprint. Bioinformatics, April 15, 2020. https://doi.org/10.1101/2020.04.14.041905.
+</details>
 
 ## Annotation, subpopulation identification
 
