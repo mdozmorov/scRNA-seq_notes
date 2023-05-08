@@ -936,6 +936,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Pliner, Hannah A., Jay Shendure, and Cole Trapnell. "Supervised Classification Enables Rapid Annotation of Cell Atlases" https://doi.org/10.1038/s41592-019-0535-3  Nature Methods 16, no. 10 (October 2019)
 </details>
 
+- [COMET](https://github.com/MSingerLab/COMETSC) - a computational framework (Python 3.6) for the identification of candidate marker panels consisting of one or more genes for cell populations of interest identified with scRNA-seq data. Uses the XL-minimal HyperGeometric test (XL-mHG test) to binarize each gene as being expressed in a cluster-specific manner. Input: a gene-by-cell expression matrix, cluster assignments, and visualization coordinates. Output: gene markers most positively and negatively predictive of a cluster membership. [Documentation](https://hgmd.readthedocs.io/en/latest/). <details>
+    <summary>Paper</summary>
+    Delaney, Conor, Alexandra Schnell, Louis V Cammarata, Aaron Yao‐Smith, Aviv Regev, Vijay K Kuchroo, and Meromit Singer. “Combinatorial Prediction of Marker Panels from Single‐cell Transcriptomic Data.” Molecular Systems Biology 15, no. 10 (October 2019). https://doi.org/10.15252/msb.20199005.
+</details>
+
 - [Single-Cell Signature Explorer](https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer) - scoring (sum of UMIs in a signature over total UMIs in a cell) of gene-set signatures at the single cell level and their visualization using t-SNE or UMAP. Contains four successive tools: Scorer (computes signature scores for each cell), Merger (collates score table with t-SNE and UMAP coordinates), Viewer (visualizes signature scores, one at a time), Combiner (arithmetic combination of two signature scores, and visualization). Utilizes sctransform normalization. Implemented in Go, with viewers implemented in R/Shiny. Outperforms ssGSEA, GSVA, AutoCompare_SES. [Signature databases](https://sites.google.com/site/fredsoftwares/products/databases) for multiple databases. <details>
     <summary>Paper</summary>
     Pont, Frédéric, Marie Tosolini, and Jean J Fournié. “Single-Cell Signature Explorer for Comprehensive Visualization of Single Cell Signatures across ScRNA-Seq Datasets.” Nucleic Acids Research 47, no. 21 (December 2, 2019): e133–e133. https://doi.org/10.1093/nar/gkz601.
