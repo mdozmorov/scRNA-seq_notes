@@ -1178,6 +1178,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [SpatialData](https://github.com/scverse/spatialdata-notebooks) - a community standards-based framework to store, process and annotate multi-platform spatial data. Handles larger-than-memory data and transformations, Zarr file format. Demo on multi-modal Xenium and Visium breast cancer study. Python implementation, integrates with other multi-omics ecosystems (Squidpy, Scanpy, MONAI, scvi-tools). [Documentation](https://spatialdata.scverse.org/en/latest/index.html). <details>
+    <summary>Paper</summary>
+    Marconato, Luca, Giovanni Palla, Kevin A. Yamauchi, Isaac Virshup, Elyas Heidari, Tim Treis, Marcella Toth, et al. “SpatialData: An Open and Universal Data Framework for Spatial Omics.” Preprint. Bioinformatics, May 8, 2023. https://doi.org/10.1101/2023.05.05.539647.
+</details>
+
 - [STELLAR](http://snap.stanford.edu/stellar/) (SpaTial cElL LeARning) - a geometric deep learning method for cell-type discovery and identification in spatially resolved single-cell datasets. Input - annotated spatially-resolved single-cell dataset. Graph convolutional network learns latent low-dimensional cell representations spatially and molecularly close. Transfers learned representations on an unannotated dataset. Compared with baseline methods XGBoost, SVM, RF, AdaBoost, as well as single-cell annotation baselines Seurat, scNym, scANVI, outperforms all (Seurat and scNym perform poorly). Robust to normalization strategies, noise, missing values. PyTorch implementation, [GitHub](https://github.com/snap-stanford/stellar). <details>
     <summary>Paper</summary>
     Brbić, Maria, Kaidi Cao, John W. Hickey, Yuqi Tan, Michael P. Snyder, Garry P. Nolan, and Jure Leskovec. “Annotation of Spatially Resolved Single-Cell Data with STELLAR.” Nature Methods 19, no. 11 (November 2022): 1411–18. https://doi.org/10.1038/s41592-022-01651-8.
