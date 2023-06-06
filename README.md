@@ -220,7 +220,10 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Ouyang, John F., Uma S. Kamaraj, Elaine Y. Cao, and Owen JL Rackham. "ShinyCell: simple and sharable visualization of single-cell gene expression data." Bioinformatics 37, no. 19 (1 October 2021): https://doi.org/10.1093/bioinformatics/btab209
 </details>
 
-- [Kana](https://www.jkanche.com/kana/) - single-cell analysis in the browser, by Jayaram Kancherla ([@jkanche](https://github.com/jkanche)), Aaron Lun ([@LTLA](https://github.com/LTLA)). Input - 10X genomics CellRanger's output, matrix or .h5 files. Preprocessing (removal of low-quality cells, Normalization and log-transformation, Modelling of the mean-variance trend across genes), PCA, Clustering (t-SNE/UMAP), Marker detection, custom cluster definition and marker analysis. Works with scATAC-seq data. [GitHub](https://github.com/jkanche/kana), [Tweet](https://twitter.com/jayaram/status/1480599647039016962?s=20).
+- [Kana](https://www.jkanche.com/kana/) - single-cell analysis in the browser, by Jayaram Kancherla ([@jkanche](https://github.com/jkanche)), Aaron Lun ([@LTLA](https://github.com/LTLA)). Client-side computations using the WebAssembly framework. Input - 10X genomics CellRanger's output (Matrix Market format), csv matrix or .h5 files. Preprocessing (removal of low-quality cells, Normalization and log-transformation, Modelling of the mean-variance trend across genes), PCA, Clustering (t-SNE/UMAP), Marker detection, custom cluster definition and marker analysis. Works with scATAC-seq data. [GitHub](https://github.com/jkanche/kana), [Tweet](https://twitter.com/jayaram/status/1480599647039016962?s=20). <details>
+    <summary>Paper</summary>
+    Lun, Aaron, and Jayaram Kancherla. “Powering Single-Cell Analyses in the Browser with WebAssembly.” Preprint. Bioinformatics, March 4, 2022. https://doi.org/10.1101/2022.03.02.482701.
+</details>
 
 - [cellxgene](https://github.com/chanzuckerberg/cellxgene) - An interactive exploratory visualization tool for single-cell transcriptomics data, web and desktop versions. Input - matrix-form datasets, metadata, pre-computed embeddings/clustering. Compatible with Seurat, Scanpy, Bioconductor, scVI [GitHub](https://github.com/chanzuckerberg/cellxgene) <details>
     <summary>Paper</summary>
@@ -888,6 +891,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [CaSpER](https://github.com/akdess/CaSpER) - identification of CNVs from  RNA-seq data, bulk and single-cell (full-transcript only, like SMART-seq). Utilized multi-scale smoothed global gene expression profile and B-allele frequency (BAF) signal profile, detects concordant shifts in signal using a 5-state HMM (homozygous deletion, heterozygous deletion, neutral, one-copy-amplification, high-copy-amplification). Reconstructs subclonal CNV architecture for scRNA-seq data. Tested on GBM scRNA-seq, TCGA, other. Compared with HoneyBADGER. R code and tutorials. <details>
     <summary>Paper</summary>
     Serin Harmanci, Akdes, Arif O. Harmanci, and Xiaobo Zhou. "CaSpER Identifies and Visualizes CNV Events by Integrative Analysis of Single-Cell or Bulk RNA-Sequencing Data" https://doi.org/10.1038/s41467-019-13779-x  Nature Communications 11, no. 1 (December 2020)
+</details>
+
+- [chromoscope](https://github.com/hms-dbmi/chromoscope) - multi-omics circular visualization of cancer genomes. A browser-based application (Python, Jupyter notebook support). Multi-sample view, genome view, variant view, breakpoint view. Implemented using the Gosling library, Python package available. Input: BEDPE (structural variants), TSV (CNVs, driver mutations), VCF, BAM. [Web demo](https://chromoscope.bio/), [Documentation](https://chromoscope.bio/docs/#/). <details>
+    <summary>Paper</summary>
+    L’Yi, Sehi, Dominika Maziec, Victoria Stevens, Trevor Manz, Alexander Veit, Michele Berselli, Peter J Park, Dominik Glodzik, and Nils Gehlenborg. “Chromoscope: Interactive Multiscale Visualization for Structural Variation in Human Genomes.” Preprint. Open Science Framework, May 10, 2023. https://doi.org/10.31219/osf.io/pyqrx.
 </details>
 
 - CNV estimation algorithm in scRNA-seq data - moving 100-gene window, deviation of expression from the chromosome average. Details in Methods. <details>
