@@ -1186,6 +1186,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [CosMx spatial molecular imaging technology](https://nanostring.com/products/cosmx-spatial-molecular-imager/single-cell-imaging-overview/) for spatial profiling of more than 1,000 RNA and 64 proteins at single-cell level. XYZ coordinates. Highly correlated with scRNA-seq. Fresh-frozen and paraffin-embedded. [Human liver and non-small lung cancer data](https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/). <details>
+    <summary>Paper</summary>
+    He, Shanshan, Ruchir Bhatt, Carl Brown, Emily A. Brown, Derek L. Buhr, Kan Chantranuvatana, Patrick Danaher, et al. “High-Plex Imaging of RNA and Proteins at Subcellular Resolution in Fixed Tissue by Spatial Molecular Imaging.” Nature Biotechnology 40, no. 12 (December 2022): 1794–1806. https://doi.org/10.1038/s41587-022-01483-z.
+</details>
+
 - [SpatialData](https://github.com/scverse/spatialdata-notebooks) - a community standards-based framework to store, process and annotate multi-platform spatial data. Handles larger-than-memory data and transformations, Zarr file format. Demo on multi-modal Xenium and Visium breast cancer study. Python implementation, integrates with other multi-omics ecosystems (Squidpy, Scanpy, MONAI, scvi-tools). [Documentation](https://spatialdata.scverse.org/en/latest/index.html). <details>
     <summary>Paper</summary>
     Marconato, Luca, Giovanni Palla, Kevin A. Yamauchi, Isaac Virshup, Elyas Heidari, Tim Treis, Marcella Toth, et al. “SpatialData: An Open and Universal Data Framework for Spatial Omics.” Preprint. Bioinformatics, May 8, 2023. https://doi.org/10.1101/2023.05.05.539647.
