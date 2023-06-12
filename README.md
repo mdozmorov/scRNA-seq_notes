@@ -1186,6 +1186,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [SpatialDecon](https://bioconductor.org/packages/SpatialDecon/) - cell type deconvolution of spatial gene expression (Nanostring GeoMx platform). Log-normal regression instead of the least squares regression, performs better that four other methods. [Supplementary Data S1](https://www.nature.com/articles/s41467-022-28020-5#Sec39) - gene markers for immune and stromal cell types. [GitHub](https://github.com/Nanostring-Biostats/SpatialDecon). <details>
+    <summary>Paper</summary>
+    Danaher, Patrick, Youngmi Kim, Brenn Nelson, Maddy Griswold, Zhi Yang, Erin Piazza, and Joseph M. Beechem. “Advances in Mixed Cell Deconvolution Enable Quantification of Cell Types in Spatial Transcriptomic Data.” Nature Communications 13, no. 1 (January 19, 2022): 385. https://doi.org/10.1038/s41467-022-28020-5.
+</details>
+
 - [CosMx spatial molecular imaging technology](https://nanostring.com/products/cosmx-spatial-molecular-imager/single-cell-imaging-overview/) for spatial profiling of more than 1,000 RNA and 64 proteins at single-cell level. XYZ coordinates. Highly correlated with scRNA-seq. Fresh-frozen and paraffin-embedded. [Human liver and non-small lung cancer data](https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/). <details>
     <summary>Paper</summary>
     He, Shanshan, Ruchir Bhatt, Carl Brown, Emily A. Brown, Derek L. Buhr, Kan Chantranuvatana, Patrick Danaher, et al. “High-Plex Imaging of RNA and Proteins at Subcellular Resolution in Fixed Tissue by Spatial Molecular Imaging.” Nature Biotechnology 40, no. 12 (December 2022): 1794–1806. https://doi.org/10.1038/s41587-022-01483-z.
