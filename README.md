@@ -28,6 +28,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [RNA velocity](#rna-velocity)
 - [Differential expression](#differential-expression)
   - [Differential abundance](#differential-abundance)
+- [Downstream analysis]($downstream-analysis)
 - [CNV](#cnv)
 - [Splicing](#splicing)
 - [Annotation, subpopulation identification](#annotation-subpopulation-identification)
@@ -885,6 +886,15 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     <summary>Paper</summary>
     Dann, Emma, Neil C. Henderson, Sarah A. Teichmann, Michael D. Morgan, and John C. Marioni. "Milo: Differential Abundance Testing on Single-Cell Data Using k-NN Graphs" https://doi.org/10.1101/2020.11.23.393769  BioRxiv, January 1, 2020
 </details>
+
+## Downstream analysis
+
+- [Hotspot](https://github.com/YosefLab/Hotspot) - a Python package for gene module identification in scRNA-seq data. Graph-based procedure, informative modules from co-variable genes in groups of cells (biological proximity, local autocorrelation within a KNN similarity graph, can be defined using multiple metrics, including spatial). Three steps: compute a similarity map, select informative genes exhibiting non-random variation within the similarity map, group these genes into modules. Benchmarked against WGCRNA and GRNBoost. <details>
+    <summary>Paper</summary>
+    DeTomaso, David, and Nir Yosef. “Hotspot Identifies Informative Gene Modules across Modalities of Single-Cell Genomics.” Cell Systems 12, no. 5 (May 2021): 446-456.e9. https://doi.org/10.1016/j.cels.2021.04.005.
+</details>
+
+
 
 ## CNV
 
