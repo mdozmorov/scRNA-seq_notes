@@ -1120,6 +1120,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     Türei, Dénes, Alberto Valdeolivas, Lejla Gul, Nicolàs Palacio‐Escat, Michal Klein, Olga Ivanova, Márton Ölbei, et al. “Integrated Intra‐ and Intercellular Signaling Knowledge for Multicellular Omics Analysis.” Molecular Systems Biology 17, no. 3 (March 2021). https://doi.org/10.15252/msb.20209923.
 </details>
 
+- [CellChat](http://www.cellchat.org/) - web tool and R package for cell-cell communication network inference from single cell DNA-seq. Predicts signaling inputs and outputs using network analysis and pattern recognition (graph theory). Comparative analysis of signaling pathways between datasets. Visualization (hierarchical plot, circle and bubble plots). At the heart - manually curated CellChatDB. Other methods: SingleCellSignalR, iTALK, NicheNet, CellPhoneDB. Demonstrated on mouse and human skin datasets. [GitHub](https://github.com/sqjin/CellChat). <details>
+    <summary>Paper</summary>
+    Jin, S., C. F. Guerrero-Juarez, L. Zhang, I. Chang, R. Ramos, C. H. Kuan, P. Myung, M. V. Plikus, and Q. Nie. "Inference and analysis of cell-cell communication using CellChat."" Nat. Commun. 12, https://doi.org/10.1038/s41467-021-21246-9 (17 February 2021).
+</details>
+
 - [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb). <details>
     <summary>Paper</summary>
     Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
