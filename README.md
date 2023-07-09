@@ -1167,6 +1167,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Deep learning
 
+- [scTranslator](https://github.com/TencentAILabHealthcare/scTranslator) - a pre-trained large language model for translating single-cell transcriptome to proteome. Transformer-based, Fast Attention Via positive Orthogonal Random features approach (FAVOR+), details on implementation. Trained on bulk and scRNA-seq data paired with proteomics (TCGA, CPTAC, others). Benchmarked against [cTP-Net](https://github.com/zhouzilu/ctpnetpy/tree/master/ctpnet), [sciPENN](https://github.com/jlakkis/sciPENN). Python (Pytorch), Jupyter, in Docker, GPU required. <details>
+    <summary>Paper</summary>
+    Liu, Linjing, Wei Li, Ka-chun Wong, Fan Yang, and Jianhua Yao. "A pre-trained large language model for translating single-cell transcriptome to proteome." bioRxiv (2023): 2023-07. https://doi.org/10.1101/2023.07.04.547619
+</details>
+
 - <a name="saucie">[SAUCIE](https://github.com/KrishnaswamyLab/SAUCIE/)</a> - a regularized autoencoder for scRNA-seq data denoising, batch correction, low-dimensional representation and clustering. Three encoding layers (512, 256, 128 neurons), an embedding layer (two dimensional), three decoding layers. Information dimension (ID) regularization encourages binarizable activation of the neurons (helps clustering). A maximal mean discrepancy (MMD) to penalize differences between probability distributions of internal activations of samples (for batch correction across samples). Outperforms many clustering methods, scalable. <details>
     <summary>Paper</summary>
     Amodio, Matthew, David van Dijk, Krishnan Srinivasan, William S. Chen, Hussein Mohsen, Kevin R. Moon, Allison Campbell, et al. “Exploring Single-Cell Data with Deep Multitasking Neural Networks.” Nature Methods, October 7, 2019. https://doi.org/10.1038/s41592-019-0576-7.
