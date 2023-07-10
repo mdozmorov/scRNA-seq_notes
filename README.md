@@ -1167,6 +1167,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Deep learning
 
+- [CeLEry](https://github.com/QihuangZhang/CeLEry) (Cell Location recovEry) - spatial location prediction from scRNA-seq data. A feed-forward deep neural network trained on scRNA-seq and spatial transcriptomics. Data augmentation (variational autoencoder) improves performance. Logistic loss or rank-consistent logistic loss function (Methods). Tested on 10x Visium data ([LIBD](http://research.libd.org/spatialLIBD/) data), other human and mouse brain data obtained with different technologies, human liver cancer (MERSCOPE), also a HER2-positive, ESR1-positive, and PGR-negative breast tumor dataset obtained from the 10x Xenium platform. Benchmarked against Tangram, spaOTsc, novoSpaRc. <details>
+    <summary>Paper</summary>
+    Zhang, Qihuang, Shunzhou Jiang, Amelia Schroeder, Jian Hu, Kejie Li, Baohong Zhang, David Dai, Edward B. Lee, Rui Xiao, and Mingyao Li. “Leveraging Spatial Transcriptomics Data to Recover Cell Locations in Single-Cell RNA-Seq with CeLEry.” Nature Communications 14, no. 1 (July 8, 2023): 4050. https://doi.org/10.1038/s41467-023-39895-3.
+</details>
+
 - [scTranslator](https://github.com/TencentAILabHealthcare/scTranslator) - a pre-trained large language model for translating single-cell transcriptome to proteome. Transformer-based, Fast Attention Via positive Orthogonal Random features approach (FAVOR+), details on implementation. Trained on bulk and scRNA-seq data paired with proteomics (TCGA, CPTAC, others). Benchmarked against [cTP-Net](https://github.com/zhouzilu/ctpnetpy/tree/master/ctpnet), [sciPENN](https://github.com/jlakkis/sciPENN). Python (Pytorch), Jupyter, in Docker, GPU required. <details>
     <summary>Paper</summary>
     Liu, Linjing, Wei Li, Ka-chun Wong, Fan Yang, and Jianhua Yao. "A pre-trained large language model for translating single-cell transcriptome to proteome." bioRxiv (2023): 2023-07. https://doi.org/10.1101/2023.07.04.547619
