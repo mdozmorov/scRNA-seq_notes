@@ -671,6 +671,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Spatial inference
 
+- [10x Xenium Human Breast Tumors Explorer](https://www.10xgenomics.com/products/xenium-in-situ/human-breast-dataset-explorer) - interactive zoomable explorer of Xenium In Situ spatial plots. Single-cell spatial transcriptomics of the breast cancer tumor microenvironment, FFPE tissue. FFPE-compatible single cell gene expression workflow (Chromium Fixed RNA Profiling; scFFPE-seq), spatial transcriptomics (Visium CytAssist), and automated microscopy-based in situ technology using a 313-plex gene panel (Xenium In Situ). Xenium description, can be scaled to 1000 gene panel, area up to 2.8cm^2, non-destructive, allows for post-Xenium immunofluorescence and H&E analysis, more sensitive than scFFPE. 17 different cell types, Xenium resolved them with single cell resolution. Integrative analysis across technologies identified three tumor subtypes (low- and high-grade ductal carcinoma in situ, invasive carcinoma). Standalone [Xenium explorer](https://www.10xgenomics.com/support/software/xenium-explorer/downloads), [tutorials](https://www.10xgenomics.com/support/software/xenium-explorer/tutorials). [Downloadable datasets](https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast). <details>
+    <summary>Paper</summary>
+    Janesick, Amanda, Robert Shelansky, Andrew D. Gottscho, Florian Wagner, Morgane Rouault, Ghezal Beliakoff, Michelli Faria De Oliveira, et al. “High Resolution Mapping of the Breast Cancer Tumor Microenvironment Using Integrated Single Cell, Spatial and in Situ Analysis of FFPE Tissue.” Preprint. Cancer Biology, October 7, 2022. https://doi.org/10.1101/2022.10.06.510405.
+</details>
+
 - [brainmapr](https://github.com/hms-dbmi/brainmapr) - R package to infer spatial location of neuronal subpopulations within the developing mouse brain by integrating single-cell RNA-seq data with in situ RNA patterns from the Allen Developing Mouse Brain Atlas.
 
 - [Seurat](http://satijalab.org/seurat/) - single-cell RNA-seq for spatial cellular localization, using in situ RNA patterns as a reference. Impute landmark genes, relate them to the reference map. [Tutorial](https://satijalab.org/seurat/pbmc3k_tutorial.html), and [Dave Tang notes](https://davetang.org/muse/2017/08/01/getting-started-seurat/). <details>
