@@ -1187,6 +1187,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     Liu, Linjing, Wei Li, Ka-chun Wong, Fan Yang, and Jianhua Yao. "A pre-trained large language model for translating single-cell transcriptome to proteome." bioRxiv (2023): 2023-07. https://doi.org/10.1101/2023.07.04.547619
 </details>
 
+- [scBERT](https://github.com/TencentAILabHealthcare/scBERT) - a pretrained deep neural network, single-cell bidirectional encoder representations from transformers model, for cell type annotation of scRNA-seq data. Gene embeddings are obtained from gene2vec (binned gene expression); such embeddings capture the co-expression similarity (analogous to semantic similarity). Performer to allow for over 16,000 gene inputs. Benchmarked against marker-based (SCINA, Garnett, scSorter), correlation-based (Seurat, SingleR, scmap_cell, scmap_cluster, Cell_ID), and machine learning methods (SciBet, scNym). Robust to class imbalance, performs well across cohorts and organs, discovers novel cell types. <details>
+    <summary>Paper</summary>
+    Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua Yao. “ScBERT as a Large-Scale Pretrained Deep Language Model for Cell Type Annotation of Single-Cell RNA-Seq Data.” Nature Machine Intelligence 4, no. 10 (September 26, 2022): 852–66. https://doi.org/10.1038/s42256-022-00534-z.
+</details>
+
 - <a name="saucie">[SAUCIE](https://github.com/KrishnaswamyLab/SAUCIE/)</a> - a regularized autoencoder for scRNA-seq data denoising, batch correction, low-dimensional representation and clustering. Three encoding layers (512, 256, 128 neurons), an embedding layer (two dimensional), three decoding layers. Information dimension (ID) regularization encourages binarizable activation of the neurons (helps clustering). A maximal mean discrepancy (MMD) to penalize differences between probability distributions of internal activations of samples (for batch correction across samples). Outperforms many clustering methods, scalable. <details>
     <summary>Paper</summary>
     Amodio, Matthew, David van Dijk, Krishnan Srinivasan, William S. Chen, Hussein Mohsen, Kevin R. Moon, Allison Campbell, et al. “Exploring Single-Cell Data with Deep Multitasking Neural Networks.” Nature Methods, October 7, 2019. https://doi.org/10.1038/s41592-019-0576-7.
