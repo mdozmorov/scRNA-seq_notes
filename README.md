@@ -767,6 +767,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ### Networks
 
+- [hdWGCNA](https://github.com/smorabit/hdWGCNA) - high-dimensional WGCNA for co-expression network analysis in scRNA-seq data. Integrates with Seurat framework. Modules for gene module identification, network visualization, enrichment analysis, more. The concept of "metacell" (combining highly similar scRNA-seq profiles) to reduce sparsity. Module eigengenes (first PCs of the module's gene expression matrix), or alternatives (UCell, Seurat's algoriths). "Metaspots" for spatial transcriptomics. The EGAD neighbor-voting algorithm to predict pathways associated with gene modules. Applied to spatial transcriptomics of the mouse brain, isoform coexpression, autism spectrum disorders, Alzheimer disease. [Detailed documentation and vignettes](https://smorabit.github.io/hdWGCNA/). <details>
+    <summary>Paper</summary>
+    Morabito, Samuel, Fairlie Reese, Negin Rahimzadeh, Emily Miyoshi, and Vivek Swarup. “HdWGCNA Identifies Co-Expression Networks in High-Dimensional Transcriptomics Data.” Cell Reports Methods 3, no. 6 (June 2023): 100498. https://doi.org/10.1016/j.crmeth.2023.100498.
+</details>
+
 - [scHumanNet](https://github.com/netbiolab/scHumanNet) - scRNA-seq reference-guided (HumanNet-XC) network analysis (SCINET algorithm). Data preprocessing using the ACTIONet package (imputation, transformation, normalization). Compared with five reference-free methods (rawPCC, MetaCell, SAVER, GRNboost2, bigSCale2) and one reference-guided method (SCINET). Better defines cell type-specific genes, improves network properties. Differential network analysis. Visualization. Conda, R. <details>
     <summary>Paper</summary>
     Cha, Junha, Jiwon Yu, Jae-Won Cho, Martin Hemberg, and Insuk Lee. “ScHumanNet: A Single-Cell Network Analysis Platform for the Study of Cell-Type Speciﬁcity of Disease Genes,” n.d., 14.
