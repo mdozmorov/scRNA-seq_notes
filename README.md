@@ -179,6 +179,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Wolf, F. Alexander, Philipp Angerer, and Fabian J. Theis. "SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis." https://doi.org/10.1186/s13059-017-1382-0  Genome Biology 19, no. 1 (06 2018): 15. 
 </details>
 
+- [STQ](https://github.com/TheJacksonLaboratory/STQ) - PDX spatial transcriptomics Nextflow pipeline. 10x Genomics Visium with matched H&E images. Xenome read classification, spatial gene expression with Space Ranger, extraction of B-allele frequencies (can be used for CNV inference), splicing quantivication with Velocyto, image segmentation with Inception, StarDist, or HoVer-Net CNN. Can be applied to one-species samples. Optimized for SLURM HPC. <details>
+    <summary>Paper</summary>
+    Domanskyi, Sergii, Anuj Srivastava, Jessica Kaster, Haiyin Li, Meenhard Herlyn, Jill C. Rubinstein, and Jeffrey H. Chuang. “Nextflow Pipeline for Visium and H&E Data from Patient-Derived Xenograft Samples.” Preprint. Bioinformatics, July 30, 2023. https://doi.org/10.1101/2023.07.27.550727.
+</details>
+
 - [RAPIDS & Scanpy Single-Cell RNA-seq Workflow](https://github.com/clara-parabricks/rapids-single-cell-examples/blob/master/notebooks/hlca_lung_gpu_analysis.ipynb) - real-time analysis of scRNA-seq data on GPU. [Tweet](https://twitter.com/johnny_israeli/status/1265762506993135618?s=20)
 
 - [SCRAT](https://github.com/zji90/SCRAT) - a Single-Cell Regulome Analysis Toolbox R package and a [Shiny web service](https://zhiji.shinyapps.io/scrat). scRNA-seq and scATAC-seq analyses. Input - BAM files. Summarizes regulatory activities on gene or transcription factor binding sites (by ENCODE clusters, motifs, DHSs, genes, MSigDb gene sets, or custom genomic features), clustering, cell annotation, differential gene/TF activity analysis. [Supplementary Table S1](https://academic.oup.com/bioinformatics/article/33/18/2930/3823309#supplementary-data) compares with other tools. Supplementary results demonstrate application to human and mouse ESC data. <details>
