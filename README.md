@@ -939,6 +939,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Annotation, subpopulation identification
 
+- [SCimilarity](https://github.com/Genentech/scimilarity) - cell type annotation based on SCimilarity score. A deep learning model using one fully connected encoder (reduced dimensionality to 128) and one decoder, reusing the network three times per training triplet, heavy dropout regularization. Optimizing two objectives: a supervised triplet loss function used for embedding and an unsupervised mean squared error loss function for presenving variation across gene expression profiles. Trained on 22.7M cells from 399 10x Genomics scRNA-seq studies. Uses Cell Ontology terms, only normal cells (cancer cells and cell lines excluded). Can be used for data integration, outperforms Harmony, scVI, scArches. Query cells can be matched to the full spectrum of cells, or a tissue-specific subset. [Detailed documentatio and tutorial](https://genentech.github.io/scimilarity/index.html), using pretrained model does not require GPU. <details>
+    <summary>Paper</summary>
+    Heimberg, Graham, Tony Kuo, Daryle DePianto, Tobias Heigl, Nathaniel Diamant, Omar Salem, Gabriele Scalia, et al. “Scalable Querying of Human Cell Atlases via a Foundational Model Reveals Commonalities across Fibrosis-Associated Macrophages.” Preprint. Bioinformatics, July 19, 2023. https://doi.org/10.1101/2023.07.18.549537.
+</details>
+
 - [CellTypist](https://www.celltypist.org/) - machine learning tool for precise cell type annotation, immune cell types. Trained on 20 tissues with harmonized cell type labels, hierarchy of 45 cell types. L2-regularized logistic regression, machine learning framework, gradient descent, 30 epoch. Scanpy pipeline, batch correction using [bbknn](https://github.com/Teichlab/bbknn), markers detection using [rbcde](https://github.com/Teichlab/rbcde). [GitHub](https://github.com/Teichlab/celltypist). <details>
     <summary>Paper</summary>
     Domínguez Conde, C, C Xu, Lb Jarvis, T Gomes, Sk Howlett, Db Rainbow, O Suchanek, et al. "Cross-Tissue Immune Cell Analysis Reveals Tissue-Specific Adaptations and Clonal Architecture in Humans" https://doi.org/10.1101/2021.04.28.441762  Preprint. Immunology, April 28, 2021. 
