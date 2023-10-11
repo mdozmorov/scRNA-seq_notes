@@ -1616,6 +1616,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ### Brain
 
+- [HNOCA](https://github.com/theislab/neural_organoid_atlas) - human neural organoid cell atlas, scRNA-seq, over 1.7M cells. Three-step integration pipeline. <details>
+    <summary>Paper</summary>
+    He, Zhisong, Leander Dony, Jonas Simon Fleck, Artur Szalata, Katelyn X. Li, Irena Sliskovic, Hsiu-Chuan Lin, et al. “An Integrated Transcriptomic Cell Atlas of Human Neural Organoids.” Preprint. Developmental Biology, October 6, 2023. https://doi.org/10.1101/2023.10.05.561097.
+</details>
+
 - [Spatially resolved brain scRNA-seq isoform atlas](https://isoformatlas.com/). ScISOrSeq (single-cell isoform sequencing), long-read sequencing (ONT, PacBio), Visium Hippocampus and prefrontal cortex. [GEO GSE158450](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158450) - scRNA-seq data. [GitHub](https://github.com/noush-joglekar/scisorseqr). <details>
     <summary>Paper</summary>
     Joglekar, Anoushka. “A Spatially Resolved Brain Region- and Cell Type-Specific Isoform Atlas of the Postnatal Mouse Brain,” Nature Communications, 19 January 2021, https://doi.org/10.1038/s41467-020-20343-5
