@@ -1443,6 +1443,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ### Human
 
+- **Multi-tissue human single-cell atlas**, 209,126 snRNA-seq profiles, 8 tissue types, annotated with 43 broad and 74 fine categories. Lipid-assiciated (LAM) macrophages. Raw sequence data are available at [AnVIL](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_GTEx_V9_hg38); dbGaP accession phs000424. Gene expression matrices are available from the [GTEx Portal](www.gtexportal.org) and the [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/study/SCP1479). The Jupyter notebooks are available at [Zenodo](https://zenodo.org/records/5775379). <details>
+    <summary>Paper</summary>
+    Eraslan, Gökcen, Eugene Drokhlyansky, Shankara Anand, Evgenij Fiskin, Ayshwarya Subramanian, Michal Slyper, Jiali Wang, et al. “Single-Nucleus Cross-Tissue Molecular Reference Maps toward Understanding Disease Gene Function.” Science 376, no. 6594 (May 13, 2022): eabl4290. https://doi.org/10.1126/science.abl4290.
+</details>
+
 - [HLCA](https://beta.fastgenomics.org/p/hlca) - Human Lunc Cell Atlas. 46 datasets, over 2.2 million cells from 44 individuals. integrated with best performing scANVI. [scRNAseq_pipelines](https://github.com/LungCellAtlas/scRNAseq_pipelines) - the HLCA pipeline for processing of sequencing data to count matrices. [HLCA_reproducibility](https://github.com/LungCellAtlas/HLCA_reproducibility) - code used for the HLCA project. [mapping_data_to_the_HLCA](https://github.com/LungCellAtlas/mapping_data_to_the_HLCA) - code for users to map new data to the HLCA core. [HLCA reference model, embedding and extended models](https://zenodo.org/record/6337966#.Yid5Vi9Q28U). [Data](https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293). <details>
     <summary>Paper</summary>
     Sikkema, L, D Strobl, L Zappia, E Madissoon, NS Markov, L Zaragosi, M Ansari, et al. “An Integrated Cell Atlas of the Human Lung in Health and Disease,” March 11, 2022. https://doi.org/10.1101/2022.03.10.483747
