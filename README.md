@@ -77,6 +77,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [awesome-10x-genomics](https://github.com/johandahlberg/awesome-10x-genomics) - List of tools and resources related to the 10x Genomics GEMCode/Chromium system
 
+- [awesome-deep-learning-single-cell-papers](https://github.com/OmicsML/awesome-deep-learning-single-cell-papers) - categorized list of latest scRNA-seq papers using deep learning
+
 - [awesome-vdj](https://github.com/slowkow/awesome-vdj) - Tools and databases for analyzing HLA and VDJ genes, by [slowkow](https://github.com/slowkow)
 
 - [SingleCell Omics](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=11468010) - A Google Doc with a structured collection of scRNA-seq methods, software, and many other scRNA-seq information, by @albertvilella
