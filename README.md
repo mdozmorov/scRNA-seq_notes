@@ -1147,10 +1147,14 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     Jin, S., C. F. Guerrero-Juarez, L. Zhang, I. Chang, R. Ramos, C. H. Kuan, P. Myung, M. V. Plikus, and Q. Nie. "Inference and analysis of cell-cell communication using CellChat."" Nat. Commun. 12, https://doi.org/10.1038/s41467-021-21246-9 (17 February 2021).
 </details>
 
-- [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/Teichlab/cellphonedb). <details>
+- [CellPhoneDB](https://www.cellphonedb.org/) - database and a tool for cell-cell communication analysis. Contains ligands, receptors, their interactions (978 proteins, 1396 interactions). Input - annotated scRNA-seq data, also protein expression, . Permutation-based comparison of mean expression of receptor-ligand coding genes. Examples how to reformat a Seurat object, scanpy adata. The paper contains full tutorial on using the [cellphonedb Python package](https://github.com/ventolab/CellphoneDB. v5 update includes non-protein ligands (endocrine hormones and GPRCs), a differential expression-based methodology, a scoring methodology to prioritize specific cell-cell interactions utilizing other single-cell modalities such as spatial information of TF activities (CellSign module), visualization using [CellPhoneDBViz](https://github.com/datasome/cellphonedbviz/) (D3). [Raw data](https://github.com/ventolab/CellphoneDB-data), [Documentation](https://cellphonedb.readthedocs.io/en/latest/). <details>
     <summary>Paper</summary>
     Efremova, Mirjana. "CellPhoneDB: Inferring Cell–Cell Communication from Combined Expression of Multi-Subunit Ligand–Receptor Complexes" https://doi.org/10.1038/s41596-020-0292-x  NATURE PROTOCOLS, (2020)
+    Troulé, Kevin, Robert Petryszak, Martin Prete, James Cranley, Alicia Harasty, Zewen Kelvin Tuong, Sarah A. Teichmann, Luz Garcia-Alonso, and Roser Vento-Tormo. "CellPhoneDB v5: inferring cell-cell communication from single-cell multiomics data." arXiv preprint arXiv:2311.04567 (2023). https://arxiv.org/pdf/2311.04567
 </details>
+
+
+
 
 ## Simulation
 
