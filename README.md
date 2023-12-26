@@ -906,6 +906,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Downstream analysis
 
+- [irGSEA](https://github.com/chuiqin/irGSEA) - R package for GSEA analysis of scRNA-seq data, differentially expressed genes between clusters. Input - Seurat object.
+
 - [Hotspot](https://github.com/YosefLab/Hotspot) - a Python package for gene module identification in scRNA-seq data. Graph-based procedure, informative modules from co-variable genes in groups of cells (biological proximity, local autocorrelation within a KNN similarity graph, can be defined using multiple metrics, including spatial). Three steps: compute a similarity map, select informative genes exhibiting non-random variation within the similarity map, group these genes into modules. Benchmarked against WGCRNA and GRNBoost. <details>
     <summary>Paper</summary>
     DeTomaso, David, and Nir Yosef. “Hotspot Identifies Informative Gene Modules across Modalities of Single-Cell Genomics.” Cell Systems 12, no. 5 (May 2021): 446-456.e9. https://doi.org/10.1016/j.cels.2021.04.005.
