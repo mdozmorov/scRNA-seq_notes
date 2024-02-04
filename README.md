@@ -1724,6 +1724,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [Loompy](http://loompy.org/) - file format for large omics datasets. [Linnarson lab](http://loom.linnarssonlab.org/) website includes scRNA-seq datasets in `.loom` format. Example R script to read the data in, [loom.R](tools/loom.R)
 
+- [loupeR](https://github.com/10XGenomics/loupeR) - an R package to Convert Seurat objects to 10x Genomics Loupe files.
+
 - [EDS](https://github.com/COMBINE-lab/EDS) - A simple, intuitive and Efficient single cell binary Data Storage format. Converter between different formats. 
 
 - [Figure depicting the breadth of multimodal scRNA-seq technologies](https://github.com/arnavm/multimodal-scRNA-seq)
