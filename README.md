@@ -917,6 +917,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## CNV
 
+- [SCEVAN](https://github.com/AntonioDeFalco/SCEVAN) - R package that automatically classifies the cells in the scRNA data by segregating non-malignant cells of tumor microenviroment from the malignant cells. It also infers the copy number profile of malignant cells, identifies subclonal structures and analyses the specific and shared alterations of each subpopulation. <details>
+    <summary>Paper</summary>
+    De Falco, Antonio, Francesca Caruso, Xiao-Dong Su, Antonio Iavarone, and Michele Ceccarelli. “A Variational Algorithm to Detect the Clonal Copy Number Substructure of Tumors from scRNA-Seq Data.” Nature Communications 14, no. 1 (February 25, 2023): 1074. https://doi.org/10.1038/s41467-023-36790-9.
+</details>
+
 - [CaSpER](https://github.com/akdess/CaSpER) - identification of CNVs from  RNA-seq data, bulk and single-cell (full-transcript only, like SMART-seq). Utilized multi-scale smoothed global gene expression profile and B-allele frequency (BAF) signal profile, detects concordant shifts in signal using a 5-state HMM (homozygous deletion, heterozygous deletion, neutral, one-copy-amplification, high-copy-amplification). Reconstructs subclonal CNV architecture for scRNA-seq data. Tested on GBM scRNA-seq, TCGA, other. Compared with HoneyBADGER. R code and tutorials. <details>
     <summary>Paper</summary>
     Serin Harmanci, Akdes, Arif O. Harmanci, and Xiaobo Zhou. "CaSpER Identifies and Visualizes CNV Events by Integrative Analysis of Single-Cell or Bulk RNA-Sequencing Data" https://doi.org/10.1038/s41467-019-13779-x  Nature Communications 11, no. 1 (December 2020)
