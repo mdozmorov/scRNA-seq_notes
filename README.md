@@ -922,6 +922,16 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     De Falco, Antonio, Francesca Caruso, Xiao-Dong Su, Antonio Iavarone, and Michele Ceccarelli. “A Variational Algorithm to Detect the Clonal Copy Number Substructure of Tumors from scRNA-Seq Data.” Nature Communications 14, no. 1 (February 25, 2023): 1074. https://doi.org/10.1038/s41467-023-36790-9.
 </details>
 
+- [Numbat](https://github.com/kharchenkolab/numbat) - Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. <details>
+    <summary>Paper</summary>
+    Teng Gao, Ruslan Soldatov, Hirak Sarkar, Adam Kurkiewicz, Evan Biederstedt, Po-Ru Loh, Peter Kharchenko. Haplotype-aware analysis of somatic copy number variations from single-cell transcriptomes. Nature Biotechnology (2022). https://doi.org/10.1038/s41587-022-01468-y
+</details>
+
+- [CopyKAT](https://github.com/navinlabcode/copykat) - CopyKAT (Copynumber Karyotyping of Tumors) is a computational tool using integrative Bayesian approaches to identify genome-wide aneuploidy at 5MB resolution in single cells to separate tumor cells from normal cells, and tumor subclones using high-throughput sc-RNAseq data.  <details>
+    <summary>Paper</summary>
+    Ruli Gao, Shanshan Bai, Ying C. Henderson, Yiyun Lin, Aislyn Schalck, Yun Yan, Tapsi Kumar, Min Hu, Emi Sei, Alexander Davis, Fang Wang, Simona F. Shaitelman, Jennifer Rui Wang, Ken Chen, Stacy Moulder, Stephen Y. Lai and Nicholas E. Navin (2021). Delineating copy number and clonal substructure in human tumors from single-cell transcriptomes. Nature Biotechnology (2021). https://doi.org/10.1038/s41587-020-00795-2
+</details>
+
 - [CaSpER](https://github.com/akdess/CaSpER) - identification of CNVs from  RNA-seq data, bulk and single-cell (full-transcript only, like SMART-seq). Utilized multi-scale smoothed global gene expression profile and B-allele frequency (BAF) signal profile, detects concordant shifts in signal using a 5-state HMM (homozygous deletion, heterozygous deletion, neutral, one-copy-amplification, high-copy-amplification). Reconstructs subclonal CNV architecture for scRNA-seq data. Tested on GBM scRNA-seq, TCGA, other. Compared with HoneyBADGER. R code and tutorials. <details>
     <summary>Paper</summary>
     Serin Harmanci, Akdes, Arif O. Harmanci, and Xiaobo Zhou. "CaSpER Identifies and Visualizes CNV Events by Integrative Analysis of Single-Cell or Bulk RNA-Sequencing Data" https://doi.org/10.1038/s41467-019-13779-x  Nature Communications 11, no. 1 (December 2020)
