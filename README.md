@@ -1409,6 +1409,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Data
 
+- [SingleCellMultiModal](https://bioconductor.org/packages/SingleCellMultiModal/) - an R data package with landmark datasets from important single-cell multimodal protocols, including CITE-Seq, ECCITE-Seq, SCoPE2, scNMT, 10X Multiome, seqFISH, and G&T. RNA, protein, open chromatin, methylation, spatial data modalities. Data in MultiAssayExperiment format. Mouse, human. Blood, brain, fibroblast cells. <details>
+    <summary>Paper</summary>
+    Eckenrode, Kelly B., Dario Righelli, Marcel Ramos, Ricard Argelaguet, Christophe Vanderaa, Ludwig Geistlinger, Aedin C. Culhane, et al. “Curated Single Cell Multimodal Landmark Datasets for R/Bioconductor.” Edited by Mingyao Li. PLOS Computational Biology 19, no. 8 (August 25, 2023): e1011324. https://doi.org/10.1371/journal.pcbi.1011324.
+</details>
+
 - [Broad Single Cell Portal](https://singlecell.broadinstitute.org/single_cell) - scRNA-seq data from human, mouse, and more. Description, download
 
 - [CZ CELLxGENE Discover](https://cellxgene.cziscience.com/) - single cell data collections, datasets, gene expression. Downloadable. [CuratedAtlasQueryR](https://github.com/stemangiola/CuratedAtlasQueryR) - an R package for the programmatic exploration and retrieval of the harmonised, curated and reannotated CELLxGENE single-cell human cell atlas. Data can be retrieved at cell, sample, or dataset levels based on filtering criteria.
