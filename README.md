@@ -683,6 +683,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Janesick, Amanda, Robert Shelansky, Andrew D. Gottscho, Florian Wagner, Morgane Rouault, Ghezal Beliakoff, Michelli Faria De Oliveira, et al. “High Resolution Mapping of the Breast Cancer Tumor Microenvironment Using Integrated Single Cell, Spatial and in Situ Analysis of FFPE Tissue.” Preprint. Cancer Biology, October 7, 2022. https://doi.org/10.1101/2022.10.06.510405.
 </details>
 
+- [Sopa](https://github.com/gustaveroussy/sopa) - a technology-invariant, memory-efficient pipeline with a unified visualizer for all image-based spatial omics. Includes segmentation, multi-level annotation, spatial statistics, niche geometry analysis. SpatialData object structure. Output compatible with the Xenium Explorer. Benchmarked on two spatial transcriptomics (MERISCOPE, Xenium) and two multiplex imaging technologies (PhenoCycler, MACSima). Implemented as a Snakemake pipeline, CLI, Python API. <details>
+    <summary>Paper</summary>
+    Blampey, Quentin, Kevin Mulder, Charles-Antoine Dutertre, Margaux Gardet, Fabrice Andre, Florent Ginhoux, and Paul-Henry Cournede. “Sopa: A Technology-Invariant Pipeline for Analyses of Image-Based Spatial-Omics,” n.d.
+</details>
+
 - [brainmapr](https://github.com/hms-dbmi/brainmapr) - R package to infer spatial location of neuronal subpopulations within the developing mouse brain by integrating single-cell RNA-seq data with in situ RNA patterns from the Allen Developing Mouse Brain Atlas.
 
 - [Seurat](http://satijalab.org/seurat/) - single-cell RNA-seq for spatial cellular localization, using in situ RNA patterns as a reference. Impute landmark genes, relate them to the reference map. [Tutorial](https://satijalab.org/seurat/pbmc3k_tutorial.html), and [Dave Tang notes](https://davetang.org/muse/2017/08/01/getting-started-seurat/). <details>
