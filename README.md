@@ -560,6 +560,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Clustering
 
+- [opt-SNE](https://github.com/omiq-ai/Multicore-opt-SNE) - data-driven automated parameter selection for t-SNE clustering. Utilizes Kullback-Leibler divergence evaluation in real time to tailor the early exaggeration and overall number of gradient descent iterations. Evaluated on flow cytometry data. C++/Python implementation. <details>
+    <summary>Paper</summary>
+    Belkina, Anna C., Christopher O. Ciccolella, Rina Anno, Richard Halpert, Josef Spidlen, and Jennifer E. Snyder-Cappione. “Automated Optimized Parameters for T-Distributed Stochastic Neighbor Embedding Improve Visualization and Analysis of Large Datasets.” Nature Communications 10, no. 1 (December 2019): 5415. https://doi.org/10.1038/s41467-019-13055-y.
+</details>
+
 - [scSSA](https://github.com/houtongshuai123/scSSA/) - scRNA-seq clustering based on autoencoder for dimensionality reduction/denoising (improves performance), FastICA to make the data 2D, Caussian mixture clustering. Outperforms Seurat, CIDR, and other methods on datasets from [Hemberg Lab](https://hemberg-lab.github.io/scRNA.seq.datasets/). <details>
     <summary>Paper</summary>
     Zhao, Jian-Ping, Tong-Shuai Hou, Yansen Su, and Chun-Hou Zheng. “ScSSA: A Clustering Method for Single Cell RNA-Seq Data Based on Semi-Supervised Autoencoder.” Methods 208 (December 2022): 66–74. https://doi.org/10.1016/j.ymeth.2022.10.006.
