@@ -58,6 +58,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Awesome
 
+- Review of scRNA-seq cell type annotation methods. Table 1 - tools grouped by methods, each described in the text. Tale 2 - annotation databases, CellMaker and PangaloDB are the largest. Table 3 - tools and cell types used for benchmarking. <details>
+    <summary>Paper</summary>
+    Pasquini, Giovanni. “Automated Methods for Cell Type Annotation on scRNA-Seq Data.” Computational and Structural Biotechnology Journal, 2021, 9. https://doi.org/10.1016/j.csbj.2021.01.015
+</details>
+
 - Overview of various steps and tools for data analysis of single cell transcriptomics (scRNA-seq), chromatin accessibility (scATAC-seq), surface protein (CITE-seq), antigen immune receptor repertoire (AIRR, TCR and BCR profiling), and spatial transcriptomics. QC, doublet removal ([scDoubletFinder](https://bioconductor.org/packages/scDblFinder/)), normalization ([Scran](https://bioconductor.org/packages/scran/)), batch removal ([Harmony](https://portals.broadinstitute.org/harmony/articles/quickstart.html) and others), cell cycle removal ([Tricycle](https://bioconductor.org/packages/tricycle/)), cell annotation, trajectory analysis ([dynguidelines](https://zouter.shinyapps.io/server/)), differential expression, gene set enrichment analysis, cell-cell communication. Data integration methods. [Glossary](https://www.nature.com/articles/s41576-023-00586-w#glossary). Extended version in the [Single-cell best practices](https://www.sc-best-practices.org/preamble.html) book. <details>
     <summary>Paper</summary>
     Heumos, Lukas, Anna C. Schaar, Christopher Lance, Anastasia Litinetskaya, Felix Drost, Luke Zappia, Malte D. Lücken, et al. “Best Practices for Single-Cell Analysis across Modalities.” Nature Reviews Genetics, March 31, 2023. https://doi.org/10.1038/s41576-023-00586-w.
