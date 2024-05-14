@@ -1496,6 +1496,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ### Human
 
+- [Single Cell Atlas (SCA)](https://www.singlecellatlas.org/) - data from five single-cell omics (scRNA-seq, scATAC-seq, scImmune, CyTOF, flow cytometry, [GitHub code for processing](https://github.com/eudoraleer/sca), spatial transcriptomics, and two bulk omics across 125 healthy adult and fetal tissues. Selected multi-omics datasets Strict QC. [Download](https://www.singlecellatlas.org/download) processed data. <details>
+    <summary>Paper</summary>
+    Pan, Lu, Paolo Parini, Roman Tremmel, Joseph Loscalzo, Volker M. Lauschke, Bradley A. Maron, Paola Paci, et al. “Single Cell Atlas: A Single-Cell Multi-Omics Human Cell Encyclopedia.” Genome Biology 25, no. 1 (April 19, 2024): 104. https://doi.org/10.1186/s13059-024-03246-2.
+</details>
+
 - **Multi-tissue human single-cell atlas**, 209,126 snRNA-seq profiles, 8 tissue types, annotated with 43 broad and 74 fine categories. Lipid-assiciated (LAM) macrophages. Raw sequence data are available at [AnVIL](https://anvil.terra.bio/#workspaces/anvil-datastorage/AnVIL_GTEx_V9_hg38); dbGaP accession phs000424. Gene expression matrices are available from the [GTEx Portal](www.gtexportal.org) and the [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/study/SCP1479). The Jupyter notebooks are available at [Zenodo](https://zenodo.org/records/5775379). <details>
     <summary>Paper</summary>
     Eraslan, Gökcen, Eugene Drokhlyansky, Shankara Anand, Evgenij Fiskin, Ayshwarya Subramanian, Michal Slyper, Jiali Wang, et al. “Single-Nucleus Cross-Tissue Molecular Reference Maps toward Understanding Disease Gene Function.” Science 376, no. 6594 (May 13, 2022): eabl4290. https://doi.org/10.1126/science.abl4290.
