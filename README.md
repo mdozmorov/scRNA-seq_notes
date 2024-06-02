@@ -1496,6 +1496,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ### Human
 
+- [CuratedAtlasQueryR](https://stemangiola.github.io/CuratedAtlasQueryR/) - human immune system single-cell atlas (29M cells) across different organs (45 anatomical sites), age, sex, and ethnicity. Detailed analysis of age-, sex-, and ethnicity changes (Tregs are particularly affected), figures. [sccomp](https://github.com/MangiolaLaboratory/sccomp/tree/multilevel) - R package for compositional analysis of single-cell data. <details>
+    <summary>Paper</summary>
+    “A Multi-Organ Map of the Human Immune System across Age, Sex and Ethnicity,” bioRxiv, April 29, 2024. https://doi.org/10.1101/2023.06.08.542671
+</details>
+
 - [Single Cell Atlas (SCA)](https://www.singlecellatlas.org/) - data from five single-cell omics (scRNA-seq, scATAC-seq, scImmune, CyTOF, flow cytometry, [GitHub code for processing](https://github.com/eudoraleer/sca), spatial transcriptomics, and two bulk omics across 125 healthy adult and fetal tissues. Selected multi-omics datasets Strict QC. [Download](https://www.singlecellatlas.org/download) processed data. <details>
     <summary>Paper</summary>
     Pan, Lu, Paolo Parini, Roman Tremmel, Joseph Loscalzo, Volker M. Lauschke, Bradley A. Maron, Paola Paci, et al. “Single Cell Atlas: A Single-Cell Multi-Omics Human Cell Encyclopedia.” Genome Biology 25, no. 1 (April 19, 2024): 104. https://doi.org/10.1186/s13059-024-03246-2.
