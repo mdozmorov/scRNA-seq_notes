@@ -1280,6 +1280,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- Overview of spatial technologies. Table 1 - comparison of in situ capture-based technologies, imaging-based, and region of interest-based. Table 2 - tools for all inclusive analysis, deconvolution, CNV inference, cellular interaction, deep learning. Cellular architecture of tumor microenvironment, clinical use. <details>
+    <summary>Paper</summary>
+    Chen, Julia, Ludvig Larsson, Alexander Swarbrick, and Joakim Lundeberg. “Spatial Landscapes of Cancers: Insights and Opportunities.” Nature Reviews Clinical Oncology 21, no. 9 (September 2024): 660–74. https://doi.org/10.1038/s41571-024-00926-7.
+</details>
+
 - [Sopa](https://github.com/gustaveroussy/sopa) - a technology-invariant, memory-efficient pipeline with a unified visualizer for all image-based spatial omics. Includes segmentation, multi-level annotation, spatial statistics, niche geometry analysis. SpatialData object structure. Output compatible with the Xenium Explorer. Benchmarked on two spatial transcriptomics (MERISCOPE, Xenium) and two multiplex imaging technologies (PhenoCycler, MACSima). Implemented as a Snakemake pipeline, CLI, Python API. <details>
     <summary>Paper</summary>
     Blampey, Quentin, Kevin Mulder, Charles-Antoine Dutertre, Margaux Gardet, Fabrice Andre, Florent Ginhoux, and Paul-Henry Cournede. “Sopa: A Technology-Invariant Pipeline for Analyses of Image-Based Spatial-Omics,” 2024, https://doi.org/10.1038/s41467-024-48981-z
