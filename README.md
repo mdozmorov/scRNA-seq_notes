@@ -22,7 +22,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [Imputation](#imputation)
 - [Dimensionality reduction](#dimensionality-reduction)
 - [Clustering](#clustering)
-  - [Spatial inference](#spatial-inference)
   - [Time, trajectory inference](#time-trajectory-inference)
   - [Networks](#networks)
   - [RNA velocity](#rna-velocity)
@@ -696,24 +695,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 
 
-### Spatial inference
-
-- [10x Xenium Human Breast Tumors Explorer](https://www.10xgenomics.com/products/xenium-in-situ/human-breast-dataset-explorer) - interactive zoomable explorer of Xenium In Situ spatial plots. Single-cell spatial transcriptomics of the breast cancer tumor microenvironment, FFPE tissue. FFPE-compatible single cell gene expression workflow (Chromium Fixed RNA Profiling; scFFPE-seq), spatial transcriptomics (Visium CytAssist), and automated microscopy-based in situ technology using a 313-plex gene panel (Xenium In Situ). Xenium description, can be scaled to 1000 gene panel, area up to 2.8cm^2, non-destructive, allows for post-Xenium immunofluorescence and H&E analysis, more sensitive than scFFPE. 17 different cell types, Xenium resolved them with single cell resolution. Integrative analysis across technologies identified three tumor subtypes (low- and high-grade ductal carcinoma in situ, invasive carcinoma). Standalone [Xenium explorer](https://www.10xgenomics.com/support/software/xenium-explorer/downloads), [tutorials](https://www.10xgenomics.com/support/software/xenium-explorer/tutorials). [Downloadable datasets](https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast). <details>
-    <summary>Paper</summary>
-    Janesick, Amanda, Robert Shelansky, Andrew D. Gottscho, Florian Wagner, Morgane Rouault, Ghezal Beliakoff, Michelli Faria De Oliveira, et al. “High Resolution Mapping of the Breast Cancer Tumor Microenvironment Using Integrated Single Cell, Spatial and in Situ Analysis of FFPE Tissue.” Preprint. Cancer Biology, October 7, 2022. https://doi.org/10.1101/2022.10.06.510405.
-</details>
-
-- [Sopa](https://github.com/gustaveroussy/sopa) - a technology-invariant, memory-efficient pipeline with a unified visualizer for all image-based spatial omics. Includes segmentation, multi-level annotation, spatial statistics, niche geometry analysis. SpatialData object structure. Output compatible with the Xenium Explorer. Benchmarked on two spatial transcriptomics (MERISCOPE, Xenium) and two multiplex imaging technologies (PhenoCycler, MACSima). Implemented as a Snakemake pipeline, CLI, Python API. <details>
-    <summary>Paper</summary>
-    Blampey, Quentin, Kevin Mulder, Charles-Antoine Dutertre, Margaux Gardet, Fabrice Andre, Florent Ginhoux, and Paul-Henry Cournede. “Sopa: A Technology-Invariant Pipeline for Analyses of Image-Based Spatial-Omics,” n.d.
-</details>
-
-- [brainmapr](https://github.com/hms-dbmi/brainmapr) - R package to infer spatial location of neuronal subpopulations within the developing mouse brain by integrating single-cell RNA-seq data with in situ RNA patterns from the Allen Developing Mouse Brain Atlas.
-
-- [Seurat](http://satijalab.org/seurat/) - single-cell RNA-seq for spatial cellular localization, using in situ RNA patterns as a reference. Impute landmark genes, relate them to the reference map. [Tutorial](https://satijalab.org/seurat/pbmc3k_tutorial.html), and [Dave Tang notes](https://davetang.org/muse/2017/08/01/getting-started-seurat/). <details>
-    <summary>Paper</summary>
-    Satija, Rahul, Jeffrey A. Farrell, David Gennert, Alexander F. Schier, and Aviv Regev. "Spatial Reconstruction of Single-Cell Gene Expression Data" https://doi.org/10.1038/nbt.3192  Nature Biotechnology 33, no. 5 (May 2015)
-</details>
 
 ### Time, trajectory inference
 
@@ -1299,6 +1280,16 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [Sopa](https://github.com/gustaveroussy/sopa) - a technology-invariant, memory-efficient pipeline with a unified visualizer for all image-based spatial omics. Includes segmentation, multi-level annotation, spatial statistics, niche geometry analysis. SpatialData object structure. Output compatible with the Xenium Explorer. Benchmarked on two spatial transcriptomics (MERISCOPE, Xenium) and two multiplex imaging technologies (PhenoCycler, MACSima). Implemented as a Snakemake pipeline, CLI, Python API. <details>
+    <summary>Paper</summary>
+    Blampey, Quentin, Kevin Mulder, Charles-Antoine Dutertre, Margaux Gardet, Fabrice Andre, Florent Ginhoux, and Paul-Henry Cournede. “Sopa: A Technology-Invariant Pipeline for Analyses of Image-Based Spatial-Omics,” 2024, https://doi.org/10.1038/s41467-024-48981-z
+</details>
+
+- [10x Xenium Human Breast Tumors Explorer](https://www.10xgenomics.com/products/xenium-in-situ/human-breast-dataset-explorer) - interactive zoomable explorer of Xenium In Situ spatial plots. Single-cell spatial transcriptomics of the breast cancer tumor microenvironment, FFPE tissue. FFPE-compatible single cell gene expression workflow (Chromium Fixed RNA Profiling; scFFPE-seq), spatial transcriptomics (Visium CytAssist), and automated microscopy-based in situ technology using a 313-plex gene panel (Xenium In Situ). Xenium description, can be scaled to 1000 gene panel, area up to 2.8cm^2, non-destructive, allows for post-Xenium immunofluorescence and H&E analysis, more sensitive than scFFPE. 17 different cell types, Xenium resolved them with single cell resolution. Integrative analysis across technologies identified three tumor subtypes (low- and high-grade ductal carcinoma in situ, invasive carcinoma). Standalone [Xenium explorer](https://www.10xgenomics.com/support/software/xenium-explorer/downloads), [tutorials](https://www.10xgenomics.com/support/software/xenium-explorer/tutorials). [Downloadable datasets](https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast). <details>
+    <summary>Paper</summary>
+    Janesick, Amanda, Robert Shelansky, Andrew D. Gottscho, Florian Wagner, Morgane Rouault, Ghezal Beliakoff, Michelli Faria De Oliveira, et al. “High Resolution Mapping of the Breast Cancer Tumor Microenvironment Using Integrated Single Cell, Spatial and in Situ Analysis of FFPE Tissue.” Preprint. Cancer Biology, October 7, 2022. https://doi.org/10.1101/2022.10.06.510405.
+</details>
+
 - [SpatialDecon](https://bioconductor.org/packages/SpatialDecon/) - cell type deconvolution of spatial gene expression (Nanostring GeoMx platform). Log-normal regression instead of the least squares regression, performs better that four other methods. [Supplementary Data S1](https://www.nature.com/articles/s41467-022-28020-5#Sec39) - gene markers for immune and stromal cell types. [GitHub](https://github.com/Nanostring-Biostats/SpatialDecon). <details>
     <summary>Paper</summary>
     Danaher, Patrick, Youngmi Kim, Brenn Nelson, Maddy Griswold, Zhi Yang, Erin Piazza, and Joseph M. Beechem. “Advances in Mixed Cell Deconvolution Enable Quantification of Cell Types in Spatial Transcriptomic Data.” Nature Communications 13, no. 1 (January 19, 2022): 385. https://doi.org/10.1038/s41467-022-28020-5.
@@ -1376,9 +1367,16 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     Maynard, Kristen E, Leonardo Collado-Torres, Lukas M. Weber, Cedric Uytingco, Brianna K. Barry, Stephen R. Williams, Joseph L. Catallini, et al. "Transcriptome-Scale Spatial Gene Expression in the Human Dorsolateral Prefrontal Cortex" https://doi.org/10.1101/2020.02.28.969931  Preprint. Neuroscience, February 28, 2020. 
 </details>
 
+- [Seurat](http://satijalab.org/seurat/) - single-cell RNA-seq for spatial cellular localization, using in situ RNA patterns as a reference. Impute landmark genes, relate them to the reference map. [Tutorial](https://satijalab.org/seurat/pbmc3k_tutorial.html), and [Dave Tang notes](https://davetang.org/muse/2017/08/01/getting-started-seurat/). <details>
+    <summary>Paper</summary>
+    Satija, Rahul, Jeffrey A. Farrell, David Gennert, Alexander F. Schier, and Aviv Regev. "Spatial Reconstruction of Single-Cell Gene Expression Data" https://doi.org/10.1038/nbt.3192  Nature Biotechnology 33, no. 5 (May 2015)
+</details>
+
 - [spatialomics.net](http://spatialomics.net/) - Zoom/recorded seminar series on spatial transcriptomics
 
 - Analysis and visualization of spatial transcriptomics data using scanpy, 10X Genomics Visium and MERFISH data, [Jupyter notebook](https://nbviewer.jupyter.org/github/theislab/scanpy-tutorials/blob/master/analysis-visualization-spatial.ipynb), [Tweet by Fabian Theis](https://twitter.com/fabian_theis/status/1224741146242572289?s=20)
+
+- [brainmapr](https://github.com/hms-dbmi/brainmapr) - R package to infer spatial location of neuronal subpopulations within the developing mouse brain by integrating single-cell RNA-seq data with in situ RNA patterns from the Allen Developing Mouse Brain Atlas.
 
 - [Spatial Gene Expression, Space Ranger by 10X Genomics](https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome)
 
