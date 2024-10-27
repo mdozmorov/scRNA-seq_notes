@@ -1280,6 +1280,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [PrinciplesSTA](https://github.com/lmweber/PrinciplesSTA) - Principles of Spatial Transcriptomics Analysis with Bioconductor" book, [web version](https://lmweber.org/PrinciplesSTA/devel/)
+
 - Overview of spatial technologies. Table 1 - comparison of in situ capture-based technologies, imaging-based, and region of interest-based. Table 2 - tools for all inclusive analysis, deconvolution, CNV inference, cellular interaction, deep learning. Cellular architecture of tumor microenvironment, clinical use. <details>
     <summary>Paper</summary>
     Chen, Julia, Ludvig Larsson, Alexander Swarbrick, and Joakim Lundeberg. “Spatial Landscapes of Cancers: Insights and Opportunities.” Nature Reviews Clinical Oncology 21, no. 9 (September 2024): 660–74. https://doi.org/10.1038/s41571-024-00926-7.
