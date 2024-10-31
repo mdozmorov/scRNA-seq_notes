@@ -863,6 +863,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Differential expression
 
+- Differential expression methods developed for bulk RNA-seq work better in scRNA-seq in accounting for between-sample variability. 18 gold standard scRNA-seq datasets with matched bulk RNA-seq. Detailed data description in Methods. 14 DE methods tested, area under the concordance curve. edgeR DESeq2, limma perform best. Wilcoxon and MAST - medium to low performance. [GitHub](https://github.com/neurorestore/DE-analysis). <details>
+    <summary>Paper</summary>
+    Squair, Jordan W., Matthieu Gautier, Claudia Kathe, Mark A. Anderson, Nicholas D. James, Thomas H. Hutson, Rémi Hudelle, et al. “Confronting False Discoveries in Single-Cell Differential Expression.” Nature Communications 12, no. 1 (September 28, 2021): 5692. https://doi.org/10.1038/s41467-021-25960-2.
+</details>
+
 - Comparison of 11 differential gene expression detection methods for scRNA-seq data. Variable performance, poor overlap. Brief description of the statistics of each method. Bulk RNA-sec methods perform well, edgeR is good and fast. [Table 1. Software tools for identifying DE genes using scRNA-seq data](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2599-6/tables/1). <details>
     <summary>Paper</summary>
     Wang, Tianyu, Boyang Li, Craig E. Nelson, and Sheida Nabavi. "Comparative Analysis of Differential Gene Expression Analysis Tools for Single-Cell RNA Sequencing Data" https://doi.org/10.1186/s12859-019-2599-6  BMC Bioinformatics 20, no. 1 (December 2019)
