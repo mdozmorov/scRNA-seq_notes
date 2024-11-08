@@ -1449,6 +1449,12 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Data
 
+- [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home) at EMBL-EBI. Human, mouse, drosophila, zebrafish, chicken, rat. Transcriptomics, protein expression (Mass-Spectrometry). Aggregates data from other repositories, Tabula Sapiens/Muris, Human Lung Cell Atlas, GTEx, others. 
+Metadata, Cell Type Wheel, an interactive visualization tool. <details>
+    <summary>Paper</summary>
+    George, Nancy, Silvie Fexova, Alfonso Munoz Fuentes, Pedro Madrigal, Yalan Bi, Haider Iqbal, Upendra Kumbham, et al. “Expression Atlas Update: Insights from Sequencing Data at Both Bulk and Single Cell Level.” Nucleic Acids Research 52, no. D1 (January 5, 2024): D107–14. https://doi.org/10.1093/nar/gkad1021.
+</details>
+
 - [CellLandscape](https://bis.zju.edu.cn/cellatlas/) - integrated online portal of a cross-species (2.6 million cells from mice, zebrafish, drosophila, Microwell-seq technology) cell landscape throughout the lifespan. Intro about mutli-organism scRNA-seq databases. 177 cell types in mouse, 143 cell types in zebrafish, 85 cell types in drosophila. Biological characterization. MCA (Mouse Cell Atlas), over 1M cells from over 10 tissues, differentiation, development and ageing processes. Includes human cell landscape (>700,000 cells from over 50 tissues), axolotl, xenopus, earthworm, monkey, rat, other organisms. Gene search/expression in various cell types, cell type mapping from lists of genes, age-associated genes. <details>
     <summary>Paper</summary>
     Wang, Renying, Peijing Zhang, Jingjing Wang, Lifeng Ma, Weigao E, Shengbao Suo, Mengmeng Jiang, et al. “Construction of a Cross-Species Cell Landscape at Single-Cell Level.” Nucleic Acids Research 51, no. 2 (January 25, 2023): 501–16. https://doi.org/10.1093/nar/gkac633.
