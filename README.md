@@ -17,6 +17,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Format conversion](#format-conversion)
   - [Visualization pipelines](#visualization-pipelines)
 - [Quality control](#quality-control)
+  - [Doublet, multiplet detection](#doublet-multiplet-detection)
 - [Normalization](#normalization)
 - [Integration, Batch correction](#integration-batch-correction)
 - [Imputation](#imputation)
@@ -291,11 +292,6 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Hippen, Ariel A., Matias M. Falco, Lukas M. Weber, Erdogan Pekcan Erkan, Kaiyang Zhang, Jennifer Anne Doherty, Anna Vähärautio, Casey S. Greene, and Stephanie C. Hicks. "MiQC: An Adaptive Probabilistic Framework for Quality Control of Single-Cell RNA-Sequencing Data" https://doi.org/10.1371/journal.pcbi.1009290  PLOS Computational Biology, (August 24, 2021)
 </details>
 
-- [doubletD](https://github.com/elkebir-group/doubletD) - doublet detection in single-cell DNA-seq data. doublets in scRNA-seq data have a characteristic variant allele frequency spectrum due to increased copy number and allelic dropout. A maximum likelihood approach with a closed-form solution - stats in Methods. Simulated and real data, outperforms SCG, Scrublet, robust to the presence of CNAs, mixture of two cell types. Python3 implementation. <details>
-    <summary>Paper</summary>
-    Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. "DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data" https://doi.org/10.1093/bioinformatics/btab266  Bioinformatics, (August 4, 2021)
-</details>
-
 - [DropletQC](https://github.com/powellgenomicslab/DropletQC) - empty droplet identification. A novel metric - nuclear fraction. Damaged cells due to the depletion of cytoplasmic RNA will have a higher nuclear fraction compared to intact cells. Compared with 10X Cell Ranger, CellBlender, EmptyNN, EmptyDrops. [Scripts](https://github.com/powellgenomicslab/dropletQC_paper). <details>
     <summary>Paper</summary>
     Muskovic, Walter. “DropletQC: Improved Identification of Empty Droplets and Damaged Cells in Single-Cell RNA-Seq Data,” 2021, 9.
@@ -304,6 +300,23 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [DropletUtils](https://bioconductor.org/packages/DropletUtils/) - Provides a number of utility functions for handling single-cell (RNA-seq) data from droplet technologies such as 10X Genomics. This includes data loading, identification of cells from empty droplets, removal of barcode-swapped pseudo-cells, and downsampling of the count matrix. <details>
     <summary>Paper</summary>
     Lun ATL, Riesenfeld S, Andrews T, Dao T, Gomes T, participants in the 1st Human Cell Atlas Jamboree, Marioni JC (2019). "EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data" https://doi.org/10.1186/s13059-019-1662-y  Genome Biol.
+</details>
+
+- [scater](https://bioconductor.org/packages/scater/) - A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control. <details>
+    <summary>Paper</summary>
+    McCarthy et al. "[Scater: pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R" https://doi.org/10.1093/bioinformatics/btw777   Bioinformatics, 2017. 
+</details>
+
+- [celloline](https://github.com/Teichlab/celloline) - A pipeline to remove low quality single cell files. Figure 2 - 20 biological and technical features used for filtering. High mitochondrial genes = broken cells. <details>
+    <summary>Paper</summary>
+    Ilicic, Tomislav, Jong Kyoung Kim, Aleksandra A. Kolodziejczyk, Frederik Otzen Bagger, Davis James McCarthy, John C. Marioni, and Sarah A. Teichmann. "Classification of Low Quality Cells from Single-Cell RNA-Seq Data" https://doi.org/10.1186/s13059-016-0888-1  Genome Biology 17 (February 17, 2016)
+</details>
+
+## Doublet, multiplet detection
+
+- [doubletD](https://github.com/elkebir-group/doubletD) - doublet detection in single-cell DNA-seq data. doublets in scRNA-seq data have a characteristic variant allele frequency spectrum due to increased copy number and allelic dropout. A maximum likelihood approach with a closed-form solution - stats in Methods. Simulated and real data, outperforms SCG, Scrublet, robust to the presence of CNAs, mixture of two cell types. Python3 implementation. <details>
+    <summary>Paper</summary>
+    Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. "DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data" https://doi.org/10.1093/bioinformatics/btab266  Bioinformatics, (August 4, 2021)
 </details>
 
 - [DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder) - doublet detection using gene expression data. Simulates artificial doublets, incorporate them into existing scRNA-seq data. Integrates with Seurat (Figure 1). Three input parameters (the expected number of doublets, the number of artificial doublets pN, the neighborhood size pN), need to be tailored to data with different number of cell types and magnitudes of transcriptional heterogeneity. Bimodality Coefficient maximization to select pN. Benchmarked against ground-truth scRNA-seq datasets. Not optimal for homogeneous data. <details>
@@ -316,15 +329,12 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Wolock, Samuel L, Romain Lopez, and Allon M Klein. "Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data" https://doi.org/10.1101/357368  Preprint. Bioinformatics, July 9, 2018. 
 </details>
 
-- [scater](https://bioconductor.org/packages/scater/) - A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control. <details>
-    <summary>Paper</summary>
-    McCarthy et al. "[Scater: pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R" https://doi.org/10.1093/bioinformatics/btw777   Bioinformatics, 2017. 
-</details>
+- [Solo](#solo) - semi-supervised deep learning for doublet identification. Variational autoencoder (scVI) followed by a classifier to detect doublets. Compared with Scrubled and DoubletFinder, improves area under the precision-recall curve.
 
-- [celloline](https://github.com/Teichlab/celloline) - A pipeline to remove low quality single cell files. Figure 2 - 20 biological and technical features used for filtering. High mitochondrial genes = broken cells. <details>
-    <summary>Paper</summary>
-    Ilicic, Tomislav, Jong Kyoung Kim, Aleksandra A. Kolodziejczyk, Frederik Otzen Bagger, Davis James McCarthy, John C. Marioni, and Sarah A. Teichmann. "Classification of Low Quality Cells from Single-Cell RNA-Seq Data" https://doi.org/10.1186/s13059-016-0888-1  Genome Biology 17 (February 17, 2016)
-</details>
+
+
+
+
 
 ## Normalization
 
@@ -1261,7 +1271,7 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     Deng, Yue, Feng Bao, Qionghai Dai, Lani F. Wu, and Steven J. Altschuler. “Scalable Analysis of Cell-Type Composition from Single-Cell Transcriptomics Using Deep Recurrent Learning.” Nature Methods, March 18, 2019. https://doi.org/10.1038/s41592-019-0353-7
 </details>
 
-- [Solo](https://github.com/calico/Solo) - semi-supervised deep learning for doublet identification. Variational autoencoder (scVI) followed by a classifier to detect doublets. Compared with Scrubled and DoubletFinder, improves area under the precision-recall curve. <details>
+- <a name="solo">[Solo](https://github.com/calico/Solo)</a> - semi-supervised deep learning for doublet identification. Variational autoencoder (scVI) followed by a classifier to detect doublets. Compared with Scrubled and DoubletFinder, improves area under the precision-recall curve. <details>
     <summary>Paper</summary>
     Bernstein, Nicholas J., Nicole L. Fong, Irene Lam, Margaret A. Roy, David G. Hendrickson, and David R. Kelley. "Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning" https://doi.org/10.1016/j.cels.2020.05.010  Cell Systems 11, no. 1 (July 2020)
 </details>
