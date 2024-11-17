@@ -314,6 +314,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Doublet, multiplet detection
 
+- [XenoCell](https://gitlab.com/XenoCell/XenoCell) - removal multiplets in PDX scRNA-seq data. Multiplet - cells from human and mouse captured in one cell. Assumes 50/50% of human/mouse cells., 10% mouse reads in host-specific reads cutoff. Removes mouse cells but does not introduce biases. Python, utilizes Xenome and the combined genome, wrapped in a Docker image. Input - paired-end FASTQs. <details>
+    <summary>Paper</summary>
+    Cheloni, Stefano, Roman Hillje, Lucilla Luzi, Pier Giuseppe Pelicci, and Elena Gatti. “XenoCell: Classification of Cellular Barcodes in Single Cell Experiments from Xenograft Samples.” BMC Medical Genomics 14, no. 1 (December 2021): 34. https://doi.org/10.1186/s12920-021-00872-8.
+</details>
+
 - [doubletD](https://github.com/elkebir-group/doubletD) - doublet detection in single-cell DNA-seq data. doublets in scRNA-seq data have a characteristic variant allele frequency spectrum due to increased copy number and allelic dropout. A maximum likelihood approach with a closed-form solution - stats in Methods. Simulated and real data, outperforms SCG, Scrublet, robust to the presence of CNAs, mixture of two cell types. Python3 implementation. <details>
     <summary>Paper</summary>
     Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. "DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data" https://doi.org/10.1093/bioinformatics/btab266  Bioinformatics, (August 4, 2021)
