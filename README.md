@@ -329,6 +329,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     -McGinnis, Christopher S., Lyndsay M. Murrow, and Zev J. Gartner. "DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors" https://doi.org/10.1016/j.cels.2019.03.003  Cell Systems 8, no. 4 (April 2019)
 </details>
 
+- [demuxlet](https://github.com/statgen/demuxlet) - doublet detection based on genetic variation. Applicable to multiplex sequencing of different individuals. 50SNPs are sufficient to assign singlets and doublets. A statistical model evaluating the likelihood of observing RNA-seq reads overlapping a set of SNPs from each cell-containing droplet. <details>
+    <summary>Paper</summary>
+    Kang, Hyun Min, Meena Subramaniam, Sasha Targ, Michelle Nguyen, Lenka Maliskova, Elizabeth McCarthy, Eunice Wan, et al. “Multiplexed Droplet Single-Cell RNA-Sequencing Using Natural Genetic Variation.” Nature Biotechnology 36, no. 1 (January 2018): 89–94. https://doi.org/10.1038/nbt.4042.
+</details>
+
 - [scrublet](https://github.com/AllonKleinLab/scrublet) - Detect doublets in single-cell RNA-seq data. <details>
     <summary>Paper</summary>
     Wolock, Samuel L, Romain Lopez, and Allon M Klein. "Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data" https://doi.org/10.1101/357368  Preprint. Bioinformatics, July 9, 2018. 
