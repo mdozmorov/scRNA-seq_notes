@@ -324,6 +324,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Weber, Leah L, Palash Sashittal, and Mohammed El-Kebir. "DoubletD: Detecting Doublets in Single-Cell DNA Sequencing Data" https://doi.org/10.1093/bioinformatics/btab266  Bioinformatics, (August 4, 2021)
 </details>
 
+- [souporcell](https://github.com/wheaton5/souporcell) - variant-based deconvolution of donors in scRNA-seq data. Clustering problem of cells x variant (number of reads supporting each allele), fit a mixture model with the cluster centers represented as the alternate allele fraction for each locus in the cluster. A deterministic annealing variant of the expectation maximization algorithm. Doublet identification by modeling alleles from beta-binomial distribution. Outperforms vireo and scSplit in simulated and experimental data. <details>
+    <summary>Paper</summary>
+    Heaton, Haynes. “Souporcell: Robust Clustering of Single-Cell RNA-Seq Data by Genotype without Reference Genotypes.” Nature MethOds 17 (2020).
+</details>
+
 - [DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder) - doublet detection using gene expression data. Simulates artificial doublets, incorporate them into existing scRNA-seq data. Integrates with Seurat (Figure 1). Three input parameters (the expected number of doublets, the number of artificial doublets pN, the neighborhood size pN), need to be tailored to data with different number of cell types and magnitudes of transcriptional heterogeneity. Bimodality Coefficient maximization to select pN. Benchmarked against ground-truth scRNA-seq datasets. Not optimal for homogeneous data. <details>
     <summary>Paper</summary>
     -McGinnis, Christopher S., Lyndsay M. Murrow, and Zev J. Gartner. "DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors" https://doi.org/10.1016/j.cels.2019.03.003  Cell Systems 8, no. 4 (April 2019)
