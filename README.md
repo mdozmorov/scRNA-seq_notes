@@ -344,6 +344,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Wolock, Samuel L, Romain Lopez, and Allon M Klein. "Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data" https://doi.org/10.1101/357368  Preprint. Bioinformatics, July 9, 2018. 
 </details>
 
+- [EmptyDrops](https://github.com/MarioniLab/EmptyDrops2017) - empty droplet detection in scRNA-seq data. Ambient RNA origin, existing approaches like 10% threshold, the knee point in the cumulative fraction of reads with respect to increasing total count. Approach - estimate the profile of the ambient RNA pool and test each barcode for deviations from this pool using a Dirichlet-multinomial model of UMI count sampling. <details>
+    <summary>Paper</summary>
+    Marioni, John. “EmptyDrops: Distinguishing Cells from Empty Droplets in Droplet-Based Single-Cell RNA Sequencing Data,” 2019.
+</details>
+
 - [Solo](#solo) - semi-supervised deep learning for doublet identification. Variational autoencoder (scVI) followed by a classifier to detect doublets. Compared with Scrubled and DoubletFinder, improves area under the precision-recall curve.
 
 
