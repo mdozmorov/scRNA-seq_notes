@@ -287,6 +287,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Quality control
 
+- [QClus](https://github.com/linnalab/qclus) - snRNA-seq quality filtering after CellRanger default filteringg. Uses cell-type-specific marker gene expression (nucleus localized markers, non-cardiomyocyte (CM) markers, cytoplasm/nucleus-localized CM markers) and other metrics (splicing, negative correlation with contamination, mitochondrial fraction, positive correlation) to cluster nuclei (k-means, 4 clusters) and filter empty and highly contaminated droplets. Tested on cardiomyocytes that have specific properties making QC challenging. Doublet removal with Scrublet. Outperformes several alternative methods (DIEM, DecontX, EmptyNN, SampleQC, DropletQC, CellBender) across six datasets. Tested on brain dataset. Flexible to include dataset-relevant metrics. Python, Conda, Jupyter notebook. <details>
+    <summary>Paper</summary>
+    Eloi, Schmauch, Ojanen Johannes, Galani Kyriakitsa, Jalkanen Juho, Harju Kristiina, Hollmn Maija, Kokki Hannu, et al. “QClus: A Droplet Filtering Algorithm for Enhanced snRNA-Seq Data Quality in Challenging Samples.” Nucleic Acids Research, 2024.
+</details>
+
 - [miQC](https://bioconductor.org/packages/miQC/) - data-driven identification of cells with high mitochondrial content (likely, dead cells) from scRNA-seq data. Joint statistical model the proportion of reads mapping to mtDNA genes and the number of detected genes, EM for parameter estimation (flexmix). Tested on various datasets processed with CellRanged and salon alevin - improves removal of compromised cells as compared with hard threshold. Bioconductor R package, integrates with scater. <details>
     <summary>Paper</summary>
     Hippen, Ariel A., Matias M. Falco, Lukas M. Weber, Erdogan Pekcan Erkan, Kaiyang Zhang, Jennifer Anne Doherty, Anna Vähärautio, Casey S. Greene, and Stephanie C. Hicks. "MiQC: An Adaptive Probabilistic Framework for Quality Control of Single-Cell RNA-Sequencing Data" https://doi.org/10.1371/journal.pcbi.1009290  PLOS Computational Biology, (August 24, 2021)
