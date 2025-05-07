@@ -1138,6 +1138,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Zhang, Xinxin, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, et al. “CellMarker: A Manually Curated Resource of Cell Markers in Human and Mouse.” Nucleic Acids Research 47, no. D1 (January 8, 2019): D721–28. https://doi.org/10.1093/nar/gky900.
 </details>
 
+- [PanglaoDB](#panglaodb) - Cell type gene expression markers, 178 cell types, 29 tissues.
+
 #### Immune markers
 
 See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#immune-markers)
@@ -1531,7 +1533,7 @@ Metadata, Cell Type Wheel, an interactive visualization tool. <details>
     Speir, Matthew L, Aparna Bhaduri, Nikolay S Markov, Pablo Moreno, Tomasz J Nowakowski, Irene Papatheodorou, Alex A Pollen, Lucas Seninge, W James Kent, and Maximilian Haeussler. "UCSC Cell Browser: Visualize Your Single-Cell Data" https://doi.org/10.1101/2020.10.30.361162  Preprint. Bioinformatics, October 31, 2020. 
 </details>
 
-- [PanglaoDB](https://panglaodb.se/) - a web server for exploration of mouse and human single-cell RNA sequencing data. 10X Genomics, Chromium, Smart-seq2 data processed using a unified computational pipeline. [Search](https://panglaodb.se/search.html) for gene, browse and visualize [studies](https://panglaodb.se/samples.html), explore cell type gene expression [markers](https://panglaodb.se/markers.html?cell_type=%27choose%27), raw and RData [data download](https://panglaodb.se/bulk.html). <details>
+- <a name="panglaodb">[PanglaoDB](https://panglaodb.se/)</a> - a web server for exploration of mouse and human single-cell RNA sequencing data. 10X Genomics, Chromium, Smart-seq2 data processed using a unified computational pipeline. [Search](https://panglaodb.se/search.html) for gene, browse and visualize [studies](https://panglaodb.se/samples.html), explore cell type gene expression [markers](https://panglaodb.se/markers.html?cell_type=%27choose%27), raw and RData [data download](https://panglaodb.se/bulk.html). <details>
     <summary>Paper</summary>
     Franzén, Oscar, Li-Ming Gan, and Johan L M Björkegren. “PanglaoDB: A Web Server for Exploration of Mouse and Human Single-Cell RNA Sequencing Data” Database (Oxford), 2019 Jan 1,https://doi.org/10.1093/database/baz046
 </details>
