@@ -1320,6 +1320,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Spatial transcriptomics
 
+- [10x Visium spatial transcriptomics tutorial](https://github.com/j-gillespie-dna/STanalysis). R-based (Seurat, SPARK, CellChat), starting with the SpareRanger's generated hdf5 file, QC, spatial visualization, clustering, annotation with [Sc-Type](https://sctype.app/) (Other options: [singleR](https://bioconductor.org/packages/SingleR/), [Azimuth](https://azimuth.hubmapconsortium.org/)), spatially variable genes (SVGs) detection with SPARK-X (Other options: [SpatialIDE](https://github.com/Teichlab/SpatialDE), [nnSVG](https://github.com/lmweber/nnSVG), [SOMDE](https://pypi.org/project/somde/)), cell-cell communication with [CellChat](https://github.com/jinworks/CellChat). <details>
+    <summary>Paper</summary>
+    Gillespie, Jessica, Juan Xie, Kyeong Joo Jung, Gary Hardiman, Maciej Pietrzak, and Dongjun Chung. “A Gentle Introduction to Spatial Transcriptomic Analysis with 10X Visium Data.” bioRxiv, January 1, 2025, 2025.05.01.651786. https://doi.org/10.1101/2025.05.01.651786.
+</details>
+
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
 - [PrinciplesSTA](https://github.com/lmweber/PrinciplesSTA) - Principles of Spatial Transcriptomics Analysis with Bioconductor" book, [web version](https://lmweber.org/PrinciplesSTA/devel/)
