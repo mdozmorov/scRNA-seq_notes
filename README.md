@@ -1145,6 +1145,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [PanglaoDB](#panglaodb) - Cell type gene expression markers, 178 cell types, 29 tissues.
 
+- [Cell cycle signature](https://github.com/scverse/scanpy_usage/blob/master/180209_cell_cycle/data/regev_lab_cell_cycle_genes.txt) - Cell cycle classification was conducted using Scanpy’s "score_genes_cell_cycle" function with gene sets sourced from [the Regev lab cell cycle signature](https://github.com/scverse/scanpy_usage/blob/master/180209_cell_cycle/data/regev_lab_cell_cycle_genes.txt). From https://doi.org/10.1101/2025.02.20.639398
+
 #### Immune markers
 
 See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#immune-markers)
