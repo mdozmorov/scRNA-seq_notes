@@ -1504,6 +1504,11 @@ and Spatial Yardstick) - highly scalable spatial transcriptomics analysis tool t
 
 ## Data
 
+- [scPerturb](https://projects.sanderlab.org/scperturb/) - integration of 44 public scRNA-seq/scATAC-seq data. Energy statistics (E-statistics) for quantification of perturbation strength on dimensionality-reduced data (20 PCs from PCA on 2000 highly variable genes), similarity among pertubations, significance testing (10K permutations). Bias-correcting variant of E-distances that improves performance in low cell count regimes. Robust to asymmetric sample size. Various technologies, processing with Scanpy (scRNA-seq), ArchR (scATAC-seq). Methods for the E-distance statistics calculation. [Data explorer](https://projects.sanderlab.org/scperturb/datavzrd/scPerturb_vzrd_v1/dataset_info/index_1.html), [RNA and protein](https://zenodo.org/records/13350497) h5ad files, [ATAC-seq](https://zenodo.org/records/7058382) counts.mtx and .csv annotations. [GitHub](https://github.com/sanderlab/scPerturb). [scperturb](https://pypi.org/project/scperturb/) Python package for E-statistics calculation. <details>
+    <summary>Paper</summary>
+    Peidli, S., Green, T.D., Shen, C. et al. scPerturb: harmonized single-cell perturbation data. Nat Methods 21, 531–540 (2024). https://doi.org/10.1038/s41592-023-02144-y
+</details>
+
 - [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home) at EMBL-EBI. Human, mouse, drosophila, zebrafish, chicken, rat. Transcriptomics, protein expression (Mass-Spectrometry). Aggregates data from other repositories, Tabula Sapiens/Muris, Human Lung Cell Atlas, GTEx, others. 
 Metadata, Cell Type Wheel, an interactive visualization tool. <details>
     <summary>Paper</summary>
