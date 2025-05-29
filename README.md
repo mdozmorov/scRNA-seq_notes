@@ -35,6 +35,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Cell markers](#cell-markers)
     - [Immune markers](#immune-markers)
     - [Brain markers](#brain-markers)
+  - [Cell identification](#cell-identification)
+    - [Malignant cell](#malignant-cell)
 - [Immuno-analysis](#immuno-analysis)
 - [Cell-cell interactions](#cell-cell-interactions)
 - [Phylogenetic inference](#phylogenetic-inference)
@@ -1158,6 +1160,14 @@ See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#imm
     Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
 </details>
 
+### Cell identification
+
+#### Malignant cell
+
+- [scMalignantFinder](https://github.com/Jonyyqn/scMalignantFinder) - scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset.  <details>
+    <summary>Paper</summary>
+    Yu, Qiaoni, Yuan-Yuan Li, and Yunqin Chen. "scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures." Communications Biology 8.1 (2025): 504. https://doi.org/10.1038/s42003-025-07942-y.
+    </details>
 
 ## Phylogenetic inference
 
