@@ -32,10 +32,9 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 - [CNV](#cnv)
 - [Splicing](#splicing)
 - [Annotation, subpopulation identification](#annotation-subpopulation-identification)
-  - [Cell markers](#cell-markers)
+  - [Cell annotation](#cell-annotation)
     - [Immune markers](#immune-markers)
     - [Brain markers](#brain-markers)
-  - [Cell identification](#cell-identification)
     - [Malignant cell](#malignant-cell)
 - [Immuno-analysis](#immuno-analysis)
 - [Cell-cell interactions](#cell-cell-interactions)
@@ -1111,7 +1110,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. "Functional Interpretation of Single-Cell Similarity Maps" https://doi.org/10.1101/403055  August 29, 2018. 
 </details>
 
-### Cell markers
+### Cell annotation
 
 - Benchmarking study of 41 computational methods for marker gene selection in scRNA-seq data. 10 experimental and over 170 simulated datasets (splatter R package). CellMarker and PangaloDB marker gene set databases, [Supplementary tables S1-S4](https://www.biorxiv.org/content/10.1101/2022.05.09.490241v1.supplementary-material) - expert-annotated marker gene sets pbmc3k immune cells, Lawlor pancreatic cells, Zeisel brain cells, Smart-seq3 immune cells, [CSV](data/Pullin_McCarthy_2022.csv). Poor overlap among methods. Wilcoxon test performs best, Student t-test (not Welch) and logistic resression also OK. [Scripts](https://gitlab.svi.edu.au/biocellgen-public/mage_2020_marker-gene-benchmarking/) wrapped in a Snakemake pipeline. <details>
     <summary>Paper</summary>
@@ -1159,8 +1158,6 @@ See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#imm
     <summary>Paper</summary>
     Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
 </details>
-
-### Cell identification
 
 #### Malignant cell
 
