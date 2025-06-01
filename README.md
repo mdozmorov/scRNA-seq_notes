@@ -1144,6 +1144,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Zhang, Xinxin, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, et al. “CellMarker: A Manually Curated Resource of Cell Markers in Human and Mouse.” Nucleic Acids Research 47, no. D1 (January 8, 2019): D721–28. https://doi.org/10.1093/nar/gky900.
 </details>
 
+- [ACT](http://xteam.xbio.top/ACT/) - Annotation of Cell Types. ACT was developed based on the structural marker map and the cell type enrichment algorithm, with the aim of efficiently facilitating the process of cell type annotation. Paste cluster-specific lists of genes for annotation analysis. Downloadable signatures.
+
 - [PanglaoDB](#panglaodb) - Cell type gene expression markers, 178 cell types, 29 tissues.
 
 - [Cell cycle signature](https://github.com/scverse/scanpy_usage/blob/master/180209_cell_cycle/data/regev_lab_cell_cycle_genes.txt) - Cell cycle classification was conducted using Scanpy’s "score_genes_cell_cycle" function with gene sets sourced from [the Regev lab cell cycle signature](https://github.com/scverse/scanpy_usage/blob/master/180209_cell_cycle/data/regev_lab_cell_cycle_genes.txt). From https://doi.org/10.1101/2025.02.20.639398
