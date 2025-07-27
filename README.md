@@ -1200,6 +1200,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     Verstaen, Kevin, Inés Lammens, Jana Roels, Yvan Saeys, Bart N Lambrecht, Niels Vandamme, and Stijn Vanhee. “DALI (Diversity AnaLysis Interface): A Novel Tool for the Integrated Analysis of Multimodal Single Cell RNAseq Data and Immune Receptor Profiling.” Preprint. Bioinformatics, December 7, 2021. https://doi.org/10.1101/2021.12.07.471549.
 </details>
 
+- [MiXCR](https://github.com/milaboratories/mixcr) - is a universal software tool designed for the fast and accurate analysis of T-cell and B-cell receptor sequencing data. It is capable of processing various data types, including bulk and single-cell data from protocols like 10x Genomics or any custom protocol. Key features of MiXCR include its ability to perform clonotype assembly, robust PCR and sequencing error correction (with or without UMI/cell barcodes), cell assembly, support for multiple species, comprehensive quality control reporting and various downstream analysis. The software is widely used in both academic and pharmaceutical R&D. [Documentation and tutorials](https://mixcr.com)<details>
+    <summary>Paper</summary>
+    Bolotin, D., Poslavsky, S., Mitrophanov, I. et al. MiXCR: software for comprehensive adaptive immunity profiling. Nat Methods 12, 380–381 (2015). https://doi.org/10.1038/nmeth.3364
+</details>
+
 - [TRUST4](https://github.com/liulab-dfci/TRUST4) - reconstructing immune repertoires of T- and B cells from bulk and scRNA-seq (10X Genomics 5'). Input: FASTQ or BAM. Faster, more sensitive (MiXCR, CATT, TRUST3). Uses the international ImmunoGeneTics (IMGT) database. Methods describe all algorithms. [Scripts to reproduce paper](https://github.com/liulab-dfci/TRUST4_manuscript_evaluation). <details>
     <summary>Paper</summary>
     Song, Li, David Cohen, Zhangyi Ouyang, Yang Cao, Xihao Hu, and X. Shirley Liu. “TRUST4: Immune Repertoire Reconstruction from Bulk and Single-Cell RNA-Seq Data.” Nature Methods 18, no. 6 (June 2021): 627–30. https://doi.org/10.1038/s41592-021-01142-2.
