@@ -1005,6 +1005,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Annotation, subpopulation identification
 
+- [ArchMap](https://www.archmap.bio/#/) - web tool for reference-based annotation and analysis of single-cell datasets. References: Brain, Lung, Immune, Heart, custom support (h5ad format). The scArches query mapping method, other Python tools scVI, scANVI, scPoli. CellxGene plug-in for post-mapping visualization and marker gene identification. Input: rds or h5ad formats. 200K cells limitation but allows for merging the results. Analysis on the secured cloud. Alternatives: [scGPT Hub](https://d2mbe4tl4t5k5v.cloudfront.net/), [CellTypist](https://www.celltypist.org/). [GitHub](https://github.com/theislab/archmap). <details>
+  <summary>Paper</summary>
+  ArchMap: A web-based platform for reference-based analysis of single-cell datasets. Mohammad Lotfollahi, Chelsea Bright, Ronald Skorobogat, Mohammad Dehkordi, Xavier George, Simon Richter, Alexandra Topalova, Malte D. Luecken, Fabian J. Theis. bioRxiv 2024.09.19.613883; doi: https://doi.org/10.1101/2024.09.19.613883
+</details>
+
 - [HiCAT](https://github.com/combio-dku/HiCAT) - hierarchical, marker-based cell-type identifier using gene set analysis for statistical marker scoring. Major-minor-subtype classification as a three-level taxonomy tree. Best for immune-cell annotations. Six steps: 1. PCA and clustering, 2. marker counting and gene set analysis scoring, 3. unknown cluster detection, 4. Gaussian mixture model-based correction, 5. rejecting unclear cells, 6. kNN-based correction. Tested on eight normal and cancer single-cell datasets, including BRCA. Input: cell x gene matrix and taxonomy tree & subset markers. [Cell marker database](https://www.rndsystems.com/resources/cell-markers). Python, [R wrapper](https://github.com/combio-dku/HiCAT). <details>
     <summary>Paper</summary>
     Lee, Joongho, Minsoo Kim, Keunsoo Kang, Chul-Su Yang, and Seokhyun Yoon. “Hierarchical Cell-Type Identifier Accurately Distinguishes Immune-Cell Subtypes Enabling Precise Profiling of Tissue Microenvironment with Single-Cell RNA-Sequencing,” n.d.
