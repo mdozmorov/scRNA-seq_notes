@@ -340,6 +340,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     -McGinnis, Christopher S., Lyndsay M. Murrow, and Zev J. Gartner. "DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors" https://doi.org/10.1016/j.cels.2019.03.003  Cell Systems 8, no. 4 (April 2019)
 </details>
 
+- [Scrublet](https://github.com/AllonKleinLab/scrublet) - multiples (doublet) prediction using simulated multiplets from the data and building a nearest neighbor classifier. "Embedded" (clustered separately) and "neotypic" (clustered with real cells) multiplest. Table 1 - experimental methods for multiplet detection. Tested on simulated (Splatter R package) and three experimental datasets with ground truth (a mixture of human (HEK293T) and mouse (NIH3T3) cells [10x genomics](https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.1.0/hgmm_12k), peripheral blood from multiple individuals [demuxlet](https://github.com/yelabucsf/demuxlet_paper_code), peripheral blood at different concentrations [4k](https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.1.0/pbmc4k) and [8k](https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.1.0/pbmc8k)). Incorporated in [SPRING](https://kleintools.hms.harvard.edu/tools/spring.html), a tool for KNN builting using gene x cell matrix. <details>
+  <summary>Paper</summary>
+  Wolock, Samuel L., Romain Lopez, and Allon M. Klein. “Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data.” Cell Systems 8, no. 4 (2019): 281-291.e9. https://doi.org/10.1016/j.cels.2018.11.005.
+</details>
+
 - [demuxlet](https://github.com/statgen/demuxlet) - doublet detection based on genetic variation. Applicable to multiplex sequencing of different individuals. 50SNPs are sufficient to assign singlets and doublets. A statistical model evaluating the likelihood of observing RNA-seq reads overlapping a set of SNPs from each cell-containing droplet. <details>
     <summary>Paper</summary>
     Kang, Hyun Min, Meena Subramaniam, Sasha Targ, Michelle Nguyen, Lenka Maliskova, Elizabeth McCarthy, Eunice Wan, et al. “Multiplexed Droplet Single-Cell RNA-Sequencing Using Natural Genetic Variation.” Nature Biotechnology 36, no. 1 (January 2018): 89–94. https://doi.org/10.1038/nbt.4042.
