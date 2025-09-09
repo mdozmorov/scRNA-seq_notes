@@ -1351,6 +1351,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Spatial transcriptomics
 
+- [cell2location](https://github.com/BayraktarLab/cell2location/) - resolving cell types in spatial transcriptomics by integrating reference scRNA-seq data. Bayesian model accounting for technical variation and borrows information across location. Decomposes spatially resolved multi-cell RNA count matrices into reference signatures. Tested on simulated data (49 cell types from mouse brain scRNA-seq, 2,500 locations by combining cell type patterns and spatial distributions). Outperforms Stereoscope, Seurat, RCTD, NNLS, SpotLIGHT. Applied to real data, defined 10 astrocyte subtypes (Figure S15B). Input: reference cell type matrix from scRNA-seq and spatial transcriptomics data. <details>
+  <summary>Paper</summary>
+  Kleshchevnikov, Vitalii, Artem Shmatko, Emma Dann, et al. “Cell2location Maps Fine-Grained Cell Types in Spatial Transcriptomics.” Nature Biotechnology, ahead of print, January 13, 2022. https://doi.org/10.1038/s41587-021-01139-4.
+</details>
+
 - [KODAMA](https://github.com/tkcaccia/KODAMA) algorithm for spatial transcriptomics. Dimensionality reduction considering spatial information (X, Y coordinates attached to gene expression matrix). Cross-validation of spatial label predictions and refinement over several iterations. SVM to refine spatial boundaries. Outperforms BASS, BayesSpace, BANKSY, PRECAST, Louvain, Leiden, Walktrap. Integrated with Seurat, SpatialExperiment, Giotto. Additional [GitHub](https://github.com/tkcaccia/KODAMAextra), [website](https://tkcaccia.github.io/KODAMA-Analysis/). <details>
   <summary>Paper</summary>
   Ebtesam A. Abdel-Shafy, Moussa Kassim, Alessia Vignoli, Farag Mamdouh, Svitlana Tyekucheva, Dalia Ahmed, Dupe Ojo, Brendon Price, Fabio Socciarelli, Nancy Paola Duarte-Delgado, Martin Ocharo, Chiamaka Jessica Okeke, Luca Triboli, David A. MacIntyre, Massimo Loda, Devanand Sarkar, Dinesh Gupta, Silvano Piazza, Luiz Fernando Zerbini, Leonardo Tenori, Stefano Cacciatore. KODAMA enables self-guided weakly supervised learning in spatial transcriptomics. bioRxiv 2025.05.28.656544; doi: https://doi.org/10.1101/2025.05.28.656544
