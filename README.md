@@ -1238,6 +1238,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Cell-cell interactions
 
+- [MatriCom](https://github.com/Matrisome/MatriCom) - scRNA-seq cell-ECM interaction. Input - Seurat, single-cell experiment objects, ScanPy/Loom. Output - communitation network (bar graphs summarizing the number of matrisome interactions), network influencers (graph), Enrichment analysis (g:profiler). Table 1 - databases. [Shiny app](https://matrinet.shinyapps.io/matricom/). <details>
+  <summary>Paper</summary>
+  Lamba, Rijuta, Asia M. Paguntalan, Petar B. Petrov, Alexandra Naba, and Valerio Izzi. “MatriCom, a Single-Cell RNA-Sequencing Data Mining Tool to Infer Cell–Extracellular Matrix Interactions.” Journal of Cell Science 138, no. 13 (2025): jcs263927. https://doi.org/10.1242/jcs.263927.
+</details>
+
 - [LIANA](https://github.com/saezlab/liana) - LIgand-receptor ANalysis frAmework for cell-cell communication analysis of scRNA-seq clusters. Comparing 16 resources and 7 methods (Table 1: CellChat, CellPhoneDB, Connectome, Crosstalk scores, logFC meam, NATMI, SingleCellSignalR, Consensus). Decoupling methods and resources, allowing for combination of any of them. [Website](https://saezlab.github.io/liana/index.html) with several tutorials. R package. <details>
     <summary>Paper</summary>
     Dimitrov, Daniel, Dénes Türei, Martin Garrido-Rodriguez, Paul L. Burmedi, James S. Nagai, Charlotte Boys, Ricardo O. Ramirez Flores, et al. “Comparison of Methods and Resources for Cell-Cell Communication Inference from Single-Cell RNA-Seq Data.” Nature Communications 13, no. 1 (June 9, 2022): 3224. https://doi.org/10.1038/s41467-022-30755-0.
