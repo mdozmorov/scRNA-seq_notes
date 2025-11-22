@@ -320,6 +320,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Doublet, multiplet detection
 
+- Benchmarking of 9 doublet detection methods (doubletCells, Scrublet, cxds, bcds, hybrid, Solo, DoubletDetection, DoubletFinder, DoubletDecon). 16 experimental datasets (described in Methods) and 112 synthetic datasets (scDesign, splatter, 2-40% doublets) with known doublets, evaluated on AUROC/AUPRC (doublet scores), the effect on differential analysis (improved recall), variable gene identification (DoubletFinder and Scrublet improve Jaccard overlap), clustering (DoubletDetection and DoubletFinder), pseudotime (Scrublet, DoubletDetection, and DoubletFinder). Two baseline methods - library size and ngenes as doublet scores. Brief description of methods, also evaluated on usability (quality, convenience, publication, documentation & support). Open questions - how to estimate doublet rate, homotypic doublets, ambient mRNA, how to improve detection, how to ensemble methods. DoubletFinder is best, Solo second. <details>
+  <summary>Paper</summary>
+  Xi, Nan Miles, and Jingyi Jessica Li. “Benchmarking Computational Doublet-Detection Methods for Single-Cell RNA Sequencing Data.” Cell Systems 12, no. 2 (2021): 176-194.e6. https://doi.org/10.1016/j.cels.2020.11.008.
+</details>
+
 - [XenoCell](https://gitlab.com/XenoCell/XenoCell) - removal multiplets in PDX scRNA-seq data. Multiplet - cells from human and mouse captured in one cell. Assumes 50/50% of human/mouse cells., 10% mouse reads in host-specific reads cutoff. Removes mouse cells but does not introduce biases. Python, utilizes Xenome and the combined genome, wrapped in a Docker image. Input - paired-end FASTQs. <details>
     <summary>Paper</summary>
     Cheloni, Stefano, Roman Hillje, Lucilla Luzi, Pier Giuseppe Pelicci, and Elena Gatti. “XenoCell: Classification of Cellular Barcodes in Single Cell Experiments from Xenograft Samples.” BMC Medical Genomics 14, no. 1 (December 2021): 34. https://doi.org/10.1186/s12920-021-00872-8.
