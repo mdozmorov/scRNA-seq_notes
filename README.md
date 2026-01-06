@@ -1413,6 +1413,8 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics) - tools and notes for spatial omics, by Ming Tang
 
+- [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) - MCP server enabling spatial transcriptomics analysis via natural language. Integrates 60+ methods including SpaGCN, STAGATE, Cell2location, RCTD, Tangram, LIANA+, CellRank for spatial domains, deconvolution, cell communication, and trajectory analysis. Supports Visium, Xenium, MERFISH, Slide-seq. Python package on [PyPI](https://pypi.org/project/chatspatial/). [Documentation](https://cafferychen777.github.io/ChatSpatial/).
+
 - [PrinciplesSTA](https://github.com/lmweber/PrinciplesSTA) - Principles of Spatial Transcriptomics Analysis with Bioconductor" book, [web version](https://lmweber.org/PrinciplesSTA/devel/)
 
 - Overview of spatial technologies. Table 1 - comparison of in situ capture-based technologies, imaging-based, and region of interest-based. Table 2 - tools for all inclusive analysis, deconvolution, CNV inference, cellular interaction, deep learning. Cellular architecture of tumor microenvironment, clinical use. <details>
