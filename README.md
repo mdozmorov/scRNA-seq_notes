@@ -1386,6 +1386,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Spatial transcriptomics
 
+- [MOSAIK](https://github.com/anthbapt/MOSAIK) (Multi-Origin Spatial Transcriptomics Analysis and Integration Kit), a Python package for processing of spatial transcriptomics data from Nanostring CosMX and 10x Xenium. A unified workflow for quality control, normalization, and cross-platform alignment. SpatialData format storied in a Zarr file. Integrates segmentation (Cellpose for CosMx, Voronoi for Xenium). [Single Cell Spatial Transcriptomics Tools](https://github.com/anthbapt/Spatial-Biology-Tools). <details>
+  <summary>Paper</summary>
+  Baptista, Anthony, Diane Cruiziat, Rosamond Nuamah, Ciro Chiappini, and Anita Grigoriadis. “MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration Kit.” Journal of Open Source Software 11, no. 117 (2026): 8795. https://doi.org/10.21105/joss.08795.
+</details>
+
 - [cell2location](https://github.com/BayraktarLab/cell2location/) - resolving cell types in spatial transcriptomics by integrating reference scRNA-seq data. Bayesian model accounting for technical variation and borrows information across location. Decomposes spatially resolved multi-cell RNA count matrices into reference signatures. Tested on simulated data (49 cell types from mouse brain scRNA-seq, 2,500 locations by combining cell type patterns and spatial distributions). Outperforms Stereoscope, Seurat, RCTD, NNLS, SpotLIGHT. Applied to real data, defined 10 astrocyte subtypes (Figure S15B). Input: reference cell type matrix from scRNA-seq and spatial transcriptomics data. <details>
   <summary>Paper</summary>
   Kleshchevnikov, Vitalii, Artem Shmatko, Emma Dann, et al. "Cell2location Maps Fine-Grained Cell Types in Spatial Transcriptomics." Nature Biotechnology, ahead of print, January 13, 2022. https://doi.org/10.1038/s41587-021-01139-4.
