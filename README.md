@@ -1751,6 +1751,11 @@ Metadata, Cell Type Wheel, an interactive visualization tool. <details>
 
 #### Cancer
 
+- Spatial (Slide-seq, MERFISH, ExSEQ, CODEX) and cellular (scRNA-seq, snRNA-seq) multi-omics of 67 tumor biopsies. Malignant cells grouped by patient, non-malignant - by cell type. Raw Data on [HTAN](https://humantumoratlas.org/publications/hta1_2024_nature-medicine_johanna-klughammer), controlled access. Processed data on [SingleCell portal](https://singlecell.broadinstitute.org/single_cell/study/SCP2702/htapp-mbc) and [CELLxGENE](https://cellxgene.cziscience.com/collections/a96133de-e951-4e2d-ace6-59db8b3bfb1d). [GitHub](https://github.com/klarman-cell-observatory/HTAPP-Pipelines/tree/master/HTAPP_MBC). <details>
+  <summary>Paper</summary>
+  Klughammer, Johanna, Daniel L. Abravanel, Åsa Segerstolpe, et al. “A Multi-Modal Single-Cell and Spatial Expression Map of Metastatic Breast Cancer Biopsies across Clinicopathological Features.” Nature Medicine 30, no. 11 (2024): 3236–49. https://doi.org/10.1038/s41591-024-03215-z.
+</details>
+
 - [3CA Curated Cancer Cell Atlas](https://www.weizmann.ac.il/sites/3CA/) - Collected, annotated and analyzed cancer scRNA-seq datasets. Expression matrix, cell/gene names, copy number alterations, UMAP coordinates. [Tweet](https://twitter.com/TiroshLab/status/1473366146665623557?s=20&t=9axW_HQgFoZLXejUwjo7lg)
 
 - [CancerSEA](http://biocc.hrbmu.edu.cn/CancerSEA/home.jsp) - cancer scRNA-seq studies. Download individual studies, as well as gene signatures (from Angiogenesis, DNA damage to EMT, metastasis, etc.)
