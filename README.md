@@ -1546,6 +1546,8 @@ and Spatial Yardstick) - highly scalable spatial transcriptomics analysis tool t
 
 - [STUtility](https://github.com/jbergenstrahle/STUtility) - an R package for visualization and analysis of spatial transcriptomics data (10X Visium). Seurat-compatible. [Website](https://ludvigla.github.io/STUtility_web_site/index.html) with tutorials and walkthroughs.
 
+- [tacco](https://github.com/simonwm/tacco) - TACCO: Transfer of Annotations to Cells and their COmbinations.
+
 ## Technology
 
 - [Collections of library structure and sequence of popular single cell genomic methods](https://teichlab.github.io/scg_lib_structs/) from Sarah Teichmann's group. [GitHub](https://github.com/Teichlab/scg_lib_structs)
