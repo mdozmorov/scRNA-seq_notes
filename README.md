@@ -1540,6 +1540,8 @@ and Spatial Yardstick) - highly scalable spatial transcriptomics analysis tool t
 
 - [brainmapr](https://github.com/hms-dbmi/brainmapr) - R package to infer spatial location of neuronal subpopulations within the developing mouse brain by integrating single-cell RNA-seq data with in situ RNA patterns from the Allen Developing Mouse Brain Atlas.
 
+- [spacexr](https://github.com/dmcable/spacexr) - Spatial-eXpression-R: Cell type identification (including cell type mixtures) and cell type-specific differential expression for spatial transcriptomics.
+
 - [Spatial Gene Expression, Space Ranger by 10X Genomics](https://support.10xgenomics.com/spatial-gene-expression/software/overview/welcome)
 
 - [STUtility](https://github.com/jbergenstrahle/STUtility) - an R package for visualization and analysis of spatial transcriptomics data (10X Visium). Seurat-compatible. [Website](https://ludvigla.github.io/STUtility_web_site/index.html) with tutorials and walkthroughs.
