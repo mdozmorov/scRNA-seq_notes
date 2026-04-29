@@ -321,6 +321,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [Cellbender](https://cellbender.readthedocs.io/en/latest/index.html) - Python package for removing technical artefacts. remove-background: This module removes counts due to ambient RNA molecules and random barcode swapping from (raw) UMI-based scRNA-seq gene-by-cell count matrices. 
 
+- [scnoisemeter](https://github.com/FullLengthFanatic/scnoisemeter) - Platform-agnostic quantification of technical noise in single-cell RNA-seq. Supports ONT, PacBio/Kinnex, and short-read 10x / BD Rhapsody / Smart-seq BAMs
+
 ## Doublet, multiplet detection
 
 - Benchmarking of 9 doublet detection methods (doubletCells, Scrublet, cxds, bcds, hybrid, Solo, DoubletDetection, DoubletFinder, DoubletDecon). 16 experimental datasets (described in Methods) and 112 synthetic datasets (scDesign, splatter, 2-40% doublets) with known doublets, evaluated on AUROC/AUPRC (doublet scores), the effect on differential analysis (improved recall), variable gene identification (DoubletFinder and Scrublet improve Jaccard overlap), clustering (DoubletDetection and DoubletFinder), pseudotime (Scrublet, DoubletDetection, and DoubletFinder). Two baseline methods - library size and ngenes as doublet scores. Brief description of methods, also evaluated on usability (quality, convenience, publication, documentation & support). Open questions - how to estimate doublet rate, homotypic doublets, ambient mRNA, how to improve detection, how to ensemble methods. DoubletFinder is best, Solo second. <details>
