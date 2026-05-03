@@ -1397,6 +1397,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Spatial transcriptomics
 
+- [CellCharter](https://github.com/CSOgroup/cellcharter) - detecting cellular niches in spatial data (Gaussian Mixture Model clustering, Fowlkes-Mallows Index for number of clusters selection), characterize (cluster proportions, cell type enrichment, significant spatial proximity - cluster neighborhood enrichment) and compare them (differential cluster NE). Cluster properties include curl, elongation, linearity, purity.  Dimensionaliry reduction, batch effect correction (VAE, scVI). Multiple technologies (Visium, CosMx, MERFISH, multi-oics) support (Squidpy methods for network construction, Delaunay triangulation). Tested on sparial proteomics (CODEX), brain spatial transcriptomics (10x Visium), cancer data. Outperforms (ARI) six methods (DR-SC, UTAG, SOTIP, SEDR, BayesSpace, STAGATE.), intro in them. Computationally efficient. <details>
+  <summary>Paper</summary>
+  Varrone, Marco, Daniele Tavernari, Albert Santamaria-Martínez, Logan A. Walsh, and Giovanni Ciriello. “CellCharter Reveals Spatial Cell Niches Associated with Tissue Remodeling and Cell Plasticity.” Nature Genetics 56, no. 1 (2024): 74–84. https://doi.org/10.1038/s41588-023-01588-4.
+</details>
+
 - [MOSAIK](https://github.com/anthbapt/MOSAIK) (Multi-Origin Spatial Transcriptomics Analysis and Integration Kit), a Python package for processing of spatial transcriptomics data from Nanostring CosMX and 10x Xenium. A unified workflow for quality control, normalization, and cross-platform alignment. SpatialData format storied in a Zarr file. Integrates segmentation (Cellpose for CosMx, Voronoi for Xenium). [Single Cell Spatial Transcriptomics Tools](https://github.com/anthbapt/Spatial-Biology-Tools). <details>
   <summary>Paper</summary>
   Baptista, Anthony, Diane Cruiziat, Rosamond Nuamah, Ciro Chiappini, and Anita Grigoriadis. “MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration Kit.” Journal of Open Source Software 11, no. 117 (2026): 8795. https://doi.org/10.21105/joss.08795.
