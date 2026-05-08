@@ -1708,6 +1708,11 @@ Metadata, Cell Type Wheel, an interactive visualization tool. <details>
 
 ### Human
 
+- [cellNexus](https://cellnexus.org/) - scRNA-seq harmonized Human Cell Atlas data and access [R](https://github.com/MangiolaLaboratory/cellNexus)/[Python](https://github.com/MangiolaLaboratory/cellNexusPy) API (anndata, SingleCellExperiment, Seurat, or pseudobulk matrices). [Continuous integration](https://github.com/MangiolaLaboratory/HPCell) with CELLxGENE. Data description, QC, unified annotation with sex, ethnicity, cell types. <details>
+  <summary>Paper</summary>
+  Mengyuan, Shen, Gao Yingnan, Liu Ning, et al. cellNexus: Quality Control, Annotation, Aggregation and Analytical Layers for the Human Cell Atlas Data. April 17, 2026. https://doi.org/10.64898/2026.04.14.718336
+</details>
+
 - [Tahoe-100M](https://arcinstitute.org/tools/virtualcellatlas) - scRNA-seq data from over 100M cells (The Mosaic platform, the Parse GigaLab kit, Ultima Genomics for sequencing). 60K conditions and 1200 drug treatments across 50 tumor models. Genetic demultiplexing to reduce batch effect, scVI processing, [E-distance](https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/) to evaluate the magnitude of the treatment effect. Primary goal - build AI models of human cells to predict how diseased cells interact with potential drug molecules. Gene set (differential) expression scores with [Vision](http://www.github.com/YosefLab/VISION). [News 1](https://www.parsebiosciences.com/news/vevo-therapeutics-partners-with-the-parse-biosciences-gigalab-to-generate-100m-cell-atlas-for-ai-powered-drug-discovery/), [News 2](https://arcinstitute.org/news/news/arc-vevo), [GitHub](https://github.com/ArcInstitute/arc-virtual-cell-atlas/). <details>
     <summary>Paper</summary>
     Zhang, Jesse, Aidan Winters, Umair Khan, Matthew G Jones, Vuong Tran, Joseph Pangallo, Ajay Sapre, et al. “Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling,” https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1.full.pdf
