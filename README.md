@@ -100,6 +100,11 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 ## Courses
 
+- [scNotebooks](https://github.com/integrativebioinformatics/scNotebooks) - Jupyter and Google Colab notebooks to practically teach single‑cell and spatial transcriptomics. 13 modules, includes cell-cell communication, scATAC-seq, other advanced topics. English, Spanish, Portugese. <details>
+  <summary>Paper</summary>
+  Rojas-Hidalgo, Adolfo, Raúl Arias-Carrasco, Joyce Karoline Silva, et al. “The Single Cell Notebooks for Inclusive and Accessible Training in Single-Cell and Spatial Omics.” Nature Genetics, ahead of print, May 5, 2026. https://doi.org/10.1038/s41588-026-02584-0.
+</details>
+
 - [Single-cell best practices](https://www.sc-best-practices.org/) - scRNA-seq analysis with Python/scanpy in. From preprocessing to trajectory inference, network analysis, immune receptor profiling, and more. [GitHub](https://github.com/theislab/single-cell-best-practices) with Jupyter notebooks/code.
 
 - Review of single-cell transcriptomics technologies and analysis steps and software. Sample preparation, scRNA-seq preprocessing, QC, normalization, batch correction, dimensionaliry reduction. Downstream analysis on cell level (clustering, trajectory inference), gene level (differential expression, functional enrichment, network analysis). Table 1 - preprocessing pipelines and tools, brief description. Table 2 - clustering algorithms. <details>
