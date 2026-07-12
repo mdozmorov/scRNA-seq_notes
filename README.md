@@ -1269,6 +1269,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Cell-cell interactions
 
+- Cell-cell communication tools review. Core tools and databases, phylogenetic tree of tools (Fig. 2), deep learning-based tools. Non-protein ligands, transcription factors, cross-condition comparison. Sequencing technologies for tracking cell-cell interactions. [LIANA+](https://liana-py.readthedocs.io/en/latest/) appears most universal. 105 tools, [Supplementary Table 1](https://www.nature.com/articles/s41576-023-00685-8#Sec16). <details>
+  <summary>Paper</summary>
+  Armingol, Erick, Hratch M. Baghdassarian, and Nathan E. Lewis. “The Diversification of Methods for Studying Cell–Cell Interactions and Communication.” Nature Reviews Genetics 25, no. 6 (2024): 381–400. https://doi.org/10.1038/s41576-023-00685-8.
+</details>
+
 - [MatriCom](https://github.com/Matrisome/MatriCom) - scRNA-seq cell-ECM interaction. Input - Seurat, single-cell experiment objects, ScanPy/Loom. Output - communitation network (bar graphs summarizing the number of matrisome interactions), network influencers (graph), Enrichment analysis (g:profiler). Table 1 - databases. [Shiny app](https://matrinet.shinyapps.io/matricom/). <details>
   <summary>Paper</summary>
   Lamba, Rijuta, Asia M. Paguntalan, Petar B. Petrov, Alexandra Naba, and Valerio Izzi. “MatriCom, a Single-Cell RNA-Sequencing Data Mining Tool to Infer Cell–Extracellular Matrix Interactions.” Journal of Cell Science 138, no. 13 (2025): jcs263927. https://doi.org/10.1242/jcs.263927.
