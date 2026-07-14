@@ -1412,6 +1412,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
   Nonchev et al. “DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images.” medRxiv (2025). https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3
 </details>
 
+- [AESTETIK](https://github.com/ratschlab/aestetik) - Representation learning for multi-modal spatially resolved transcriptomics data (image + expression clustering / domains). <details>
+  <summary>Paper</summary>
+  Nonchev et al. “Representation learning for multi-modal spatially resolved transcriptomics data.” Bioinformatics (2026). https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433
+</details>
+
 - [CellCharter](https://github.com/CSOgroup/cellcharter) - detecting cellular niches in spatial data (Gaussian Mixture Model clustering, Fowlkes-Mallows Index for number of clusters selection), characterize (cluster proportions, cell type enrichment, significant spatial proximity - cluster neighborhood enrichment) and compare them (differential cluster NE). Cluster properties include curl, elongation, linearity, purity.  Dimensionaliry reduction, batch effect correction (VAE, scVI). Multiple technologies (Visium, CosMx, MERFISH, multi-oics) support (Squidpy methods for network construction, Delaunay triangulation). Tested on sparial proteomics (CODEX), brain spatial transcriptomics (10x Visium), cancer data. Outperforms (ARI) six methods (DR-SC, UTAG, SOTIP, SEDR, BayesSpace, STAGATE.), intro in them. Computationally efficient. <details>
   <summary>Paper</summary>
   Varrone, Marco, Daniele Tavernari, Albert Santamaria-Martínez, Logan A. Walsh, and Giovanni Ciriello. “CellCharter Reveals Spatial Cell Niches Associated with Tissue Remodeling and Cell Plasticity.” Nature Genetics 56, no. 1 (2024): 74–84. https://doi.org/10.1038/s41588-023-01588-4.
