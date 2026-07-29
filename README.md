@@ -36,7 +36,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Cell annotation](#cell-annotation)
     - [Immune markers](#immune-markers)
     - [Brain markers](#brain-markers)
-    - [Malignant cell](#malignant-cell)
+    - [Signatures](#signatures)
 - [Immuno-analysis](#immuno-analysis)
 - [Cell-cell interactions](#cell-cell-interactions)
 - [Phylogenetic inference](#phylogenetic-inference)
@@ -1212,7 +1212,12 @@ See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#imm
     Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
 </details>
 
-#### Malignant cell
+#### Signatures
+
+- [FitDevo](https://github.com/jumphone/FitDevo/) - developmental potential (DP) score for single-cell data. Sample-specific gene weight (SSGW), generated using a generalized linear model on gene expression and binarized gene weights (BGW) learned from 17 samples with a developmental timepoint label (CytoTRACE datasets). Tested on CCAT datasets. Works with human and mouse data. Outperforms CCAT, CytoTRACE, StemID, cmEntropy, SLICE. <details>
+  <summary>Paper</summary>
+  Zhang, Feng, Chen Yang, Yihao Wang, et al. “FitDevo: Accurate Inference of Single-Cell Developmental Potential Using Sample-Specific Gene Weight.” Briefings in Bioinformatics 23, no. 5 (2022): bbac293. https://doi.org/10.1093/bib/bbac293.
+</details>
 
 - [scMalignantFinder](https://github.com/Jonyyqn/scMalignantFinder) - scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. Logistic regression classifier, nine pan-cancer gene signatures (Cell Cycle, DNA damage, DNA repair, Invasion, Evading Growth Suppressors, Enabling Replicative Immortality, Genome Instability and Mutation, Resisting Cell Death, Normal-enriched, [Supplementary Data 2](https://www.nature.com/articles/s42003-025-07942-y#Sec26)), over 400K single-cell transcriptomes (lung, colorectal, liver, and gastric carcinomas), union of DEGs between malignant and normal cells (2707 DEGs, [Supplementary Data 3](https://www.nature.com/articles/s42003-025-07942-y#Sec26)) for training. Feature importance results ([Supplementary Data 4](https://www.nature.com/articles/s42003-025-07942-y#Sec26)). Outperforms PreCanCell, ikarus, Cancer-Finder, CopyKAT.<details>
     <summary>Paper</summary>
