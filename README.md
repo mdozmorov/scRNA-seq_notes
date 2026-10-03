@@ -520,6 +520,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [harmony-pytorch](https://github.com/lilab-bcb/harmony-pytorch) - Pytorch implementation of Harmony algorithm on single-cell sequencing data integration.
 
+- [cellHint](https://github.com/Teichlab/cellhint) - A tool for semi-automatic cell type harmonization and integration. Xu et al., Automatic cell-type harmonization and integration across Human Cell Atlas datasets. Cell 186, 5876–5891.e20 (2023).
+
 ## Imputation
 
 [Assessment of 18 scRNA-seq imputation methods](https://github.com/Winnie09/imputationBenchmark) (model-based, smooth-based, deep learning, matrix decomposition). Similarity of scRNA- and bulk RNA-seq profiles (Spearman), differential expression (MAST and Wilcoxon), clustering (k-means, Louvain), trajectory reconstruction (Monocle 2, TSCAN), didn't test velocity. scran for normalization. Imputation methods improve correlation with bulk RNA-seq, but have minimal effect on downstream analyses. MAGIC, kNN-smoothing, SAVER perform well overall. [Plate- and droplet-derived scRNA-seq cell line data, Additional File 4](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-020-02132-x/MediaObjects/13059_2020_2132_MOESM4_ESM.xlsx)), [Summary table of the functionality of all imputation methods, Additional File 5](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-020-02132-x/MediaObjects/13059_2020_2132_MOESM4_ESM.xlsx). <details>
