@@ -912,6 +912,8 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
     Guo, Minzhe, Hui Wang, S. Steven Potter, Jeffrey A. Whitsett, and Yan Xu. "SINCERA: A Pipeline for Single-Cell RNA-Seq Profiling Analysis" https://doi.org/10.1371/journal.pcbi.1004575  PLoS Computational Biology 11, no. 11 (November 2015)
 </details>
 
+- [RustScenic](https://github.com/Ekin-Kahraman/rustscenic) - Rust-backed Python toolkit for gene regulatory network inference, motif enrichment and per-cell regulon activity scoring in single-cell RNA-seq and multiome analysis. Accepts AnnData and includes an [interactive endothelial-cell example](https://ekin-kahraman.github.io/rustscenic/demo/endothelial/) using saved results. [API reference](https://ekin-kahraman.github.io/rustscenic/reference/), [validation and output differences](https://ekin-kahraman.github.io/rustscenic/validation/). Available on [PyPI](https://pypi.org/project/rustscenic/); Apache-2.0.
+
 ### RNA velocity
 
 - [RNA velocity software](https://docs.google.com/spreadsheets/d/1IPe2ozb1Mny8sLvJaSE57RJr3oruiBoSudAVhSH-O8M/edit#gid=586567397) - Google doc collecting references, by @AlbertVilella. [Tweet](https://twitter.com/AlbertVilella/status/1400396034505908226?s=20)
