@@ -1324,6 +1324,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
 
 ## Simulation
 
+- [scDesign3](https://github.com/SONGDONGYUAN1994/scDesign3) - scRNA-seq data generator. Learn parameters from real data. Outperforms ZINB-WaVE, SPARSIM, scGAN. Parameters can be tweaked. <details>
+  <summary>Paper</summary>
+  Song, Dongyuan, Qingyang Wang, Guanao Yan, Tianyang Liu, Tianyi Sun, and Jingyi Jessica Li. “scDesign3 Generates Realistic in Silico Data for Multimodal Single-Cell and Spatial Omics.” Nature Biotechnology 42, no. 2 (2024): 247–52. https://doi.org/10.1038/s41587-023-01772-1.
+</details>
+
 - [scDesign](https://github.com/Vivianstats/scDesign) - scRNA-seq data simulator and statistical framework to access experimental design for differential gene expression analysis. Gamma-Normal mixture model better fits scRNA-seq data, accounts for dropout events (Methods describe step-wise statistical derivations). Single- or double-batch sequencing scenarios. Comparable or superior performance to simulation methods `splat`, `powsimR`, `scDD`, Lun et al. method. DE tested using t-test. Applications include DE methods evaluation, dimensionality reduction testing. <details>
     <summary>Paper</summary>
     Li, Wei Vivian, and Jingyi Jessica Li. "A Statistical Simulator ScDesign for Rational ScRNA-Seq Experimental Design" https://doi.org/10.1093/bioinformatics/btz321  Bioinformatics 35, no. 14 (July 15, 2019)
