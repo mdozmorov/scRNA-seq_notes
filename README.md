@@ -17,7 +17,7 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
   - [Format conversion](#format-conversion)
   - [Visualization pipelines](#visualization-pipelines)
 - [Quality control](#quality-control)
-  - [Doublet, multiplet detection](#doublet-multiplet-detection)
+  - [Ambient, Doublet, multiplet detection](#ambient-doublet-multiplet-detection)
 - [Normalization](#normalization)
 - [Integration, Batch correction](#integration-batch-correction)
 - [Imputation](#imputation)
@@ -328,7 +328,12 @@ Single-cell RNA-seq related tools and genomics data analysis resources. Tools ar
 
 - [scnoisemeter](https://github.com/FullLengthFanatic/scnoisemeter) - Platform-agnostic quantification of technical noise in single-cell RNA-seq. Supports ONT, PacBio/Kinnex, and short-read 10x / BD Rhapsody / Smart-seq BAMs
 
-## Doublet, multiplet detection
+## Ambient, Doublet, multiplet detection
+
+- [CellBender](https://github.com/broadinstitute/CellBender) - deep generative model for inferring cell-free and cell-containing droplets, learning the background noise profile and retrieving uncontaminated counts. Starts from the raw counts (unfiltered matrix), unsupervised, works with various data modalities (mRNA, protein), technologies (whole-cell, single-nuclei, CITE-seq), multi-species. Supports CellRanger, DropSeq, AnnData, and Loom formats. Implemented using the Pyro probabilistic programming framework for Bayesian inference (built on PyTorch, requires GPU), a variational autoencoder. Matrix is a sum of two non-negative contributions, the true biological counts (negative binomial) and the background noise counts (Poisson). The noise rate is estimated from ambient molecules and barcode-swapped molecules. The low-dimensional latent space of cell states acts as a prior to derive the posterior matrix of noise counts, subtracted from observed counts. Parameter - a tunable nFPR parameter for controlling the tradeoff between denoising sensitivity and specificity.Requirement - examples of "empty" droplets or wells to learn "ambient" of cell-free feature profile. Output - corrected count matrix, posterior probability that a droplet contains a cell. Compared with CellRanger3, EmptyDrops, dropkick. Compared with DecontX, much hicher sensitivity, DecontX removes mre than twice as much signal. Improves the specificity of gene expression. Examples on 10x [pbmc8k dataset](https://www.10xgenomics.com/resources/datasets/8-k-pbm-cs-from-a-healthy-donor-2-standard-2-1-0), [hgmm12k](https://www.10xgenomics.com/datasets/12-k-1-1-mixture-of-fresh-frozen-human-hek-293-t-and-mouse-nih-3-t-3-cells-2-standard-2-1-0) human-mouse dataset, [heart600k](https://singlecell.broadinstitute.org/single_cell/study/SCP1303/single-nuclei-profiling-of-human-dilated-and-hypertrophic-cardiomyopathy) snRNA-seq dataset, pbmc5k, rat6k, near ideal performance on simulated datasets. Python, Jupyter, Docker. <details>
+  <summary>Paper</summary>
+  Fleming, Stephen J., Mark D. Chaffin, Alessandro Arduini, et al. “Unsupervised Removal of Systematic Background Noise from Droplet-Based Single-Cell Experiments Using CellBender.” Nature Methods 20, no. 9 (2023): 1323–35. https://doi.org/10.1038/s41592-023-01943-7.
+</details>
 
 - Benchmarking of 9 doublet detection methods (doubletCells, Scrublet, cxds, bcds, hybrid, Solo, DoubletDetection, DoubletFinder, DoubletDecon). 16 experimental datasets (described in Methods) and 112 synthetic datasets (scDesign, splatter, 2-40% doublets) with known doublets, evaluated on AUROC/AUPRC (doublet scores), the effect on differential analysis (improved recall), variable gene identification (DoubletFinder and Scrublet improve Jaccard overlap), clustering (DoubletDetection and DoubletFinder), pseudotime (Scrublet, DoubletDetection, and DoubletFinder). Two baseline methods - library size and ngenes as doublet scores. Brief description of methods, also evaluated on usability (quality, convenience, publication, documentation & support). Open questions - how to estimate doublet rate, homotypic doublets, ambient mRNA, how to improve detection, how to ensemble methods. DoubletFinder is best, Solo second. <details>
   <summary>Paper</summary>
