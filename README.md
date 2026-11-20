@@ -1216,6 +1216,11 @@ See [Immuno_notes, immune-markers](https://github.com/mdozmorov/Immuno_notes#imm
 
 #### Brain markers
 
+- [MapMyCells](https://brain-map.org/bkp/analyze/mapmycells) - single cell genomics data (transcriptomics, epigenomics, chromatin, spatial) mapping (correlation, hierarchical, variational autoencoders) to brain cell taxonomies (Brain Initiative Cell Atlas Network, six brain references for human and mouse brain, Alzheimer's disease, aging cohorts) within the Allen Institute for Brain Science Brain Knowledge Platform. [Web](https://brain-map.org/bkp/analyze/mapmycells) version and Python library [GitHub](https://github.com/AllenInstitute/cell_type_mapper), also [R notebook](https://brain-map.org/support/tutorials/mapmycells-use-case-single-cell-genomics-in-mouse). Input: h5ad, CSV. Outperforms Azimuth, CellTypics, scArches. <details>
+  <summary>Paper</summary>
+  Daniel, Scott F., Changkyu Lee, Tyler Mollenkopf, et al. “MapMyCells: High-Performance Mapping of Cell-by-Gene Data to Reference Brain Taxonomies.” Cell Reports Methods, November 2026, 101650. https://doi.org/10.1016/j.crmeth.2026.101650.
+</details>
+
 - [Brain immune atlas](http://www.brainimmuneatlas.org/index.php) scRNA-seq resource. Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. [GitHub](https://github.com/saeyslab/brainimmuneatlas/). <details>
     <summary>Paper</summary>
     Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
