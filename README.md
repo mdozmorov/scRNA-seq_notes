@@ -1446,6 +1446,11 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
   Nonchev et al. “DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology.” medRxiv (2026). https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1
 </details>
 
+- [DeepSpot-M kidney (KPMP)](https://github.com/ratschlab/projects2026-kidney-kpmp-analysis) - DeepSpot-M extended beyond oncology to non-cancerous kidney disease: transcriptome-wide virtual spatial transcriptomics from H&E for KPMP kidney biopsies, linking histopathology to molecular programs of kidney injury, repair, fibrosis and kidney function. <details>
+  <summary>Paper</summary>
+  Nonchev et al. “Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs.” medRxiv (2026). https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1
+</details>
+
 - [AESTETIK](https://github.com/ratschlab/aestetik) - Representation learning for multi-modal spatially resolved transcriptomics data (image + expression clustering / domains). <details>
   <summary>Paper</summary>
   Nonchev et al. “Representation learning for multi-modal spatially resolved transcriptomics data.” Bioinformatics (2026). https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433
@@ -1767,6 +1772,16 @@ Metadata, Cell Type Wheel, an interactive visualization tool. <details>
 
 
 ### Human
+
+- [KPMP virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas) - DeepSpot-M predicted transcriptome-wide spatial transcriptomics for 1,534 H&E whole-slide images of kidney biopsies from 476 KPMP participants. 19,338 genes in each of ~5.46M spots, linked clinical and histopathological annotations. Gated, CC BY-NC-SA 4.0. <details>
+  <summary>Paper</summary>
+  Nonchev et al. “Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs.” medRxiv (2026). https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1
+</details>
+
+- [KPMP Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics) - DeepSpot-M predicted transcriptome-wide spatial transcriptomics for 49 H&E sections of KPMP 10x Xenium kidney biopsies. 19,338 genes in each of ~1.64M cells, includes the measured Xenium panel. Gated, CC BY-NC-SA 4.0. <details>
+  <summary>Paper</summary>
+  Nonchev et al. “Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs.” medRxiv (2026). https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1
+</details>
 
 - [cellNexus](https://cellnexus.org/) - scRNA-seq harmonized Human Cell Atlas data and access [R](https://github.com/MangiolaLaboratory/cellNexus)/[Python](https://github.com/MangiolaLaboratory/cellNexusPy) API (anndata, SingleCellExperiment, Seurat, or pseudobulk matrices). [Continuous integration](https://github.com/MangiolaLaboratory/HPCell) with CELLxGENE. Data description, QC, unified annotation with sex, ethnicity, cell types. <details>
   <summary>Paper</summary>
